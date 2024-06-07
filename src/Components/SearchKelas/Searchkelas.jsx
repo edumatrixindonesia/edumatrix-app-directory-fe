@@ -9,7 +9,7 @@ import iconCpns from "../../assets/CPNS_ICON.png";
 import iconOsn from "../../assets/OSN.png";
 import iconPrivat from "../../assets/PRIVAT.png";
 import Footer from "../Footer/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -89,7 +89,7 @@ const Searchkelas = () => {
           name="description"
           content="Pilih Program Les Privat Terbaik - Edumatrix Indonesia"
         />
-        <title>Pilih Program Les Privat Terbaik - Edumatrix Indonesia</title>
+        <title>Pilih Kelas Bimbel Terbaik - Edumatrix Indonesia</title>
         <link rel="canonical" href="/pilihan-program" />
       </Helmet>
       <div className="container-search-kelas">

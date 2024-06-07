@@ -11,7 +11,7 @@ import Faq from "../Components/Faq/Faq";
 import Testimoni from "../Components/Testimoni/Testimoni";
 import Keunggulan from "../Components/Keunggulan/Keunggulan";
 import Asalsekolah from "../Components/AsalSekolah/Asalsekolah";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import PreLoader from "../Components/Preloader/PreLoader";
 import Floatingcta from "../Components/FloatingCta/Floatingcta";
 import Bottombar from "../Components/BottomBar/Bottombar";
@@ -23,10 +23,10 @@ const Homepage = () => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Les Privat & Supercamp Masuk PTN Terbaik #1 Indonesia - Edumatrix Indonesia"
+          content="Les Privat & Bimbel UTBK SNBT Terbaik di Indonesia - Edumatrix Indonesia"
         />
         <title>
-          Les Privat & Supercamp Masuk PTN Terbaik #1 Indonesia - Edumatrix
+          Les Privat & Bimbel UTBK SNBT Terbaik di Indonesia - Edumatrix
           Indonesia
         </title>
         <link rel="canonical" href="" />

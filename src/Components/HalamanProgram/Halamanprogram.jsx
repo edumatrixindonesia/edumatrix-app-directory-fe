@@ -13,7 +13,7 @@ import Keunggulan from "../Keunggulan/Keunggulan";
 import Faq from "../Faq/Faq";
 import Testimoni from "../Testimoni/Testimoni";
 import Asalsekolah from "../AsalSekolah/Asalsekolah";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
@@ -74,9 +74,9 @@ const Halamanprogram = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content="noindex" />
+        <meta charSet="utf-8" name="robots" content="" />
         <title>
-          Les Privat {`${program.name}`} #1 Terbaik - Edumatrix Indonesia
+          Les Privat {`${program.name}`} - Bimbel {`${program.name}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>

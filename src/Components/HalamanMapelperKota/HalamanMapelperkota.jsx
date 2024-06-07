@@ -9,7 +9,7 @@ import modelTanyaProgram from "../../assets/tanya_program.png";
 import Footer from "../Footer/Footer";
 import Keunggulan from "../Keunggulan/Keunggulan";
 import Faq from "../Faq/Faq";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
@@ -60,9 +60,9 @@ const HalamanMapelperkota = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content="noindex"/>
+        <meta charSet="utf-8" name="robots" content=""/>
         <title>
-          Les Privat {`${mapel.name}`} #1 Terbaik di {`${kota.kota}`} - Edumatrix
+          Les Privat {`${mapel.name}`} di {`${kota.kota}`} - Bimbel {`${mapel.name}`} di {`${kota.kota}`} Terbaik #1 - Edumatrix
           Indonesia
         </title>
         <link

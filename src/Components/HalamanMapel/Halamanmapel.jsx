@@ -11,7 +11,7 @@ import Footer from "../Footer/Footer";
 import Keunggulan from "../Keunggulan/Keunggulan";
 import Faq from "../Faq/Faq";
 import Testimoni from "../Testimoni/Testimoni";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
@@ -47,9 +47,9 @@ const Halamanmapel = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content="noindex"/>
+        <meta charSet="utf-8" name="robots" content=""/>
         <title>
-          Les Privat {`${mapel.name}`} Terbaik #1 - Edumatrix Indonesia
+          Les Privat {`${mapel.name}`} - Bimbel {`${mapel.name}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link
           rel="canonical"

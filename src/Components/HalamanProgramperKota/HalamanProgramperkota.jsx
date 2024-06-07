@@ -10,7 +10,7 @@ import Footer from "../Footer/Footer";
 import Keunggulan from "../Keunggulan/Keunggulan";
 import Asalsekolah from "../AsalSekolah/Asalsekolah";
 import Testimoni from "../Testimoni/Testimoni";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
@@ -60,9 +60,9 @@ const HalamanProgramperkota = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content="noindex"/>
+        <meta charSet="utf-8" name="robots" content=""/>
         <title>
-          Les Privat {`${program.name}`} #1 Terbaik di {`${kota.kota}`} - Edumatrix
+          Les Privat {`${program.name}`} - Bimbel {`${program.name}`} di {`${kota.kota}`} Terbaik - Edumatrix
           Indonesia
         </title>
         <link

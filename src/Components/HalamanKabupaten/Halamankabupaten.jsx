@@ -13,7 +13,7 @@ import Keunggulan from "../Keunggulan/Keunggulan";
 import Faq from "../Faq/Faq";
 import Testimoni from "../Testimoni/Testimoni";
 import Asalsekolah from "../AsalSekolah/Asalsekolah";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 
@@ -54,8 +54,8 @@ const Halamankabupaten = () => {
           content="Jasa Les Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
         />
         <title>
-          Les Privat Terbaik di {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix
-          Indonesia
+          Les Privat di {`${kabupaten.kota_kabupaten}`} - Bimbel di{" "}
+          {`${kabupaten.kota_kabupaten}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>

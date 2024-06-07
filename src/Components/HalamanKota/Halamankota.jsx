@@ -14,7 +14,7 @@ import Keunggulan from "../Keunggulan/Keunggulan";
 import Faq from "../Faq/Faq";
 import Testimoni from "../Testimoni/Testimoni";
 import Asalsekolah from "../AsalSekolah/Asalsekolah";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 
@@ -48,9 +48,10 @@ const Halamankota = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content="noindex"/>
+        <meta charSet="utf-8" name="robots" content="" />
         <title>
-          Les Privat Terbaik di {`${kota.kota}`} #1 - Edumatrix Indonesia
+          Les Privat di {`${kota.kota}`} - Bimbel di {`${kota.kota}`} Terbaik #1
+          - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
