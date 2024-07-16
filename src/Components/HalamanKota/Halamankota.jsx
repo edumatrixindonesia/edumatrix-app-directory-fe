@@ -17,6 +17,7 @@ import Asalsekolah from "../AsalSekolah/Asalsekolah";
 import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
+import SuccessStory from "../SuccessStory/SuccessStory";
 
 const Halamankota = () => {
   const { id } = useParams();
@@ -88,6 +89,7 @@ const Halamankota = () => {
           </a>
         </div>
         <Bestprogram2 />
+        <SuccessStory />
         <Voucer />
         <Masterteacher />
         <ListKabupaten />

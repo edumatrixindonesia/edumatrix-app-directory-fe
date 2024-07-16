@@ -14,6 +14,7 @@ import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import ListKotaBumn from "../../Components/Tab/TabBumn/ListKotaBumn";
 import SliderOsn from "../../Components/SlideTop/SliderOsn/SliderOsn";
 import ListKotaOsn from "../../Components/Tab/TabOsn/ListKotaOsn";
+import SuccessOsn from "./SuccessOsn/SuccessOsn";
 
 const BimbelOsn = () => {
   return (
@@ -39,6 +40,7 @@ const BimbelOsn = () => {
         <ListKotaOsn />
         <Keunggulan />
         <Testimoni />
+        <SuccessOsn />
         <Faqtni />
         <Asalsekolah />
       </div>

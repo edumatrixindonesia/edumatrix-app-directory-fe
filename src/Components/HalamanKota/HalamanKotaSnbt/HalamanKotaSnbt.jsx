@@ -20,6 +20,7 @@ import ListUtbkSnbt from "../../Tab/TabUtbkSnbt/ListUtbkSnbt";
 import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
 
 const HalamankotaSnbt = () => {
   const { id } = useParams();
@@ -97,6 +98,7 @@ const HalamankotaSnbt = () => {
         <ListKabupatenSnbt />
         <Keunggulan />
         <Testimoni />
+        <SuccessSnbt />
         <Faqtni />
         <Asalsekolah />
       </div>

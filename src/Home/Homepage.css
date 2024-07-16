@@ -6,6 +6,16 @@ body {
   padding-right: 15%;
   padding-top: 70px;
 }
+.parent-promo-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.child-promo-home {
+  width: 100%;
+}
 
 /* RESPONSIVE */
 @media only screen and (max-width: 500px) {

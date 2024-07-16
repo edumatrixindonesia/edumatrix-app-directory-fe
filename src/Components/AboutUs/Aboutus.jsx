@@ -48,7 +48,7 @@ const Aboutus = () => {
                 IPB Unpad dan Perguruan Tinggi Negeri Favorit serta Sekolah
                 Tinggi Kedinasan.
                 <br />
-                <a href="https://edulink-indonesia.com/lead/edm/chat">
+                <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                   <button className="btn-about">JOIN US</button>
                 </a>
               </p>

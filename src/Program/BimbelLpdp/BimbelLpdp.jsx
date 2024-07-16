@@ -16,6 +16,8 @@ import Faqtni from "../../Components/Faq/FaqTni/FaqTni";
 import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SliderLpdp from "../../Components/SlideTop/SliderLpdp/SliderLpdp";
 import ListKotaLpdp from "../../Components/Tab/TabLpdp/ListKotaLpdp";
+import SuccessLpdp from "./SuccessLpdp/SuccessLpdp";
+import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 
 const BimbelLpdp = () => {
   return (
@@ -41,6 +43,8 @@ const BimbelLpdp = () => {
         <ListKotaLpdp />
         <Keunggulan />
         <Testimoni />
+        <SuccessLpdp />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

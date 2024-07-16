@@ -15,6 +15,8 @@ import { Helmet } from "react-helmet-async";
 import PreLoader from "../Components/Preloader/PreLoader";
 import Floatingcta from "../Components/FloatingCta/Floatingcta";
 import Bottombar from "../Components/BottomBar/Bottombar";
+import promo from "../assets/promo_bimbel_terbaik.jpeg";
+import SuccessStory from "../Components/SuccessStory/SuccessStory";
 
 const Homepage = () => {
   return (
@@ -36,6 +38,7 @@ const Homepage = () => {
       <div className="container-all">
         <Slidertop />
         <BestProgram />
+        <SuccessStory />
         <Voucer />
         <Masterteacher />
         <Listkota />
@@ -43,6 +46,9 @@ const Homepage = () => {
         <Testimoni />
         <Faq />
         <Asalsekolah />
+        <div className="parent-promo-home">
+          <img className="child-promo-home" src={promo} alt="" />
+        </div>
       </div>
       <Footer />
       <Bottombar />

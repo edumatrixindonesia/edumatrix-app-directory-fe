@@ -19,6 +19,7 @@ import Navbar from "../../Navbar/Navbar";
 import Listkotatni from "../../Tab/Tabtni/ListKotatni";
 import BestprogramTni2 from "../../BestProgram/BestProgram2/BestProgramTni2/BestProgramTni2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
 
 const Halamankotatni = () => {
   const { id } = useParams();
@@ -44,17 +45,17 @@ const Halamankotatni = () => {
       );
       setKotatni(response.data);
     };
-    (id);
+    id;
     getKotatni(id);
   }, [id, query]);
 
   return (
     <React.Fragment>
-        <Navbar />
+      <Navbar />
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Bimbel TNI - Polri dan Sekolah Kedinasan Terbaik di {" "}
+          Bimbel Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan di{" "}
           {`${kotatni.kotatni}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -64,7 +65,8 @@ const Halamankotatni = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel TNI - Polri dan Sekolah Kedinasan Terbaik di {kotatni.kotatni}
+              Bimbel Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan
+              di {kotatni.kotatni}
             </h2>
 
             <div className="paragraf-kota">
@@ -96,6 +98,7 @@ const Halamankotatni = () => {
         <Listkotatni />
         <Keunggulan />
         <Testimoni />
+        <SuccessTni />
         <Faqtni />
         <Asalsekolah />
       </div>

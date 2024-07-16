@@ -22,6 +22,7 @@ import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/Be
 import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import ListKabupatenOsn from "../../Tab/TabOsn/ListKabupatenOsn";
+import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 
 const HalamankotaOsn = () => {
   const { id } = useParams();
@@ -98,6 +99,7 @@ const HalamankotaOsn = () => {
         <ListKabupatenOsn />
         <Keunggulan />
         <Testimoni />
+        <SuccessOsn />
         <Faqtni />
         <Asalsekolah />
       </div>

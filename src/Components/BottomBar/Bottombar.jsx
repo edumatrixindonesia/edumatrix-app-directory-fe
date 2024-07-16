@@ -43,7 +43,7 @@ const Bottombar = () => {
             <span className="text-bottombar">About</span>
           </div>
           <div className="bottom-bar-element">
-            <a href="https://edulink-indonesia.com/lead/edm/chat">
+            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
               <img className="icon-home-bottombar" src={iconDaftar} alt="" />
               <br />
               <span className="text-bottombar">Daftar</span>

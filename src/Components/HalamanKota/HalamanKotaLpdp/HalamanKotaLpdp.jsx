@@ -21,6 +21,8 @@ import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import SuccessLpdp from "../../../Program/BimbelLpdp/SuccessLpdp/SuccessLpdp";
+import GaleriKegiatan from "../../../Program/BimbelLpdp/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankotaLpdp = () => {
   const { id } = useParams();
@@ -96,6 +98,8 @@ const HalamankotaLpdp = () => {
         <ListKabupatenLpdp />
         <Keunggulan />
         <Testimoni />
+        <SuccessLpdp />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

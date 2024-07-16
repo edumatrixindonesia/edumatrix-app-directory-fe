@@ -17,6 +17,7 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
 
 const HalamankabupatenSnbt = () => {
   const { id } = useParams();
@@ -98,6 +99,7 @@ const HalamankabupatenSnbt = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <SuccessSnbt />
         <Faqtni />
         <Asalsekolah />
       </div>

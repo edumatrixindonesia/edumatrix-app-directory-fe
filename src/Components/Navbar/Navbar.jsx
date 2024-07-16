@@ -57,7 +57,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="child-dropdown"
-                    href="https://edumatrix-indonesia.com/camp-edumatrix"
+                    href="https://app.edumatrix-indonesia.com/camp-edumatrix"
                   >
                     <img className="icon-dropdown" src={iconSupercamp} alt="" />
                     Supercamp/Karantina - Sukses Masuk PTN 2024
@@ -66,7 +66,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="child-dropdown"
-                    href="https://edumatrix-indonesia.com/"
+                    href="https://app.edumatrix-indonesia.com/"
                   >
                     <img className="icon-dropdown" src={iconLiveClass} alt="" />
                     Live Class - Sukses Masuk PTN 2024
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="child-dropdown"
-                    href="https://edumatrix-indonesia.com/bimbel-tni-polri-dan-sekolah-kedinasan-terbaru-2024/"
+                    href="https://app.edumatrix-indonesia.com/bimbel-tni-polri-dan-sekolah-kedinasan-terbaru-2024/"
                   >
                     <img
                       className="icon-dropdown"
@@ -108,7 +108,7 @@ const Navbar = () => {
             <li>
               <a
                 className="menu-nav-daftar"
-                href="https://edulink-indonesia.com/lead/edm/chat"
+                href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?"
               >
                 <FontAwesomeIcon className="icon-navbar" icon={faSignIn} />{" "}
                 DAFTAR

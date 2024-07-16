@@ -128,7 +128,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link-footer"
-                    href="https://edumatrix-indonesia.com"
+                    href="https://app.edumatrix-indonesia.com"
                   >
                     EDUMATRIX-INDONESIA.COM
                   </a>
