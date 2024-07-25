@@ -18,6 +18,7 @@ import SliderLpdp from "../../Components/SlideTop/SliderLpdp/SliderLpdp";
 import ListKotaLpdp from "../../Components/Tab/TabLpdp/ListKotaLpdp";
 import SliderPrivat from "../../Components/SlideTop/SliderPrivat/SliderPrivat";
 import ListKotaPrivat from "../../Components/Tab/TabPrivat/ListKotaPrivat";
+import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 
 const BimbelPrivat = () => {
   return (
@@ -44,6 +45,7 @@ const BimbelPrivat = () => {
         <ListKotaPrivat />
         <Keunggulan />
         <Testimoni />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

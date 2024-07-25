@@ -20,6 +20,8 @@ import Listkotatni from "../../Tab/Tabtni/ListKotatni";
 import BestprogramTni2 from "../../BestProgram/BestProgram2/BestProgramTni2/BestProgramTni2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
+import ProgramUnggulanTni from "../../ProgramUnggulan/ProgramUnggulanTni/ProgramUnggulanTni";
+import GaleriKegiatan from "../../../Program/BimbelTni/GaleriKegiatan/GaleriKegiatan";
 
 const Halamankotatni = () => {
   const { id } = useParams();
@@ -82,14 +84,14 @@ const Halamankotatni = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel TNI/Polri AKPOL AKMIL Bintara Tamtama dan Sekolah Kedinasan Terbaik" />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="" />
+            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel TNI/Polri AKPOL AKMIL Bintara Tamtama dan Sekolah Kedinasan Terbaik" />
           </a>
         </div>
         <BestprogramTni2 />
@@ -97,6 +99,8 @@ const Halamankotatni = () => {
         <Masterteacher />
         <Listkotatni />
         <Keunggulan />
+        <ProgramUnggulanTni />
+        <GaleriKegiatan />
         <Testimoni />
         <SuccessTni />
         <Faqtni />

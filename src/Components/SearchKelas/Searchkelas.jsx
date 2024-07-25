@@ -106,7 +106,7 @@ const Searchkelas = () => {
         </div>
         <div className="parent-container-utama">
           <h1 className="title-search-kelas">
-            <img src={iconKampus} alt="" /> PROGRAM LOLOS KAMPUS FAVORIT
+            <img src={iconKampus} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM LOLOS KAMPUS FAVORIT
           </h1>
           <div className="container-card">
             {loading ? (
@@ -124,7 +124,7 @@ const Searchkelas = () => {
                 })
                 .map((item, index) => (
                   <div className="card-utama">
-                    <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
+                    <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                       <img
                         key={index}
                         className="img-pilihkelas"
@@ -141,7 +141,7 @@ const Searchkelas = () => {
         <div className="super-parent-container">
           <div className="parent-container-polri">
             <h1 className="title-search-kelas-polri">
-              <img src={iconTniPolri} alt="" /> PROGRAM LOLOS TNI POLRI &
+              <img src={iconTniPolri} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM LOLOS TNI POLRI &
               KEDINASAN
             </h1>
             <div className="container-card-polri">
@@ -162,7 +162,7 @@ const Searchkelas = () => {
                   })
                   .map((item, index) => (
                     <div key={index} className="card-utama">
-                      <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
+                      <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                         <img
                           className="img-pilihkelas-polri"
                           src={"https://api.edulink-indonesia.com/images/" + item.image}
@@ -177,7 +177,7 @@ const Searchkelas = () => {
           {/* CPNS */}
           <div className="parent-container-cpns">
             <h1 className="title-search-kelas-polri">
-              <img src={iconCpns} alt="" /> PROGRAM LOLOS CPNS, PPPK & BUMN
+              <img src={iconCpns} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM LOLOS CPNS, PPPK & BUMN
             </h1>
             <div className="container-card-polri">
               {loading ? (
@@ -197,7 +197,7 @@ const Searchkelas = () => {
                   })
                   .map((item, index) => (
                     <div key={index} className="card-utama">
-                      <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
+                      <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                         <img
                           className="img-pilihkelas-cpns"
                           src={"https://api.edulink-indonesia.com/images/" + item.image}
@@ -212,7 +212,7 @@ const Searchkelas = () => {
           {/* OSN */}
           <div className="parent-container-polri">
             <h1 className="title-search-kelas-polri">
-              <img src={iconOsn} alt="" /> PROGRAM BELAJAR OSN SD, SMP & SMA
+              <img src={iconOsn} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM BELAJAR OSN SD, SMP & SMA
             </h1>
             <div className="container-card-polri">
               {loading ? (
@@ -232,7 +232,7 @@ const Searchkelas = () => {
                   })
                   .map((item, index) => (
                     <div key={index} className="card-utama">
-                      <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
+                      <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                         <img
                           className="img-pilihkelas-polri"
                           src={"https://api.edulink-indonesia.com/images/" + item.image}
@@ -247,7 +247,7 @@ const Searchkelas = () => {
           {/* PRIVAT */}
           <div className="parent-container-privat">
             <h1 className="title-search-kelas-polri">
-              <img src={iconPrivat} alt="" /> PROGRAM PRIVAT SD, SMP & SMA
+              <img src={iconPrivat} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM PRIVAT SD, SMP & SMA
             </h1>
             <div className="container-card-polri">
               {loading ? (
@@ -267,7 +267,7 @@ const Searchkelas = () => {
                   })
                   .map((item, index) => (
                     <div key={index} className="card-utama">
-                      <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
+                      <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                         <img
                           className="img-pilihkelas-polri"
                           src={"https://api.edulink-indonesia.com/images/" + item.image}
@@ -285,7 +285,7 @@ const Searchkelas = () => {
         className="parent-img-modeltanya-program"
         href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
       >
-        <img className="model-program-kota" src={tanyaProgram} alt="" />
+        <img className="model-program-kota" src={tanyaProgram} alt="Pilihan Kelas Edumatrix Indonesia" />
       </a>
       <Bottombar />
       <Floatingcta />

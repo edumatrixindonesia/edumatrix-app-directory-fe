@@ -100,6 +100,7 @@
     place-items: center;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 12%;
   }
   .title-about {
     width: 100%;
@@ -137,4 +138,24 @@
   .image-moto {
     width: 40%;
   }
+}
+
+/* IPAD */
+@media only screen and (max-width: 768px) {
+/* .parent-box-about {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.model-about {
+  width: 100%;
+}
+.title-about {
+  width: 100%;
+}
+.desk-about {
+  width: 100%;
+} */
 }

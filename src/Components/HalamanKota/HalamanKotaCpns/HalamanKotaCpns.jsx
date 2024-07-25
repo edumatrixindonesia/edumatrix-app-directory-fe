@@ -22,6 +22,7 @@ import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/Be
 import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import ListKabupatenCpns from "../../Tab/TabCpns/ListKabupatenCpns";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import GaleriKegiatan from "../../../Program/BimbelCpns/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankotaCpns = () => {
   const { id } = useParams();
@@ -83,14 +84,14 @@ const HalamankotaCpns = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Les Privat CPNS Berkualitas dan Rekomendasi" />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="" />
+            <img className="model-program-kota" src={tanyaProgram} alt="Les Privat CPNS Berkualitas dan Rekomendasi" />
           </a>
         </div>
         <BestprogramSnbt2 />
@@ -99,6 +100,7 @@ const HalamankotaCpns = () => {
         <ListKabupatenCpns />
         <Keunggulan />
         <Testimoni />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

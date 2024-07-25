@@ -100,7 +100,7 @@ const Halamanprogramsnbt = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel UMPTKIN Terbaik - Edumatrix Indonesia" />
           </a>
 
           <a
@@ -110,7 +110,7 @@ const Halamanprogramsnbt = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel UMPTKIN Terbaik - Edumatrix Indonesia"
             />
           </a>
         </div>
@@ -127,7 +127,7 @@ const Halamanprogramsnbt = () => {
           <img
             className="discount-promo"
             src={"https://api.edulink-indonesia.com/images/" + promo.image}
-            alt=""
+            alt="Bimbel IUP ITB UGM"
           />
         </div>
       </div>

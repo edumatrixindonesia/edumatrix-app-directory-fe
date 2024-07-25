@@ -48,16 +48,16 @@ const Aboutus = () => {
                 IPB Unpad dan Perguruan Tinggi Negeri Favorit serta Sekolah
                 Tinggi Kedinasan.
                 <br />
-                <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
+                <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                   <button className="btn-about">JOIN US</button>
                 </a>
               </p>
             </div>
           </div>
-          <img className="model-about" src={modelAbout} alt="" />
+          <img className="model-about" src={modelAbout} alt="Edumatrix Indonesia - Bimbel Terbaik" />
         </div>
         <div className="bg-isi-about">
-          <img className="colase-about" src={imgIsiAbout} alt="" />
+          <img className="colase-about" src={imgIsiAbout} alt="Edumatrix Indonesia - Bimbel Terbaik" />
           <div className="content-about">
             <h1 className="title-content">Learning Methode</h1>
             <p className="paragraf-about">
@@ -80,21 +80,21 @@ const Aboutus = () => {
             key={index}
             className="image-moto"
             src={"https://api.edulink-indonesia.com/images/" + item.image}
-            alt=""
+            alt="Edumatrix Indonesia - Bimbel Terbaik"
           />
         ))}
       </div> */}
       <div className="parent-moto">
-        <img className="image-moto" src={ourMission} alt="" />
-        <img className="image-moto" src={ourPhilosophy} alt="" />
-        <img className="image-moto" src={ourPromise} alt="" />
-        <img className="image-moto" src={ourValue} alt="" />
+        <img className="image-moto" src={ourMission} alt="Edumatrix Indonesia - Bimbel Terbaik" />
+        <img className="image-moto" src={ourPhilosophy} alt="Edumatrix Indonesia - Bimbel Terbaik" />
+        <img className="image-moto" src={ourPromise} alt="Edumatrix Indonesia - Bimbel Terbaik" />
+        <img className="image-moto" src={ourValue} alt="Edumatrix Indonesia - Bimbel Terbaik" />
       </div>
       <a
         className="parent-img-modeltanya-program"
         href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
       >
-        <img className="model-program-kota" src={tanyaProgram} alt="" />
+        <img className="model-program-kota" src={tanyaProgram} alt="Edumatrix Indonesia - Bimbel Terbaik" />
       </a>
       <Floatingcta />
       <Bottombar />

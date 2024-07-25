@@ -18,6 +18,7 @@ import ListKotaSupercamp from "../../Components/Tab/TabSupercamp/ListKotaSuperca
 import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SliderToefl from "../../Components/SlideTop/SliderToefl/SliderToefl";
 import ListKotaToefl from "../../Components/Tab/TabToefl/ListKotaToefl";
+import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 
 const BimbelToefl = () => {
   return (
@@ -44,6 +45,7 @@ const BimbelToefl = () => {
         <ListKotaToefl />
         <Keunggulan />
         <Testimoni />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

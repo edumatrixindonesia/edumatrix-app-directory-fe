@@ -17,6 +17,7 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import GaleriKegiatan from "../../../Program/BimbelCpns/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankabupatenCpns = () => {
   const { id } = useParams();
@@ -80,7 +81,7 @@ const HalamankabupatenCpns = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persiapan Seleksi CPNS dan PPPK" />
           </a>
 
           <a
@@ -90,7 +91,7 @@ const HalamankabupatenCpns = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel Persiapan Seleksi CPNS dan PPPK"
             />
           </a>
         </div>
@@ -99,6 +100,7 @@ const HalamankabupatenCpns = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

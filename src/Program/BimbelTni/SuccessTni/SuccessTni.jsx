@@ -12,11 +12,11 @@ const SuccessTni = () => {
       <div className="box-success-story">
         <h1 className="title-success-story">SUCCESS STORY</h1>
         <div className="parent-success-story">
-          <img className="child-success-story" src={successStory1} alt="" />
-          <img className="child-success-story" src={successStory2} alt="" />
-          <img className="child-success-story" src={successStory3} alt="" />
-          <img className="child-success-story" src={successStory4} alt="" />
-          <img className="child-success-story" src={successStory5} alt="" />
+          <img className="child-success-story" src={successStory1} alt="Success Story Bimbel TNI Polri" />
+          <img className="child-success-story" src={successStory2} alt="Success Story Bimbel TNI Polri" />
+          <img className="child-success-story" src={successStory3} alt="Success Story Bimbel TNI Polri" />
+          <img className="child-success-story" src={successStory4} alt="Success Story Bimbel TNI Polri" />
+          <img className="child-success-story" src={successStory5} alt="Success Story Bimbel TNI Polri" />
         </div>
       </div>
     </React.Fragment>

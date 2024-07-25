@@ -111,7 +111,7 @@ const MasterteacherTni = () => {
                       <img
                         className="foto-tutor"
                         src={"https://api.edulink-indonesia.com/images/" + item.image}
-                        alt=""
+                        alt="Bimbel Spesialis Masuk Kedokteran Terbaik - Edumatrix Indonesia"
                       />
                       <div>
                         <p>{item.name}</p>
@@ -122,7 +122,7 @@ const MasterteacherTni = () => {
                       <img
                         className="star-5"
                         src="https://static.vecteezy.com/system/resources/previews/003/355/389/original/five-5-star-rank-sign-illustration-free-vector.jpg"
-                        alt=""
+                        alt="Bimbel Spesialis Masuk Kedokteran Terbaik - Edumatrix Indonesia"
                       />
                       <span>5.0</span>
                     </div>

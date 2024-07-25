@@ -81,7 +81,7 @@ const HalamankabupatenIgcse = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel IGCSE Terbaik" />
           </a>
 
           <a
@@ -91,7 +91,7 @@ const HalamankabupatenIgcse = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel IGCSE Terbaik"
             />
           </a>
         </div>

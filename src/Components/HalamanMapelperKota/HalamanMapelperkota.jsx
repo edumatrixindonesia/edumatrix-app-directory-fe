@@ -91,7 +91,7 @@ const HalamanMapelperkota = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel SNBT Terbaik" />
           </a>
 
           <a
@@ -101,7 +101,7 @@ const HalamanMapelperkota = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel SNBT Terbaik"
             />
           </a>
         </div>

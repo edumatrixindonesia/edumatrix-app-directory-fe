@@ -89,14 +89,14 @@ const Testimoni = () => {
                       <img
                         className="foto-testimoni"
                         src={"https://api.edulink-indonesia.com/images/" + item.image}
-                        alt=""
+                        alt="Testimoni Bimbel Terbaik - Edumatrix Indonesia"
                       />
                       <h1 className="nama-siswa">{item.name_siswa}</h1>
                       <h1 className="judul-testimoni">{item.judul_testi}</h1>
                       <img
                         className="star-5"
                         src="https://static.vecteezy.com/system/resources/previews/003/355/389/original/five-5-star-rank-sign-illustration-free-vector.jpg"
-                        alt=""
+                        alt="Testimoni Bimbel Terbaik - Edumatrix Indonesia"
                       />
                       <span className="petik-quot">
                         <FontAwesomeIcon

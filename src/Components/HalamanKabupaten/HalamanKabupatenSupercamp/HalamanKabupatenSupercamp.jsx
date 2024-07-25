@@ -17,6 +17,8 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankabupatenSupercamp = () => {
   const { id } = useParams();
@@ -79,7 +81,7 @@ const HalamankabupatenSupercamp = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Karantina Supercamp - Edumatrix Indonesia" />
           </a>
 
           <a
@@ -89,7 +91,7 @@ const HalamankabupatenSupercamp = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel Karantina Supercamp - Edumatrix Indonesia"
             />
           </a>
         </div>
@@ -98,6 +100,8 @@ const HalamankabupatenSupercamp = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <SuccessSnbt />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

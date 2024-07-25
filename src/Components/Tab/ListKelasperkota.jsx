@@ -92,7 +92,7 @@ const Listkelasperkota = () => {
                   <img
                     className="icon-mapel"
                     src={"https://api.edulink-indonesia.com/images/" + item.image}
-                    alt=""
+                    alt="Bimbel Berkualitas"
                   />
                   {item.name}
                 </div>

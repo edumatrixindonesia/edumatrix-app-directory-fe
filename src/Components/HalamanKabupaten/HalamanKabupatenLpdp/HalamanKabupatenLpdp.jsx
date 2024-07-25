@@ -17,6 +17,9 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import SuccessLpdp from "../../../Program/BimbelLpdp/SuccessLpdp/SuccessLpdp";
+import GaleriKegiatan from "../../../Program/BimbelOsn/GaleriKegiatan/GaleriKegiatan";
+import PromoLpdp from "../../../Program/BimbelLpdp/PromoLpdp/PromoLpdp";
 
 const HalamankabupatenLpdp = () => {
   const { id } = useParams();
@@ -81,7 +84,7 @@ const HalamankabupatenLpdp = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persiapan Seleksi LPDP" />
           </a>
 
           <a
@@ -91,7 +94,7 @@ const HalamankabupatenLpdp = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel Persiapan Seleksi LPDP"
             />
           </a>
         </div>
@@ -100,8 +103,11 @@ const HalamankabupatenLpdp = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <SuccessLpdp />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <PromoLpdp />
       </div>
       <Footer />
       <Bottombar />

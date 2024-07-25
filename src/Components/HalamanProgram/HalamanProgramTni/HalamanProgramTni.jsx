@@ -103,7 +103,7 @@ const Halamanprogramtni = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Bintara TNI - Polri - Edumatrix Indonesia" />
           </a>
 
           <a
@@ -113,7 +113,7 @@ const Halamanprogramtni = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel Bintara TNI - Polri - Edumatrix Indonesia"
             />
           </a>
         </div>
@@ -129,7 +129,7 @@ const Halamanprogramtni = () => {
           <img
             className="discount-promo"
             src={"https://api.edulink-indonesia.com/images/" + promo.image}
-            alt=""
+            alt="Bimbel AKPOL Terbaik"
           />
         </div>
       </div>

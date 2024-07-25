@@ -231,7 +231,7 @@ body {
   }
 
   .logo {
-    width: 100%;
+    width: 100% !important;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -288,7 +288,7 @@ body {
 
 /* RESPONSIVE */
 @media only screen and (max-width: 500px) {
-  .navbar {
+  /* .navbar {
     display: none;
-  }
+  } */
 }

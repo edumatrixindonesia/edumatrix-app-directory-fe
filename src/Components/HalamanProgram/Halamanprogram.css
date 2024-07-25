@@ -54,7 +54,7 @@
     display: grid;
   }
   .teks-content {
-    margin-top: 65px;
+    margin-top: 40px;
   }
   .model-halaman-program {
     position: fixed;
@@ -75,7 +75,7 @@
     padding-right: 3%;
   }
   .teks-content {
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: justify;
   }
   .content-program {

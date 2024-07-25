@@ -21,6 +21,7 @@ import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import GaleriKegiatan from "../../../Program/BimbelSnbt/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankotaSnbt = () => {
   const { id } = useParams();
@@ -82,14 +83,14 @@ const HalamankotaSnbt = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Privat UTBK SNBT & Ujian Mandiri masuk PTN Terbaik - Edumatrix Indonesia" />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="" />
+            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel Privat UTBK SNBT Terbaik - Edumatrix Indonesia" />
           </a>
         </div>
         <BestprogramSnbt2 />
@@ -99,6 +100,7 @@ const HalamankotaSnbt = () => {
         <Keunggulan />
         <Testimoni />
         <SuccessSnbt />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

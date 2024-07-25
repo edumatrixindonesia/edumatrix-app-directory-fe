@@ -18,6 +18,7 @@ import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import SuccessStory from "../SuccessStory/SuccessStory";
+import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 
 const Halamankota = () => {
   const { id } = useParams();
@@ -78,14 +79,14 @@ const Halamankota = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Les Privat Terbaik" />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="" />
+            <img className="model-program-kota" src={tanyaProgram} alt="Les Privat Terbaik" />
           </a>
         </div>
         <Bestprogram2 />
@@ -97,6 +98,7 @@ const Halamankota = () => {
         <Testimoni />
         <Faq />
         <Asalsekolah />
+        <PromoHomepage />
       </div>
       <Footer />
       <Bottombar />

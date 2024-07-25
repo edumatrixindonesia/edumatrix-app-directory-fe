@@ -17,6 +17,7 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import GaleriKegiatan from "../../../Program/BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankabupatenPrivat = () => {
   const { id } = useParams();
@@ -81,7 +82,7 @@ const HalamankabupatenPrivat = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Privat Terbaik" />
           </a>
 
           <a
@@ -91,7 +92,7 @@ const HalamankabupatenPrivat = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel Privat Terbaik"
             />
           </a>
         </div>
@@ -100,6 +101,7 @@ const HalamankabupatenPrivat = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

@@ -11,7 +11,7 @@ const Asalsekolah = () => {
           <div className="marquee">
             <div className="track">
               <div className="content">
-                <img className="logo-school" src={logoSekolah} alt="" />
+                <img className="logo-school" src={logoSekolah} alt="Bimbel dan Les Privat UTBK SNBT, Bimbel Privat TK-SD-SMP-SMA" />
               </div>
             </div>
           </div>

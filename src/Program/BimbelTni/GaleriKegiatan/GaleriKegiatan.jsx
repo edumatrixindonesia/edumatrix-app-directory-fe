@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./GaleriKegiatan.css";
+import kegiatanBelajarTni1 from "../../../assets/kegiatan_belajar/tni_polri/tni_polri_1.png";
+import kegiatanBelajarTni2 from "../../../assets/kegiatan_belajar/tni_polri/tni_polri_2.png";
+import kegiatanBelajarTni3 from "../../../assets/kegiatan_belajar/tni_polri/tni_polri_3.png";
+import kegiatanBelajarTni4 from "../../../assets/kegiatan_belajar/tni_polri/tni_polri_4.png";
 
 const GaleriKegiatan = () => {
   const [galeriKegiatan, setGaleriKegiatan] = useState([]);
@@ -26,9 +30,29 @@ const GaleriKegiatan = () => {
               key={index}
               className="kegiatan-img"
               src={"https://api.edulink-indonesia.com/images/" + item.image}
-              alt=""
+              alt="Galeri Kegiatan Bimbel TNI  Polri"
             />
           ))}
+          <img
+            className="kegiatan-img"
+            src={kegiatanBelajarTni1}
+            alt="Galeri Kegiatan Bimbel TNI  Polri"
+          />
+          <img
+            className="kegiatan-img"
+            src={kegiatanBelajarTni2}
+            alt="Galeri Kegiatan Bimbel TNI  Polri"
+          />
+          <img
+            className="kegiatan-img"
+            src={kegiatanBelajarTni3}
+            alt="Galeri Kegiatan Bimbel TNI  Polri"
+          />
+          <img
+            className="kegiatan-img"
+            src={kegiatanBelajarTni4}
+            alt="Galeri Kegiatan Bimbel TNI  Polri"
+          />
         </div>
         <div className="parent-video">
           <embed

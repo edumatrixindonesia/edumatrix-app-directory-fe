@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="bawah-logo">
               <a className="bawah-logo-link" href="#">
                 <span className="hidden-link-text"></span>
-                <img className="logo-bawah" src={logo_edm} alt="" />
+                <img className="logo-bawah" src={logo_edm} alt="Edumatrix Indonesia - Bimbel Terbaik Yogyakarta" />
               </a>
             </div>
             <div className="bawah-menu">
@@ -51,14 +51,14 @@ const Footer = () => {
                       <img
                         className="img-sosmed"
                         src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/1%20Homepage%20RG/Optimize%20V2/ic-ig.svg?convert=webp"
-                        alt=""
+                        alt="Edumatrix Indonesia - Bimbel Terbaik Yogyakarta"
                       />
                     </a>
                     {/* <a className="sosmed-bawah" href="">
                       <img
                         className="img-sosmed"
                         src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/1%20Homepage%20RG/Optimize%20V2/ic-fb.svg?convert=webp"
-                        alt=""
+                        alt="Edumatrix Indonesia - Bimbel Terbaik Yogyakarta"
                       />
                     </a> */}
                     <a
@@ -68,7 +68,7 @@ const Footer = () => {
                       <img
                         className="img-sosmed"
                         src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/1%20Homepage%20RG/Optimize%20V2/ic-youtube.svg?convert=webp"
-                        alt=""
+                        alt="Edumatrix Indonesia - Bimbel Terbaik Yogyakarta"
                       />
                     </a>
                     <a
@@ -78,7 +78,7 @@ const Footer = () => {
                       <img
                         className="img-sosmed"
                         src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/1%20Homepage%20RG/Optimize%20V2/tiktok-ic-white-40.svg?convert=webp"
-                        alt=""
+                        alt="Edumatrix Indonesia - Bimbel Terbaik Yogyakarta"
                       />
                     </a>
                   </div>

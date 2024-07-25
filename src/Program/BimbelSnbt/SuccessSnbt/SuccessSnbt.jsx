@@ -11,6 +11,7 @@ import successStory8 from "../../../assets/success_story/snbt/Bimbel_UTBK_SNBT_N
 import successStory9 from "../../../assets/success_story/snbt/Lolos_CBT_UGM_Regina.jpeg";
 import successStory10 from "../../../assets/success_story/snbt/Lolos_CBT_UGM_Salma.jpeg";
 import successStory11 from "../../../assets/success_story/snbt/Lolos_CBT_UGM_Sheval.jpeg";
+import successStory12 from "../../../assets/success_story/snbt/Success_Story_UM_UNDIP_Charisa.jpeg";
 
 const SuccessSnbt = () => {
   return (
@@ -29,6 +30,7 @@ const SuccessSnbt = () => {
           <img className="child-success-story-snbt" src={successStory9} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory10} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory11} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory12} alt="Bimbel SNBT Terbaik" />
         </div>
       </div>
     </React.Fragment>

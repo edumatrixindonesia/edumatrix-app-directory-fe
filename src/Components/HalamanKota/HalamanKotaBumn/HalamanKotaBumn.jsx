@@ -23,6 +23,7 @@ import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import ListKabupatenCpns from "../../Tab/TabCpns/ListKabupatenCpns";
 import ListKabupatenBumn from "../../Tab/TabBumn/ListKabupatenBumn";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankotaBumn = () => {
   const { id } = useParams();
@@ -83,14 +84,14 @@ const HalamankotaBumn = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Les Privat BUMN Terbaik dan Rekomendasi - Edumatrix Indonesia" />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="" />
+            <img className="model-program-kota" src={tanyaProgram} alt="Les Privat BUMN Terbaik dan Rekomendasi - Edumatrix Indonesia" />
           </a>
         </div>
         <BestprogramSnbt2 />
@@ -99,6 +100,7 @@ const HalamankotaBumn = () => {
         <ListKabupatenBumn />
         <Keunggulan />
         <Testimoni />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

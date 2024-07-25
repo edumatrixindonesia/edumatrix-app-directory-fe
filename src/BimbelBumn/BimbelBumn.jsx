@@ -20,6 +20,7 @@ import SliderCpns from "../../Components/SlideTop/SliderCpns/SliderCpns";
 import ListKotaCpns from "../../Components/Tab/TabCpns/ListKotaCpns";
 import SliderBumn from "../../Components/SlideTop/SliderBumn/SliderBumn";
 import ListKotaBumn from "../../Components/Tab/TabBumn/ListKotaBumn";
+import GaleriKegiatan from "../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
 
 const BimbelBumn = () => {
   return (
@@ -45,6 +46,7 @@ const BimbelBumn = () => {
         <ListKotaBumn />
         <Keunggulan />
         <Testimoni />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

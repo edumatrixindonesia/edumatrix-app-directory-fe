@@ -27,7 +27,7 @@ const Errorpage = () => {
             <p className="desk-error">Halaman tidak ditemukan</p>
             <button onClick={() => goToHome()} className="btn-error-back">KEMBALI</button>
           </div>
-          <img className="bg-error" src={bgError} alt="" />
+          <img className="bg-error" src={bgError} alt="Bimbel Privat SD Terbaik" />
         </div>
       </div>
       <Footer />

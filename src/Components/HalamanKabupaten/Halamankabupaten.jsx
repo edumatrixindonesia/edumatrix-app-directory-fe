@@ -17,6 +17,7 @@ import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import SuccessStory from "../SuccessStory/SuccessStory";
+import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 
 const Halamankabupaten = () => {
   const { id } = useParams();
@@ -81,7 +82,7 @@ const Halamankabupaten = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel TK-SD-SMP-SMA" />
           </a>
 
           <a
@@ -91,7 +92,7 @@ const Halamankabupaten = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel TK-SD-SMP-SMA"
             />
           </a>
         </div>
@@ -103,6 +104,7 @@ const Halamankabupaten = () => {
         <Testimoni />
         <Faq />
         <Asalsekolah />
+        <PromoHomepage />
       </div>
       <Footer />
       <Bottombar />

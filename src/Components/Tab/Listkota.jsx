@@ -81,7 +81,7 @@ const Listkota = () => {
                   <img
                     className="icon-mapel"
                     src={"https://api.edulink-indonesia.com/images/" + item.image}
-                    alt=""
+                    alt="Bimbel dan Les Privat Terbaik"
                   />
                   {item.name}
                 </div>

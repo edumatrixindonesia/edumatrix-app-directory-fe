@@ -23,6 +23,7 @@ import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessLpdp from "../../../Program/BimbelLpdp/SuccessLpdp/SuccessLpdp";
 import GaleriKegiatan from "../../../Program/BimbelLpdp/GaleriKegiatan/GaleriKegiatan";
+import PromoLpdp from "../../../Program/BimbelLpdp/PromoLpdp/PromoLpdp";
 
 const HalamankotaLpdp = () => {
   const { id } = useParams();
@@ -82,14 +83,14 @@ const HalamankotaLpdp = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persiapan Beasiswa LPDP" />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="" />
+            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel Persiapan Beasiswa LPDP" />
           </a>
         </div>
         <BestprogramSnbt2 />
@@ -102,6 +103,7 @@ const HalamankotaLpdp = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <PromoLpdp />
       </div>
       <Footer />
       <Bottombar />

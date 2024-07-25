@@ -91,7 +91,7 @@ const HalamanProgramperkota = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel dan Les Privat Mahasiswa - Edumatrix Indonesia" />
           </a>
 
           <a
@@ -101,7 +101,7 @@ const HalamanProgramperkota = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel dan Les Privat Mahasiswa - Edumatrix Indonesia"
             />
           </a>
         </div>

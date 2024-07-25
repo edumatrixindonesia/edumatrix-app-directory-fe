@@ -17,6 +17,7 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import GaleriKegiatan from "../../../Program/BimbelIup/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankabupatenIup = () => {
   const { id } = useParams();
@@ -80,7 +81,7 @@ const HalamankabupatenIup = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persipan IUP/KKI" />
           </a>
 
           <a
@@ -90,7 +91,7 @@ const HalamankabupatenIup = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel Persipan IUP/KKI"
             />
           </a>
         </div>
@@ -99,6 +100,7 @@ const HalamankabupatenIup = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

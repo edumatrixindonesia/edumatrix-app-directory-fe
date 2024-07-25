@@ -16,6 +16,9 @@ import Faqtni from "../../Components/Faq/FaqTni/FaqTni";
 import SliderSupercamp from "../../Components/SlideTop/SliderSupercamp/SliderSupercamp";
 import ListKotaSupercamp from "../../Components/Tab/TabSupercamp/ListKotaSupercamp";
 import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
+import SuccessStory from "../../Components/SuccessStory/SuccessStory";
+import SuccessSnbt from "../BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 
 const BimbelSupercamp = () => {
   return (
@@ -42,6 +45,8 @@ const BimbelSupercamp = () => {
         <ListKotaSupercamp />
         <Keunggulan />
         <Testimoni />
+        <SuccessSnbt />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

@@ -18,6 +18,7 @@ import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
 import Faqtni from "../Faq/FaqTni/FaqTni";
+import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 
 const Halamanprogram = () => {
   const { id } = useParams();
@@ -101,7 +102,7 @@ const Halamanprogram = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel ABK (Anak Berkebutuhan Khusus) Terbaik - Edumatrix Indonesia" />
           </a>
 
           <a
@@ -111,7 +112,7 @@ const Halamanprogram = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel ABK (Anak Berkebutuhan Khusus) Terbaik - Edumatrix Indonesia"
             />
           </a>
         </div>
@@ -123,13 +124,14 @@ const Halamanprogram = () => {
         <Testimoni />
         <Faqtni />
         <Asalsekolah />
-        <div className="parent-promo">
+        <PromoHomepage />
+        {/* <div className="parent-promo">
           <img
             className="discount-promo"
             src={"https://api.edulink-indonesia.com/images/" + promo?.image}
-            alt=""
+            alt="Bimbel SIMAK UI Terbaik - Edumatrix Indonesia"
           />
-        </div>
+        </div> */}
       </div>
       <Footer />
       <Bottombar />

@@ -21,7 +21,7 @@ const Keunggulan = () => {
     <React.Fragment>
       <div className="parent-box-keunggulan">
         <h1 className="title-keunggulan">
-          <img className="icon-keunggulan" src={keunggulanIcon} alt="" />
+          <img className="icon-keunggulan" src={keunggulanIcon} alt="Bimbel Privat Masuk PTN - Edumatrix Indonesia" />
           KEUNGGULAN
         </h1>
         <div className="parent-card-keunggulan">
@@ -30,7 +30,7 @@ const Keunggulan = () => {
               key={index}
               className="keunggulan-img"
               src={"https://api.edulink-indonesia.com/images/" + item.image}
-              alt=""
+              alt="Bimbel Privat UTBK SNBT Terbaik - Edumatrix Indonesia"
             />
           ))}
         </div>

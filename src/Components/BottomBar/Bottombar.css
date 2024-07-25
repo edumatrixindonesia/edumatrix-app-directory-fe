@@ -90,7 +90,7 @@ body {
 /* RESPONSIVE */
 @media screen and (max-width: 500px) {
   .wrapper {
-    display: flex;
+    display: none;
   }
   .text-bottombar {
     font-size: 13px;

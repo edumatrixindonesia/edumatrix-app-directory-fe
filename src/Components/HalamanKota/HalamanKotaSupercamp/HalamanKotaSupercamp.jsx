@@ -21,6 +21,8 @@ import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import ListKabupatenSupercamp from "../../Tab/TabSupercamp/ListKabupatenSupercamp";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankotaSupercamp = () => {
   const { id } = useParams();
@@ -82,14 +84,14 @@ const HalamankotaSupercamp = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Karantina Masuk Kedokteran dan PTN favorit" />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="" />
+            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel Karantina Masuk Kedokteran dan PTN favorit" />
           </a>
         </div>
         <BestprogramSnbt2 />
@@ -98,6 +100,8 @@ const HalamankotaSupercamp = () => {
         <ListKabupatenSupercamp />
         <Keunggulan />
         <Testimoni />
+        <SuccessSnbt />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

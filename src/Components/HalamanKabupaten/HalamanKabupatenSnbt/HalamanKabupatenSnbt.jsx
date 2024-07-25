@@ -18,6 +18,7 @@ import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import GaleriKegiatan from "../../../Program/BimbelSnbt/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankabupatenSnbt = () => {
   const { id } = useParams();
@@ -80,7 +81,7 @@ const HalamankabupatenSnbt = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia" />
           </a>
 
           <a
@@ -90,7 +91,7 @@ const HalamankabupatenSnbt = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia"
             />
           </a>
         </div>
@@ -100,6 +101,7 @@ const HalamankabupatenSnbt = () => {
         <Keunggulan />
         <Testimoni />
         <SuccessSnbt />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

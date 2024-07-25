@@ -18,6 +18,7 @@ import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
+import GaleriKegiatan from "../../../Program/BimbelOsn/GaleriKegiatan/GaleriKegiatan";
 
 const HalamankabupatenOsn = () => {
   const { id } = useParams();
@@ -82,7 +83,7 @@ const HalamankabupatenOsn = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persiapan OSN SD-SMP-SMA" />
           </a>
 
           <a
@@ -92,7 +93,7 @@ const HalamankabupatenOsn = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Bimbel Persiapan OSN SD-SMP-SMA"
             />
           </a>
         </div>
@@ -102,6 +103,7 @@ const HalamankabupatenOsn = () => {
         <Keunggulan />
         <Testimoni />
         <SuccessOsn />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

@@ -15,6 +15,7 @@ import Listkota from "../../Components/Tab/Listkota";
 import Faqtni from "../../Components/Faq/FaqTni/FaqTni";
 import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SuccessSnbt from "./SuccessSnbt/SuccessSnbt";
+import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 
 const BimbelSnbt = () => {
   return (
@@ -41,6 +42,7 @@ const BimbelSnbt = () => {
         <Keunggulan />
         <Testimoni />
         <SuccessSnbt />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import belajarOffline1 from "../../../assets/kegiatan_belajar/bimbel_privat_lpdp.jpeg";
-import belajarOffline2 from "../../../assets/kegiatan_belajar/bimbel_privat_lpdp_2.jpeg";
-import belajarOnline1 from "../../../assets/kegiatan_belajar/bimbel_privat_lpdp_online.jpeg";
-import belajarOnline2 from "../../../assets/kegiatan_belajar/bimbel_privat_lpdp_online_2.jpeg";
+import belajarOffline1 from "../../../assets/kegiatan_belajar/lpdp/bimbel_privat_lpdp.jpeg";
+import belajarOffline2 from "../../../assets/kegiatan_belajar/lpdp/bimbel_privat_lpdp_2.jpeg";
+import belajarOnline1 from "../../../assets/kegiatan_belajar/lpdp/bimbel_privat_lpdp_online.jpeg";
+import belajarOnline2 from "../../../assets/kegiatan_belajar/lpdp/bimbel_privat_lpdp_online_2.jpeg";
 import "./GaleriKegiatan.css";
 
 const GaleriKegiatan = () => {
@@ -14,22 +14,22 @@ const GaleriKegiatan = () => {
           <img
             className="child-kegiatan-belajar-lpdp"
             src={belajarOffline1}
-            alt=""
+            alt="Galeri Belajar Bimbel Terbaik - Edumatrix Indonesia"
           />
           <img
             className="child-kegiatan-belajar-lpdp"
             src={belajarOffline2}
-            alt=""
+            alt="Galeri Belajar Bimbel Terbaik - Edumatrix Indonesia"
           />
           <img
             className="child-kegiatan-belajar-lpdp"
             src={belajarOnline1}
-            alt=""
+            alt="Galeri Belajar Bimbel Terbaik - Edumatrix Indonesia"
           />
           <img
             className="child-kegiatan-belajar-lpdp"
             src={belajarOnline2}
-            alt=""
+            alt="Galeri Belajar Bimbel Terbaik - Edumatrix Indonesia"
           />
         </div>
       </div>

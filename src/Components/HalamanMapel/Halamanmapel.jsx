@@ -15,6 +15,7 @@ import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
+import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 
 const Halamanmapel = () => {
   const { id } = useParams();
@@ -77,7 +78,7 @@ const Halamanmapel = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="" />
+            <img className="rumah-adat" src={rumahAdat} alt="Les Privat dan Bimbel Terbaik - Edumatrix Indonesia" />
           </a>
 
           <a
@@ -87,7 +88,7 @@ const Halamanmapel = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt=""
+              alt="Les Privat dan Bimbel Terbaik - Edumatrix Indonesia"
             />
           </a>
         </div>
@@ -98,6 +99,7 @@ const Halamanmapel = () => {
         <Keunggulan />
         <Testimoni />
         <Faq />
+        <PromoHomepage />
       </div>
       <Footer />
       <Bottombar />

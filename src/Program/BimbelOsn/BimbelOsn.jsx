@@ -11,10 +11,10 @@ import Floatingcta from "../../Components/FloatingCta/Floatingcta";
 import BestprogramSnbt from "../../Components/BestProgram/BestProgramSnbt/BestProgramSnbt";
 import Faqtni from "../../Components/Faq/FaqTni/FaqTni";
 import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
-import ListKotaBumn from "../../Components/Tab/TabBumn/ListKotaBumn";
 import SliderOsn from "../../Components/SlideTop/SliderOsn/SliderOsn";
 import ListKotaOsn from "../../Components/Tab/TabOsn/ListKotaOsn";
 import SuccessOsn from "./SuccessOsn/SuccessOsn";
+import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 
 const BimbelOsn = () => {
   return (
@@ -41,6 +41,7 @@ const BimbelOsn = () => {
         <Keunggulan />
         <Testimoni />
         <SuccessOsn />
+        <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
       </div>
