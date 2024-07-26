@@ -19,18 +19,18 @@ const SuccessSnbt = () => {
       <div className="box-success-story-snbt">
         <h1 className="title-success-story-snbt">SUCCESS STORY</h1>
         <div className="parent-success-story-snbt">
-          <img className="child-success-story-snbt" src={successStory1} alt="Bimbel SNBT Terbaik" />
-          <img className="child-success-story-snbt" src={successStory2} alt="Bimbel SNBT Terbaik" />
-          <img className="child-success-story-snbt" src={successStory3} alt="Bimbel SNBT Terbaik" />
-          <img className="child-success-story-snbt" src={successStory4} alt="Bimbel SNBT Terbaik" />
-          <img className="child-success-story-snbt" src={successStory5} alt="Bimbel SNBT Terbaik" />
-          <img className="child-success-story-snbt" src={successStory6} alt="Bimbel SNBT Terbaik" />
-          <img className="child-success-story-snbt" src={successStory7} alt="Bimbel SNBT Terbaik" />
-          <img className="child-success-story-snbt" src={successStory8} alt="Bimbel SNBT Terbaik" />
-          <img className="child-success-story-snbt" src={successStory9} alt="Bimbel SNBT Terbaik" />
+        <img className="child-success-story-snbt" src={successStory9} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory10} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory11} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory12} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory4} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory5} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory1} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory2} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory3} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory6} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory7} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory8} alt="Bimbel SNBT Terbaik" />
         </div>
       </div>
     </React.Fragment>

@@ -110,7 +110,7 @@ const Searchkelas = () => {
           </h1>
           <div className="container-card">
             {loading ? (
-              <h4>Loading ...</h4>
+              <h4 className="loading">Loading ...</h4>
             ) : (
               cardKelas
                 .filter((value) => {

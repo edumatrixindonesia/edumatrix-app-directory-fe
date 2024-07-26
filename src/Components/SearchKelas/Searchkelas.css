@@ -170,6 +170,7 @@
 /* SUPER PARENT */
 .super-parent-container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -238,6 +239,9 @@
   padding-top: 1px;
   border-radius: 5px;
   width: 48%;
+}
+.loading {
+  color: white;
 }
 
 /* RESPONSIVE */

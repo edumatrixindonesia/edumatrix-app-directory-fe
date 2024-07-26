@@ -19,6 +19,11 @@ import successStoryTni2 from "../../assets/success_story/tni-polri/Success_Story
 import successStoryTni3 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Hazzel_Potrait.jpeg";
 import successStoryTni4 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Wisnu_Potrait.jpeg";
 import successStoryTni5 from "../../assets/success_story/tni-polri/Success_Story_Sekolah_Kedinasan_Fariz.jpeg";
+import successStoryTni6 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Riyad_Potrait.jpeg";
+import successStoryTni7 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Fikri_Potrait.jpeg";
+import successStoryTni8 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Fitrah_Potrait.jpeg";
+import successStoryTni9 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Hanif_Potrait.jpeg";
+import successStoryTni10 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Laode_Potrait.jpeg";
 // OSN
 import successStoryOsn1 from "../../assets/success_story/osn/Success_Story_OSN_Asytar.jpeg";
 import successStoryOsn2 from "../../assets/success_story/osn/Success_Story_OSN_Hanan.jpeg";
@@ -34,18 +39,18 @@ const SuccessStory = () => {
           <div className="parent-child-success-story-all">
             <img
               className="child-success-story-all"
-              src={successStorySnbt1}
-              alt="Bimbel SNBT Terbaik"
+              src={successStorySnbt9}
+              alt="Les Privat UTBK SNBT"
             />
             <img
               className="child-success-story-all"
-              src={successStorySnbt2}
-              alt="Bimbel SNBT"
+              src={successStorySnbt10}
+              alt="Les Privat UTBK SNBT"
             />
             <img
               className="child-success-story-all"
-              src={successStorySnbt3}
-              alt="Bimbel UTBK SNBT"
+              src={successStorySnbt11}
+              alt="Les Privat UTBK SNBT"
             />
             <img
               className="child-success-story-all"
@@ -55,6 +60,11 @@ const SuccessStory = () => {
             <img
               className="child-success-story-all"
               src={successStorySnbt5}
+              alt="Les Privat UTBK SNBT"
+            />
+            <img
+              className="child-success-story-all"
+              src={successStorySnbt12}
               alt="Les Privat UTBK SNBT"
             />
             <img
@@ -74,23 +84,18 @@ const SuccessStory = () => {
             />
             <img
               className="child-success-story-all"
-              src={successStorySnbt9}
-              alt="Les Privat UTBK SNBT"
+              src={successStorySnbt1}
+              alt="Bimbel SNBT Terbaik"
             />
             <img
               className="child-success-story-all"
-              src={successStorySnbt10}
-              alt="Les Privat UTBK SNBT"
+              src={successStorySnbt2}
+              alt="Bimbel SNBT"
             />
             <img
               className="child-success-story-all"
-              src={successStorySnbt11}
-              alt="Les Privat UTBK SNBT"
-            />
-            <img
-              className="child-success-story-all"
-              src={successStorySnbt12}
-              alt="Les Privat UTBK SNBT"
+              src={successStorySnbt3}
+              alt="Bimbel UTBK SNBT"
             />
           </div>
           {/* OSN */}
@@ -137,6 +142,31 @@ const SuccessStory = () => {
             <img
               className="child-success-story-all"
               src={successStoryTni5}
+              alt="Bimbel Sekolah Kedinasan"
+            />
+            <img
+              className="child-success-story-all"
+              src={successStoryTni6}
+              alt="Bimbel Sekolah Kedinasan"
+            />
+            <img
+              className="child-success-story-all"
+              src={successStoryTni7}
+              alt="Bimbel Sekolah Kedinasan"
+            />
+            <img
+              className="child-success-story-all"
+              src={successStoryTni8}
+              alt="Bimbel Sekolah Kedinasan"
+            />
+            <img
+              className="child-success-story-all"
+              src={successStoryTni9}
+              alt="Bimbel Sekolah Kedinasan"
+            />
+            <img
+              className="child-success-story-all"
+              src={successStoryTni10}
               alt="Bimbel Sekolah Kedinasan"
             />
           </div>

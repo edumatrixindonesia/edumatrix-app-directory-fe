@@ -7,6 +7,8 @@ import {
   faSchool,
   faSignIn,
   faStar,
+  faAnglesRight,
+  faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import iconSupercamp from "../../assets/supercamp.png";
@@ -28,6 +30,50 @@ const Navbar = () => {
     navigate("/");
   };
 
+  const goToBimbelSnbt = () => {
+    navigate("/bimbel-snbt-terbaik");
+  };
+
+  const goToBimbelSupercamp = () => {
+    navigate("/bimbel-supercamp-edumatrix");
+  };
+
+  const goToBimbelTni = () => {
+    navigate("/bimbel-tni-polri-dan-sekolah-kedinasan");
+  };
+
+  const goToBimbelPrivat = () => {
+    navigate("/bimbel-privat-tk-sd-smp-sma-mahasiswa")
+  }
+
+  const goToBimbelLpdp = () => {
+    navigate("/bimbel-persiapan-seleksi-lpdp")
+  }
+
+  const goToBimbelCpns = () => {
+    navigate("/bimbel-cpns-dan-pppk")
+  }
+
+  const goToBimbelBumn = () => {
+    navigate("/bimbel-seleksi-bumn")
+  }
+
+  const goToBimbelIgcse = () => {
+    navigate("/bimbel-kurikulum-igcse")
+  }
+
+  const goToBimbelIup = () => {
+    navigate("/bimbel-iup-kki")
+  }
+
+  const goToBimbelOsn = () => {
+    navigate("/bimbel-osn")
+  }
+
+  const goToBimbelToefl = () => {
+    navigate("/bimbel-toefl-toeic-ielts-dan-english-conversation")
+  }
+
   return (
     <React.Fragment>
       <nav className="navbar">
@@ -45,48 +91,83 @@ const Navbar = () => {
                 <FontAwesomeIcon className="icon-navbar" icon={faSignIn} /> Home
               </a>
             </li>
-            {/* <li class="services">
+            <li class="services">
               <a className="menu-nav">
                 Program
                 <FontAwesomeIcon
-                  className="icon-navbar"
-                  icon={faArrowCircleDown}
+                  className="icon-navbar-1"
+                  icon={faChevronDown}
                 />
               </a>
               <ul className="dropdown">
-                <li>
-                  <a
-                    className="child-dropdown"
-                    href="https://app.edumatrix-indonesia.com/camp-edumatrix"
-                  >
-                    <img className="icon-dropdown" src={iconSupercamp} alt="" />
-                    Supercamp/Karantina - Sukses Masuk PTN 2024
+                <li onClick={() => goToBimbelSupercamp()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Supercamp/Karantina UTBK SNBT
                   </a>
                 </li>
-                <li>
-                  <a
-                    className="child-dropdown"
-                    href="https://app.edumatrix-indonesia.com/"
-                  >
-                    <img className="icon-dropdown" src={iconLiveClass} alt="" />
-                    Live Class - Sukses Masuk PTN 2024
+                <li onClick={() => goToBimbelSnbt()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel UTBK SNBT
                   </a>
                 </li>
-                <li>
-                  <a
-                    className="child-dropdown"
-                    href="https://app.edumatrix-indonesia.com/bimbel-tni-polri-dan-sekolah-kedinasan-terbaru-2024/"
-                  >
-                    <img
-                      className="icon-dropdown"
-                      src={iconTrainingCamp}
-                      alt=""
-                    />
-                    Training Camp - Sukses Masuk TNI/POLRI & Sekolah Kedinasan
+                <li onClick={() => goToBimbelTni()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel TNI - POLRI
+                  </a>
+                </li>
+                <li onClick={() => goToBimbelPrivat()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Les Privat TK - SD - SMP - SMA
+                  </a>
+                </li>
+                <li onClick={() => goToBimbelLpdp()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel LPDP
+                  </a>
+                </li>
+                <li onClick={() => goToBimbelCpns()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel CPNS & PPPK
+                  </a>
+                </li>
+                <li onClick={() => goToBimbelBumn()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel BUMN
+                  </a>
+                </li>
+                <li onClick={() => goToBimbelIgcse()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel Kurikulum IGCSE & IB
+                  </a>
+                </li>
+                <li onClick={() => goToBimbelIup()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel IUP - KKI
+                  </a>
+                </li>
+                <li onClick={() => goToBimbelOsn()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel OSN
+                  </a>
+                </li>
+                <li onClick={() => goToBimbelToefl()}>
+                  <a className="child-dropdown" href="">
+                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
+                    Bimbel TOEFL - TOEIC - IELTS
                   </a>
                 </li>
               </ul>
-            </li> */}
+            </li>
             <li>
               <a onClick={() => goToAbout()} className="menu-nav">
                 <FontAwesomeIcon className="icon-navbar" icon={faSchool} />{" "}
