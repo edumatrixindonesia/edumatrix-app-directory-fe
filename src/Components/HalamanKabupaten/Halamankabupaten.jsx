@@ -18,6 +18,7 @@ import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import SuccessStory from "../SuccessStory/SuccessStory";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
+import Liputan from "../Liputan/Liputan";
 
 const Halamankabupaten = () => {
   const { id } = useParams();
@@ -105,6 +106,7 @@ const Halamankabupaten = () => {
         <Faq />
         <Asalsekolah />
         <PromoHomepage />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

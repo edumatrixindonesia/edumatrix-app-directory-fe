@@ -21,6 +21,7 @@ import ListKotaCpns from "../../Components/Tab/TabCpns/ListKotaCpns";
 import SliderBumn from "../../Components/SlideTop/SliderBumn/SliderBumn";
 import ListKotaBumn from "../../Components/Tab/TabBumn/ListKotaBumn";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Components/Liputan/Liputan";
 
 const BimbelBumn = () => {
   return (
@@ -49,6 +50,7 @@ const BimbelBumn = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

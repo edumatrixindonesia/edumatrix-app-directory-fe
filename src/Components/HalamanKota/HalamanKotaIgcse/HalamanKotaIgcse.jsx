@@ -23,6 +23,7 @@ import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import ListKabupatenCpns from "../../Tab/TabCpns/ListKabupatenCpns";
 import ListKabupatenIgcse from "../../Tab/TabIgcse/ListKabupatenIgcse";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankotaIgcse = () => {
   const { id } = useParams();
@@ -102,6 +103,7 @@ const HalamankotaIgcse = () => {
         <Testimoni />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

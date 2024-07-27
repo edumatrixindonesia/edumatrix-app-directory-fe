@@ -19,6 +19,7 @@ import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/Be
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 import GaleriKegiatan from "../../../Program/BimbelOsn/GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankabupatenOsn = () => {
   const { id } = useParams();
@@ -106,6 +107,7 @@ const HalamankabupatenOsn = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

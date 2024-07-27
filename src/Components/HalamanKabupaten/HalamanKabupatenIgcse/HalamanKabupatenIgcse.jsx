@@ -17,6 +17,7 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankabupatenIgcse = () => {
   const { id } = useParams();
@@ -102,6 +103,7 @@ const HalamankabupatenIgcse = () => {
         <Testimoni />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

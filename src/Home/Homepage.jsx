@@ -17,6 +17,7 @@ import Floatingcta from "../Components/FloatingCta/Floatingcta";
 import Bottombar from "../Components/BottomBar/Bottombar";
 import SuccessStory from "../Components/SuccessStory/SuccessStory";
 import PromoHomepage from "./PromoHomepage/PromoHomepage";
+import Liputan from "../Components/Liputan/Liputan";
 
 const Homepage = () => {
   return (
@@ -47,6 +48,7 @@ const Homepage = () => {
         <Faq />
         <Asalsekolah />
         <PromoHomepage />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

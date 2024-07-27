@@ -23,6 +23,7 @@ import ListKabupatenSupercamp from "../../Tab/TabSupercamp/ListKabupatenSupercam
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import ListKabupatenToefl from "../../Tab/TabToefl/ListKabupatenToefl";
 import GaleriKegiatan from "../../../Program/BimbelToefl/GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankotaToefl = () => {
   const { id } = useParams();
@@ -100,6 +101,7 @@ const HalamankotaToefl = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

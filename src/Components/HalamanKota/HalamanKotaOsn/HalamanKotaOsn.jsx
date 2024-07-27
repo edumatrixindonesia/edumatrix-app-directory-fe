@@ -24,6 +24,7 @@ import Faqtni from "../../Faq/FaqTni/FaqTni";
 import ListKabupatenOsn from "../../Tab/TabOsn/ListKabupatenOsn";
 import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 import GaleriKegiatan from "../../../Program/BimbelOsn/GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankotaOsn = () => {
   const { id } = useParams();
@@ -104,6 +105,7 @@ const HalamankotaOsn = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

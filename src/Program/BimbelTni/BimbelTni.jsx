@@ -18,6 +18,7 @@ import "./BimbelTni.css";
 import Testimonitni from "../../Components/Testimoni/TestimoniTni/TestimoniTni";
 import MasterteacherTni from "../../Components/MasterTeacher/MasterteacherTni/MasterteacherTni";
 import SuccessTni from "./SuccessTni/SuccessTni";
+import Liputan from "../../Components/Liputan/Liputan";
 
 const BimbelTni = () => {
   return (
@@ -50,6 +51,7 @@ const BimbelTni = () => {
         <Testimonitni />
         <SuccessTni />
         <Faqtni />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

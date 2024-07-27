@@ -15,6 +15,7 @@ import SliderOsn from "../../Components/SlideTop/SliderOsn/SliderOsn";
 import ListKotaOsn from "../../Components/Tab/TabOsn/ListKotaOsn";
 import SuccessOsn from "./SuccessOsn/SuccessOsn";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Components/Liputan/Liputan";
 
 const BimbelOsn = () => {
   return (
@@ -44,6 +45,7 @@ const BimbelOsn = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

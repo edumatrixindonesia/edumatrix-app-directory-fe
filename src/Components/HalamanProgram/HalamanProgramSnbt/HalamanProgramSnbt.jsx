@@ -19,6 +19,7 @@ import ListkelasperkotaTni from "../../Tab/Tabtni/ListKelasperkotaTni";
 import ListUtbkSnbt from "../../Tab/TabUtbkSnbt/ListUtbkSnbt";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Liputan from "../../Liputan/Liputan";
 
 const Halamanprogramsnbt = () => {
   const { id } = useParams();
@@ -130,6 +131,7 @@ const Halamanprogramsnbt = () => {
             alt="Bimbel IUP ITB UGM"
           />
         </div>
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

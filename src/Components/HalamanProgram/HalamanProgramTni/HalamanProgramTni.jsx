@@ -18,6 +18,7 @@ import Navbar from "../../Navbar/Navbar";
 import ListkelasperkotaTni from "../../Tab/Tabtni/ListKelasperkotaTni";
 import BestprogramTni2 from "../../BestProgram/BestProgram2/BestProgramTni2/BestProgramTni2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Liputan from "../../Liputan/Liputan";
 
 const Halamanprogramtni = () => {
   const { id } = useParams();
@@ -132,6 +133,7 @@ const Halamanprogramtni = () => {
             alt="Bimbel AKPOL Terbaik"
           />
         </div>
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

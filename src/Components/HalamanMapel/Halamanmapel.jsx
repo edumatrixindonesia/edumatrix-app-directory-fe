@@ -16,6 +16,7 @@ import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
+import Liputan from "../Liputan/Liputan";
 
 const Halamanmapel = () => {
   const { id } = useParams();
@@ -100,6 +101,7 @@ const Halamanmapel = () => {
         <Testimoni />
         <Faq />
         <PromoHomepage />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

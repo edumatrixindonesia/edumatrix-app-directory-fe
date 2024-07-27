@@ -24,6 +24,7 @@ import ListKabupatenCpns from "../../Tab/TabCpns/ListKabupatenCpns";
 import ListKabupatenBumn from "../../Tab/TabBumn/ListKabupatenBumn";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankotaBumn = () => {
   const { id } = useParams();
@@ -103,6 +104,7 @@ const HalamankotaBumn = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

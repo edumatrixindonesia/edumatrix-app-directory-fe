@@ -23,6 +23,7 @@ import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import ListKabupatenCpns from "../../Tab/TabCpns/ListKabupatenCpns";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelCpns/GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankotaCpns = () => {
   const { id } = useParams();
@@ -103,6 +104,7 @@ const HalamankotaCpns = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

@@ -19,6 +19,7 @@ import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SuccessStory from "../../Components/SuccessStory/SuccessStory";
 import SuccessSnbt from "../BimbelSnbt/SuccessSnbt/SuccessSnbt";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Components/Liputan/Liputan";
 
 const BimbelSupercamp = () => {
   return (
@@ -49,6 +50,7 @@ const BimbelSupercamp = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

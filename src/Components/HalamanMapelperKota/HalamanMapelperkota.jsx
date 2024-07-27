@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
+import Liputan from "../Liputan/Liputan";
 
 const HalamanMapelperkota = () => {
   const [kota, setKota] = useState([]);
@@ -110,6 +111,7 @@ const HalamanMapelperkota = () => {
         <Masterteacher />
         <Keunggulan />
         <Faq />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

@@ -20,6 +20,7 @@ import SliderCpns from "../../Components/SlideTop/SliderCpns/SliderCpns";
 import ListKotaCpns from "../../Components/Tab/TabCpns/ListKotaCpns";
 import SliderIgcse from "../../Components/SlideTop/SliderIgcse/SliderIgcse";
 import ListKotaIgcse from "../../Components/Tab/TabIgcse/ListKotaIgcse";
+import Liputan from "../../Components/Liputan/Liputan";
 
 const BimbelIgcse = () => {
   return (
@@ -47,6 +48,7 @@ const BimbelIgcse = () => {
         <Testimoni />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

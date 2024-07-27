@@ -23,6 +23,7 @@ import ListKabupatenSupercamp from "../../Tab/TabSupercamp/ListKabupatenSupercam
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
 import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankotaSupercamp = () => {
   const { id } = useParams();
@@ -104,6 +105,7 @@ const HalamankotaSupercamp = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

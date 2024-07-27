@@ -19,6 +19,7 @@ import ListKotaLpdp from "../../Components/Tab/TabLpdp/ListKotaLpdp";
 import SuccessLpdp from "./SuccessLpdp/SuccessLpdp";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import PromoLpdp from "./PromoLpdp/PromoLpdp";
+import Liputan from "../../Components/Liputan/Liputan";
 
 const BimbelLpdp = () => {
   return (
@@ -49,6 +50,7 @@ const BimbelLpdp = () => {
         <Faqtni />
         <Asalsekolah />
         <PromoLpdp />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

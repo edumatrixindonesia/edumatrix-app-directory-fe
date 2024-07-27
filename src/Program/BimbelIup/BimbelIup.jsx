@@ -23,6 +23,7 @@ import ListKotaBumn from "../../Components/Tab/TabBumn/ListKotaBumn";
 import SliderIup from "../../Components/SlideTop/SliderIup/SliderIup";
 import ListKotaIup from "../../Components/Tab/TabIup/ListKotaIup";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Components/Liputan/Liputan";
 
 const BimbelIup = () => {
   return (
@@ -51,6 +52,7 @@ const BimbelIup = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

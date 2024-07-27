@@ -15,6 +15,7 @@ import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
 import Faqtni from "../Faq/FaqTni/FaqTni";
+import Liputan from "../Liputan/Liputan";
 
 const HalamanProgramperkota = () => {
   const [kota, setKota] = useState([]);
@@ -112,6 +113,7 @@ const HalamanProgramperkota = () => {
         <Testimoni />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

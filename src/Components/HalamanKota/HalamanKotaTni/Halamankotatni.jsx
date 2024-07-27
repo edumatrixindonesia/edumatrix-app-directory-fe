@@ -22,6 +22,7 @@ import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
 import ProgramUnggulanTni from "../../ProgramUnggulan/ProgramUnggulanTni/ProgramUnggulanTni";
 import GaleriKegiatan from "../../../Program/BimbelTni/GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Liputan/Liputan";
 
 const Halamankotatni = () => {
   const { id } = useParams();
@@ -105,6 +106,7 @@ const Halamankotatni = () => {
         <SuccessTni />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

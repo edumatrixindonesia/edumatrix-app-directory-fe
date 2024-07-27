@@ -19,6 +19,7 @@ import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SliderToefl from "../../Components/SlideTop/SliderToefl/SliderToefl";
 import ListKotaToefl from "../../Components/Tab/TabToefl/ListKotaToefl";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Components/Liputan/Liputan";
 
 const BimbelToefl = () => {
   return (
@@ -48,6 +49,7 @@ const BimbelToefl = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

@@ -19,6 +19,7 @@ import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
 import Faqtni from "../Faq/FaqTni/FaqTni";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
+import Liputan from "../Liputan/Liputan";
 
 const Halamanprogram = () => {
   const { id } = useParams();
@@ -132,6 +133,7 @@ const Halamanprogram = () => {
             alt="Bimbel SIMAK UI Terbaik - Edumatrix Indonesia"
           />
         </div> */}
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />

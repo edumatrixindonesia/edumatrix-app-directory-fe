@@ -24,6 +24,7 @@ import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessLpdp from "../../../Program/BimbelLpdp/SuccessLpdp/SuccessLpdp";
 import GaleriKegiatan from "../../../Program/BimbelLpdp/GaleriKegiatan/GaleriKegiatan";
 import PromoLpdp from "../../../Program/BimbelLpdp/PromoLpdp/PromoLpdp";
+import Liputan from "../../Liputan/Liputan";
 
 const HalamankotaLpdp = () => {
   const { id } = useParams();
@@ -104,6 +105,7 @@ const HalamankotaLpdp = () => {
         <Faqtni />
         <Asalsekolah />
         <PromoLpdp />
+        <Liputan />
       </div>
       <Footer />
       <Bottombar />
