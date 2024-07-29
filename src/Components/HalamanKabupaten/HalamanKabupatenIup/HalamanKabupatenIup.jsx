@@ -19,6 +19,7 @@ import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/Be
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelIup/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
 
 const HalamankabupatenIup = () => {
   const { id } = useParams();
@@ -101,6 +102,7 @@ const HalamankabupatenIup = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <SuccessSnbt />
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />

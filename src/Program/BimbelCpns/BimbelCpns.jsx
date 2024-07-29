@@ -20,6 +20,7 @@ import SliderCpns from "../../Components/SlideTop/SliderCpns/SliderCpns";
 import ListKotaCpns from "../../Components/Tab/TabCpns/ListKotaCpns";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
+import SuccessStory from "../../Components/SuccessStory/SuccessStory";
 
 const BimbelCpns = () => {
   return (
@@ -45,6 +46,7 @@ const BimbelCpns = () => {
         <ListKotaCpns />
         <Keunggulan />
         <Testimoni />
+        <SuccessStory />
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />

@@ -19,6 +19,8 @@ import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/Be
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 
 const HalamankabupatenPrivat = () => {
   const { id } = useParams();
@@ -102,9 +104,11 @@ const HalamankabupatenPrivat = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <SuccessOsn />
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <PromoHomepage />
         <Liputan />
       </div>
       <Footer />

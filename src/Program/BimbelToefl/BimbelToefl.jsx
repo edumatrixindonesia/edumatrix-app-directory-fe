@@ -20,6 +20,7 @@ import SliderToefl from "../../Components/SlideTop/SliderToefl/SliderToefl";
 import ListKotaToefl from "../../Components/Tab/TabToefl/ListKotaToefl";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
+import SuccessStory from "../../Components/SuccessStory/SuccessStory";
 
 const BimbelToefl = () => {
   return (
@@ -46,6 +47,7 @@ const BimbelToefl = () => {
         <ListKotaToefl />
         <Keunggulan />
         <Testimoni />
+        <SuccessStory />
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />

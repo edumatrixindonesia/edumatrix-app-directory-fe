@@ -103,6 +103,7 @@ const Halamankabupaten = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <SuccessStory />
         <Faq />
         <Asalsekolah />
         <PromoHomepage />

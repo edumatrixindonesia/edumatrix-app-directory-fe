@@ -23,6 +23,8 @@ import ListKabupatenPrivat from "../../Tab/TabPrivat/ListKabupatenPrivat";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
+import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 
 const HalamankotaPrivat = () => {
   const { id } = useParams();
@@ -99,9 +101,11 @@ const HalamankotaPrivat = () => {
         <ListKabupatenPrivat />
         <Keunggulan />
         <Testimoni />
+        <SuccessOsn />
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <PromoHomepage />
         <Liputan />
       </div>
       <Footer />

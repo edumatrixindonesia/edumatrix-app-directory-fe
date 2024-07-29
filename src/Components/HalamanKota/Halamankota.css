@@ -71,6 +71,7 @@
     bottom: 28%;
     width: 30% !important;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.212));
+    display: none;
   }
 }
 @media only screen and (max-width: 768px) {

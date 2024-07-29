@@ -17,6 +17,7 @@ import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
+import SuccessStory from "../SuccessStory/SuccessStory";
 
 const Halamanmapel = () => {
   const { id } = useParams();
@@ -99,6 +100,7 @@ const Halamanmapel = () => {
         <ListMapelperkota />
         <Keunggulan />
         <Testimoni />
+        <SuccessStory />
         <Faq />
         <PromoHomepage />
         <Liputan />

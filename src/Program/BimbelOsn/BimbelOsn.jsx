@@ -16,6 +16,7 @@ import ListKotaOsn from "../../Components/Tab/TabOsn/ListKotaOsn";
 import SuccessOsn from "./SuccessOsn/SuccessOsn";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
+import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 
 const BimbelOsn = () => {
   return (
@@ -45,6 +46,7 @@ const BimbelOsn = () => {
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
+        <PromoHomepage />
         <Liputan />
       </div>
       <Footer />

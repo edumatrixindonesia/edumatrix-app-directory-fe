@@ -17,6 +17,7 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import Liputan from "../../Liputan/Liputan";
+import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 
 const HalamanProgramperkotaTni = () => {
   const [kota, setKota] = useState([]);
@@ -113,6 +114,7 @@ const HalamanProgramperkotaTni = () => {
         <Testimoni />
         <Faqtni />
         <Asalsekolah />
+        <PromoHomepage />
         <Liputan />
       </div>
       <Footer />

@@ -10,6 +10,7 @@ import successStory7 from "../../../assets/success_story/tni-polri/Success_Story
 import successStory8 from "../../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Fitrah_Potrait.jpeg";
 import successStory9 from "../../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Hanif_Potrait.jpeg";
 import successStory10 from "../../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Laode_Potrait.jpeg";
+import successStory11 from "../../../assets/success_story/tni-polri/Success_Story_Tni_Polri_izzy_Potrait.jpeg"
 
 const SuccessTni = () => {
   return (
@@ -21,12 +22,13 @@ const SuccessTni = () => {
           <img className="child-success-story" src={successStory2} alt="Success Story Bimbel TNI Polri" />
           <img className="child-success-story" src={successStory3} alt="Success Story Bimbel TNI Polri" />
           <img className="child-success-story" src={successStory4} alt="Success Story Bimbel TNI Polri" />
-          <img className="child-success-story" src={successStory5} alt="Success Story Bimbel TNI Polri" />
+          <img className="child-success-story" src={successStory11} alt="Success Story Bimbel TNI Polri" />
           <img className="child-success-story" src={successStory6} alt="Success Story Bimbel TNI Polri" />
           <img className="child-success-story" src={successStory7} alt="Success Story Bimbel TNI Polri" />
           <img className="child-success-story" src={successStory8} alt="Success Story Bimbel TNI Polri" />
           <img className="child-success-story" src={successStory9} alt="Success Story Bimbel TNI Polri" />
           <img className="child-success-story" src={successStory10} alt="Success Story Bimbel TNI Polri" />
+          <img className="child-success-story" src={successStory5} alt="Success Story Bimbel TNI Polri" />
         </div>
       </div>
     </React.Fragment>

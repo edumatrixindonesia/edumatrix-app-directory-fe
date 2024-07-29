@@ -16,6 +16,8 @@ import Bottombar from "../BottomBar/Bottombar";
 import rumahAdat from "../../assets/rumah_adat.png";
 import Faqtni from "../Faq/FaqTni/FaqTni";
 import Liputan from "../Liputan/Liputan";
+import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
+import SuccessStory from "../SuccessStory/SuccessStory";
 
 const HalamanProgramperkota = () => {
   const [kota, setKota] = useState([]);
@@ -111,8 +113,10 @@ const HalamanProgramperkota = () => {
         <Masterteacher />
         <Keunggulan />
         <Testimoni />
+        <SuccessStory />
         <Faqtni />
         <Asalsekolah />
+        <PromoHomepage />
         <Liputan />
       </div>
       <Footer />

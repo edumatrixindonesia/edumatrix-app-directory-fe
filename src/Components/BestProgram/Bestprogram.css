@@ -69,6 +69,7 @@
     bottom: 20%;
     width: 30% !important;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.212));
+    display: none;
   }
   .title-best-program {
     font-size: 20px;
@@ -83,6 +84,9 @@
   .main-best-program {
     padding: 10px;
     padding-top: 0;
+  }
+  .card-best-program {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 768px) {

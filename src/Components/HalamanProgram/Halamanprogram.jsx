@@ -20,6 +20,7 @@ import rumahAdat from "../../assets/rumah_adat.png";
 import Faqtni from "../Faq/FaqTni/FaqTni";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
+import SuccessStory from "../SuccessStory/SuccessStory";
 
 const Halamanprogram = () => {
   const { id } = useParams();
@@ -123,6 +124,7 @@ const Halamanprogram = () => {
         <Listkelasperkota />
         <Keunggulan />
         <Testimoni />
+        <SuccessStory />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />

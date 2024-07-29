@@ -24,6 +24,8 @@ import SliderIup from "../../Components/SlideTop/SliderIup/SliderIup";
 import ListKotaIup from "../../Components/Tab/TabIup/ListKotaIup";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
+import SuccessStory from "../../Components/SuccessStory/SuccessStory";
+import SuccessSnbt from "../BimbelSnbt/SuccessSnbt/SuccessSnbt";
 
 const BimbelIup = () => {
   return (
@@ -49,6 +51,7 @@ const BimbelIup = () => {
         <ListKotaIup />
         <Keunggulan />
         <Testimoni />
+        <SuccessSnbt />
         <GaleriKegiatan />
         <Faqtni />
         <Asalsekolah />
