@@ -31,7 +31,7 @@ const SliderIup = () => {
   const settings = {
     dots: false,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 3000,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
