@@ -19,6 +19,10 @@ import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import InfoCamp from "../../Components/InfoCamp/InfoCamp";
 import Alumni from "../../Components/Alumni/Alumni";
+import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
+import Video from "../../Components/Video/Video";
+import PaketBelajarSnbt from "../../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import SectionSupercamp from "../BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 
 const BimbelSnbt = () => {
   return (
@@ -39,18 +43,22 @@ const BimbelSnbt = () => {
       <div className="container-all">
         <SliderSnbt />
         <BestprogramSnbt />
-        <Voucer />
-        <Masterteacher />
-        <ListUtbkSnbt />
-        <Keunggulan />
-        <Testimoni />
         <SuccessSnbt />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
         <GaleriKegiatan />
-        <Alumni />
+        <Video />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
         <InfoCamp />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <ListUtbkSnbt />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoHomepage />
       </div>
       <Footer />
       <Bottombar />

@@ -26,6 +26,8 @@ import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import SuccessStory from "../../Components/SuccessStory/SuccessStory";
 import SuccessSnbt from "../BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import Alumni from "../../Components/Alumni/Alumni";
+import InfoCamp from "../../Components/InfoCamp/InfoCamp";
 
 const BimbelIup = () => {
   return (
@@ -53,6 +55,8 @@ const BimbelIup = () => {
         <Testimoni />
         <SuccessSnbt />
         <GaleriKegiatan />
+        <Alumni />
+        <InfoCamp />
         <Faqtni />
         <Asalsekolah />
         <Liputan />

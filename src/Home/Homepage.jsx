@@ -20,6 +20,8 @@ import PromoHomepage from "./PromoHomepage/PromoHomepage";
 import Liputan from "../Components/Liputan/Liputan";
 import InfoCamp from "../Components/InfoCamp/InfoCamp";
 import Alumni from "../Components/Alumni/Alumni";
+import GaleriKegiatan from "../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import Video from "../Components/Video/Video";
 
 const Homepage = () => {
   return (
@@ -42,17 +44,19 @@ const Homepage = () => {
         <Slidertop />
         <BestProgram />
         <SuccessStory />
+        <GaleriKegiatan />
+        <Video />
         <Voucer />
-        <Masterteacher />
-        <Listkota />
-        <Keunggulan />
         <Testimoni />
-        <Alumni />
+        <Keunggulan />
         <InfoCamp />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <Listkota />
         <Faq />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />
