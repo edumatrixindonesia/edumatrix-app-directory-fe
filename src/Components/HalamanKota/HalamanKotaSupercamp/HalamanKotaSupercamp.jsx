@@ -40,7 +40,7 @@ const HalamankotaSupercamp = () => {
   useEffect(() => {
     const getKota = async () => {
       const response = await axiosJWT.get(
-        `https://api.edulink-indonesia.com/kotasnbt/${id}`,
+        `https://api.edulink-indonesia.com/kota/${id}`,
         {
           headers: {
             Authorization: `Bearer`,
@@ -59,7 +59,7 @@ const HalamankotaSupercamp = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Bimbel Supercamp SNBT Persiapan Masuk PTN Terbaik di {`${kotasnbt.kotasnbt}`} #1 -
+          Bimbel Supercamp SNBT Persiapan Masuk PTN Terbaik di {`${kotasnbt.kota}`} #1 -
           Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -69,12 +69,12 @@ const HalamankotaSupercamp = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Supercamp SNBT Persiapan Masuk PTN Terbaik di {kotasnbt.kotasnbt}
+              Bimbel Supercamp SNBT Persiapan Masuk PTN Terbaik di {kotasnbt.kota}
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotasnbt.kotasnbt} untuk UTBK-SNBT,
+                Jasa Les Privat di Kota {kotasnbt.kota} untuk UTBK-SNBT,
                 Kedokteran, UMPTN, UMPTKIN, SIMAK UI dan UTUL UGM
               </p>
               <p className="child-paragraf-kota">

@@ -19,6 +19,7 @@ import SuccessStory from "../Components/SuccessStory/SuccessStory";
 import PromoHomepage from "./PromoHomepage/PromoHomepage";
 import Liputan from "../Components/Liputan/Liputan";
 import InfoCamp from "../Components/InfoCamp/InfoCamp";
+import Alumni from "../Components/Alumni/Alumni";
 
 const Homepage = () => {
   return (
@@ -46,6 +47,7 @@ const Homepage = () => {
         <Listkota />
         <Keunggulan />
         <Testimoni />
+        <Alumni />
         <InfoCamp />
         <Faq />
         <Asalsekolah />

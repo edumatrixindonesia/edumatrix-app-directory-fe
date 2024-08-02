@@ -1,7 +1,8 @@
 .box-infocamp {
-  background-image: url("/src/assets/mt_bg.png");
+  /* background-image: url("/src/assets/mt_bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: white;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -13,6 +14,25 @@
   border-radius: 10px;
 }
 .title-infocamp {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+.child-infocamp {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.img-jadwal-camp {
+  width: 100%;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 320px) and (max-width: 896px) {
+  .child-infocamp {
+    display: block;
+  }
+  .box-infocamp {
+    padding: 10px;
+  }
 }

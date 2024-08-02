@@ -87,6 +87,7 @@
   color: white;
   font-weight: 800;
 }
+
 /* RESPONSIVE */
 @media only screen and (max-width: 500px) {
   .title-tutor {
@@ -105,5 +106,25 @@
   .card-master-teacher {
     height: auto;
     padding-bottom: 20px;
+  }
+}
+
+/* NEW */
+.parent-master-teacher-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 500px) {
+  .img-master-teacher-new  {
+    width: 100%;
   }
 }

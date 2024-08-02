@@ -20,6 +20,8 @@ import SuccessStory from "../../Components/SuccessStory/SuccessStory";
 import SuccessSnbt from "../BimbelSnbt/SuccessSnbt/SuccessSnbt";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
+import Alumni from "../../Components/Alumni/Alumni";
+import InfoCamp from "../../Components/InfoCamp/InfoCamp";
 
 const BimbelSupercamp = () => {
   return (
@@ -48,6 +50,8 @@ const BimbelSupercamp = () => {
         <Testimoni />
         <SuccessSnbt />
         <GaleriKegiatan />
+        <Alumni />
+        <InfoCamp />
         <Faqtni />
         <Asalsekolah />
         <Liputan />

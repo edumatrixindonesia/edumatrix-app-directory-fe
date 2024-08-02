@@ -20,6 +20,8 @@ import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
 import GaleriKegiatan from "../../../Program/BimbelSnbt/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import InfoCamp from "../../InfoCamp/InfoCamp";
+import Alumni from "../../Alumni/Alumni";
 
 const HalamankabupatenSnbt = () => {
   const { id } = useParams();
@@ -103,6 +105,8 @@ const HalamankabupatenSnbt = () => {
         <Testimoni />
         <SuccessSnbt />
         <GaleriKegiatan />
+        <Alumni />
+        <InfoCamp />
         <Faqtni />
         <Asalsekolah />
         <Liputan />

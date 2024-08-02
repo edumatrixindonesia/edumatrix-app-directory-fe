@@ -79,3 +79,43 @@
     width: 50% !important;
   }
 }
+
+
+/* NEW */
+.super-parent-testimoni-new {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  background-image: url("/src/assets/mt_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.parent-testimoni-new {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 20px;
+}
+.img-testimoni-new {
+width: 100%;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 500px) {
+  .parent-testimoni-new {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 820px) {
+  .parent-testimoni-new {
+    display: block;
+  }
+}

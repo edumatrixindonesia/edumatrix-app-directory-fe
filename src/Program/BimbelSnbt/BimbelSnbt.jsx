@@ -17,6 +17,8 @@ import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SuccessSnbt from "./SuccessSnbt/SuccessSnbt";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
+import InfoCamp from "../../Components/InfoCamp/InfoCamp";
+import Alumni from "../../Components/Alumni/Alumni";
 
 const BimbelSnbt = () => {
   return (
@@ -44,6 +46,8 @@ const BimbelSnbt = () => {
         <Testimoni />
         <SuccessSnbt />
         <GaleriKegiatan />
+        <Alumni />
+        <InfoCamp />
         <Faqtni />
         <Asalsekolah />
         <Liputan />
