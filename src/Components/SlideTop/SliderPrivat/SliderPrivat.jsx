@@ -21,7 +21,7 @@ const SliderPrivat = () => {
   };
 
   const fetchsliderHeader_2 = () => {
-    fetch("https://api.edulink-indonesia.com/sliderheaderprivat")
+    fetch("https://api.edulink-indonesia.com/sliderheaderprivat2")
       .then((res) => res.json())
       .then((data) => {
         setSliderHeader_2(data);

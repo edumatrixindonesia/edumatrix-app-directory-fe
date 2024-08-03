@@ -21,7 +21,7 @@ const SliderSupercamp = () => {
   };
 
   const fetchsliderHeader_2 = () => {
-    fetch("https://api.edulink-indonesia.com/sliderheadersupercamp")
+    fetch("https://api.edulink-indonesia.com/sliderheadersupercamp2")
       .then((res) => res.json())
       .then((data) => {
         setSliderHeader_2(data);

@@ -1,4 +1,7 @@
 .tentang-supercamp {
+  background-image: url("/src/assets/wave_program_tni.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: white;
   border-radius: 10px;
   padding: 10px;
@@ -15,4 +18,46 @@
 }
 .paragraf-section-supercamp {
   margin-top: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.tentang-supercamp-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.box-mengapa-karantina {
+  background-image: url("/src/assets/wave_program_tni.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+.list-section-supercamp {
+  display: flex;
+  align-items: baseline;
+  list-style: none;
+  gap: 5px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.icon-section-supercamp {
+  line-height: 30px;
+  color: #054599;
+}
+.title-supercamp-2 {
+  text-align: center;
+}
+.parent-section-supercamp {
+  margin-top: 15px;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 320px) and (max-width: 896px) {
+  .tentang-supercamp-2 {
+    display: grid;
+  }
 }

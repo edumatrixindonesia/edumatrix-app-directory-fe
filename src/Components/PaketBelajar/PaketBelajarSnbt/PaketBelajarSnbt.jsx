@@ -6,6 +6,8 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 const PaketBelajarSnbt = () => {
   return (
     <React.Fragment>
+      <div className="parent-container-paket-snbt">
+      <h1 className="main-title-paket-snbt">PAKET BELAJAR UTBK SNBT</h1>
       <div className="container-paket-snbt">
         <div className="card-paket-snbt">
           <div className="title-paket-snbt">
@@ -16,7 +18,6 @@ const PaketBelajarSnbt = () => {
             </a>
           </div>
           <hr className="garis-pembatas-paket-snbt" />
-          <h4 className="title-paket-snbt">Fitur Program</h4>
           <p className="isi-paket-snbt">
             <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
             Tempat belajar yang nyaman dengan fasilitas lengkap disesuaikan
@@ -107,7 +108,6 @@ const PaketBelajarSnbt = () => {
             </a>
           </div>
           <hr className="garis-pembatas-paket-snbt" />
-          <h4 className="title-paket-snbt">Fitur Program</h4>
           <p className="isi-paket-snbt">
             <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
             Sistem Belajar Privat 1 Guru 1 Siswa
@@ -137,6 +137,7 @@ const PaketBelajarSnbt = () => {
             Drilling soal
           </p>
         </div>
+      </div>
       </div>
     </React.Fragment>
   );
