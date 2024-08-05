@@ -13,6 +13,7 @@ import successStory10 from "../../../assets/success_story/snbt/Lolos_CBT_UGM_Sal
 import successStory11 from "../../../assets/success_story/snbt/Lolos_CBT_UGM_Sheval.jpeg";
 import successStory12 from "../../../assets/success_story/snbt/Success_Story_UM_UNDIP_Charisa.jpeg";
 import successStory13 from "../../../assets/success_story/snbt/Success_Story_UM_UNAIR_Alifia_Potrait.jpeg"
+import successStory14 from "../../../assets/success_story/snbt/Success_Story_UTBK_SNBT_11_PTN_Alvito_Potrait.jpeg"
 
 const SuccessSnbt = () => {
   return (
@@ -20,13 +21,14 @@ const SuccessSnbt = () => {
       <div className="box-success-story-snbt">
         <h1 className="title-success-story-snbt">SUCCESS STORY</h1>
         <div className="parent-success-story-snbt">
-        <img className="child-success-story-snbt" src={successStory9} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory9} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory10} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory11} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory12} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory4} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory5} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory13} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory14} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory1} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory2} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory3} alt="Bimbel SNBT Terbaik" />

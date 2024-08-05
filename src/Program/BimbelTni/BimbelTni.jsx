@@ -19,6 +19,8 @@ import Testimonitni from "../../Components/Testimoni/TestimoniTni/TestimoniTni";
 import MasterteacherTni from "../../Components/MasterTeacher/MasterteacherTni/MasterteacherTni";
 import SuccessTni from "./SuccessTni/SuccessTni";
 import Liputan from "../../Components/Liputan/Liputan";
+import VideoTesti from "./VideoTesti/VideoTesti";
+import Konsultan from "./Konsultan/Konsultan";
 
 const BimbelTni = () => {
   return (
@@ -39,17 +41,19 @@ const BimbelTni = () => {
       <div className="container-all">
         <Slidertni />
         <BestprogramTni />
+        <SuccessTni />
+        <Konsultan />
+        <ProgramUnggulanTni />
+        <GaleriKegiatan />
+        <VideoTesti />
+        <Testimonitni />
+        <Keunggulan />
         <Voucer />
         <MasterteacherTni />
         <div className="parent-roadmap">
           <img className="image-roadmap" src={roadmapTni} alt="roadmap tni" />
         </div>
         <Listkotatni />
-        <Keunggulan />
-        <ProgramUnggulanTni />
-        <GaleriKegiatan />
-        <Testimonitni />
-        <SuccessTni />
         <Faqtni />
         <Liputan />
       </div>

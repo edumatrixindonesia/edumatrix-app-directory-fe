@@ -1,7 +1,9 @@
 import React from "react";
 import "./SectionSupercamp.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import textMengapaKarantina from "../../../assets/icon_supercamp/mengapa_karantina.png"
+import textTargetProgram from "../../../assets/icon_supercamp/target_Program.png"
 
 const SectionSupercamp = () => {
   return (
@@ -22,19 +24,20 @@ const SectionSupercamp = () => {
 
       <div className="tentang-supercamp-2">
         <div className="box-mengapa-karantina">
-          <h3 className="title-supercamp-2">Mengapa Karantina</h3>
+          {/* <h3 className="title-supercamp-2">Mengapa Karantina</h3> */}
+          <img className="img-mengapa-karantina" src={textMengapaKarantina} alt="" />
           <div className="parent-section-supercamp">
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Pendampingan akademik dan non akademik setiap hari (24 jam)
           </li>
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Siswa lebih fokus dalam belajar, terhindar dari gangguan yang tidak
             perlu
@@ -42,28 +45,28 @@ const SectionSupercamp = () => {
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Program belajar sangat terencana dan terukur hasilnya
           </li>
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Metode belajar yang personal, sistematis dan terstruktur
           </li>
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Proses belajar yang efektif, efisien dan tertarget
           </li>
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Penanganan lebih holistik mulai dari pemahaman materi, skill dan
             kemampuan mengerjakan soal, motivasi, dan ibadah/pendekatan diri
@@ -73,12 +76,12 @@ const SectionSupercamp = () => {
         </div>
 
         <div className="box-mengapa-karantina">
-          <h3 className="title-supercamp-2">Target Program</h3>
+        <img className="img-mengapa-karantina" src={textTargetProgram} alt="" />
           <div className="parent-section-supercamp">
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Implementasi efektif model belajar berdasarkan hasil dari mapping
             kebutuhan siswa
@@ -86,7 +89,7 @@ const SectionSupercamp = () => {
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Penguasaan strategi belajar efektif UTBK SNBT/SBMPTN, Simak UI, UTUL
             UGM & UM PTN
@@ -94,7 +97,7 @@ const SectionSupercamp = () => {
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Meningkatkan kemampuan siswa dalam memahami konsep dasar dari setiap
             materi
@@ -102,7 +105,7 @@ const SectionSupercamp = () => {
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Meningkatkan skill dan kemampuan mengerjakan soal secara cepat &
             tepat
@@ -110,14 +113,14 @@ const SectionSupercamp = () => {
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Siswa siap menghadapi SNBT 2025
           </li>
           <li className="list-section-supercamp">
             <FontAwesomeIcon
               className="icon-section-supercamp"
-              icon={faAnglesRight}
+              icon={faCheck}
             />{" "}
             Siswa berhasil lolos SNBT 2025
           </li>

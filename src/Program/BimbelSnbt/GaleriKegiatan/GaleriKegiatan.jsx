@@ -12,6 +12,12 @@ const GaleriKegiatan = () => {
     <React.Fragment>
       <div className="box-kegiatan-belajar-snbt">
         <h1 className="title-kegiatan-belajar-snbt">KEGIATAN BELAJAR</h1>
+
+        <div className="parent-text-belajar-online">
+          <hr className="garis-kegiatan-belajar" />
+          <h3 className="text-belajar-online">Online</h3>
+          <hr className="garis-kegiatan-belajar" />
+        </div>
         <div className="parent-kegiatan-belajar-snbt">
           <img
             className="child-kegiatan-belajar-snbt"
@@ -28,6 +34,14 @@ const GaleriKegiatan = () => {
             src={kegiatanBelajarSnbt3}
             alt="Kegiatan Belajar Bimbel snbt Terbaik"
           />
+        </div>
+
+        <div className="parent-text-belajar-online">
+          <hr className="garis-kegiatan-belajar" />
+          <h3 className="text-belajar-online">Offline</h3>
+          <hr className="garis-kegiatan-belajar" />
+        </div>
+        <div className="parent-kegiatan-belajar-snbt">
           <img
             className="child-kegiatan-belajar-snbt"
             src={kegiatanBelajarSnbt4}

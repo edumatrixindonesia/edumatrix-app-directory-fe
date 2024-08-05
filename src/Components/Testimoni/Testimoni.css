@@ -80,7 +80,6 @@
   }
 }
 
-
 /* NEW */
 .super-parent-testimoni-new {
   text-align: center;
@@ -101,21 +100,23 @@
   margin-top: 20px;
 }
 .img-testimoni-new {
-width: 100%;
+  width: 50%;
 }
 
 /* RESPONSIVE */
 @media only screen and (max-width: 500px) {
   .parent-testimoni-new {
-    display: block;
+    display: grid;
+  }
+  .img-testimoni-new {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-
 }
 @media only screen and (max-width: 820px) {
   .parent-testimoni-new {
-    display: block;
+    display: grid;
   }
 }

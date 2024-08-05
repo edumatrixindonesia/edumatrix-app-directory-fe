@@ -6,6 +6,8 @@ import lokasiCamp from "../../assets/icon_supercamp/location.png";
 import waktuProgram from "../../assets/icon_supercamp/calendar.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import garansiCampWeb from "../../assets/icon_supercamp/garansi.jpg"
+import garansiCampMob from "../../assets/icon_supercamp/garansi_mob.jpg"
 
 const InfoCamp = () => {
   return (
@@ -21,11 +23,11 @@ const InfoCamp = () => {
                 <h4>Lokasi Program</h4>
               </button>
               <li className="list-lokasi-camp">
-                <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
                 Jabodetabek dilaksanakan di Evencioo Apartment
               </li>
               <li className="list-lokasi-camp">
-                <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
                 Yogyakarta dilaksanakan di Wisma MM UGM
               </li>
             </div>
@@ -39,19 +41,27 @@ const InfoCamp = () => {
                 <h4>Waktu Program</h4>
               </button>
               <li className="list-waktu-camp">
-                <FontAwesomeIcon icon={faCheck} />
+                <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
                 Program INTENSIF dapat dimulai SEKARANG
               </li>
               <li className="list-waktu-camp">
-                <FontAwesomeIcon icon={faCheck} />
-                Gelombang 1 - Supercamp 2025 pada bulan April
+                <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
+                Supercamp UTBK SNBT dilaksanakan selama 1 Bulan
               </li>
-              <li className="list-waktu-camp">
-                <FontAwesomeIcon icon={faCheck} />
+              {/* <li className="list-waktu-camp">
+                <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
                 Gelombang 2 - Supercamp 2025 pada bulan Mei
-              </li>
+              </li> */}
             </div>
           </div>
+        </div>
+
+        <div className="parent-garansi-camp-web">
+          <img className="img-garansi-camp-web" src={garansiCampWeb} alt="" />
+        </div>
+
+        <div className="parent-garansi-camp-mob">
+          <img className="img-garansi-camp-mob" src={garansiCampMob} alt="" />
         </div>
 
         <div className="box-infocamp">

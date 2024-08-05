@@ -5,6 +5,7 @@ const Video = () => {
   return (
     <div class="video-container">
       <iframe
+        className="video-supercamp"
         width="1200"
         height="675"
         src="https://www.youtube.com/embed/oQ1OhyfSEgU"

@@ -25,6 +25,10 @@ import GaleriKegiatan from "../../../Program/BimbelSnbt/GaleriKegiatan/GaleriKeg
 import Liputan from "../../Liputan/Liputan";
 import InfoCamp from "../../InfoCamp/InfoCamp";
 import Alumni from "../../Alumni/Alumni";
+import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import Video from "../../Video/Video";
+import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 
 const HalamankotaSnbt = () => {
   const { id } = useParams();
@@ -98,17 +102,21 @@ const HalamankotaSnbt = () => {
         </div>
         <BestprogramSnbt2 />
         <Voucer />
-        <Masterteacher />
-        <ListKabupatenSnbt />
-        <Keunggulan />
-        <Testimoni />
         <SuccessSnbt />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
         <GaleriKegiatan />
-        <Alumni />
+        <Video />
+        <Testimoni />
+        <Keunggulan />
         <InfoCamp />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <ListKabupatenSnbt />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoHomepage />
       </div>
       <Footer />
       <Bottombar />

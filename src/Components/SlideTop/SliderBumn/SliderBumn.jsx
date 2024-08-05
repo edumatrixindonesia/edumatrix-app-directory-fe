@@ -21,7 +21,7 @@ const SliderBumn = () => {
   };
 
   const fetchsliderHeader_2 = () => {
-    fetch("https://api.edulink-indonesia.com/sliderheaderbumn")
+    fetch("https://api.edulink-indonesia.com/sliderheaderbumn2")
       .then((res) => res.json())
       .then((data) => {
         setSliderHeader_2(data);
