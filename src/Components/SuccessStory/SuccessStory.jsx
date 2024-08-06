@@ -15,6 +15,7 @@ import successStorySnbt11 from "../../assets/success_story/snbt/Lolos_CBT_UGM_Sh
 import successStorySnbt12 from "../../assets/success_story/snbt/Success_Story_UM_UNDIP_Charisa.jpeg";
 import successStorySnbt13 from "../../assets/success_story/snbt/Success_Story_UM_UNAIR_Alifia_Potrait.jpeg";
 import successStorySnbt14 from "../../assets/success_story/snbt/Success_Story_UTBK_SNBT_11_PTN_Alvito_Potrait.jpeg";
+import successStorySnbt15 from "../../assets/success_story/snbt/Success_Story_UTBK_SNBT_UNAIR_UNY_Ibrahim_Potrait.jpeg";
 // TNI POLRI
 import successStoryTni1 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Alfaza_Potrait.jpeg";
 import successStoryTni2 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Halim_Potrait.jpeg";
@@ -79,6 +80,12 @@ const SuccessStory = () => {
             <img
               className="child-success-story-all"
               src={successStorySnbt14}
+              alt="Les Privat UTBK SNBT"
+            />
+
+            <img
+              className="child-success-story-all"
+              src={successStorySnbt15}
               alt="Les Privat UTBK SNBT"
             />
 

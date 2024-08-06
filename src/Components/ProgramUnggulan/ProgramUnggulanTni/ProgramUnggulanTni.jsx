@@ -7,20 +7,20 @@ const ProgramUnggulanTni = () => {
   return (
     <React.Fragment>
       <div className="superparent-program-unggulan-tni">
-        <h1 className="main-text-bimbel-tni-polri">PROGRAM BIMBEL <br /> TNI - POLRI & SEKOLAH KEDINASAN</h1>
+        <h1 className="main-text-bimbel-tni-polri">PILIHAN PAKET UNGGULAN<br /> TNI - POLRI & SEKOLAH KEDINASAN</h1>
         <div className="container-program-unggulan-tni">
           <div className="card-program-unggulan">
             <div className="title-program">
-              <h3>PROGRAM REGULAR</h3>
+              <h3>PAKET AKURASI</h3>
               <h4>Sukses Lolos TNI - Polri & Sekolah Kedinasan</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                 <button className="btn-program-unggulan-tni">
-                  PILIH PROGRAM
+                  PILIH PAKET
                 </button>
               </a>
             </div>
             <hr className="garis-pembatas" />
-            <h4 className="title-fitur">Fitur Program</h4>
+            <h4 className="title-fitur">Fitur Paket</h4>
             <p className="isi-fitur-program">
               <FontAwesomeIcon className="icon-program-tni" icon={faCheck} />{" "}
               Sistem Belajar Privat dan Group
@@ -100,16 +100,16 @@ const ProgramUnggulanTni = () => {
           </div>
           <div className="card-program-unggulan">
             <div className="title-program">
-              <h3>PROGRAM EXCLUSIVE TRAINING CAMP</h3>
+              <h3>PAKET KOMANDO TRAINING CAMP</h3>
               <h4>Sukses Lolos TNI - Polri & Sekolah Kedinasan</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                 <button className="btn-program-unggulan-tni">
-                  PILIH PROGRAM
+                  PILIH PAKET
                 </button>
               </a>
             </div>
             <hr className="garis-pembatas" />
-            <h4 className="title-fitur">Fitur Program</h4>
+            <h4 className="title-fitur">Fitur Paket</h4>
             <p className="isi-fitur-program">
               <FontAwesomeIcon className="icon-program-tni" icon={faCheck} />{" "}
               CAMP Selama 4 Minggu
@@ -189,16 +189,16 @@ const ProgramUnggulanTni = () => {
           </div>
           <div className="card-program-unggulan">
             <div className="title-program">
-              <h3>PROGRAM INTENSIVE</h3>
+              <h3>PAKET PRESISI</h3>
               <h4>Sukses Lolos TNI - Polri & Sekolah Kedinasan</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                 <button className="btn-program-unggulan-tni">
-                  PILIH PROGRAM
+                  PILIH PAKET
                 </button>
               </a>
             </div>
             <hr className="garis-pembatas" />
-            <h4 className="title-fitur">Fitur Program</h4>
+            <h4 className="title-fitur">Fitur Paket</h4>
             <p className="isi-fitur-program">
               <FontAwesomeIcon className="icon-program-tni" icon={faCheck} />{" "}
               Sistem belajar Privat dan Group

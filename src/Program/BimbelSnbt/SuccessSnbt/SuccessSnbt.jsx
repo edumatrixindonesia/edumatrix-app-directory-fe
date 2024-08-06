@@ -14,6 +14,7 @@ import successStory11 from "../../../assets/success_story/snbt/Lolos_CBT_UGM_She
 import successStory12 from "../../../assets/success_story/snbt/Success_Story_UM_UNDIP_Charisa.jpeg";
 import successStory13 from "../../../assets/success_story/snbt/Success_Story_UM_UNAIR_Alifia_Potrait.jpeg"
 import successStory14 from "../../../assets/success_story/snbt/Success_Story_UTBK_SNBT_11_PTN_Alvito_Potrait.jpeg"
+import successStory15 from "../../../assets/success_story/snbt/Success_Story_UTBK_SNBT_UNAIR_UNY_Ibrahim_Potrait.jpeg"
 
 const SuccessSnbt = () => {
   return (
@@ -29,6 +30,7 @@ const SuccessSnbt = () => {
           <img className="child-success-story-snbt" src={successStory5} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory13} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory14} alt="Bimbel SNBT Terbaik" />
+          <img className="child-success-story-snbt" src={successStory15} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory1} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory2} alt="Bimbel SNBT Terbaik" />
           <img className="child-success-story-snbt" src={successStory3} alt="Bimbel SNBT Terbaik" />

@@ -21,6 +21,8 @@ import SuccessTni from "./SuccessTni/SuccessTni";
 import Liputan from "../../Components/Liputan/Liputan";
 import VideoTesti from "./VideoTesti/VideoTesti";
 import Konsultan from "./Konsultan/Konsultan";
+import MateriTni from "./MateriTni/MateriTni";
+import PromoTni from "./PromoTni/PromoTni";
 
 const BimbelTni = () => {
   return (
@@ -43,18 +45,21 @@ const BimbelTni = () => {
         <BestprogramTni />
         <SuccessTni />
         <Konsultan />
+        <MateriTni />
+        <div className="parent-roadmap">
+          {/* <img className="image-roadmap" src={roadmapTni} alt="roadmap tni" /> */}
+          <img className="image-roadmap" src="https://lesprivatkerumah.com/wp-content/uploads/2023/12/new-program-1200x532.jpeg" alt="" />
+        </div>
         <ProgramUnggulanTni />
         <GaleriKegiatan />
-        <VideoTesti />
         <Testimonitni />
         <Keunggulan />
         <Voucer />
         <MasterteacherTni />
-        <div className="parent-roadmap">
-          <img className="image-roadmap" src={roadmapTni} alt="roadmap tni" />
-        </div>
         <Listkotatni />
+        <VideoTesti />
         <Faqtni />
+        <PromoTni />
         <Liputan />
       </div>
       <Footer />

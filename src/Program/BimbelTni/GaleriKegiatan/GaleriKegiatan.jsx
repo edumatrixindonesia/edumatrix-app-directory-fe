@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./GaleriKegiatan.css";
-import kegiatanBelajarTni1 from "../../../assets/kegiatan_belajar/tni_polri/tni_polri_1.png";
-import kegiatanBelajarTni2 from "../../../assets/kegiatan_belajar/tni_polri/tni_polri_2.png";
-import kegiatanBelajarTni3 from "../../../assets/kegiatan_belajar/tni_polri/tni_polri_3.png";
-import kegiatanBelajarTni4 from "../../../assets/kegiatan_belajar/tni_polri/tni_polri_4.png";
 
 const GaleriKegiatan = () => {
   const [galeriKegiatan, setGaleriKegiatan] = useState([]);
@@ -33,32 +29,26 @@ const GaleriKegiatan = () => {
               alt="Galeri Kegiatan Bimbel TNI  Polri"
             />
           ))}
-          <img
-            className="kegiatan-img"
-            src={kegiatanBelajarTni1}
-            alt="Galeri Kegiatan Bimbel TNI  Polri"
-          />
-          <img
-            className="kegiatan-img"
-            src={kegiatanBelajarTni2}
-            alt="Galeri Kegiatan Bimbel TNI  Polri"
-          />
-          <img
-            className="kegiatan-img"
-            src={kegiatanBelajarTni3}
-            alt="Galeri Kegiatan Bimbel TNI  Polri"
-          />
-          <img
-            className="kegiatan-img"
-            src={kegiatanBelajarTni4}
-            alt="Galeri Kegiatan Bimbel TNI  Polri"
-          />
         </div>
         <div className="parent-video">
           <embed
             className="video-kegiatan"
             src="https://www.youtube.com/embed/g6jSRjry8mM"
           ></embed>
+
+          <div class="video-container">
+            <iframe
+            className="video-tni-polri"
+              width="1236"
+              height="695"
+              src="https://www.youtube.com/embed/XKtZARuCTH0"
+              title="EKSKLUSIF!!! Training Camp Persiapan masuk TNI-POLRI dan Sekolah Kedinasan 2024"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </React.Fragment>

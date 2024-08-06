@@ -23,6 +23,12 @@ import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
 import ProgramUnggulanTni from "../../ProgramUnggulan/ProgramUnggulanTni/ProgramUnggulanTni";
 import GaleriKegiatan from "../../../Program/BimbelTni/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import PromoTni from "../../../Program/BimbelTni/PromoTni/PromoTni";
+import VideoTesti from "../../../Program/BimbelTni/VideoTesti/VideoTesti";
+import MasterteacherTni from "../../MasterTeacher/MasterteacherTni/MasterteacherTni";
+import Konsultan from "../../../Program/BimbelTni/Konsultan/Konsultan";
+import MateriTni from "../../../Program/BimbelTni/MateriTni/MateriTni";
+import Testimonitni from "../../Testimoni/TestimoniTni/TestimoniTni";
 
 const Halamankotatni = () => {
   const { id } = useParams();
@@ -96,16 +102,23 @@ const Halamankotatni = () => {
           </a>
         </div>
         <BestprogramTni2 />
-        <Voucer />
-        <Masterteacher />
-        <Listkotatni />
-        <Keunggulan />
+        <SuccessTni />
+        <Konsultan />
+        <MateriTni />
+        <div className="parent-roadmap">
+          {/* <img className="image-roadmap" src={roadmapTni} alt="roadmap tni" /> */}
+          <img className="image-roadmap" src="https://lesprivatkerumah.com/wp-content/uploads/2023/12/new-program-1200x532.jpeg" alt="" />
+        </div>
         <ProgramUnggulanTni />
         <GaleriKegiatan />
-        <Testimoni />
-        <SuccessTni />
+        <Testimonitni />
+        <Keunggulan />
+        <Voucer />
+        <MasterteacherTni />
+        <Listkotatni />
+        <VideoTesti />
         <Faqtni />
-        <Asalsekolah />
+        <PromoTni />
         <Liputan />
       </div>
       <Footer />
