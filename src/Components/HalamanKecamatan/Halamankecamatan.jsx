@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import "./Halamankabupaten.css";
+// import "./Halamankabupaten.css";
 import Bestprogram2 from "../BestProgram/BestProgram2/Bestprogram2";
 import Voucer from "../Voucer/Voucer";
 import { useLocation, useParams } from "react-router-dom";
@@ -19,11 +19,11 @@ import Bottombar from "../BottomBar/Bottombar";
 import SuccessStory from "../SuccessStory/SuccessStory";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
-import ListKecamatan from "../Tab/ListKecamatan";
+import ListKelurahan from "../Tab/ListKelurahan";
 
-const Halamankabupaten = () => {
+const Halamankecamatan = () => {
   const { id } = useParams();
-  const [kabupaten, setKabupaten] = useState([]);
+  const [kecamatan, setKecamatan] = useState([]);
 
   function useQuery() {
     const { search } = useLocation();
@@ -34,19 +34,19 @@ const Halamankabupaten = () => {
   const axiosJWT = axios.create();
 
   useEffect(() => {
-    const getKabupaten = async () => {
+    const getKecamatan = async () => {
       const response = await axiosJWT.get(
-        `https://api.edulink-indonesia.com/ibukotakabupaten/${id}`,
+        `https://api.edulink-indonesia.com/kecamatankab/${id}`,
         {
           headers: {
             Authorization: `Bearer`,
           },
         }
       );
-      setKabupaten(response.data);
+      setKecamatan(response.data);
     };
-    getKabupaten(id);
-    console.log(kabupaten);
+    console.log(getKecamatan);
+    getKecamatan(id);
   }, [id, query]);
 
   return (
@@ -58,8 +58,8 @@ const Halamankabupaten = () => {
           content="Jasa Les Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
         />
         <title>
-          Les Privat di {`${kabupaten.kota_kabupaten}`} - Bimbel di{" "}
-          {`${kabupaten.kota_kabupaten}`} Terbaik #1 - Edumatrix Indonesia
+          Les Privat di {`${kecamatan.kecamatan}`} - Bimbel di{" "}
+          {`${kecamatan.kecamatan}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -68,11 +68,11 @@ const Halamankabupaten = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Les Privat Terbaik di {kabupaten.kota_kabupaten}
+              Les Privat Terbaik di Kecamatan {kecamatan.kecamatan}
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di {kabupaten.kota_kabupaten} untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS,
+                Jasa Les Privat di Kecamatan {kecamatan.kecamatan} untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS,
                 LPDP, PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa
                 dan Karyawan.{" "}
               </p>
@@ -84,7 +84,11 @@ const Halamankabupaten = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel TK-SD-SMP-SMA" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel TK-SD-SMP-SMA"
+            />
           </a>
 
           <a
@@ -105,7 +109,7 @@ const Halamankabupaten = () => {
         <Keunggulan />
         <Testimoni />
         <Faq />
-        <ListKecamatan />
+        <ListKelurahan />
         <Asalsekolah />
         <PromoHomepage />
         <Liputan />
@@ -117,4 +121,4 @@ const Halamankabupaten = () => {
   );
 };
 
-export default Halamankabupaten;
+export default Halamankecamatan;

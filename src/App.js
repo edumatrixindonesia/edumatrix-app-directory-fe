@@ -46,6 +46,8 @@ import HalamankabupatenOsn from "./Components/HalamanKabupaten/HalamanKabupatenO
 import BimbelToefl from "./Program/BimbelToefl/BimbelToefl";
 import HalamankotaToefl from "./Components/HalamanKota/HalamanKotaToefl/HalamanKotaToefl";
 import HalamankabupatenToefl from "./Components/HalamanKabupaten/HalamanKabupatenToefl/HalamanKabupatenToefl";
+import Halamankecamatan from "./Components/HalamanKecamatan/Halamankecamatan";
+import Halamankelurahan from "./Components/HalamanKabupaten/HalamanKelurahan/Halamankelurahan";
 
 function App() {
   return (
@@ -56,6 +58,10 @@ function App() {
         <Route exact path="/les-privat-di-kota/:id" element={<Halamankota />}></Route>
         {/* Go to Kabupaten By ID */}
         <Route exact path="/les-privat-di/:id" element={<Halamankabupaten />}></Route>
+        {/* Go to Kecamatan By ID */}
+        <Route exact path="/les-privat-di/kecamatan/:id" element={<Halamankecamatan />}></Route>
+        {/* Go to Kelurahan By ID */}
+        <Route exact path="/les-privat-di/kelurahan/:id" element={<Halamankelurahan />}></Route>
         {/* Go to program By ID */}
         <Route exact path="/les-privat/program/:id" element={<Halamanprogram />}></Route>
         {/* Go to program per Kota By ID */}
