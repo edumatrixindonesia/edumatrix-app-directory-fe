@@ -21,7 +21,7 @@ const ListKelurahan = () => {
 
   const fetchKelurahan = () => {
     fetch(`https://api.edulink-indonesia.com/kelurahan/${id}`)
-      .then((res) => res.json())
+    .then((res) => res.json())
       .then((data) => {
         setKelurahan(data);
       });
