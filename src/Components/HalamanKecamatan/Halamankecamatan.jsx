@@ -55,10 +55,10 @@ const Halamankecamatan = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Jasa Les Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          content="Jasa Les Privat TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
         />
         <title>
-          Les Privat di {`${kecamatan.kecamatan}`} - Bimbel di{" "}
+          Les Privat di {`${kecamatan.kecamatan}`} - TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM - Bimbel di{" "}
           {`${kecamatan.kecamatan}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -68,11 +68,11 @@ const Halamankecamatan = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Les Privat Terbaik di Kecamatan {kecamatan.kecamatan}
+              Les Privat Terbaik di {kecamatan.kecamatan}
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kecamatan {kecamatan.kecamatan} untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS,
+                Jasa Les Privat di {kecamatan.kecamatan} untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS,
                 LPDP, PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa
                 dan Karyawan.{" "}
               </p>

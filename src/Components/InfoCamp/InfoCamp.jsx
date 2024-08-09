@@ -24,11 +24,15 @@ const InfoCamp = () => {
               </button>
               <li className="list-lokasi-camp">
                 <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
-                Jabodetabek dilaksanakan di Evencioo Apartment
+                Depok, Dave Apartment (dekat Universitas Indonesia)
               </li>
               <li className="list-lokasi-camp">
                 <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
-                Yogyakarta dilaksanakan di Wisma MM UGM
+                Yogyakarta 1, Hotel Wisma MM UGM
+              </li>
+              <li className="list-lokasi-camp">
+                <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
+                Yogyakarta 2, Taman Melati Apartment (dekat Universitas Gadjah Mada)
               </li>
             </div>
           </div>

@@ -79,6 +79,10 @@ a {
   margin-top: 5px;
 }
 
+.bawah-menu-list-hot-program li {
+  margin-top: 5px;
+}
+
 .bawah-call-to-action-description {
   color: rgb(255, 255, 255);
   margin-top: 10px;
@@ -133,8 +137,14 @@ a {
 }
 .link-footer {
   color: white !important;
-  font-weight: 300;
 }
+.link-footer-hot-program {
+  color: white !important;
+  background-color: #00357a;
+  padding: 7px;
+  border-radius: 50px;
+}
+
 .hot-program-footer {
   background-color: #f52f63;
   padding: 3px;

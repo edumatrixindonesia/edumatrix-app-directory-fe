@@ -84,7 +84,14 @@ const Navbar = () => {
             <span className="line line2" />
             <span className="line line3" />
           </div>
-          {/* <FontAwesomeIcon icon={faBars} /> */}
+         
+          <img
+            onClick={() => goToHome()}
+            alt="Logo Edumatrix Indonesia"
+            className="logo-edumatrix"
+            src="https://edumatrix-education.vercel.app/static/media/logo_edm.d190f8a81fb23ea9ea9b.png"
+          />
+
           <ul className="menu-items">
             <li>
               <a onClick={() => goToHome()} className="menu-nav">
@@ -196,12 +203,12 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <img
+          {/* <img
             onClick={() => goToHome()}
             alt="Logo Edumatrix Indonesia"
             className="logo"
             src="https://edumatrix-education.vercel.app/static/media/logo_edm.d190f8a81fb23ea9ea9b.png"
-          />
+          /> */}
         </div>
       </nav>
     </React.Fragment>

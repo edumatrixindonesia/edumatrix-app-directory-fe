@@ -108,13 +108,14 @@ const Footer = () => {
               </ul>
             </div>
             <div className="bawah-menu">
-              <h2 className="bawah-menu-name">Hot Program 🔥</h2>
+              <h2 className="bawah-menu-name">Hot Program</h2>
               <ul id="menu-legal" className="bawah-menu-list">
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                  <a className="link-footer">Bimbel UTBK SNBT</a>
+                <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+                  <a className="link-footer-hot-program">Bimbel UTBK SNBT🔥</a>
                 </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a className="link-footer">Bimbel TNI - POLRI</a>
+                <br />
+                <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page">
+                  <a className="link-footer-hot-program">Bimbel TNI - POLRI🔥</a>
                 </li>
               </ul>
             </div>

@@ -28,6 +28,7 @@ import successStoryTni8 from "../../assets/success_story/tni-polri/Success_Story
 import successStoryTni9 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Hanif_Potrait.jpeg";
 import successStoryTni10 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_Laode_Potrait.jpeg";
 import successStoryTni11 from "../../assets/success_story/tni-polri/Success_Story_Tni_Polri_izzy_Potrait.jpeg";
+import successStoryTni12 from "../../assets/success_story/tni-polri/Success_Story_AKADEMI_TNI_Potrait.jpeg";
 // OSN
 import successStoryOsn1 from "../../assets/success_story/osn/Success_Story_OSN_Asytar.jpeg";
 import successStoryOsn2 from "../../assets/success_story/osn/Success_Story_OSN_Hanan.jpeg";
@@ -164,6 +165,11 @@ const SuccessStory = () => {
             <img
               className="child-success-story-all"
               src={successStoryTni11}
+              alt="Bimbel Sekolah Kedinasan"
+            />
+            <img
+              className="child-success-story-all"
+              src={successStoryTni12}
               alt="Bimbel Sekolah Kedinasan"
             />
             <img

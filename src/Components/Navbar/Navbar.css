@@ -100,7 +100,7 @@ body {
   /* transition: color 0.3s ease-in-out; */
 }
 
-.logo {
+.logo-edumatrix {
   width: 13%;
   cursor: pointer;
 }
@@ -220,7 +220,7 @@ body {
   }
 
   .navbar .menu-items {
-    padding-top: 70px;
+    padding-top: 30px;
     background: #054599;
     height: 100vh;
     max-width: 500px;
@@ -240,8 +240,9 @@ body {
     font-weight: 500;
   }
 
-  .logo {
-    width: 100% !important;
+  .logo-edumatrix {
+    /* width: 35% !important;
+    margin-left: 80%; */
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -268,8 +269,9 @@ body {
   .icon-navbar {
     display: contents;
   }
-  .logo {
-    display: contents;
+  .logo-edumatrix {
+    width: 64%;
+    margin-left: 50%;
   }
   .dropdown {
     position: absolute;
