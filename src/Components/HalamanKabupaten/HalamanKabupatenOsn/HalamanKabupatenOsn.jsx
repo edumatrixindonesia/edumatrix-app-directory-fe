@@ -21,6 +21,7 @@ import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 import GaleriKegiatan from "../../../Program/BimbelOsn/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import BestProgramOsn2 from "../../BestProgram/BestProgram2/BestProgramOsn2/BestProgramOsn2";
 
 const HalamankabupatenOsn = () => {
   const { id } = useParams();
@@ -99,7 +100,7 @@ const HalamankabupatenOsn = () => {
             />
           </a>
         </div>
-        <BestprogramSnbt2 />
+        <BestProgramOsn2 />
         <Voucer />
         <Masterteacher />
         <Keunggulan />

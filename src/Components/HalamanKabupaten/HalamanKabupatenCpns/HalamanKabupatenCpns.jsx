@@ -19,6 +19,12 @@ import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/Be
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelCpns/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import BestprogramTni2 from "../../BestProgram/BestProgram2/BestProgramTni2/BestProgramTni2";
+import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
+import BestProgramCpns2 from "../../BestProgram/BestProgram2/BestProgramCpns2/BestProgramCpns2";
+import PromoCpns from "../../../Program/BimbelCpns/PromoCpns/PromoCpns";
+import MateriCpns from "../../../Program/BimbelCpns/MateriCpns/MateriCpns";
+import PaketBelajarCpns from "../../PaketBelajar/PaketBelajarCpns/PaketBelajarCpns";
 
 const HalamankabupatenCpns = () => {
   const { id } = useParams();
@@ -96,15 +102,18 @@ const HalamankabupatenCpns = () => {
             />
           </a>
         </div>
-        <BestprogramSnbt2 />
-        <Voucer />
-        <Masterteacher />
-        <Keunggulan />
-        <Testimoni />
+        <BestProgramCpns2 />
+        <SuccessTni />
+        <PaketBelajarCpns />
+        <MateriCpns />
         <GaleriKegiatan />
+        <Voucer />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoCpns />
       </div>
       <Footer />
       <Bottombar />

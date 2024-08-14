@@ -21,7 +21,7 @@ const Slidertni = () => {
   };
 
   const fetchsliderHeader_2 = () => {
-    fetch("https://api.edulink-indonesia.com/sliderheadertni")
+    fetch("https://api.edulink-indonesia.com/sliderheadertni2")
       .then((res) => res.json())
       .then((data) => {
         setSliderHeader_2(data);

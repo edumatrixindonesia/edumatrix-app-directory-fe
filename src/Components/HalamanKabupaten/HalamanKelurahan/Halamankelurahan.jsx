@@ -18,14 +18,16 @@ import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 import Navbar from "../../Navbar/Navbar";
+import Alumni from "../../Alumni/Alumni";
+import Video from "../../Video/Video";
+import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
 
 const Halamankelurahan = () => {
     const { id } = useParams();
     const [kelurahan, setKelurahan] = useState([]);
-  
-
-    console.log("kel",id);
     
     function useQuery() {
       const { search } = useLocation();
@@ -106,14 +108,19 @@ const Halamankelurahan = () => {
         </div>
         <Bestprogram2 />
         <SuccessStory />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
+        <GaleriKegiatan />
+        <Video />
         <Voucer />
-        <Masterteacher />
-        <Keunggulan />
         <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
         <Faq />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

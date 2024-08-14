@@ -26,6 +26,7 @@ import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 import GaleriKegiatan from "../../../Program/BimbelOsn/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import BestProgramOsn2 from "../../BestProgram/BestProgram2/BestProgramOsn2/BestProgramOsn2";
 
 const HalamankotaOsn = () => {
   const { id } = useParams();
@@ -96,7 +97,7 @@ const HalamankotaOsn = () => {
             <img className="model-program-kota" src={tanyaProgram} alt="Bimbel OSN SD SMP SMA Terbaik - Edumatrix Indonesia" />
           </a>
         </div>
-        <BestprogramSnbt2 />
+        <BestProgramOsn2 />
         <Voucer />
         <Masterteacher />
         <ListKabupatenOsn />

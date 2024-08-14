@@ -20,6 +20,10 @@ import SuccessLpdp from "./SuccessLpdp/SuccessLpdp";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import PromoLpdp from "./PromoLpdp/PromoLpdp";
 import Liputan from "../../Components/Liputan/Liputan";
+import Alumni from "../../Components/Alumni/Alumni";
+import BestProgramLpdp from "../../Components/BestProgram/BestProgramLpdp/BestProgramLpdp";
+import PaketBelajarLpdp from "../../Components/PaketBelajar/PaketBelajarLpdp/PaketBelajarLpdp";
+import MateriLpdp from "./MateriLpdp/MateriLpdp";
 
 const BimbelLpdp = () => {
   return (
@@ -32,25 +36,29 @@ const BimbelLpdp = () => {
           Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik #1 - Edumatrix Indonesia
+          Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik #1 - Edumatrix
+          Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
       <Navbar />
       <div className="container-all">
         <SliderLpdp />
-        <BestprogramSnbt />
-        <Voucer />
-        <Masterteacher />
-        <ListKotaLpdp />
-        <Keunggulan />
-        <Testimoni />
+        <BestProgramLpdp />
         <SuccessLpdp />
+        <PaketBelajarLpdp />
+        <MateriLpdp />
         <GaleriKegiatan />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <ListKotaLpdp />
         <Faqtni />
         <Asalsekolah />
         <PromoLpdp />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

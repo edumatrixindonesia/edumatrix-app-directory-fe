@@ -1,3 +1,17 @@
+/* NEW */
+.box-flex-best-program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #054599;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* OLD */
 .box-best-program-2 {
   display: flex;
   justify-content: center;
@@ -16,7 +30,7 @@
   padding-top: 0;
 }
 .best-program-img-2 {
-  width: 100%;
+  width: 15%;
   border-radius: 3px;
 }
 .model-tanya-program-2 {
@@ -26,8 +40,9 @@
   width: 50%;
   font-weight: 800;
   color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  padding-top: 10px;
+
 }
 .hot-program-2 {
   display: flex;
@@ -35,8 +50,8 @@
   align-items: center;
   gap: 5px;
   position: relative;
-  top: 30px;
-  margin-left: -10px;
+  top: 50px;
+  margin-left: 1px;
   z-index: 999;
   font-size: 15px;
   margin-top: -30px;
@@ -74,7 +89,12 @@
     flex-wrap: wrap;
   }
   .best-program-img-2 {
-    border-radius: 2px;
+    border-radius: 2px !important;
+    width: 48%;
+  }
+  .box-flex-best-program {
+    gap: 10px;
+    padding-bottom: 0;
   }
 }
 @media only screen and (max-width: 768px) {

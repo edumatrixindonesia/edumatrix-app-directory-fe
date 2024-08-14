@@ -22,6 +22,8 @@ import InfoCamp from "../Components/InfoCamp/InfoCamp";
 import Alumni from "../Components/Alumni/Alumni";
 import GaleriKegiatan from "../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
 import Video from "../Components/Video/Video";
+import SectionSupercamp from "../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import PaketBelajarSnbt from "../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
 const Homepage = () => {
   return (
@@ -44,6 +46,8 @@ const Homepage = () => {
         <Slidertop />
         <BestProgram />
         <SuccessStory />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
         <GaleriKegiatan />
         <Video />
         <Voucer />

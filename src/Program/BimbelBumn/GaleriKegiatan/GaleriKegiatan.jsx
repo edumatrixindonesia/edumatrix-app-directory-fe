@@ -1,6 +1,6 @@
 import React from "react";
-import kegiatanBelajarBumn1 from "../../../assets/kegiatan_belajar/bumn/bumn_1.jpg"
-import "./GaleriKegiatan.css"
+// import kegiatanBelajarBumn1 from "../../../assets/kegiatan_belajar/bumn/bumn_1.jpg"
+import "./GaleriKegiatan.css";
 
 const GaleriKegiatan = () => {
   return (
@@ -10,7 +10,22 @@ const GaleriKegiatan = () => {
         <div className="parent-kegiatan-belajar-bumn">
           <img
             className="child-kegiatan-belajar-bumn"
-            src={kegiatanBelajarBumn1}
+            src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/belajar3-600x695.jpeg"
+            alt="Kegiatan Belajar Bimbel bumn Terbaik"
+          />
+          <img
+            className="child-kegiatan-belajar-bumn"
+            src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/belajar4-600x695.jpeg"
+            alt="Kegiatan Belajar Bimbel bumn Terbaik"
+          />
+          <img
+            className="child-kegiatan-belajar-bumn"
+            src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/belajar1-600x337.png"
+            alt="Kegiatan Belajar Bimbel bumn Terbaik"
+          />
+          <img
+            className="child-kegiatan-belajar-bumn"
+            src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/belajar2-600x337.png"
             alt="Kegiatan Belajar Bimbel bumn Terbaik"
           />
         </div>

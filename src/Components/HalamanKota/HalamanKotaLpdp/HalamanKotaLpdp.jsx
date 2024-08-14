@@ -25,6 +25,7 @@ import SuccessLpdp from "../../../Program/BimbelLpdp/SuccessLpdp/SuccessLpdp";
 import GaleriKegiatan from "../../../Program/BimbelLpdp/GaleriKegiatan/GaleriKegiatan";
 import PromoLpdp from "../../../Program/BimbelLpdp/PromoLpdp/PromoLpdp";
 import Liputan from "../../Liputan/Liputan";
+import Alumni from "../../Alumni/Alumni";
 
 const HalamankotaLpdp = () => {
   const { id } = useParams();
@@ -95,17 +96,18 @@ const HalamankotaLpdp = () => {
           </a>
         </div>
         <BestprogramSnbt2 />
-        <Voucer />
-        <Masterteacher />
-        <ListKabupatenLpdp />
-        <Keunggulan />
-        <Testimoni />
         <SuccessLpdp />
         <GaleriKegiatan />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <ListKabupatenLpdp />
         <Faqtni />
         <Asalsekolah />
         <PromoLpdp />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

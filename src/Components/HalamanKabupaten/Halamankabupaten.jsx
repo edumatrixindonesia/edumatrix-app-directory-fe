@@ -20,6 +20,11 @@ import SuccessStory from "../SuccessStory/SuccessStory";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
 import ListKecamatan from "../Tab/ListKecamatan";
+import Alumni from "../Alumni/Alumni";
+import Video from "../Video/Video";
+import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
 const Halamankabupaten = () => {
   const { id } = useParams();
@@ -55,10 +60,11 @@ const Halamankabupaten = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Jasa Les Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          content="Jasa Les Privat TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
         />
         <title>
-          Les Privat di {`${kabupaten.kota_kabupaten}`} - Bimbel di{" "}
+          Les Privat di {`${kabupaten.kota_kabupaten}`} - TK, SD, SMP, SMA, UTBK
+          SNBT, SIMAK UI, UM PTN & CBT UGM - Bimbel di{" "}
           {`${kabupaten.kota_kabupaten}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -68,13 +74,13 @@ const Halamankabupaten = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Les Privat Terbaik di {kabupaten.kota_kabupaten}
+              Les Privat di {kabupaten.kota_kabupaten} Terbaik
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di {kabupaten.kota_kabupaten} untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS,
-                LPDP, PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa
-                dan Karyawan.{" "}
+                Jasa Les Privat di {kabupaten.kota_kabupaten} untuk TK, SD, SMP,
+                SMA, UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, UTBK SNBT, CBT
+                UGM, UM PTN, AKPOL, AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -84,7 +90,11 @@ const Halamankabupaten = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel TK-SD-SMP-SMA" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel TK-SD-SMP-SMA"
+            />
           </a>
 
           <a
@@ -100,15 +110,20 @@ const Halamankabupaten = () => {
         </div>
         <Bestprogram2 />
         <SuccessStory />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
+        <GaleriKegiatan />
+        <Video />
         <Voucer />
-        <Masterteacher />
-        <Keunggulan />
         <Testimoni />
-        <Faq />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
         <ListKecamatan />
+        <Faq />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

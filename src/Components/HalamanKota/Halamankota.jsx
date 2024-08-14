@@ -20,6 +20,11 @@ import Bottombar from "../BottomBar/Bottombar";
 import SuccessStory from "../SuccessStory/SuccessStory";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
+import Alumni from "../Alumni/Alumni";
+import Video from "../Video/Video";
+import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
 const Halamankota = () => {
   const { id } = useParams();
@@ -51,10 +56,15 @@ const Halamankota = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content="" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Jasa Les Privat TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+        />
         <title>
-          Les Privat di {`${kota.kota}`} - Bimbel di {`${kota.kota}`} Terbaik #1
-          - Edumatrix Indonesia
+          Les Privat di {`${kota.kota}`} - TK, SD, SMP, SMA, UTBK SNBT, SIMAK
+          UI, UM PTN & CBT UGM - Bimbel di {`${kota.kota}`} Terbaik #1 -
+          Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -63,14 +73,14 @@ const Halamankota = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Les Privat Terbaik di {kota.kota}
+              Les Privat di {kota.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">
               <p>
                 Jasa Les Privat di Kota {kota.kota} untuk TK, SD, SMP, SMA,
-                UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, SNBT, AKPOL, AKMIL,
-                Kedinasan, Mahasiswa dan Karyawan.{" "}
+                UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, UTBK SNBT, CBT UGM, UM
+                PTN, AKPOL, AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -80,27 +90,40 @@ const Halamankota = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Les Privat Terbaik" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Les Privat Terbaik"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Les Privat Terbaik" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Les Privat Terbaik"
+            />
           </a>
         </div>
         <Bestprogram2 />
         <SuccessStory />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
+        <GaleriKegiatan />
+        <Video />
         <Voucer />
-        <Masterteacher />
-        <ListKabupaten />
-        <Keunggulan />
         <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <ListKabupaten />
         <Faq />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

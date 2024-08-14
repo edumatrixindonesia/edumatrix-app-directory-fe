@@ -19,6 +19,7 @@ import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/Be
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import BestProgramBumn2 from "../../BestProgram/BestProgram2/BestProgramBumn2/BestProgramBumn2";
 
 const HalamankabupatenBumn = () => {
   const { id } = useParams();
@@ -96,7 +97,7 @@ const HalamankabupatenBumn = () => {
             />
           </a>
         </div>
-        <BestprogramSnbt2 />
+        <BestProgramBumn2 />
         <Voucer />
         <Masterteacher />
         <Keunggulan />

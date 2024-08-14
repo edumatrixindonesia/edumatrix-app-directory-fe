@@ -22,6 +22,8 @@ import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import SuccessOsn from "../BimbelOsn/SuccessOsn/SuccessOsn";
+import BestprogramPrivat from "../../Components/BestProgram/BestProgramPrivat/BestProgramPrivat";
+import Alumni from "../../Components/Alumni/Alumni";
 
 const BimbelPrivat = () => {
   return (
@@ -42,18 +44,19 @@ const BimbelPrivat = () => {
       <Navbar />
       <div className="container-all">
         <SliderPrivat />
-        <BestprogramSnbt />
-        <Voucer />
-        <Masterteacher />
-        <ListKotaPrivat />
-        <Keunggulan />
-        <Testimoni />
+        <BestprogramPrivat />
         <SuccessOsn />
         <GaleriKegiatan />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <ListKotaPrivat />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

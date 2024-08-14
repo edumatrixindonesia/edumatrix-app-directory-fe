@@ -25,6 +25,7 @@ import ListKabupatenBumn from "../../Tab/TabBumn/ListKabupatenBumn";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import BestProgramBumn2 from "../../BestProgram/BestProgram2/BestProgramBumn2/BestProgramBumn2";
 
 const HalamankotaBumn = () => {
   const { id } = useParams();
@@ -95,7 +96,7 @@ const HalamankotaBumn = () => {
             <img className="model-program-kota" src={tanyaProgram} alt="Les Privat BUMN Terbaik dan Rekomendasi - Edumatrix Indonesia" />
           </a>
         </div>
-        <BestprogramSnbt2 />
+        <BestProgramBumn2 />
         <Voucer />
         <Masterteacher />
         <ListKabupatenBumn />

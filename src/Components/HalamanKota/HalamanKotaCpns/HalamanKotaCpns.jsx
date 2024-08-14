@@ -18,12 +18,18 @@ import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
 import ListUtbkSnbt from "../../Tab/TabUtbkSnbt/ListUtbkSnbt";
 import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
-import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
+import BestprogramTni2 from "../../BestProgram/BestProgram2/BestProgramTni2/BestProgramTni2";
 import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import ListKabupatenCpns from "../../Tab/TabCpns/ListKabupatenCpns";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelCpns/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
+import ListKotaCpns from "../../Tab/TabCpns/ListKotaCpns";
+import BestProgramCpns2 from "../../BestProgram/BestProgram2/BestProgramCpns2/BestProgramCpns2";
+import PromoCpns from "../../../Program/BimbelCpns/PromoCpns/PromoCpns";
+import MateriCpns from "../../../Program/BimbelCpns/MateriCpns/MateriCpns";
+import PaketBelajarCpns from "../../PaketBelajar/PaketBelajarCpns/PaketBelajarCpns";
 
 const HalamankotaCpns = () => {
   const { id } = useParams();
@@ -59,7 +65,7 @@ const HalamankotaCpns = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Bimbel Persiapan Seleksi CPNS & PPPK Terbaik di {`${kotacpns.kota}`}{" "}
+          Bimbel Persiapan Seleksi CPNS & PPPK di {`${kotacpns.kota}`} Terbaik {" "}
           #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -69,7 +75,7 @@ const HalamankotaCpns = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Seleksi CPNS & PPPK Terbaik di {kotacpns.kota}
+              Bimbel Persiapan Seleksi CPNS & PPPK di {kotacpns.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">
@@ -95,16 +101,19 @@ const HalamankotaCpns = () => {
             <img className="model-program-kota" src={tanyaProgram} alt="Les Privat CPNS Berkualitas dan Rekomendasi" />
           </a>
         </div>
-        <BestprogramSnbt2 />
-        <Voucer />
-        <Masterteacher />
-        <ListKabupatenCpns />
-        <Keunggulan />
-        <Testimoni />
+        <BestProgramCpns2 />
+        <SuccessTni />
+        <PaketBelajarCpns />
+        <MateriCpns />
         <GaleriKegiatan />
+        <Voucer />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
+        <ListKabupatenCpns />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoCpns />
       </div>
       <Footer />
       <Bottombar />

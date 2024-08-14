@@ -20,6 +20,11 @@ import SuccessStory from "../SuccessStory/SuccessStory";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
 import ListKelurahan from "../Tab/ListKelurahan";
+import Alumni from "../Alumni/Alumni";
+import Video from "../Video/Video";
+import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
 const Halamankecamatan = () => {
   const { id } = useParams();
@@ -58,7 +63,8 @@ const Halamankecamatan = () => {
           content="Jasa Les Privat TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
         />
         <title>
-          Les Privat di {`${kecamatan.kecamatan}`} - TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM - Bimbel di{" "}
+          Les Privat di {`${kecamatan.kecamatan}`} - TK, SD, SMP, SMA, UTBK
+          SNBT, SIMAK UI, UM PTN & CBT UGM - Bimbel di{" "}
           {`${kecamatan.kecamatan}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -68,13 +74,13 @@ const Halamankecamatan = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Les Privat Terbaik di {kecamatan.kecamatan}
+              Les Privat di {kecamatan.kecamatan} Terbaik
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di {kecamatan.kecamatan} untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS,
-                LPDP, PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa
-                dan Karyawan.{" "}
+                Jasa Les Privat di {kecamatan.kecamatan} untuk TK, SD, SMP, SMA,
+                UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, UTBK SNBT, CBT UGM, UM
+                PTN, AKPOL, AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -104,15 +110,20 @@ const Halamankecamatan = () => {
         </div>
         <Bestprogram2 />
         <SuccessStory />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
+        <GaleriKegiatan />
+        <Video />
         <Voucer />
-        <Masterteacher />
-        <Keunggulan />
         <Testimoni />
-        <Faq />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
         <ListKelurahan />
+        <Faq />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

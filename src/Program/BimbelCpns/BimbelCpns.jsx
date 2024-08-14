@@ -21,6 +21,13 @@ import ListKotaCpns from "../../Components/Tab/TabCpns/ListKotaCpns";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import SuccessStory from "../../Components/SuccessStory/SuccessStory";
+import SuccessTni from "../BimbelTni/SuccessTni/SuccessTni";
+import BestprogramTni from "../../Components/BestProgram/BestProgramTni/BestProgramTni";
+import BestProgramCpns from "../../Components/BestProgram/BestProgramCpns/BestProgramCpns";
+import PaketBelajarCpns from "../../Components/PaketBelajar/PaketBelajarCpns/PaketBelajarCpns";
+import MateriCpns from "./MateriCpns/MateriCpns";
+import PromoCpns from "./PromoCpns/PromoCpns";
+import TestimoniCpns from "../../Components/Testimoni/TestimoniCpns/TestimoniCpns";
 
 const BimbelCpns = () => {
   return (
@@ -40,17 +47,20 @@ const BimbelCpns = () => {
       <Navbar />
       <div className="container-all">
         <SliderCpns />
-        <BestprogramSnbt />
-        <Voucer />
-        <Masterteacher />
-        <ListKotaCpns />
-        <Keunggulan />
-        <Testimoni />
-        <SuccessStory />
+        <BestProgramCpns />
+        <SuccessTni />
+        <PaketBelajarCpns />
+        <MateriCpns />
         <GaleriKegiatan />
+        <TestimoniCpns />
+        <Voucer />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
+        <ListKotaCpns />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoCpns />
       </div>
       <Footer />
       <Bottombar />

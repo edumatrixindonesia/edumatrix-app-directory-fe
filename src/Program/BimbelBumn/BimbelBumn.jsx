@@ -22,6 +22,12 @@ import SliderBumn from "../../Components/SlideTop/SliderBumn/SliderBumn";
 import ListKotaBumn from "../../Components/Tab/TabBumn/ListKotaBumn";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
+import BestProgramBumn from "../../Components/BestProgram/BestProgramBumn/BestProgramBumn";
+import SuccessTni from "../BimbelTni/SuccessTni/SuccessTni";
+import TestimoniBumn from "../../Components/Testimoni/TestimoniBumn/TestimoniBumn";
+import PaketBelajarBumn from "../../Components/PaketBelajar/PaketBelajarBumn/PaketBelajarBumn";
+import PromoBumn from "./PromoBumn/PromoBumn";
+import MateriBumn from "./MateriBumn/MateriBumn";
 
 const BimbelBumn = () => {
   return (
@@ -41,16 +47,20 @@ const BimbelBumn = () => {
       <Navbar />
       <div className="container-all">
         <SliderBumn />
-        <BestprogramSnbt />
-        <Voucer />
-        <Masterteacher />
-        <ListKotaBumn />
-        <Keunggulan />
-        <Testimoni />
+        <BestProgramBumn />
+        <SuccessTni />
+        <PaketBelajarBumn />
+        <MateriBumn />
         <GaleriKegiatan />
+        <TestimoniBumn />
+        <Voucer />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
+        <ListKotaBumn />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoBumn />
       </div>
       <Footer />
       <Bottombar />

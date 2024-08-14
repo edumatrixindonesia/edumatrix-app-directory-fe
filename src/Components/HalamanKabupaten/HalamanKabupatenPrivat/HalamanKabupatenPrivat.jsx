@@ -21,6 +21,9 @@ import GaleriKegiatan from "../../../Program/BimbelPrivat/GaleriKegiatan/GaleriK
 import Liputan from "../../Liputan/Liputan";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
+import Alumni from "../../Alumni/Alumni";
+import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat2/BesProgramPrivat2";
+
 
 const HalamankabupatenPrivat = () => {
   const { id } = useParams();
@@ -99,17 +102,18 @@ const HalamankabupatenPrivat = () => {
             />
           </a>
         </div>
-        <BestprogramSnbt2 />
-        <Voucer />
-        <Masterteacher />
-        <Keunggulan />
-        <Testimoni />
+        <BestprogramPrivat2 />
         <SuccessOsn />
         <GaleriKegiatan />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

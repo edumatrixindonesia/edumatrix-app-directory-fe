@@ -17,6 +17,7 @@ import SuccessOsn from "./SuccessOsn/SuccessOsn";
 import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
+import BestProgramOsn from "../../Components/BestProgram/BestProgramOsn/BestProgramOsn";
 
 const BimbelOsn = () => {
   return (
@@ -36,7 +37,7 @@ const BimbelOsn = () => {
       <Navbar />
       <div className="container-all">
         <SliderOsn />
-        <BestprogramSnbt />
+        <BestProgramOsn />
         <Voucer />
         <Masterteacher />
         <ListKotaOsn />

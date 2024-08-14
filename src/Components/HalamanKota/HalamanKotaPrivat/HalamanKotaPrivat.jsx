@@ -4,27 +4,23 @@ import axios from "axios";
 import rumahAdat from "../../../assets/rumah_adat.png";
 import tanyaProgram from "../../../assets/tanya_program.png";
 import { Helmet } from "react-helmet-async";
-import Bestprogram2 from "../../BestProgram/BestProgram2/Bestprogram2";
 import Voucer from "../../Voucer/Voucer";
 import Masterteacher from "../../MasterTeacher/Masterteacher";
-import ListKabupaten from "../../Tab/ListKabupaten";
 import Keunggulan from "../../Keunggulan/Keunggulan";
 import Testimoni from "../../Testimoni/Testimoni";
-import Faq from "../../Faq/Faq";
 import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 import Bottombar from "../../BottomBar/Bottombar";
 import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
-import ListUtbkSnbt from "../../Tab/TabUtbkSnbt/ListUtbkSnbt";
-import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
-import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import ListKabupatenPrivat from "../../Tab/TabPrivat/ListKabupatenPrivat";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
 import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat2/BesProgramPrivat2";
+import Alumni from "../../Alumni/Alumni";
 
 const HalamankotaPrivat = () => {
   const { id } = useParams();
@@ -50,7 +46,7 @@ const HalamankotaPrivat = () => {
       );
       setKotaprivat(response.data);
     };
-    (id);
+    id;
     getKota(id);
   }, [id, query]);
 
@@ -60,8 +56,8 @@ const HalamankotaPrivat = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di {`${kotaprivat.kota}`} #1 -
-          Edumatrix Indonesia
+          Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di{" "}
+          {`${kotaprivat.kota}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -75,7 +71,8 @@ const HalamankotaPrivat = () => {
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotaprivat.kota} untuk TK, SD, SMP, SMA & Mahasiswa
+                Jasa Les Privat di Kota {kotaprivat.kota} untuk TK, SD, SMP, SMA
+                & Mahasiswa
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -85,28 +82,37 @@ const HalamankotaPrivat = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Privat TK SD SMP SMA Terbaik dan Berkualitas - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Privat TK SD SMP SMA Terbaik dan Berkualitas - Edumatrix Indonesia"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel Privat TK SD SMP SMA Terbaik dan Berkualitas - Edumatrix Indonesia" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Bimbel Privat TK SD SMP SMA Terbaik dan Berkualitas - Edumatrix Indonesia"
+            />
           </a>
         </div>
-        <BestprogramSnbt2 />
-        <Voucer />
-        <Masterteacher />
-        <ListKabupatenPrivat />
-        <Keunggulan />
-        <Testimoni />
+        <BestprogramPrivat2 />
         <SuccessOsn />
         <GaleriKegiatan />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <ListKabupatenPrivat />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

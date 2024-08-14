@@ -1,0 +1,20 @@
+.img-garansi-lpdp {
+    width: 100%;
+    margin-top: 20px;
+}
+.harga-paket-lpdp {
+    text-decoration: line-through;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+    margin-top: 25px;
+}
+
+.harga-paket-lpdp-2 {
+    text-align: left;
+    font-size: 28px;
+    color: #054599;
+}
+.nama-paket-lpdp {
+    font-size: 30px;
+}
