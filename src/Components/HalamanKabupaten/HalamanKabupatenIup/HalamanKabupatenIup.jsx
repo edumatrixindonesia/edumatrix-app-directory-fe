@@ -17,9 +17,13 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
-import GaleriKegiatan from "../../../Program/BimbelIup/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import PaketBelajarIup from "../../PaketBelajar/PaketBelajarIup/PaketBelajarIup";
+import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import Video from "../../Video/Video";
+import Alumni from "../../Alumni/Alumni";
+import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup"
 
 const HalamankabupatenIup = () => {
   const { id } = useParams();
@@ -98,15 +102,19 @@ const HalamankabupatenIup = () => {
           </a>
         </div>
         <BestprogramSnbt2 />
-        <Voucer />
-        <Masterteacher />
-        <Keunggulan />
-        <Testimoni />
         <SuccessSnbt />
+        <PaketBelajarIup />
         <GaleriKegiatan />
+        <Video />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoIup />
       </div>
       <Footer />
       <Bottombar />

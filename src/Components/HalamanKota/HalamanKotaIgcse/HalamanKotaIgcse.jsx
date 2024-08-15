@@ -25,6 +25,12 @@ import ListKabupatenIgcse from "../../Tab/TabIgcse/ListKabupatenIgcse";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import Liputan from "../../Liputan/Liputan";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import PaketBelajarIgcse from "../../PaketBelajar/PaketBelajarIgcse/PaketBelajarIgcse";
+import MateriIgcse from "../../../Program/BimbelIgcse/MateriIgcse/MateriIgcse";
+import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
+import PromoIgcse from "../../../Program/BimbelIgcse/PromoIgcse/PromoIgcse";
+import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat2/BesProgramPrivat2";
+import BestProgramIgcse2 from "../../BestProgram/BestProgram2/BestProgramIgcse2/BestProgramIgcse2";
 
 const HalamankotaIgcse = () => {
   const { id } = useParams();
@@ -60,7 +66,7 @@ const HalamankotaIgcse = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Bimbel Kurikulum IGCSE dan IB TUTOR Terbaik di {`${kotaigcse.kota}`}{" "}
+          Bimbel Kurikulum IGCSE dan IB TUTOR di {`${kotaigcse.kota}`} Terbaik {" "}
           #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -70,7 +76,7 @@ const HalamankotaIgcse = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Kurikulum IGCSE dan IB TUTOR Terbaik di {kotaigcse.kota}
+              Bimbel Kurikulum IGCSE dan IB TUTOR di {kotaigcse.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">
@@ -96,16 +102,18 @@ const HalamankotaIgcse = () => {
             <img className="model-program-kota" src={tanyaProgram} alt="Bimbel Kurikulum IGCSE Terbaik" />
           </a>
         </div>
-        <BestprogramSnbt2 />
+        <BestProgramIgcse2 />
+        <PaketBelajarIgcse />
+        <MateriIgcse />
+        <GaleriKegiatan />
         <Voucer />
-        <Masterteacher />
-        <ListKabupatenIgcse />
         <Keunggulan />
-        <Testimoni />
+        <Masterteacher />
+        <Liputan />
+        <ListKabupatenIgcse />
         <Faqtni />
         <Asalsekolah />
-        <PromoHomepage />
-        <Liputan />
+        <PromoIgcse />
       </div>
       <Footer />
       <Bottombar />

@@ -18,6 +18,8 @@ import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import BestProgramOsn from "../../Components/BestProgram/BestProgramOsn/BestProgramOsn";
+import PaketBelajarOsn from "../../Components/PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
+import PromoOsn from "./PromoOsn/PromoOsn";
 
 const BimbelOsn = () => {
   return (
@@ -38,17 +40,18 @@ const BimbelOsn = () => {
       <div className="container-all">
         <SliderOsn />
         <BestProgramOsn />
-        <Voucer />
-        <Masterteacher />
-        <ListKotaOsn />
-        <Keunggulan />
-        <Testimoni />
         <SuccessOsn />
+        <PaketBelajarOsn />
         <GaleriKegiatan />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
+        <ListKotaOsn />
         <Faqtni />
         <Asalsekolah />
-        <PromoHomepage />
-        <Liputan />
+        <PromoOsn />
       </div>
       <Footer />
       <Bottombar />

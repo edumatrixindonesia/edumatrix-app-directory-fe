@@ -20,6 +20,11 @@ import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
 import BestProgramBumn2 from "../../BestProgram/BestProgram2/BestProgramBumn2/BestProgramBumn2";
+import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
+import PaketBelajarBumn from "../../PaketBelajar/PaketBelajarBumn/PaketBelajarBumn";
+import MateriBumn from "../../../Program/BimbelBumn/MateriBumn/MateriBumn";
+import TestimoniBumn from "../../Testimoni/TestimoniBumn/TestimoniBumn";
+import PromoBumn from "../../../Program/BimbelBumn/PromoBumn/PromoBumn";
 
 const HalamankabupatenBumn = () => {
   const { id } = useParams();
@@ -98,14 +103,18 @@ const HalamankabupatenBumn = () => {
           </a>
         </div>
         <BestProgramBumn2 />
-        <Voucer />
-        <Masterteacher />
-        <Keunggulan />
-        <Testimoni />
+        <SuccessTni />
+        <PaketBelajarBumn />
+        <MateriBumn />
         <GaleriKegiatan />
+        <TestimoniBumn />
+        <Voucer />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoBumn />
       </div>
       <Footer />
       <Bottombar />

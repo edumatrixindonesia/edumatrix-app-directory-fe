@@ -30,6 +30,7 @@ import BestProgramCpns2 from "../../BestProgram/BestProgram2/BestProgramCpns2/Be
 import PromoCpns from "../../../Program/BimbelCpns/PromoCpns/PromoCpns";
 import MateriCpns from "../../../Program/BimbelCpns/MateriCpns/MateriCpns";
 import PaketBelajarCpns from "../../PaketBelajar/PaketBelajarCpns/PaketBelajarCpns";
+import TestimoniCpns from "../../Testimoni/TestimoniCpns/TestimoniCpns";
 
 const HalamankotaCpns = () => {
   const { id } = useParams();
@@ -106,6 +107,7 @@ const HalamankotaCpns = () => {
         <PaketBelajarCpns />
         <MateriCpns />
         <GaleriKegiatan />
+        <TestimoniCpns />
         <Voucer />
         <Keunggulan />
         <Masterteacher />

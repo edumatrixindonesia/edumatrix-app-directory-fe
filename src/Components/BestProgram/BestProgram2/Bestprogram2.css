@@ -50,7 +50,7 @@
   align-items: center;
   gap: 5px;
   position: relative;
-  top: 50px;
+  top: 40px;
   margin-left: 1px;
   z-index: 999;
   font-size: 15px;
@@ -59,7 +59,7 @@
   width: 170px;
   padding: 5px;
   color: white;
-  border-radius: 5px 15px 5px 5px;
+  border-radius: 5px 15px 5px 15px;
 }
 .main-box-2 {
   display: flex;

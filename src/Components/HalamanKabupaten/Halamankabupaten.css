@@ -52,6 +52,9 @@
     width: 30%;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.212));
   }
+  .title-halaman-kabupaten {
+    font-size: 29px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .container-halaman-kabupaten {

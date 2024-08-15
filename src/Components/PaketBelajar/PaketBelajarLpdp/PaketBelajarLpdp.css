@@ -18,3 +18,10 @@
 .nama-paket-lpdp {
     font-size: 30px;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 500px) {
+    .nama-paket-lpdp {
+        font-size: 25px;
+    }
+}

@@ -23,9 +23,13 @@ import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
 import ListKabupatenCpns from "../../Tab/TabCpns/ListKabupatenCpns";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import ListKabupatenIup from "../../Tab/TabIup/ListKabupatenIup";
-import GaleriKegiatan from "../../../Program/BimbelIup/GaleriKegiatan/GaleriKegiatan";
+import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import PaketBelajarIup from "../../PaketBelajar/PaketBelajarIup/PaketBelajarIup";
+import Video from "../../Video/Video";
+import Alumni from "../../Alumni/Alumni";
+import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup";
 
 const HalamankotaIup = () => {
   const { id } = useParams();
@@ -51,7 +55,7 @@ const HalamankotaIup = () => {
       );
       setKotaiup(response.data);
     };
-    (id);
+    id;
     getKota(id);
   }, [id, query]);
 
@@ -61,8 +65,8 @@ const HalamankotaIup = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Bimbel Persiapan Seleksi IUP - KKI Terbaik di {`${kotaiup.kota}`}{" "}
-          #1 - Edumatrix Indonesia
+          Bimbel Persiapan Seleksi IUP - KKI di {`${kotaiup.kota}`} Terbaik #1 -
+          Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -71,7 +75,7 @@ const HalamankotaIup = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Seleksi IUP - KKI Terbaik di {kotaiup.kota}
+              Bimbel Persiapan Seleksi IUP - KKI di {kotaiup.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">
@@ -87,27 +91,39 @@ const HalamankotaIup = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel IUP ITB UGM dan KKI UI Terbaik - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel IUP ITB UGM dan KKI UI Terbaik - Edumatrix Indonesia"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel IUP ITB UGM dan KKI UI Terbaik - Edumatrix Indonesia" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Bimbel IUP ITB UGM dan KKI UI Terbaik - Edumatrix Indonesia"
+            />
           </a>
         </div>
         <BestprogramSnbt2 />
-        <Voucer />
-        <Masterteacher />
-        <ListKabupatenIup />
-        <Keunggulan />
-        <Testimoni />
         <SuccessSnbt />
+        <PaketBelajarIup />
         <GaleriKegiatan />
+        <Video />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <ListKabupatenIup />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoIup />
       </div>
       <Footer />
       <Bottombar />

@@ -18,6 +18,12 @@ import Faqtni from "../Faq/FaqTni/FaqTni";
 import Liputan from "../Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import SuccessStory from "../SuccessStory/SuccessStory";
+import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import Video from "../Video/Video";
+import InfoCamp from "../InfoCamp/InfoCamp";
+import Alumni from "../Alumni/Alumni";
 
 const HalamanProgramperkota = () => {
   const [kota, setKota] = useState([]);
@@ -78,7 +84,7 @@ const HalamanProgramperkota = () => {
         <div className="content-program">
           <div className="teks-content">
             <h2 className="title-halaman-program">
-              Les Privat {program.name} Terbaik di {kota.kota} - Edumatrix Indonesia
+              Les Privat {program.name} di {kota.kota} Terbaik - Edumatrix Indonesia
             </h2>
             <div className="paragraf-program">
               <p>
@@ -109,15 +115,21 @@ const HalamanProgramperkota = () => {
           </a>
         </div>
         <Bestprogram2 />
-        <Voucer />
-        <Masterteacher />
-        <Keunggulan />
-        <Testimoni />
         <SuccessStory />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
+        <GaleriKegiatan />
+        <Video />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <InfoCamp />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />

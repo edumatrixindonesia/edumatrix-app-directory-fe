@@ -22,12 +22,16 @@ import SliderBumn from "../../Components/SlideTop/SliderBumn/SliderBumn";
 import ListKotaBumn from "../../Components/Tab/TabBumn/ListKotaBumn";
 import SliderIup from "../../Components/SlideTop/SliderIup/SliderIup";
 import ListKotaIup from "../../Components/Tab/TabIup/ListKotaIup";
-import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
+import GaleriKegiatan from "../BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import SuccessStory from "../../Components/SuccessStory/SuccessStory";
 import SuccessSnbt from "../BimbelSnbt/SuccessSnbt/SuccessSnbt";
 import Alumni from "../../Components/Alumni/Alumni";
 import InfoCamp from "../../Components/InfoCamp/InfoCamp";
+import PaketBelajarSnbt from "../../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import Video from "../../Components/Video/Video";
+import PromoIup from "./PromoIup/PromoIup";
+import PaketBelajarIup from "../../Components/PaketBelajar/PaketBelajarIup/PaketBelajarIup";
 
 const BimbelIup = () => {
   return (
@@ -48,18 +52,20 @@ const BimbelIup = () => {
       <div className="container-all">
         <SliderIup />
         <BestprogramSnbt />
-        <Voucer />
-        <Masterteacher />
-        <ListKotaIup />
-        <Keunggulan />
-        <Testimoni />
         <SuccessSnbt />
+        <PaketBelajarIup />
         <GaleriKegiatan />
+        <Video />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <Masterteacher />
         <Alumni />
-        <InfoCamp />
+        <Liputan />
+        <ListKotaIup />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoIup />
       </div>
       <Footer />
       <Bottombar />

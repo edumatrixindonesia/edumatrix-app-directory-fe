@@ -26,6 +26,11 @@ import Faqtni from "../../Faq/FaqTni/FaqTni";
 import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
 import BestProgramBumn2 from "../../BestProgram/BestProgram2/BestProgramBumn2/BestProgramBumn2";
+import PromoBumn from "../../../Program/BimbelBumn/PromoBumn/PromoBumn";
+import TestimoniBumn from "../../Testimoni/TestimoniBumn/TestimoniBumn";
+import MateriBumn from "../../../Program/BimbelBumn/MateriBumn/MateriBumn";
+import PaketBelajarBumn from "../../PaketBelajar/PaketBelajarBumn/PaketBelajarBumn";
+import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
 
 const HalamankotaBumn = () => {
   const { id } = useParams();
@@ -71,7 +76,7 @@ const HalamankotaBumn = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Seleksi BUMN Terbaik di {kotabumn.kota}
+              Bimbel Persiapan Seleksi BUMN di {kotabumn.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">
@@ -97,15 +102,19 @@ const HalamankotaBumn = () => {
           </a>
         </div>
         <BestProgramBumn2 />
-        <Voucer />
-        <Masterteacher />
-        <ListKabupatenBumn />
-        <Keunggulan />
-        <Testimoni />
+        <SuccessTni />
+        <PaketBelajarBumn />
+        <MateriBumn />
         <GaleriKegiatan />
+        <TestimoniBumn />
+        <Voucer />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
+        <ListKabupatenBumn />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoBumn />
       </div>
       <Footer />
       <Bottombar />

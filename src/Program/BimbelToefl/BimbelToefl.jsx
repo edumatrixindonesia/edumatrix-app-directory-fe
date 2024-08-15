@@ -18,9 +18,13 @@ import ListKotaSupercamp from "../../Components/Tab/TabSupercamp/ListKotaSuperca
 import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SliderToefl from "../../Components/SlideTop/SliderToefl/SliderToefl";
 import ListKotaToefl from "../../Components/Tab/TabToefl/ListKotaToefl";
-import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
+import GaleriKegiatan from "../BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import SuccessStory from "../../Components/SuccessStory/SuccessStory";
+import SuccessSnbt from "../BimbelSnbt/SuccessSnbt/SuccessSnbt";
+import PaketBelajarToefl from "../../Components/PaketBelajar/PaketBelajarToefl/PaketBelajarToefl";
+import PromoToefl from "./PromoToefl/PromoToefl";
+import TestimoniToefl from "../../Components/Testimoni/TestimoniToefl/TestimoniToefl";
 
 const BimbelToefl = () => {
   return (
@@ -33,8 +37,8 @@ const BimbelToefl = () => {
           Indonesia"
         />
         <title>
-          Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation Terbaik #1 - Edumatrix
-          Indonesia
+          Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation Terbaik #1
+          - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -42,16 +46,18 @@ const BimbelToefl = () => {
       <div className="container-all">
         <SliderToefl />
         <BestprogramSnbt />
-        <Voucer />
-        <Masterteacher />
-        <ListKotaToefl />
-        <Keunggulan />
-        <Testimoni />
         <SuccessStory />
+        <PaketBelajarToefl />
         <GaleriKegiatan />
+        <TestimoniToefl />
+        <Voucer />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
+        <ListKotaToefl />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoToefl />
       </div>
       <Footer />
       <Bottombar />

@@ -19,6 +19,11 @@ import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/Be
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import Liputan from "../../Liputan/Liputan";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import BestProgramIgcse2 from "../../BestProgram/BestProgram2/BestProgramIgcse2/BestProgramIgcse2";
+import PaketBelajarIgcse from "../../PaketBelajar/PaketBelajarIgcse/PaketBelajarIgcse";
+import MateriIgcse from "../../../Program/BimbelIgcse/MateriIgcse/MateriIgcse";
+import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
+import PromoIgcse from "../../../Program/BimbelIgcse/PromoIgcse/PromoIgcse";
 
 const HalamankabupatenIgcse = () => {
   const { id } = useParams();
@@ -97,15 +102,17 @@ const HalamankabupatenIgcse = () => {
             />
           </a>
         </div>
-        <BestprogramSnbt2 />
+        <BestProgramIgcse2 />
+        <PaketBelajarIgcse />
+        <MateriIgcse />
+        <GaleriKegiatan />
         <Voucer />
-        <Masterteacher />
         <Keunggulan />
-        <Testimoni />
+        <Masterteacher />
+        <Liputan />
         <Faqtni />
         <Asalsekolah />
-        <PromoHomepage />
-        <Liputan />
+        <PromoIgcse />
       </div>
       <Footer />
       <Bottombar />

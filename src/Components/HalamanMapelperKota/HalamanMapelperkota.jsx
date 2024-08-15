@@ -17,6 +17,14 @@ import Liputan from "../Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Testimoni from "../Testimoni/Testimoni";
 import SuccessStory from "../SuccessStory/SuccessStory";
+import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import Video from "../Video/Video";
+import InfoCamp from "../InfoCamp/InfoCamp";
+import Alumni from "../Alumni/Alumni";
+import Faqtni from "../Faq/FaqTni/FaqTni";
+import Asalsekolah from "../AsalSekolah/Asalsekolah";
 
 const HalamanMapelperkota = () => {
   const [kota, setKota] = useState([]);
@@ -79,7 +87,7 @@ const HalamanMapelperkota = () => {
         <div className="content-program">
           <div className="teks-content">
             <h2 className="title-halaman-program">
-              Les Privat {mapel.name} Terbaik di {kota.kota}
+              Les Privat {mapel.name} di {kota.kota} Terbaik
             </h2>
             <div className="paragraf-program">
               <p>
@@ -110,14 +118,21 @@ const HalamanMapelperkota = () => {
           </a>
         </div>
         <Bestprogram2 />
-        <Voucer />
-        <Masterteacher />
-        <Keunggulan />
-        <Testimoni />
         <SuccessStory />
-        <Faq />
-        <PromoHomepage />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
+        <GaleriKegiatan />
+        <Video />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <InfoCamp />
+        <Masterteacher />
+        <Alumni />
         <Liputan />
+        <Faqtni />
+        <Asalsekolah />
+        <PromoHomepage />
       </div>
       <Footer />
       <Bottombar />

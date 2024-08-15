@@ -79,4 +79,7 @@
     display: grid;
     place-items: center;
   }
+  .main-title-paket-snbt {
+    font-size: 28px;
+  }
 }

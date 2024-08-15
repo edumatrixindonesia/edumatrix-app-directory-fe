@@ -18,6 +18,14 @@ import rumahAdat from "../../assets/rumah_adat.png";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
 import SuccessStory from "../SuccessStory/SuccessStory";
+import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import Video from "../Video/Video";
+import InfoCamp from "../InfoCamp/InfoCamp";
+import Alumni from "../Alumni/Alumni";
+import Faqtni from "../Faq/FaqTni/FaqTni";
+import Asalsekolah from "../AsalSekolah/Asalsekolah";
 
 const Halamanmapel = () => {
   const { id } = useParams();
@@ -95,15 +103,22 @@ const Halamanmapel = () => {
           </a>
         </div>
         <Bestprogram2 />
-        <Voucer />
-        <Masterteacher />
-        <ListMapelperkota />
-        <Keunggulan />
-        <Testimoni />
         <SuccessStory />
-        <Faq />
-        <PromoHomepage />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
+        <GaleriKegiatan />
+        <Video />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <InfoCamp />
+        <Masterteacher />
+        <Alumni />
         <Liputan />
+        <ListMapelperkota />
+        <Faqtni />
+        <Asalsekolah />
+        <PromoHomepage />
       </div>
       <Footer />
       <Bottombar />

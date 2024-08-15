@@ -21,6 +21,12 @@ import Faqtni from "../Faq/FaqTni/FaqTni";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
 import SuccessStory from "../SuccessStory/SuccessStory";
+import Alumni from "../Alumni/Alumni";
+import InfoCamp from "../InfoCamp/InfoCamp";
+import Video from "../Video/Video";
+import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
+import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
 const Halamanprogram = () => {
   const { id } = useParams();
@@ -79,7 +85,8 @@ const Halamanprogram = () => {
       <Helmet>
         <meta charSet="utf-8" name="robots" content="" />
         <title>
-          Les Privat {`${program.name}`} - Bimbel {`${program.name}`} Terbaik #1 - Edumatrix Indonesia
+          Les Privat {`${program.name}`} - Bimbel {`${program.name}`} Terbaik #1
+          - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -104,7 +111,11 @@ const Halamanprogram = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel ABK (Anak Berkebutuhan Khusus) Terbaik - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel ABK (Anak Berkebutuhan Khusus) Terbaik - Edumatrix Indonesia"
+            />
           </a>
 
           <a
@@ -119,23 +130,22 @@ const Halamanprogram = () => {
           </a>
         </div>
         <Bestprogram2 />
-        <Voucer />
-        <Masterteacher />
-        <Listkelasperkota />
-        <Keunggulan />
-        <Testimoni />
         <SuccessStory />
+        <PaketBelajarSnbt />
+        <SectionSupercamp />
+        <GaleriKegiatan />
+        <Video />
+        <Voucer />
+        <Testimoni />
+        <Keunggulan />
+        <InfoCamp />
+        <Masterteacher />
+        <Alumni />
+        <Liputan />
+        <Listkelasperkota />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />
-        {/* <div className="parent-promo">
-          <img
-            className="discount-promo"
-            src={"https://api.edulink-indonesia.com/images/" + promo?.image}
-            alt="Bimbel SIMAK UI Terbaik - Edumatrix Indonesia"
-          />
-        </div> */}
-        <Liputan />
       </div>
       <Footer />
       <Bottombar />
@@ -145,3 +155,12 @@ const Halamanprogram = () => {
 };
 
 export default Halamanprogram;
+{
+  /* <div className="parent-promo">
+          <img
+            className="discount-promo"
+            src={"https://api.edulink-indonesia.com/images/" + promo?.image}
+            alt="Bimbel SIMAK UI Terbaik - Edumatrix Indonesia"
+          />
+        </div> */
+}

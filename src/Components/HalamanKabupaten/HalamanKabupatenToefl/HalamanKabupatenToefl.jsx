@@ -17,8 +17,13 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
-import GaleriKegiatan from "../../../Program/BimbelToefl/GaleriKegiatan/GaleriKegiatan";
+import GaleriKegiatan from "../../../Program/BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
+import SuccessStory from "../../SuccessStory/SuccessStory";
+import PaketBelajarToefl from "../../PaketBelajar/PaketBelajarToefl/PaketBelajarToefl";
+import TestimoniToefl from "../../Testimoni/TestimoniToefl/TestimoniToefl";
+import ListKabupatenToefl from "../../Tab/TabToefl/ListKabupatenToefl";
+import PromoToefl from "../../../Program/BimbelToefl/PromoToefl/PromoToefl";
 
 const HalamankabupatenToefl = () => {
   const { id } = useParams();
@@ -98,14 +103,18 @@ const HalamankabupatenToefl = () => {
           </a>
         </div>
         <BestprogramSnbt2 />
-        <Voucer />
-        <Masterteacher />
-        <Keunggulan />
-        <Testimoni />
+        <SuccessStory />
+        <PaketBelajarToefl />
         <GaleriKegiatan />
+        <TestimoniToefl />
+        <Voucer />
+        <Keunggulan />
+        <Masterteacher />
+        <Liputan />
+        <ListKabupatenToefl />
         <Faqtni />
         <Asalsekolah />
-        <Liputan />
+        <PromoToefl />
       </div>
       <Footer />
       <Bottombar />
