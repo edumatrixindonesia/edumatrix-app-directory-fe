@@ -24,6 +24,7 @@ import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import SuccessOsn from "../BimbelOsn/SuccessOsn/SuccessOsn";
 import BestprogramPrivat from "../../Components/BestProgram/BestProgramPrivat/BestProgramPrivat";
 import Alumni from "../../Components/Alumni/Alumni";
+import PaketBelajarPrivat from "../../Components/PaketBelajar/PaketBelajarPrivat/PaketBelajarPrivat";
 
 const BimbelPrivat = () => {
   return (
@@ -46,6 +47,7 @@ const BimbelPrivat = () => {
         <SliderPrivat />
         <BestprogramPrivat />
         <SuccessOsn />
+        <PaketBelajarPrivat />
         <GaleriKegiatan />
         <Voucer />
         <Testimoni />

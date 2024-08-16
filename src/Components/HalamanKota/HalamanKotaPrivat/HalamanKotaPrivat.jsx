@@ -21,6 +21,7 @@ import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat2/BesProgramPrivat2";
 import Alumni from "../../Alumni/Alumni";
+import PaketBelajarPrivat from "../../PaketBelajar/PaketBelajarPrivat/PaketBelajarPrivat";
 
 const HalamankotaPrivat = () => {
   const { id } = useParams();
@@ -102,6 +103,7 @@ const HalamankotaPrivat = () => {
         </div>
         <BestprogramPrivat2 />
         <SuccessOsn />
+        <PaketBelajarPrivat />
         <GaleriKegiatan />
         <Voucer />
         <Testimoni />

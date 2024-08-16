@@ -51,7 +51,7 @@
   width: 170px;
   padding: 5px;
   color: white;
-  border-radius: 5px 15px 5px 5px;
+  border-radius: 5px 15px 5px 15px;
 }
 .main-box {
   display: flex;

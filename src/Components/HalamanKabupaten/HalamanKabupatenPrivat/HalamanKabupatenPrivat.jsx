@@ -23,6 +23,7 @@ import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 import Alumni from "../../Alumni/Alumni";
 import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat2/BesProgramPrivat2";
+import PaketBelajarPrivat from "../../PaketBelajar/PaketBelajarPrivat/PaketBelajarPrivat";
 
 
 const HalamankabupatenPrivat = () => {
@@ -104,6 +105,7 @@ const HalamankabupatenPrivat = () => {
         </div>
         <BestprogramPrivat2 />
         <SuccessOsn />
+        <PaketBelajarPrivat />
         <GaleriKegiatan />
         <Voucer />
         <Testimoni />

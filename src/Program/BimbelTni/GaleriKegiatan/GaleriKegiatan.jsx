@@ -31,10 +31,23 @@ const GaleriKegiatan = () => {
           ))}
         </div>
         <div className="parent-video">
-          <embed
+          {/* <embed
             className="video-kegiatan"
             src="https://www.youtube.com/embed/g6jSRjry8mM"
-          ></embed>
+          ></embed> */}
+          <div class="video-container">
+            <iframe
+            className="video-tni-polri"
+              width="1236"
+              height="695"
+              src="https://www.youtube.com/embed/g6jSRjry8mM"
+              title="EKSKLUSIF!!! Training Camp Persiapan masuk TNI-POLRI dan Sekolah Kedinasan 2024"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
 
           <div class="video-container">
             <iframe
