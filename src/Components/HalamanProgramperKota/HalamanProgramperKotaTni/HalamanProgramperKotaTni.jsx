@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useMemo, useState } from "react";
-import { useLocation, useParams } from "react-router-dom";;
+import { useLocation, useParams } from "react-router-dom";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
 import { Helmet } from "react-helmet-async";
 import rumahAdat from "../../../assets/rumah_adat.png";
@@ -58,14 +58,18 @@ const HalamanProgramperkotaTni = () => {
       setProgram(response.data);
     };
 
-    (id);
+    id;
     getKota(id);
     getProgram(id);
   }, [id, query]);
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
           Bimbel {`${program.kelastni}`} #1 Terbaik di {id} - Edumatrix
           Indonesia
@@ -81,7 +85,7 @@ const HalamanProgramperkotaTni = () => {
             </h2>
             <div className="paragraf-program">
               <p>
-                Jasa Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
+                Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
                 PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
                 Karyawan.{" "}
               </p>
@@ -93,7 +97,11 @@ const HalamanProgramperkotaTni = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Kedinasan Terbaik - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Kedinasan Terbaik - Edumatrix Indonesia"
+            />
           </a>
 
           <a

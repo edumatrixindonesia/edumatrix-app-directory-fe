@@ -32,6 +32,7 @@ import successStoryTni12 from "../../assets/success_story/tni-polri/Success_Stor
 // OSN
 import successStoryOsn1 from "../../assets/success_story/osn/Success_Story_OSN_Asytar.jpeg";
 import successStoryOsn2 from "../../assets/success_story/osn/Success_Story_OSN_Hanan.jpeg";
+import successStoryOsn3 from "../../assets/success_story/osn/Success_Story_OSN_Arvin_Potrait.jpeg";
 
 const SuccessStory = () => {
   return (
@@ -135,6 +136,11 @@ const SuccessStory = () => {
               className="child-success-story-all"
               src={successStoryOsn2}
               alt="OSN IPA"
+            />
+            <img
+              className="child-success-story-all"
+              src={successStoryOsn3}
+              alt="OSN SMP"
             />
           </div>
           {/* TNI POLRI */}

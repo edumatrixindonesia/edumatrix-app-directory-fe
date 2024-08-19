@@ -57,7 +57,7 @@ const Halamanprogramtni = () => {
       );
       setPromo(response.data);
     };
-    (id);
+    id;
     getProgram(id);
     getPromo(id);
     fetchKelasperKota();
@@ -74,14 +74,15 @@ const Halamanprogramtni = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
           Bimbel {`${program.kelastni}`} #1 Terbaik - Edumatrix Indonesia
         </title>
-        <link
-          rel="canonical"
-          href=""
-        />
+        <link rel="canonical" href="" />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">
@@ -92,7 +93,7 @@ const Halamanprogramtni = () => {
             </h2>
             <div className="paragraf-program">
               <p>
-                Jasa Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
+                Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
                 PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
                 Karyawan.{" "}
               </p>
@@ -104,7 +105,11 @@ const Halamanprogramtni = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Bintara TNI - Polri - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Bintara TNI - Polri - Edumatrix Indonesia"
+            />
           </a>
 
           <a

@@ -48,6 +48,9 @@ import HalamankotaToefl from "./Components/HalamanKota/HalamanKotaToefl/HalamanK
 import HalamankabupatenToefl from "./Components/HalamanKabupaten/HalamanKabupatenToefl/HalamanKabupatenToefl";
 import Halamankecamatan from "./Components/HalamanKecamatan/Halamankecamatan";
 import Halamankelurahan from "./Components/HalamanKabupaten/HalamanKelurahan/Halamankelurahan";
+import BimbelKedokteran from "./Program/BimbelKedokteran/BimbelKedokteran";
+import HalamanKotaKedokteran from "./Components/HalamanKota/HalamanKotaKedokteran/HalamanKotaKedokteran";
+import HalamanKabupatenKedokteran from "./Components/HalamanKabupaten/HalamanKabupatenKedokteran/HalamanKabupatenKedokteran";
 
 function App() {
   return (
@@ -158,6 +161,13 @@ function App() {
         <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation-di/:id" element={<HalamankotaToefl />}></Route>
         {/* Go to Kabupaten TOEFL By ID */}
         <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation/kabupaten/:id" element={<HalamankabupatenToefl />}></Route>
+
+        {/* KEDOKTERAN */}
+        <Route exact path="/bimbel-masuk-kedokteran" element={<BimbelKedokteran />}></Route>
+        {/* Go to City Kedokteran By ID */}
+        <Route exact path="/bimbel-masuk-kedokteran/:id" element={<HalamanKotaKedokteran />}></Route>
+        {/* Go to Kabupaten Kedokteran By ID */}
+        <Route exact path="/bimbel-masuk-kedokteran/kabupaten/:id" element={<HalamanKabupatenKedokteran />}></Route>
 
       </Routes>
     </BrowserRouter>

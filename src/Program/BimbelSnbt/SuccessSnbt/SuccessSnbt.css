@@ -38,4 +38,7 @@
         justify-content: center;
         gap: 5px;
     }
+    .title-success-story-snbt {
+        font-size: 24px;
+    }
 }

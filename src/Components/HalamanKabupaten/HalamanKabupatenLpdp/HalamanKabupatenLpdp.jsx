@@ -47,7 +47,7 @@ const HalamankabupatenLpdp = () => {
       );
       setKabupaten(response.data);
     };
-    (id);
+    id;
     getKabupaten(id);
   }, [id, query]);
 
@@ -56,12 +56,12 @@ const HalamankabupatenLpdp = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="description"
-          content="Bimbel Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          name="robots"
+          content="Bimbel Persiapan Seleksi Beasiswa LPDP terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi Beasiswa LPDP di Kabupaten {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix
-          Indonesia
+          Bimbel Persiapan Seleksi Beasiswa LPDP di Kabupaten{" "}
+          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -70,13 +70,13 @@ const HalamankabupatenLpdp = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Seleksi Beasiswa LPDP di Kabupaten {kabupaten.kota_kabupaten} - Edumatrix
-              Indonesia
+              Bimbel Persiapan Seleksi Beasiswa LPDP di Kabupaten{" "}
+              {kabupaten.kota_kabupaten} - Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk Seleksi Beasiswa LPDP luar
-                dan dalam Negeri
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                Seleksi Beasiswa LPDP luar dan dalam Negeri
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -86,7 +86,11 @@ const HalamankabupatenLpdp = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persiapan Seleksi LPDP" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Persiapan Seleksi LPDP"
+            />
           </a>
 
           <a

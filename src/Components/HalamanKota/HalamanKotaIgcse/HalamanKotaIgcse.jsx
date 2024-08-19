@@ -64,9 +64,13 @@ const HalamankotaIgcse = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat Kurikulum IGCSE dan IB TUTOR TK-SD-SMP-SMA terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
-          Bimbel Kurikulum IGCSE dan IB TUTOR di {`${kotaigcse.kota}`} Terbaik {" "}
+          Bimbel Kurikulum IGCSE dan IB TUTOR di {`${kotaigcse.kota}`} Terbaik{" "}
           #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -81,7 +85,7 @@ const HalamankotaIgcse = () => {
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat Kurikulum IGCSE di Kota {kotaigcse.kota} untuk
+                Bimbel Les Privat Kurikulum IGCSE di Kota {kotaigcse.kota} untuk
                 anak usia 14 sampai 16 tahun
               </p>
               <p className="child-paragraf-kota">
@@ -92,14 +96,22 @@ const HalamankotaIgcse = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Kurikulum IGCSE Terbaik" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Kurikulum IGCSE Terbaik"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel Kurikulum IGCSE Terbaik" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Bimbel Kurikulum IGCSE Terbaik"
+            />
           </a>
         </div>
         <BestProgramIgcse2 />

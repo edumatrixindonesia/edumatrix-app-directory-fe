@@ -83,7 +83,13 @@ const Halamanprogram = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content="" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
+                PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
+                Karyawan Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
           Les Privat {`${program.name}`} - Bimbel {`${program.name}`} Terbaik #1
           - Edumatrix Indonesia
@@ -99,9 +105,9 @@ const Halamanprogram = () => {
             </h2>
             <div className="paragraf-program">
               <p>
-                Jasa Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
-                PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
-                Karyawan.{" "}
+                Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS,
+                LPDP, PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa
+                dan Karyawan.{" "}
               </p>
               <p className="child-paragraf-program">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

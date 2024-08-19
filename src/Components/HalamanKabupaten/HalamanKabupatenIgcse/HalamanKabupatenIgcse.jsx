@@ -58,8 +58,8 @@ const HalamankabupatenIgcse = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="description"
-          content="Bimbel Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          name="robots"
+          content="Bimbel Les Privat Kurikulum IGCSE dan IB TUTOR TK-SD-SMP-SMA terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel Kurikulum IGCSE dan IB TUTOR Terbaik di Kabupaten{" "}
@@ -77,8 +77,8 @@ const HalamankabupatenIgcse = () => {
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kabupaten{" "}
-                {kabupaten.kota_kabupaten} untuk Kurikulum IGCSE & IB TUTOR
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                Kurikulum IGCSE & IB TUTOR
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -88,7 +88,11 @@ const HalamankabupatenIgcse = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel IGCSE Terbaik" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel IGCSE Terbaik"
+            />
           </a>
 
           <a

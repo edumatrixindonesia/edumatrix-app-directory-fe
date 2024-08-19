@@ -69,26 +69,30 @@ const HalamanProgramperkota = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content=""/>
-        <title>
-          Les Privat {`${program.name}`} - Bimbel {`${program.name}`} di {`${kota.kota}`} Terbaik - Edumatrix
-          Indonesia
-        </title>
-        <link
-          rel="canonical"
-          href=""
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
+                PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
+                Karyawan Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
+        <title>
+          Les Privat {`${program.name}`} - Bimbel {`${program.name}`} di{" "}
+          {`${kota.kota}`} Terbaik - Edumatrix Indonesia
+        </title>
+        <link rel="canonical" href="" />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">
         <div className="content-program">
           <div className="teks-content">
             <h2 className="title-halaman-program">
-              Les Privat {program.name} di {kota.kota} Terbaik - Edumatrix Indonesia
+              Les Privat {program.name} di {kota.kota} Terbaik - Edumatrix
+              Indonesia
             </h2>
             <div className="paragraf-program">
               <p>
-                Jasa Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
+                Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
                 PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
                 Karyawan.{" "}
               </p>
@@ -100,7 +104,11 @@ const HalamanProgramperkota = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel dan Les Privat Mahasiswa - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel dan Les Privat Mahasiswa - Edumatrix Indonesia"
+            />
           </a>
 
           <a

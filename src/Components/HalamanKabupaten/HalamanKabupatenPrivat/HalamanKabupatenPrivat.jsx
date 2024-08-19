@@ -25,7 +25,6 @@ import Alumni from "../../Alumni/Alumni";
 import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat2/BesProgramPrivat2";
 import PaketBelajarPrivat from "../../PaketBelajar/PaketBelajarPrivat/PaketBelajarPrivat";
 
-
 const HalamankabupatenPrivat = () => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
@@ -50,7 +49,7 @@ const HalamankabupatenPrivat = () => {
       );
       setKabupaten(response.data);
     };
-    (id);
+    id;
     getKabupaten(id);
   }, [id, query]);
 
@@ -59,12 +58,12 @@ const HalamankabupatenPrivat = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="description"
-          content="Bimbel Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          name="robots"
+          content="Bimbel Les Privat TK, SD, SMP, SMA terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di Kabupaten {`${kabupaten.kota_kabupaten}`} #1 -
-          Edumatrix Indonesia
+          Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di Kabupaten{" "}
+          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -73,13 +72,13 @@ const HalamankabupatenPrivat = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di Kabupaten {kabupaten.kota_kabupaten} - Edumatrix
-              Indonesia
+              Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di Kabupaten{" "}
+              {kabupaten.kota_kabupaten} - Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk TK, SD, SMP, SMA &
-                Mahasiswa
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                TK, SD, SMP, SMA & Mahasiswa
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -89,7 +88,11 @@ const HalamankabupatenPrivat = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Privat Terbaik" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Privat Terbaik"
+            />
           </a>
 
           <a

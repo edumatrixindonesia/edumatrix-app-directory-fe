@@ -58,8 +58,8 @@ const HalamankabupatenOsn = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="description"
-          content="Bimbel Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          name="robots"
+          content="Bimbel Les Privat OSN, ISO, IMO, SD-SMP-SMA terbaik terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel Persiapan Kompetisi Olimpiade Sains Nasional (OSN) di Kabupaten{" "}
@@ -77,7 +77,7 @@ const HalamankabupatenOsn = () => {
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
                 Persiapan Seleksi Olimpiade Sains Nasional (OSN)
               </p>
               <p className="child-paragraf-kabupaten">
@@ -88,7 +88,11 @@ const HalamankabupatenOsn = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persiapan OSN SD-SMP-SMA" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Persiapan OSN SD-SMP-SMA"
+            />
           </a>
 
           <a

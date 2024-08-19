@@ -59,10 +59,10 @@ const HalamankabupatenSnbt = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta
+      <meta
           charSet="utf-8"
-          name="description"
-          content="Bimbel Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          name="robots"
+          content="Bimbel Les Privat Supercamp Masuk PTN UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel SNBT Persiapan Masuk PTN di Kabupaten {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
@@ -78,7 +78,7 @@ const HalamankabupatenSnbt = () => {
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk UTBK-SNBT, Kedokteran,
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk UTBK-SNBT, Kedokteran,
                 UMPTN, UMPTKIN, SIMAK UI dan UTUL UGM
               </p>
               <p className="child-paragraf-kabupaten">

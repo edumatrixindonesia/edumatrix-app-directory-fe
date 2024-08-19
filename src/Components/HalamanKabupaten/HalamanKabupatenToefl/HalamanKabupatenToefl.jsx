@@ -58,8 +58,8 @@ const HalamankabupatenToefl = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="description"
-          content="Bimbel Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          name="robots"
+          content="Bimbel Les Privat TOEFL, TOEICE, IELTS SMP - SMA - Mahasiswa terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation di
@@ -77,7 +77,7 @@ const HalamankabupatenToefl = () => {
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
                 TOEFL, TOEIC, IELTS dan English Conversation
               </p>
               <p className="child-paragraf-kabupaten">
@@ -88,7 +88,11 @@ const HalamankabupatenToefl = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel TOEFL TOEIC IELTS dan English Conversation Terbaik - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel TOEFL TOEIC IELTS dan English Conversation Terbaik - Edumatrix Indonesia"
+            />
           </a>
 
           <a

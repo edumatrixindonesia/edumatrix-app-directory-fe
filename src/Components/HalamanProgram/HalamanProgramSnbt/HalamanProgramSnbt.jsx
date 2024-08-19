@@ -58,7 +58,7 @@ const Halamanprogramsnbt = () => {
       );
       setPromo(response.data);
     };
-    (id);
+    id;
     getProgram(id);
     getPromo(id);
     fetchKelasperKota();
@@ -75,7 +75,11 @@ const Halamanprogramsnbt = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat Supercamp Masuk PTN UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
           Bimbel {`${program.kelassnbt}`} #1 Terbaik - Edumatrix Indonesia
         </title>
@@ -90,7 +94,7 @@ const Halamanprogramsnbt = () => {
             </h2>
             <div className="paragraf-program">
               <p>
-                Jasa Les Privat untuk UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN,
+                Bimbel Les Privat untuk UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN,
                 SIMAK UI dan UTUL UGM
               </p>
               <p className="child-paragraf-program">
@@ -101,7 +105,11 @@ const Halamanprogramsnbt = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel UMPTKIN Terbaik - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel UMPTKIN Terbaik - Edumatrix Indonesia"
+            />
           </a>
 
           <a

@@ -55,7 +55,11 @@ const HalamankotaPrivat = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat TK, SD, SMP, SMA terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
           Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di{" "}
           {`${kotaprivat.kota}`} #1 - Edumatrix Indonesia
@@ -72,8 +76,8 @@ const HalamankotaPrivat = () => {
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotaprivat.kota} untuk TK, SD, SMP, SMA
-                & Mahasiswa
+                Bimbel Les Privat di Kota {kotaprivat.kota} untuk TK, SD, SMP,
+                SMA & Mahasiswa
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

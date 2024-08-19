@@ -54,7 +54,7 @@ const HalamankotaSnbt = () => {
       );
       setKotasnbt(response.data);
     };
-    (id);
+    id;
     getKota(id);
   }, [id, query]);
 
@@ -62,9 +62,13 @@ const HalamankotaSnbt = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat Supercamp Masuk PTN UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
-          Bimbel SNBT Persiapan Masuk PTN Terbaik di {`${kotasnbt.kota}`} #1 -
+          Bimbel SNBT Persiapan Masuk PTN di {`${kotasnbt.kota}`} Terbaik #1 -
           Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -74,13 +78,13 @@ const HalamankotaSnbt = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel SNBT Persiapan Masuk PTN Terbaik di {kotasnbt.kota}
+              Bimbel SNBT Persiapan Masuk PTN di {kotasnbt.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotasnbt.kota} untuk UTBK-SNBT,
-                Kedokteran, UMPTN, UMPTKIN, SIMAK UI dan UTUL UGM
+                Bimbel Les Privat di {kotasnbt.kota} untuk UTBK-SNBT,
+                Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM, UM PTN dan UTUL UGM
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -90,14 +94,22 @@ const HalamankotaSnbt = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Privat UTBK SNBT & Ujian Mandiri masuk PTN Terbaik - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Privat UTBK SNBT & Ujian Mandiri masuk PTN Terbaik - Edumatrix Indonesia"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel Privat UTBK SNBT Terbaik - Edumatrix Indonesia" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Bimbel Privat UTBK SNBT Terbaik - Edumatrix Indonesia"
+            />
           </a>
         </div>
         <BestprogramSnbt2 />

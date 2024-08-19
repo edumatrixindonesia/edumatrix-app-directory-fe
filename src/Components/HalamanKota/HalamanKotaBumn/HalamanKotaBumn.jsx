@@ -56,7 +56,7 @@ const HalamankotaBumn = () => {
       );
       setKotabumn(response.data);
     };
-    (id);
+    id;
     getKota(id);
   }, [id, query]);
 
@@ -64,10 +64,14 @@ const HalamankotaBumn = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat Seleksi BUMN Persiapan Masuk Kerja dan Naik Jabatan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
-          Bimbel Persiapan Seleksi BUMN Terbaik di {`${kotabumn.kota}`}{" "}
-          #1 - Edumatrix Indonesia
+          Bimbel Persiapan Seleksi BUMN Terbaik di {`${kotabumn.kota}`} #1 -
+          Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -81,7 +85,8 @@ const HalamankotaBumn = () => {
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotabumn.kota} untuk Seleksi BUMN dan Tes masuk Kerja
+                Bimbel Les Privat di Kota {kotabumn.kota} untuk Seleksi BUMN dan
+                Tes masuk Kerja
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -91,14 +96,22 @@ const HalamankotaBumn = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Les Privat BUMN Terbaik dan Rekomendasi - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Les Privat BUMN Terbaik dan Rekomendasi - Edumatrix Indonesia"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Les Privat BUMN Terbaik dan Rekomendasi - Edumatrix Indonesia" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Les Privat BUMN Terbaik dan Rekomendasi - Edumatrix Indonesia"
+            />
           </a>
         </div>
         <BestProgramBumn2 />

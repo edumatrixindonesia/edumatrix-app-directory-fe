@@ -56,7 +56,7 @@ const HalamankotaCpns = () => {
       );
       setKotacpns(response.data);
     };
-    (id);
+    id;
     getKota(id);
   }, [id, query]);
 
@@ -64,9 +64,13 @@ const HalamankotaCpns = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Persiapan Seleksi CPNS dan PPPK terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
-          Bimbel Persiapan Seleksi CPNS & PPPK di {`${kotacpns.kota}`} Terbaik {" "}
+          Bimbel Persiapan Seleksi CPNS & PPPK di {`${kotacpns.kota}`} Terbaik{" "}
           #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -81,7 +85,7 @@ const HalamankotaCpns = () => {
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotacpns.kota} untuk Seleksi CPNS &
+                Bimbel Les Privat di Kota {kotacpns.kota} untuk Seleksi CPNS &
                 PPPK
               </p>
               <p className="child-paragraf-kota">
@@ -92,14 +96,22 @@ const HalamankotaCpns = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Les Privat CPNS Berkualitas dan Rekomendasi" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Les Privat CPNS Berkualitas dan Rekomendasi"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Les Privat CPNS Berkualitas dan Rekomendasi" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Les Privat CPNS Berkualitas dan Rekomendasi"
+            />
           </a>
         </div>
         <BestProgramCpns2 />

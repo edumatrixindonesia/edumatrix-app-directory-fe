@@ -58,6 +58,9 @@
     gap: 5px;
   }
   .title-success-story-all {
-    font-size: 25px;
+    font-size: 24px;
+  }
+  .subtitle-all-success-story {
+    font-size: 20px;
   }
 }

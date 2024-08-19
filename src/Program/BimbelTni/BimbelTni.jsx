@@ -31,7 +31,7 @@ const BimbelTni = () => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Privat & Trainingcamp Masuk Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan #1 - Edumatrix Indonesia"
+          content="Bimbel Privat & Training Camp Masuk Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan #1 -

@@ -43,36 +43,40 @@ const Navbar = () => {
   };
 
   const goToBimbelPrivat = () => {
-    navigate("/bimbel-privat-tk-sd-smp-sma-mahasiswa")
-  }
+    navigate("/bimbel-privat-tk-sd-smp-sma-mahasiswa");
+  };
 
   const goToBimbelLpdp = () => {
-    navigate("/bimbel-persiapan-seleksi-lpdp")
-  }
+    navigate("/bimbel-persiapan-seleksi-lpdp");
+  };
 
   const goToBimbelCpns = () => {
-    navigate("/bimbel-cpns-dan-pppk")
-  }
+    navigate("/bimbel-cpns-dan-pppk");
+  };
 
   const goToBimbelBumn = () => {
-    navigate("/bimbel-seleksi-bumn")
-  }
+    navigate("/bimbel-seleksi-bumn");
+  };
 
   const goToBimbelIgcse = () => {
-    navigate("/bimbel-kurikulum-igcse")
-  }
+    navigate("/bimbel-kurikulum-igcse");
+  };
 
   const goToBimbelIup = () => {
-    navigate("/bimbel-iup-kki")
-  }
+    navigate("/bimbel-iup-kki");
+  };
 
   const goToBimbelOsn = () => {
-    navigate("/bimbel-osn")
-  }
+    navigate("/bimbel-osn");
+  };
 
   const goToBimbelToefl = () => {
-    navigate("/bimbel-toefl-toeic-ielts-dan-english-conversation")
-  }
+    navigate("/bimbel-toefl-toeic-ielts-dan-english-conversation");
+  };
+
+  const goToBimbelKedokteran = () => {
+    navigate("/bimbel-masuk-kedokteran");
+  };
 
   return (
     <React.Fragment>
@@ -84,7 +88,7 @@ const Navbar = () => {
             <span className="line line2" />
             <span className="line line3" />
           </div>
-         
+
           <img
             onClick={() => goToHome()}
             alt="Logo Edumatrix Indonesia"
@@ -107,72 +111,116 @@ const Navbar = () => {
                 />
               </a>
               <ul className="dropdown">
-                <li onClick={() => goToBimbelSupercamp()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Supercamp/Karantina UTBK SNBT
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelSnbt()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel UTBK SNBT
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelTni()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel TNI - POLRI
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelPrivat()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Les Privat TK - SD - SMP - SMA
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelLpdp()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel LPDP
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelCpns()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel CPNS & PPPK
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelBumn()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel BUMN
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelIgcse()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel Kurikulum IGCSE & IB
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelIup()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel IUP - KKI
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelOsn()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel OSN
-                  </a>
-                </li>
-                <li onClick={() => goToBimbelToefl()}>
-                  <a className="child-dropdown" href="">
-                    <FontAwesomeIcon className="icon-dropdown" icon={faAnglesRight} />
-                    Bimbel TOEFL - TOEIC - IELTS
-                  </a>
-                </li>
+                <div className="fill-dropdown">
+                  <li onClick={() => goToBimbelKedokteran()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel Kedokteran
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelSupercamp()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Supercamp UTBK SNBT
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelSnbt()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel UTBK SNBT
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelTni()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel TNI - POLRI
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelPrivat()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Les Privat TK - SD - SMP - SMA
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelLpdp()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel LPDP
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelCpns()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel CPNS & PPPK
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelBumn()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel BUMN
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelIgcse()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel Kurikulum IGCSE & IB
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelIup()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel IUP - KKI
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelOsn()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel OSN
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelToefl()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Bimbel TOEFL - TOEIC - IELTS
+                    </a>
+                  </li>
+                </div>
               </ul>
             </li>
             <li>

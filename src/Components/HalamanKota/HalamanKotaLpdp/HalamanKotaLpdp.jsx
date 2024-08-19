@@ -41,11 +41,14 @@ const HalamankotaLpdp = () => {
 
   useEffect(() => {
     const getKota = async () => {
-      const response = await axiosJWT.get(`https://api.edulink-indonesia.com/kota/${id}`, {
-        headers: {
-          Authorization: `Bearer`,
-        },
-      });
+      const response = await axiosJWT.get(
+        `https://api.edulink-indonesia.com/kota/${id}`,
+        {
+          headers: {
+            Authorization: `Bearer`,
+          },
+        }
+      );
       setKotaslpdp(response.data);
     };
     console.log(id);
@@ -56,10 +59,14 @@ const HalamankotaLpdp = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Persiapan Seleksi Beasiswa LPDP terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
-          Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik di{" "}
-          {`${kotalpdp.kota}`} #1 - Edumatrix Indonesia
+          Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik di {`${kotalpdp.kota}`}{" "}
+          #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -68,14 +75,13 @@ const HalamankotaLpdp = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik di{" "}
-              {kotalpdp.kota}
+              Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik di {kotalpdp.kota}
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotalpdp.kota} untuk Seleksi
-                Beasiswa LPDP luar dan dalam Negeri
+                Bimbel Les Privat di Kota {kotalpdp.kota} untuk Seleksi Beasiswa
+                LPDP luar dan dalam Negeri
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -85,14 +91,22 @@ const HalamankotaLpdp = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persiapan Beasiswa LPDP" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Persiapan Beasiswa LPDP"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel Persiapan Beasiswa LPDP" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Bimbel Persiapan Beasiswa LPDP"
+            />
           </a>
         </div>
         <BestprogramSnbt2 />

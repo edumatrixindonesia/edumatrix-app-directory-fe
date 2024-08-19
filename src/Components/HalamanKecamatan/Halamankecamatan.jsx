@@ -78,7 +78,7 @@ const Halamankecamatan = () => {
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di {kecamatan.kecamatan} untuk TK, SD, SMP, SMA,
+                Bimbel Les Privat di {kecamatan.kecamatan} untuk TK, SD, SMP, SMA,
                 UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, UTBK SNBT, CBT UGM, UM
                 PTN, AKPOL, AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
               </p>

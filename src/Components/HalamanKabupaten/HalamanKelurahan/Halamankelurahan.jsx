@@ -59,7 +59,7 @@ const Halamankelurahan = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Jasa Les Privat TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          content="Bimbel Les Privat TK, SD, SMP, SMA, OSN, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Les Privat di {`${kelurahan.kelurahan}`} - TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM - Bimbel di{" "}
@@ -76,7 +76,7 @@ const Halamankelurahan = () => {
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di {kelurahan.kelurahan} untuk TK, SD,
+                Bimbel Les Privat di {kelurahan.kelurahan} untuk TK, SD,
                 SMP, SMA, UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, SNBT, UM PTN, CBT UGM, AKPOL,
                 AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
               </p>

@@ -1,39 +1,37 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
+import modelTanyaProgram from "../../../assets/tanya_program.png";
 import rumahAdat from "../../../assets/rumah_adat.png";
-import tanyaProgram from "../../../assets/tanya_program.png";
 import { Helmet } from "react-helmet-async";
+import Floatingcta from "../../FloatingCta/Floatingcta";
+import Bottombar from "../../BottomBar/Bottombar";
+import Footer from "../../Footer/Footer";
 import Bestprogram2 from "../../BestProgram/BestProgram2/Bestprogram2";
 import Voucer from "../../Voucer/Voucer";
 import Masterteacher from "../../MasterTeacher/Masterteacher";
-import ListKabupaten from "../../Tab/ListKabupaten";
 import Keunggulan from "../../Keunggulan/Keunggulan";
 import Testimoni from "../../Testimoni/Testimoni";
 import Faq from "../../Faq/Faq";
 import Asalsekolah from "../../AsalSekolah/Asalsekolah";
-import Floatingcta from "../../FloatingCta/Floatingcta";
-import Bottombar from "../../BottomBar/Bottombar";
-import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
-import ListUtbkSnbt from "../../Tab/TabUtbkSnbt/ListUtbkSnbt";
-import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
-import ListKabupatenLpdp from "../../Tab/TabLpdp/ListKabupatenLpdp";
-import ListKabupatenCpns from "../../Tab/TabCpns/ListKabupatenCpns";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
-import ListKabupatenIup from "../../Tab/TabIup/ListKabupatenIup";
-import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
-import Liputan from "../../Liputan/Liputan";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
-import PaketBelajarIup from "../../PaketBelajar/PaketBelajarIup/PaketBelajarIup";
-import Video from "../../Video/Video";
+import GaleriKegiatan from "../../../Program/BimbelSnbt/GaleriKegiatan/GaleriKegiatan";
+import Liputan from "../../Liputan/Liputan";
+import InfoCamp from "../../InfoCamp/InfoCamp";
 import Alumni from "../../Alumni/Alumni";
-import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup";
+import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import Video from "../../Video/Video";
+import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
+import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import PaketBelajarKedokteran from "../../PaketBelajar/PaketBelajarKedokteran/PaketBelajarKedokteran";
 
-const HalamankotaIup = () => {
+const HalamanKabupatenKedokteran = () => {
   const { id } = useParams();
-  const [kotaiup, setKotaiup] = useState([]);
+  const [kabupaten, setKabupaten] = useState([]);
 
   function useQuery() {
     const { search } = useLocation();
@@ -44,50 +42,50 @@ const HalamankotaIup = () => {
   const axiosJWT = axios.create();
 
   useEffect(() => {
-    const getKota = async () => {
+    const getKabupaten = async () => {
       const response = await axiosJWT.get(
-        `https://api.edulink-indonesia.com/kota/${id}`,
+        `https://api.edulink-indonesia.com/ibukotakabupaten/${id}`,
         {
           headers: {
             Authorization: `Bearer`,
           },
         }
       );
-      setKotaiup(response.data);
+      setKabupaten(response.data);
     };
     id;
-    getKota(id);
+    getKabupaten(id);
   }, [id, query]);
-
   return (
     <React.Fragment>
-      <Navbar />
       <Helmet>
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Les Privat Masuk PTN SIMAK UI KKI UI, IUP UGM, CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Bimbel Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik
+          #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi IUP - KKI di {`${kotaiup.kota}`} Terbaik #1 -
-          Edumatrix Indonesia
+          Bimbel Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM di{" "}
+          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
       <Navbar />
-      <div className="container-halaman-kota">
-        <div className="content-kota">
+      <div className="container-halaman-kabupaten">
+        <div className="content-kabupaten">
           <div className="teks-content">
-            <h2 className="title-halaman-kota">
-              Bimbel Persiapan Seleksi IUP - KKI di {kotaiup.kota} Terbaik
+            <h2 className="title-halaman-kabupaten">
+              Bimbel Persiapan Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM di{" "}
+              {kabupaten.kota_kabupaten} - Edumatrix Indonesia
             </h2>
-
-            <div className="paragraf-kota">
+            <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di Kota {kotaiup.kota} untuk Seleksi IUP UGM &
-                KKI UI
+                Bimbel Les Masuk Kedokteran di{" "}
+                {kabupaten.kota_kabupaten} untuk UTBK-SNBT, Kedokteran, UMPTN,
+                UMPTKIN, SIMAK UI dan UTUL UGM
               </p>
-              <p className="child-paragraf-kota">
+              <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
                 lebih dari 5.000 Master Teacher Edumatrix yang siap memberikan
                 pelayanan terbaik.
@@ -98,7 +96,7 @@ const HalamankotaIup = () => {
             <img
               className="rumah-adat"
               src={rumahAdat}
-              alt="Bimbel IUP ITB UGM dan KKI UI Terbaik - Edumatrix Indonesia"
+              alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia"
             />
           </a>
 
@@ -108,26 +106,27 @@ const HalamankotaIup = () => {
           >
             <img
               className="model-program-kota"
-              src={tanyaProgram}
-              alt="Bimbel IUP ITB UGM dan KKI UI Terbaik - Edumatrix Indonesia"
+              src={modelTanyaProgram}
+              alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia"
             />
           </a>
         </div>
         <BestprogramSnbt2 />
+        <Voucer />
         <SuccessSnbt />
-        <PaketBelajarIup />
+        <PaketBelajarKedokteran />
+        <SectionSupercamp />
         <GaleriKegiatan />
         <Video />
-        <Voucer />
         <Testimoni />
         <Keunggulan />
+        <InfoCamp />
         <Masterteacher />
         <Alumni />
         <Liputan />
-        <ListKabupatenIup />
         <Faqtni />
         <Asalsekolah />
-        <PromoIup />
+        <PromoHomepage />
       </div>
       <Footer />
       <Bottombar />
@@ -136,4 +135,4 @@ const HalamankotaIup = () => {
   );
 };
 
-export default HalamankotaIup;
+export default HalamanKabupatenKedokteran;

@@ -50,7 +50,7 @@ const HalamankabupatenBumn = () => {
       );
       setKabupaten(response.data);
     };
-    (id);
+    id;
     getKabupaten();
   }, [id, query]);
 
@@ -59,12 +59,12 @@ const HalamankabupatenBumn = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="description"
-          content="Bimbel Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          name="robots"
+          content="Bimbel Les Privat Seleksi BUMN Persiapan Masuk Kerja dan Naik Jabatan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi BUMN di Kabupaten {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix
-          Indonesia
+          Bimbel Persiapan Seleksi BUMN di Kabupaten{" "}
+          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -73,12 +73,13 @@ const HalamankabupatenBumn = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Seleksi BUMN di Kabupaten {kabupaten.kota_kabupaten} - Edumatrix
-              Indonesia
+              Bimbel Persiapan Seleksi BUMN di Kabupaten{" "}
+              {kabupaten.kota_kabupaten} - Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk Seleksi BUMN
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                Seleksi BUMN
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -88,7 +89,11 @@ const HalamankabupatenBumn = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persiapan Seleksi BUMN" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Persiapan Seleksi BUMN"
+            />
           </a>
 
           <a

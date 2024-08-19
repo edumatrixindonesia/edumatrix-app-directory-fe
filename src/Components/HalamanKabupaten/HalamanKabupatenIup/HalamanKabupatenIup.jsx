@@ -23,7 +23,7 @@ import PaketBelajarIup from "../../PaketBelajar/PaketBelajarIup/PaketBelajarIup"
 import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
 import Video from "../../Video/Video";
 import Alumni from "../../Alumni/Alumni";
-import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup"
+import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup";
 
 const HalamankabupatenIup = () => {
   const { id } = useParams();
@@ -49,7 +49,7 @@ const HalamankabupatenIup = () => {
       );
       setKabupaten(response.data);
     };
-    (id);
+    id;
     getKabupaten(id);
   }, [id, query]);
 
@@ -58,12 +58,12 @@ const HalamankabupatenIup = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="description"
-          content="Bimbel Privat terbaik dengan sistem belajar mengajar yang berkualitas  #1 - Edumatrix Indonesia"
+          name="robots"
+          content="Bimbel Les Privat Masuk PTN SIMAK UI KKI UI, IUP UGM, CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi IUP - KKI di Kabupaten {`${kabupaten.kota_kabupaten}`} #1 -
-          Edumatrix Indonesia
+          Bimbel Persiapan Seleksi IUP - KKI di Kabupaten{" "}
+          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -72,12 +72,13 @@ const HalamankabupatenIup = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Seleksi IUP - KKI di Kabupaten {kabupaten.kota_kabupaten} - Edumatrix
-              Indonesia
+              Bimbel Persiapan Seleksi IUP - KKI di Kabupaten{" "}
+              {kabupaten.kota_kabupaten} - Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Jasa Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk Seleksi IUP UGM & KKI UI
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                Seleksi IUP UGM & KKI UI
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -87,7 +88,11 @@ const HalamankabupatenIup = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Persipan IUP/KKI" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Persipan IUP/KKI"
+            />
           </a>
 
           <a

@@ -61,7 +61,11 @@ const HalamankotaToefl = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat TOEFL, TOEICE, IELTS SMP - SMA - Mahasiswa terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
           Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation di{" "}
           {`${kotatoefl.kota}`} Terbaik #1 - Edumatrix Indonesia
@@ -79,7 +83,7 @@ const HalamankotaToefl = () => {
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotatoefl.kota} untuk TOEFL, TOEIC,
+                Bimbel Les Privat di Kota {kotatoefl.kota} untuk TOEFL, TOEIC,
                 IELTS dan English Conversation
               </p>
               <p className="child-paragraf-kota">

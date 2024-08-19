@@ -68,19 +68,19 @@ const HalamanMapelperkota = () => {
     getMapel(mapelId);
   }, [id, query]);
 
-
   return (
     <React.Fragment>
       <Helmet>
-        <meta charSet="utf-8" name="robots" content=""/>
-        <title>
-          Les Privat {`${mapel.name}`} di {`${kota.kota}`} - Bimbel {`${mapel.name}`} di {`${kota.kota}`} Terbaik #1 - Edumatrix
-          Indonesia
-        </title>
-        <link
-          rel="canonical"
-          href=""
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Les Privat TK, SD, SMP, SMA, Mahasiswa Semua Mata Pelajaran dan Mata Kuliah Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
+        <title>
+          Les Privat {`${mapel.name}`} di {`${kota.kota}`} - Bimbel{" "}
+          {`${mapel.name}`} di {`${kota.kota}`} Terbaik #1 - Edumatrix Indonesia
+        </title>
+        <link rel="canonical" href="" />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">
@@ -91,7 +91,7 @@ const HalamanMapelperkota = () => {
             </h2>
             <div className="paragraf-program">
               <p>
-                Jasa Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
+                Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
                 PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
                 Karyawan.{" "}
               </p>
@@ -103,7 +103,11 @@ const HalamanMapelperkota = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel SNBT Terbaik" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel SNBT Terbaik"
+            />
           </a>
 
           <a

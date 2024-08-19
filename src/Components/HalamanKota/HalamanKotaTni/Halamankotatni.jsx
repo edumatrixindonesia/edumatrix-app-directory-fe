@@ -62,7 +62,11 @@ const Halamankotatni = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
           Bimbel Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan di{" "}
           {`${kotatni.kotatni}`} #1 - Edumatrix Indonesia
@@ -80,7 +84,7 @@ const Halamankotatni = () => {
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di {kotatni.kotatni} untuk AKPOL, AKMIL,
+                Bimbel Les Privat di {kotatni.kotatni} untuk AKPOL, AKMIL,
                 Bintara/Tamtama dan Sekolah Kedinasan
               </p>
               <p className="child-paragraf-kota">
@@ -91,14 +95,22 @@ const Halamankotatni = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel TNI/Polri AKPOL AKMIL Bintara Tamtama dan Sekolah Kedinasan Terbaik" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel TNI/Polri AKPOL AKMIL Bintara Tamtama dan Sekolah Kedinasan Terbaik"
+            />
           </a>
 
           <a
             className="parent-img-modeltanya-program"
             href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
           >
-            <img className="model-program-kota" src={tanyaProgram} alt="Bimbel TNI/Polri AKPOL AKMIL Bintara Tamtama dan Sekolah Kedinasan Terbaik" />
+            <img
+              className="model-program-kota"
+              src={tanyaProgram}
+              alt="Bimbel TNI/Polri AKPOL AKMIL Bintara Tamtama dan Sekolah Kedinasan Terbaik"
+            />
           </a>
         </div>
         <BestprogramTni2 />
@@ -107,7 +119,11 @@ const Halamankotatni = () => {
         <MateriTni />
         <div className="parent-roadmap">
           {/* <img className="image-roadmap" src={roadmapTni} alt="roadmap tni" /> */}
-          <img className="image-roadmap" src="https://lesprivatkerumah.com/wp-content/uploads/2023/12/new-program-1200x532.jpeg" alt="" />
+          <img
+            className="image-roadmap"
+            src="https://lesprivatkerumah.com/wp-content/uploads/2023/12/new-program-1200x532.jpeg"
+            alt=""
+          />
         </div>
         <ProgramUnggulanTni />
         <GaleriKegiatan />

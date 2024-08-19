@@ -62,9 +62,13 @@ const HalamankotaOsn = () => {
     <React.Fragment>
       <Navbar />
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta
+          charSet="utf-8"
+          name="robots"
+          content="Bimbel Les Privat OSN, ISO, IMO, SD-SMP-SMA terbaik terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
         <title>
-          Bimbel Persiapan Kompetisi Olimpiade Sains Nasional (OSN) di {" "}
+          Bimbel Persiapan Kompetisi Olimpiade Sains Nasional (OSN) di{" "}
           {`${kotaosn.kota}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -74,13 +78,13 @@ const HalamankotaOsn = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Kompetisi Olimpiade Sains Nasional (OSN)
-              di {kotaosn.kota} Terbaik
+              Bimbel Persiapan Kompetisi Olimpiade Sains Nasional (OSN) di{" "}
+              {kotaosn.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Jasa Les Privat di Kota {kotaosn.kota} untuk Persiapan Seleksi
+                Bimbel Les Privat di Kota {kotaosn.kota} untuk Persiapan Seleksi
                 Olimpiade Sains Nasional (OSN)
               </p>
               <p className="child-paragraf-kota">
