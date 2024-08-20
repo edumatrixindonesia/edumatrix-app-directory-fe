@@ -51,6 +51,7 @@ import Halamankelurahan from "./Components/HalamanKabupaten/HalamanKelurahan/Hal
 import BimbelKedokteran from "./Program/BimbelKedokteran/BimbelKedokteran";
 import HalamanKotaKedokteran from "./Components/HalamanKota/HalamanKotaKedokteran/HalamanKotaKedokteran";
 import HalamanKabupatenKedokteran from "./Components/HalamanKabupaten/HalamanKabupatenKedokteran/HalamanKabupatenKedokteran";
+import Produk from "./Components/Produk/Produk";
 
 function App() {
   return (
@@ -79,6 +80,8 @@ function App() {
         <Route exact path="/pilihan-kelas" element={<Searchkelas />}></Route>
         {/* Go to About Us */}
         <Route exact path="/tentang-kami" element={<Aboutus />}></Route>
+        {/* Go to Produk */}
+        <Route exact path="/produk" element={<Produk />}></Route>
 
         {/* PROGRAM BIMBEL */}
         {/* TNI-POLRI */}

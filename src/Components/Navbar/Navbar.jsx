@@ -77,6 +77,9 @@ const Navbar = () => {
   const goToBimbelKedokteran = () => {
     navigate("/bimbel-masuk-kedokteran");
   };
+  const goToProduk = () => {
+    navigate("/produk")
+  }
 
   return (
     <React.Fragment>
@@ -222,6 +225,12 @@ const Navbar = () => {
                   </li>
                 </div>
               </ul>
+            </li>
+            <li>
+              <a onClick={() => goToProduk()} className="menu-nav">
+                <FontAwesomeIcon className="icon-navbar" icon={faSchool} />{" "}
+                Produk
+              </a>
             </li>
             <li>
               <a onClick={() => goToAbout()} className="menu-nav">
