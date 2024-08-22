@@ -40,11 +40,12 @@ const BimbelIup = () => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Persiapan Seleksi IUP - KKI Terbaik #1 - Edumatrix Indonesia"
+          content="Bimbel Persiapan IUP UGM, IUP ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT Terbaik
+          #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi IUP - KKI Terbaik
-          #1 - Edumatrix Indonesia
+          Bimbel Persiapan IUP UGM, IUP ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
+          Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>

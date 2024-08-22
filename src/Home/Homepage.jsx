@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slidertop from "../Components/SlideTop/Slidertop";
 import Navbar from "../Components/Navbar/Navbar";
 import "./Homepage.css";
@@ -24,8 +24,13 @@ import GaleriKegiatan from "../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegi
 import Video from "../Components/Video/Video";
 import SectionSupercamp from "../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import ReactGA from "react-ga";
 
 const Homepage = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <React.Fragment>
       <Helmet>

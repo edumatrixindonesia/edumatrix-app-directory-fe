@@ -74,13 +74,14 @@ const Halamankecamatan = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Les Privat di {kecamatan.kecamatan} Terbaik
+              Les Privat di {kecamatan.kecamatan} - TK, SD, SMP, SMA, UTBK SNBT,
+              SIMAK UI, UM PTN & CBT UGM Terbaik
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di {kecamatan.kecamatan} untuk TK, SD, SMP, SMA,
-                UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, UTBK SNBT, CBT UGM, UM
-                PTN, AKPOL, AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
+                Bimbel Les Privat di {kecamatan.kecamatan} untuk TK, SD, SMP,
+                SMA, UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, UTBK SNBT, CBT
+                UGM, UM PTN, AKPOL, AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

@@ -66,12 +66,13 @@ const HalamanKotaKedokteran = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik
+          content="Bimbel Masuk Kedokteran - FK UI, UGM, Undip, Unair,
+          Unpad, UB, Udayana Terbaik
           #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM di{" "}
-          {`${kotaKedokteran.kota}`} Terbaik #1 - Edumatrix Indonesia
+          Bimbel Masuk Kedokteran di {`${kotaKedokteran.kota}`} - FK UI, UGM,
+          Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -80,13 +81,13 @@ const HalamanKotaKedokteran = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM di{" "}
-              {kotaKedokteran.kota} Terbaik
+              Bimbel Masuk Kedokteran di {kotaKedokteran.kota} - FK UI, UGM,
+              Undip, Unair, Unpad, UB, Udayana Terbaik
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Bimbel Les Masuk Kedokteran di {kotaKedokteran.kota} untuk
+                Bimbel Persiapan Masuk Kedokteran di {kotaKedokteran.kota} untuk
                 UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM, UM PTN
                 dan UTUL UGM
               </p>

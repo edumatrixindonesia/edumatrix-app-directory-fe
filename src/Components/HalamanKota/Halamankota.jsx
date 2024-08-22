@@ -73,7 +73,8 @@ const Halamankota = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Les Privat di {kota.kota} Terbaik
+              Les Privat di {kota.kota} - TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI,
+              UM PTN & CBT UGM Terbaik
             </h2>
 
             <div className="paragraf-kota">

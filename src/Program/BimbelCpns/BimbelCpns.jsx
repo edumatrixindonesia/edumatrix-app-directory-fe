@@ -36,11 +36,10 @@ const BimbelCpns = () => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Persiapan Seleksi CPNS & PPPK Terbaik #1 - Edumatrix
-          Indonesia"
+          content="Bimbel CPNS & PPPK - SKD, SKB, TWK, TIU, TKP Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi CPNS & PPPK Terbaik #1 - Edumatrix Indonesia
+          Bimbel CPNS & PPPK - SKD, SKB, TWK, TIU, TKP Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>

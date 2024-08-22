@@ -52,20 +52,22 @@ const HalamankabupatenSnbt = () => {
       );
       setKabupaten(response.data);
     };
-    (id);
+    id;
     getKabupaten(id);
   }, [id, query]);
 
   return (
     <React.Fragment>
       <Helmet>
-      <meta
+        <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Les Privat Supercamp Masuk PTN UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Bimbel Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+          Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel SNBT Persiapan Masuk PTN di Kabupaten {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
+          Bimbel Masuk PTN UTBK SNBT di {`${kabupaten.kota_kabupaten}`} - UI,
+          UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -74,12 +76,13 @@ const HalamankabupatenSnbt = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel SNBT Persiapan Masuk PTN di Kabupaten {kabupaten.kota_kabupaten} - Edumatrix Indonesia
+              Bimbel Masuk PTN UTBK SNBT di {kabupaten.kota_kabupaten} - UI,
+              UGM, Undip, Unair, Unpad, UB, Udayana
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk UTBK-SNBT, Kedokteran,
-                UMPTN, UMPTKIN, SIMAK UI dan UTUL UGM
+                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI dan UTUL UGM
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -89,7 +92,11 @@ const HalamankabupatenSnbt = () => {
             </div>
           </div>
           <a className="parent-img-modeltanya-program" href="">
-            <img className="rumah-adat" src={rumahAdat} alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia" />
+            <img
+              className="rumah-adat"
+              src={rumahAdat}
+              alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia"
+            />
           </a>
 
           <a

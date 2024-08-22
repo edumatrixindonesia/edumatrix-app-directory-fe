@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PreLoader from './Components/Preloader/PreLoader';
 import { hydrate, render } from 'react-dom';
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from 'react-helmet-async-async';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // if (root.hasChildNodes()) {

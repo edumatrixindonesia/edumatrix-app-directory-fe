@@ -65,7 +65,7 @@ const HalamankotaLpdp = () => {
           content="Bimbel Persiapan Seleksi Beasiswa LPDP terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik di {`${kotalpdp.kota}`}{" "}
+          Bimbel Persiapan Seleksi Beasiswa LPDP di {`${kotalpdp.kota}`} Terbaik{" "}
           #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -75,7 +75,7 @@ const HalamankotaLpdp = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik di {kotalpdp.kota}
+              Bimbel Persiapan Seleksi Beasiswa LPDP di {kotalpdp.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">

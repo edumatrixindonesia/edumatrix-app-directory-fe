@@ -77,8 +77,13 @@ const Navbar = () => {
   const goToBimbelKedokteran = () => {
     navigate("/bimbel-masuk-kedokteran");
   };
+
   const goToProduk = () => {
     navigate("/produk")
+  }
+
+  const goToBimbelKsn = () => {
+    navigate("/pelatihan-osn-ksn")
   }
 
   return (
@@ -212,6 +217,15 @@ const Navbar = () => {
                         icon={faAnglesRight}
                       />
                       Bimbel OSN
+                    </a>
+                  </li>
+                  <li onClick={() => goToBimbelKsn()}>
+                    <a className="child-dropdown" href="">
+                      <FontAwesomeIcon
+                        className="icon-dropdown"
+                        icon={faAnglesRight}
+                      />
+                      Pelatihan OSN/KSN
                     </a>
                   </li>
                   <li onClick={() => goToBimbelToefl()}>

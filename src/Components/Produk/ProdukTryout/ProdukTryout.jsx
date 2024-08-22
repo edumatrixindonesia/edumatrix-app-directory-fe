@@ -109,7 +109,7 @@ const ProdukTryout = () => {
             </div>
           </div>
 
-          <div className="card-produk">
+          {/* <div className="card-produk">
             <img src={toPsikotes} alt="" className="header-produk" />
             <div className="fill-produk">
               <h2 className="title-produk">
@@ -161,7 +161,7 @@ const ProdukTryout = () => {
                 Pesan Sekarang
               </a>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

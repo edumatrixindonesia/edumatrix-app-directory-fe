@@ -31,11 +31,12 @@ const BimbelSnbt = () => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Privat & Supercamp SNBT Terbaik #1 - Edumatrix
-          Indonesia"
+          content="Bimbel Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+          Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Privat & Supercamp SNBT Terbaik #1 - Edumatrix Indonesia
+          Bimbel Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+          Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>

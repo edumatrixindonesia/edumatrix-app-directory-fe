@@ -30,9 +30,9 @@ const Produk = () => {
       <div className="container-produk">
         <SlidetTop />
         <ProdukPtn />
-        <ProdukTni />
-        <ProdukOsn />
-        {/* <ProdukTryout /> */}
+        {/* <ProdukTni />
+        <ProdukOsn /> */}
+        <ProdukTryout />
         <br />
       </div>
       <Floatingcta />

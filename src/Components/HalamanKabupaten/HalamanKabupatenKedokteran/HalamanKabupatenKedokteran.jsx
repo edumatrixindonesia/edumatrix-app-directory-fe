@@ -62,12 +62,14 @@ const HalamanKabupatenKedokteran = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik
+          content="Bimbel Masuk Kedokteran - FK UI, UGM, Undip, Unair,
+          Unpad, UB, Udayana Terbaik
           #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM di{" "}
-          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
+          Bimbel Masuk Kedokteran di {`${kabupaten.kota_kabupaten}`} - FK UI,
+          UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
+          Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -76,14 +78,14 @@ const HalamanKabupatenKedokteran = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM di{" "}
-              {kabupaten.kota_kabupaten} - Edumatrix Indonesia
+              Bimbel Masuk Kedokteran di {kabupaten.kota_kabupaten} - FK UI, UGM,
+              Undip, Unair, Unpad, UB, Udayana Terbaik
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Masuk Kedokteran di{" "}
-                {kabupaten.kota_kabupaten} untuk UTBK-SNBT, Kedokteran, UMPTN,
-                UMPTKIN, SIMAK UI dan UTUL UGM
+                Bimbel Persiapan Masuk Kedokteran di {kabupaten.kota_kabupaten}{" "}
+                untuk UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM,
+                UM PTN dan UTUL UGM
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

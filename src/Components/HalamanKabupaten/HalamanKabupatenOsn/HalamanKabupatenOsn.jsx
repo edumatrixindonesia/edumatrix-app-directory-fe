@@ -62,8 +62,9 @@ const HalamankabupatenOsn = () => {
           content="Bimbel Les Privat OSN, ISO, IMO, SD-SMP-SMA terbaik terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Kompetisi Olimpiade Sains Nasional (OSN) di Kabupaten{" "}
-          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
+          Bimbel Persiapan Olimpiade Sains Nasional (OSN) di{" "}
+          {`${kabupaten.kota_kabupaten}`} - SD, SMP, SMA Terbaik #1 - Edumatrix
+          Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -72,13 +73,14 @@ const HalamankabupatenOsn = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Kompetisi Olimpiade Sains Nasional (OSN) di
-              Kabupaten {kabupaten.kota_kabupaten} - Edumatrix Indonesia
+              Bimbel Persiapan Olimpiade Sains Nasional (OSN) di{" "}
+              {kabupaten.kota_kabupaten} - SD, SMP, SMA Terbaik
             </h2>
             <div className="paragraf-kabupaten">
               <p>
                 Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
-                Persiapan Seleksi Olimpiade Sains Nasional (OSN)
+                Persiapan Seleksi Olimpiade Sains Nasional (OSN) jenjang SD -
+                SMP - SMA
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

@@ -24,34 +24,33 @@ import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/Gale
 import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
-
 const Halamankelurahan = () => {
-    const { id } = useParams();
-    const [kelurahan, setKelurahan] = useState([]);
-    
-    function useQuery() {
-      const { search } = useLocation();
-      return useMemo(() => new URLSearchParams(search), [search]);
-    }
-  
-    const query = useQuery();
-    const axiosJWT = axios.create();
-  
-    useEffect(() => {
-      const getKelurahan = async () => {
-        const response = await axiosJWT.get(
-          `https://api.edulink-indonesia.com/kelurahankec/${id}`,
-          {
-            headers: {
-              Authorization: `Bearer`,
-            },
-          }
-        );
-        setKelurahan(response.data);
-      };
-      console.log(getKelurahan);
-      getKelurahan(id);
-    }, [id, query]);
+  const { id } = useParams();
+  const [kelurahan, setKelurahan] = useState([]);
+
+  function useQuery() {
+    const { search } = useLocation();
+    return useMemo(() => new URLSearchParams(search), [search]);
+  }
+
+  const query = useQuery();
+  const axiosJWT = axios.create();
+
+  useEffect(() => {
+    const getKelurahan = async () => {
+      const response = await axiosJWT.get(
+        `https://api.edulink-indonesia.com/kelurahankec/${id}`,
+        {
+          headers: {
+            Authorization: `Bearer`,
+          },
+        }
+      );
+      setKelurahan(response.data);
+    };
+    console.log(getKelurahan);
+    getKelurahan(id);
+  }, [id, query]);
 
   return (
     <React.Fragment>
@@ -62,7 +61,8 @@ const Halamankelurahan = () => {
           content="Bimbel Les Privat TK, SD, SMP, SMA, OSN, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Les Privat di {`${kelurahan.kelurahan}`} - TK, SD, SMP, SMA, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM - Bimbel di{" "}
+          Les Privat di {`${kelurahan.kelurahan}`} - TK, SD, SMP, SMA, UTBK
+          SNBT, SIMAK UI, UM PTN & CBT UGM - Bimbel di{" "}
           {`${kelurahan.kelurahan}`} Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -72,13 +72,14 @@ const Halamankelurahan = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Les Privat Terbaik di {kelurahan.kelurahan}
+              Les Privat Terbaik di {kelurahan.kelurahan} - TK, SD, SMP, SMA,
+              UTBK SNBT, SIMAK UI, UM PTN & CBT UGM Terbaik
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di {kelurahan.kelurahan} untuk TK, SD,
-                SMP, SMA, UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, SNBT, UM PTN, CBT UGM, AKPOL,
-                AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
+                Bimbel Les Privat di {kelurahan.kelurahan} untuk TK, SD, SMP,
+                SMA, UN/AKM, OSN, CPNS, LPDP, PPDS, SIMAK UI, SNBT, UM PTN, CBT
+                UGM, AKPOL, AKMIL, Kedinasan, Mahasiswa dan Karyawan.{" "}
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

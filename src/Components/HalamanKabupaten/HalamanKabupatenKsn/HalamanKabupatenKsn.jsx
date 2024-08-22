@@ -17,15 +17,16 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
-import GaleriKegiatan from "../../../Program/BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
+import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
+import GaleriKegiatan from "../../../Program/BimbelOsn/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Liputan/Liputan";
-import SuccessStory from "../../SuccessStory/SuccessStory";
-import PaketBelajarToefl from "../../PaketBelajar/PaketBelajarToefl/PaketBelajarToefl";
-import TestimoniToefl from "../../Testimoni/TestimoniToefl/TestimoniToefl";
-import ListKabupatenToefl from "../../Tab/TabToefl/ListKabupatenToefl";
-import PromoToefl from "../../../Program/BimbelToefl/PromoToefl/PromoToefl";
+import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import BestProgramOsn2 from "../../BestProgram/BestProgram2/BestProgramOsn2/BestProgramOsn2";
+import PaketBelajarOsn from "../../PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
+import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
+import BestProgramKsn2 from "../../BestProgram/BestProgram2/BestProgramKsn2/BestProgramKsn2";
 
-const HalamankabupatenToefl = () => {
+const HalamanKabupatenKsn = () => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -52,18 +53,18 @@ const HalamankabupatenToefl = () => {
     id;
     getKabupaten(id);
   }, [id, query]);
-
   return (
     <React.Fragment>
       <Helmet>
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Les Privat TOEFL, TOEICE, IELTS SMP - SMA - Mahasiswa terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Bimbel Kompetisi Sains Nasional (OSN/KSN), SD-SMP-SMA terbaik terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation di{" "}
-          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
+          Bimbel Kompetisi Sains Nasional (KSN) di{" "}
+          {`${kabupaten.kota_kabupaten}`} - SD, SMP, SMA Terbaik #1 - Edumatrix
+          Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -72,13 +73,13 @@ const HalamankabupatenToefl = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation di{" "}
-              {kabupaten.kota_kabupaten} - Edumatrix Indonesia
+              Bimbel Kompetisi Sains Nasional (KSN) di{" "}
+              {kabupaten.kota_kabupaten} - SD, SMP, SMA
             </h2>
             <div className="paragraf-kabupaten">
               <p>
                 Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
-                TOEFL, TOEIC, IELTS dan English Conversation
+                Persiapan Kompetisi Sains Nasional (OSN) jenjang SD - SMP - SMA
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
@@ -91,7 +92,7 @@ const HalamankabupatenToefl = () => {
             <img
               className="rumah-adat"
               src={rumahAdat}
-              alt="Bimbel TOEFL TOEIC IELTS dan English Conversation Terbaik - Edumatrix Indonesia"
+              alt="Bimbel Persiapan OSN SD-SMP-SMA"
             />
           </a>
 
@@ -102,23 +103,22 @@ const HalamankabupatenToefl = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt="Bimbel TOEFL TOEIC IELTS dan English Conversation Terbaik - Edumatrix Indonesia"
+              alt="Bimbel Persiapan OSN SD-SMP-SMA"
             />
           </a>
         </div>
-        <BestprogramSnbt2 />
-        <SuccessStory />
-        <PaketBelajarToefl />
+        <BestProgramKsn2 />
+        <SuccessOsn />
+        <PaketBelajarOsn />
         <GaleriKegiatan />
-        <TestimoniToefl />
         <Voucer />
+        <Testimoni />
         <Keunggulan />
         <Masterteacher />
         <Liputan />
-        <ListKabupatenToefl />
         <Faqtni />
         <Asalsekolah />
-        <PromoToefl />
+        <PromoOsn />
       </div>
       <Footer />
       <Bottombar />
@@ -127,4 +127,4 @@ const HalamankabupatenToefl = () => {
   );
 };
 
-export default HalamankabupatenToefl;
+export default HalamanKabupatenKsn;

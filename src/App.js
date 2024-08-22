@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import ReactGA from "react-ga"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./Home/Homepage";
 import Halamankota from "./Components/HalamanKota/Halamankota";
@@ -52,6 +53,12 @@ import BimbelKedokteran from "./Program/BimbelKedokteran/BimbelKedokteran";
 import HalamanKotaKedokteran from "./Components/HalamanKota/HalamanKotaKedokteran/HalamanKotaKedokteran";
 import HalamanKabupatenKedokteran from "./Components/HalamanKabupaten/HalamanKabupatenKedokteran/HalamanKabupatenKedokteran";
 import Produk from "./Components/Produk/Produk";
+import BimbelKsn from "./Program/BimbelKsn/BimbelKsn";
+import HalamanKotaKsn from "./Components/HalamanKota/HalamanKotaKsn/HalamanKotaKsn";
+import HalamanKabupatenKsn from "./Components/HalamanKabupaten/HalamanKabupatenKsn/HalamanKabupatenKsn";
+
+const TRACKING_ID = "G-NZRFMBB12N";
+ReactGA.initialize(TRACKING_ID)
 
 function App() {
   return (
@@ -171,6 +178,13 @@ function App() {
         <Route exact path="/bimbel-masuk-kedokteran/:id" element={<HalamanKotaKedokteran />}></Route>
         {/* Go to Kabupaten Kedokteran By ID */}
         <Route exact path="/bimbel-masuk-kedokteran/kabupaten/:id" element={<HalamanKabupatenKedokteran />}></Route>
+
+        {/* KSN */}
+        <Route exact path="/pelatihan-osn-ksn" element={<BimbelKsn />}></Route>
+        {/* Go to City KSN By ID */}
+        <Route exact path="/pelatihan-osn-ksn/:id" element={<HalamanKotaKsn />}></Route>
+        {/* Go to Kabupaten KSN By ID */}
+        <Route exact path="/pelatihan-osn-ksn/kabupaten/:id" element={<HalamanKabupatenKsn />}></Route>
 
       </Routes>
     </BrowserRouter>

@@ -13,26 +13,28 @@ import Faqtni from "../../Components/Faq/FaqTni/FaqTni";
 import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SliderOsn from "../../Components/SlideTop/SliderOsn/SliderOsn";
 import ListKotaOsn from "../../Components/Tab/TabOsn/ListKotaOsn";
-import SuccessOsn from "./SuccessOsn/SuccessOsn";
-import GaleriKegiatan from "./GaleriKegiatan/GaleriKegiatan";
+import SuccessOsn from "../BimbelOsn/SuccessOsn/SuccessOsn";
+import GaleriKegiatan from "../BimbelOsn/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import BestProgramOsn from "../../Components/BestProgram/BestProgramOsn/BestProgramOsn";
 import PaketBelajarOsn from "../../Components/PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
-import PromoOsn from "./PromoOsn/PromoOsn";
+import PromoOsn from "../BimbelOsn/PromoOsn/PromoOsn";
+import BestProgramKsn from "../../Components/BestProgram/BestProgramKsn/BestProgramKsn";
+import ListKotaKsn from "../../Components/Tab/TabKsn/ListKotaKsn";
 
-const BimbelOsn = () => {
+const BimbelKsn = () => {
   return (
     <React.Fragment>
       <Helmet>
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel dan Les Privat OSN, ISO, IMO - SD, SMP, SMA Terbaik #1 -
+          content="Bimbel, Les Privat dan Pelatihan Kompetisi Sains Nasional (KSN) Terbaik #1 -
           Edumatrix Indonesia"
         />
         <title>
-          Bimbel dan Les Privat OSN, ISO, IMO - SD, SMP, SMA Terbaik #1 -
+          Bimbel dan Pelatihan Kompetisi Sains Nasional (KSN) - SD, SMP, SMA Terbaik #1 -
           Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -40,7 +42,7 @@ const BimbelOsn = () => {
       <Navbar />
       <div className="container-all">
         <SliderOsn />
-        <BestProgramOsn />
+        <BestProgramKsn />
         <SuccessOsn />
         <PaketBelajarOsn />
         <GaleriKegiatan />
@@ -49,7 +51,7 @@ const BimbelOsn = () => {
         <Keunggulan />
         <Masterteacher />
         <Liputan />
-        <ListKotaOsn />
+        <ListKotaKsn />
         <Faqtni />
         <Asalsekolah />
         <PromoOsn />
@@ -61,4 +63,4 @@ const BimbelOsn = () => {
   );
 };
 
-export default BimbelOsn;
+export default BimbelKsn;

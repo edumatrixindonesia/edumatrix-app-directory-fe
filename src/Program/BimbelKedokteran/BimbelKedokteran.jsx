@@ -26,6 +26,7 @@ import SectionSupercamp from "../BimbelSupercamp/SectionSupercamp/SectionSuperca
 import BestProgramKedokteran from "../../Components/BestProgram/BestProgramKedokteran/BestProgramKedokteran";
 import PaketBelajarKedokteran from "../../Components/PaketBelajar/PaketBelajarKedokteran/PaketBelajarKedokteran";
 import ListKedokteran from "../../Components/Tab/TabKedokteran/ListKedokteran";
+import SliderKedokteran from "../../Components/SlideTop/SliderKedokteran/SliderKedokteran";
 
 const BimbelKedokteran = () => {
   return (
@@ -34,17 +35,17 @@ const BimbelKedokteran = () => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik #1 - Edumatrix Indonesia"
+          content="Bimbel Masuk Kedokteran UI, UGM, Unair, Unpad, UB Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik
-          #1 - Edumatrix Indonesia
+          Bimbel Masuk Kedokteran - FK UI, UGM, Undip, Unair, Unpad, UB, Udayana
+          Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
       <Navbar />
       <div className="container-all">
-        <SliderSnbt />
+        <SliderKedokteran />
         <BestProgramKedokteran />
         <SuccessSnbt />
         <PaketBelajarKedokteran />

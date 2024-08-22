@@ -59,11 +59,13 @@ const HalamankabupatenIup = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Les Privat Masuk PTN SIMAK UI KKI UI, IUP UGM, CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Bimbel Persiapan IUP UGM, IUP ITB, IUP Unair SIMAK KKI UI, UTBK SNBT Terbaik
+          #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi IUP - KKI di Kabupaten{" "}
-          {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
+          Bimbel Persiapan IUP - KKI di {`${kabupaten.kota_kabupaten}`} - IUP
+          UGM, IUP ITB, IUP UNAIR, SIMAK KKI UI, UTBK SNBT Terbaik #1 -
+          Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -72,13 +74,13 @@ const HalamankabupatenIup = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Seleksi IUP - KKI di Kabupaten{" "}
-              {kabupaten.kota_kabupaten} - Edumatrix Indonesia
+              Bimbel Persiapan IUP - KKI di {kabupaten.kota_kabupaten} - IUP
+              UGM, IUP ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
             </h2>
             <div className="paragraf-kabupaten">
               <p>
                 Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
-                Seleksi IUP UGM & KKI UI
+                Seleksi IUP UGM, IUP ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

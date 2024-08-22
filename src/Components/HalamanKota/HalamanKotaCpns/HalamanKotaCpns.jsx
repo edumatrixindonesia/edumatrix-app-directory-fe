@@ -67,11 +67,11 @@ const HalamankotaCpns = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Persiapan Seleksi CPNS dan PPPK terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Bimbel CPNS & PPPK - SKD, SKB, TWK, TIU, TKP Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi CPNS & PPPK di {`${kotacpns.kota}`} Terbaik{" "}
-          #1 - Edumatrix Indonesia
+          Bimbel CPNS & PPPK di {`${kotacpns.kota}`} - SKD, SKB, TWK, TIU, TKP
+          Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -80,13 +80,14 @@ const HalamankotaCpns = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Seleksi CPNS & PPPK di {kotacpns.kota} Terbaik
+              Bimbel CPNS & PPPK di {kotacpns.kota} - SKD, SKB, TWK, TIU, TKP
+              Terbaik
             </h2>
 
             <div className="paragraf-kota">
               <p>
                 Bimbel Les Privat di Kota {kotacpns.kota} untuk Seleksi CPNS &
-                PPPK
+                PPPK. Program Belajar SKD, SKB, TWK, TIU, TKP
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

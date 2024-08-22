@@ -66,11 +66,12 @@ const HalamankotaSupercamp = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Les Privat Supercamp Masuk PTN UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Bimbel Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip, Unair,
+          Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia Indonesia"
         />
         <title>
-          Bimbel Supercamp SNBT Persiapan Masuk PTN Terbaik di{" "}
-          {`${kotasnbt.kota}`} #1 - Edumatrix Indonesia
+          Bimbel Masuk Kedokteran & UTBK SNBT di {`${kotasnbt.kota}`} - UI, UGM,
+          Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -79,14 +80,14 @@ const HalamankotaSupercamp = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Supercamp SNBT Persiapan Masuk PTN Terbaik di{" "}
-              {kotasnbt.kota}
+              Bimbel Masuk Kedokteran & UTBK SNBT di {kotasnbt.kota} - UI, UGM,
+              Undip, Unair, Unpad, UB, Udayana
             </h2>
-
             <div className="paragraf-kota">
               <p>
                 Bimbel Les Privat di Kota {kotasnbt.kota} untuk UTBK-SNBT,
-                Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM, UM PTN dan UTUL UGM
+                Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM, UM PTN dan UTUL
+                UGM
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
