@@ -1,38 +1,33 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
-import modelTanyaProgram from "../../../assets/tanya_program.png";
-import rumahAdat from "../../../assets/rumah_adat.png";
-import { Helmet } from "react-helmet-async";
-import Floatingcta from "../../FloatingCta/Floatingcta";
-import Bottombar from "../../BottomBar/Bottombar";
-import Footer from "../../Footer/Footer";
-import Bestprogram2 from "../../BestProgram/BestProgram2/Bestprogram2";
-import Voucer from "../../Voucer/Voucer";
-import Masterteacher from "../../MasterTeacher/Masterteacher";
-import Keunggulan from "../../Keunggulan/Keunggulan";
-import Testimoni from "../../Testimoni/Testimoni";
-import Faq from "../../Faq/Faq";
-import Asalsekolah from "../../AsalSekolah/Asalsekolah";
-import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
-import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Voucer from "../../Voucer/Voucer";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
-import GaleriKegiatan from "../../../Program/BimbelSnbt/GaleriKegiatan/GaleriKegiatan";
-import Liputan from "../../Liputan/Liputan";
-import InfoCamp from "../../InfoCamp/InfoCamp";
-import Alumni from "../../Alumni/Alumni";
-import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
-import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
-import Video from "../../Video/Video";
-import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
-import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import PaketBelajarKedokteran from "../../PaketBelajar/PaketBelajarKedokteran/PaketBelajarKedokteran";
-import ListKecamatanKedokteran from "../../Tab/TabKedokteran/ListKecamatanKedokteran";
+import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import GaleriKegiatan from "../../../Program/BimbelSnbt/GaleriKegiatan/GaleriKegiatan";
+import Video from "../../Video/Video";
+import Testimoni from "../../Testimoni/Testimoni";
+import Keunggulan from "../../Keunggulan/Keunggulan";
+import InfoCamp from "../../InfoCamp/InfoCamp";
+import Masterteacher from "../../MasterTeacher/Masterteacher";
+import Alumni from "../../Alumni/Alumni";
+import Liputan from "../../Liputan/Liputan";
+import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Asalsekolah from "../../AsalSekolah/Asalsekolah";
+import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import Footer from "../../Footer/Footer";
+import Bottombar from "../../BottomBar/Bottombar";
+import Floatingcta from "../../FloatingCta/Floatingcta";
+import Navbar from "../../Navbar/Navbar";
+import { Helmet } from "react-helmet-async";
+import rumahAdat from "../../../assets/rumah_adat.png";
+import tanyaProgram from "../../../assets/tanya_program.png";
 
-const HalamanKabupatenKedokteran = () => {
+const HalamanKecamatanKedokteran = () => {
   const { id } = useParams();
-  const [kabupaten, setKabupaten] = useState([]);
+  const [kecamatan, setKecamatan] = useState([]);
 
   function useQuery() {
     const { search } = useLocation();
@@ -43,22 +38,24 @@ const HalamanKabupatenKedokteran = () => {
   const axiosJWT = axios.create();
 
   useEffect(() => {
-    const getKabupaten = async () => {
+    const getKecamatan = async () => {
       const response = await axiosJWT.get(
-        `https://api.edulink-indonesia.com/ibukotakabupaten/${id}`,
+        `https://api.edulink-indonesia.com/kecamatankab/${id}`,
         {
           headers: {
             Authorization: `Bearer`,
           },
         }
       );
-      setKabupaten(response.data);
+      setKecamatan(response.data);
     };
-    id;
-    getKabupaten(id);
+    console.log(getKecamatan);
+    getKecamatan(id);
   }, [id, query]);
+
   return (
     <React.Fragment>
+      <Navbar />
       <Helmet>
         <meta
           charSet="utf-8"
@@ -68,27 +65,27 @@ const HalamanKabupatenKedokteran = () => {
           #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran di {`${kabupaten.kota_kabupaten}`} - FK UI,
-          UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
-          Indonesia
+          Bimbel Masuk Kedokteran di {`${kecamatan.kecamatan}`} - FK UI, UGM,
+          Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
       <Navbar />
-      <div className="container-halaman-kabupaten">
-        <div className="content-kabupaten">
+      <div className="container-halaman-kota">
+        <div className="content-kota">
           <div className="teks-content">
-            <h2 className="title-halaman-kabupaten">
-              Bimbel Masuk Kedokteran di {kabupaten.kota_kabupaten} - FK UI, UGM,
+            <h2 className="title-halaman-kota">
+              Bimbel Masuk Kedokteran di {kecamatan.kecamatan} - FK UI, UGM,
               Undip, Unair, Unpad, UB, Udayana Terbaik
             </h2>
-            <div className="paragraf-kabupaten">
+
+            <div className="paragraf-kota">
               <p>
-                Bimbel Persiapan Masuk Kedokteran di {kabupaten.kota_kabupaten}{" "}
-                untuk UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM,
-                UM PTN dan UTUL UGM
+                Bimbel Persiapan Masuk Kedokteran di {kecamatan.kecamatan} untuk
+                UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM, UM PTN
+                dan UTUL UGM
               </p>
-              <p className="child-paragraf-kabupaten">
+              <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
                 lebih dari 5.000 Master Teacher Edumatrix yang siap memberikan
                 pelayanan terbaik.
@@ -99,7 +96,7 @@ const HalamanKabupatenKedokteran = () => {
             <img
               className="rumah-adat"
               src={rumahAdat}
-              alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia"
+              alt="Bimbel Privat UTBK SNBT & Ujian Mandiri masuk PTN Terbaik - Edumatrix Indonesia"
             />
           </a>
 
@@ -109,8 +106,8 @@ const HalamanKabupatenKedokteran = () => {
           >
             <img
               className="model-program-kota"
-              src={modelTanyaProgram}
-              alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia"
+              src={tanyaProgram}
+              alt="Bimbel Privat UTBK SNBT Terbaik - Edumatrix Indonesia"
             />
           </a>
         </div>
@@ -127,7 +124,7 @@ const HalamanKabupatenKedokteran = () => {
         <Masterteacher />
         <Alumni />
         <Liputan />
-        <ListKecamatanKedokteran />
+        {/* <ListKabupatenKedokteran /> */}
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />
@@ -139,4 +136,4 @@ const HalamanKabupatenKedokteran = () => {
   );
 };
 
-export default HalamanKabupatenKedokteran;
+export default HalamanKecamatanKedokteran;

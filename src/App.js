@@ -56,6 +56,9 @@ import Produk from "./Components/Produk/Produk";
 import BimbelKsn from "./Program/BimbelKsn/BimbelKsn";
 import HalamanKotaKsn from "./Components/HalamanKota/HalamanKotaKsn/HalamanKotaKsn";
 import HalamanKabupatenKsn from "./Components/HalamanKabupaten/HalamanKabupatenKsn/HalamanKabupatenKsn";
+import HalamanKecamatanKedokteran from "./Components/HalamanKecamatan/HalamanKecamatanKedokteran/HalamanKecamatanKedokteran";
+import HalamanKecamatanSupercamp from "./Components/HalamanKecamatan/HalamanKecamatanSupercamp/HalamanKecamatanSupercamp";
+import HalamanKecamatanSnbt from "./Components/HalamanKecamatan/HalamanKecamatanSnbt/HalamanKecamatanSnbt";
 
 const TRACKING_ID = "G-NZRFMBB12N";
 ReactGA.initialize(TRACKING_ID)
@@ -108,6 +111,8 @@ function App() {
         <Route exact path="/bimbel-privat/:id" element={<Halamanprogramsnbt />}></Route>
         {/* Go to Kabupaten SNBT By ID */}
         <Route exact path="/bimbel-snbt/kabupaten/:id" element={<HalamankabupatenSnbt />}></Route>
+        {/* Go to Kecamatan SNBT By ID */}
+        <Route exact path="/bimbel-snbt/kecamatan/:id" element={<HalamanKecamatanSnbt />}></Route>
 
         {/* SUPERCAMP */}
         <Route exact path="/bimbel-supercamp-edumatrix" element={<BimbelSupercamp />}></Route>
@@ -115,6 +120,8 @@ function App() {
         <Route exact path="/bimbel-supercamp-edumatrix-di/:id" element={<HalamankotaSupercamp />}></Route>
         {/* Go to Kabupaten SUPERCAMP By ID */}
         <Route exact path="/bimbel-supercamp-edumatrix/kabupaten/:id" element={<HalamankabupatenSupercamp />}></Route>
+        {/* Go to Kecamatan SUPERCAMP By ID */}
+        <Route exact path="/bimbel-supercamp-edumatrix/kecamatan/:id" element={<HalamanKecamatanSupercamp />}></Route>
 
         {/* LPDP */}
         <Route exact path="/bimbel-persiapan-seleksi-lpdp" element={<BimbelLpdp />}></Route>
@@ -178,6 +185,8 @@ function App() {
         <Route exact path="/bimbel-masuk-kedokteran/:id" element={<HalamanKotaKedokteran />}></Route>
         {/* Go to Kabupaten Kedokteran By ID */}
         <Route exact path="/bimbel-masuk-kedokteran/kabupaten/:id" element={<HalamanKabupatenKedokteran />}></Route>
+        {/* Go to Kecamatan Kedokteran By ID */}
+        <Route exact path="/bimbel-masuk-kedokteran/kecamatan/:id" element={<HalamanKecamatanKedokteran />}></Route>
 
         {/* KSN */}
         <Route exact path="/pelatihan-osn-ksn" element={<BimbelKsn />}></Route>

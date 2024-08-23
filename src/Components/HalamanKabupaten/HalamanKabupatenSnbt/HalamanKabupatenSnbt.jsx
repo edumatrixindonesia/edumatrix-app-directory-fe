@@ -27,6 +27,7 @@ import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/
 import Video from "../../Video/Video";
 import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import ListKecamatanSnbt from "../../Tab/TabUtbkSnbt/ListKecamatanSnbt";
 
 const HalamankabupatenSnbt = () => {
   const { id } = useParams();
@@ -123,6 +124,7 @@ const HalamankabupatenSnbt = () => {
         <Masterteacher />
         <Alumni />
         <Liputan />
+        <ListKecamatanSnbt />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />

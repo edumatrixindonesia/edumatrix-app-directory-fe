@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import kegiatanBelajarSnbt1 from "../../../assets/kegiatan_belajar/snbt/snbt_1.png";
 import kegiatanBelajarSnbt2 from "../../../assets/kegiatan_belajar/snbt/snbt_2.png";
 import kegiatanBelajarSnbt3 from "../../../assets/kegiatan_belajar/snbt/snbt_3.png";
-import kegiatanBelajarSnbt4 from "../../../assets/kegiatan_belajar/snbt/24.jpg";
-import kegiatanBelajarSnbt5 from "../../../assets/kegiatan_belajar/snbt/27.jpg";
-import kegiatanBelajarSnbt6 from "../../../assets/kegiatan_belajar/snbt/29.jpg";
 import "./GaleriKegiatan.css";
 
 const GaleriKegiatan = () => {
+  const [galeriKegiatan, setGaleriKegiatan] = useState([]);
+
+  useEffect(() => {
+    fetchKegiatan();
+  }, []);
+
+  const fetchKegiatan = () => {
+    fetch("https://api.edulink-indonesia.com/galerikegiatansnbt")
+      .then((res) => res.json())
+      .then((data) => {
+        setGaleriKegiatan(data);
+      });
+  };
   return (
     <React.Fragment>
       <div className="box-kegiatan-belajar-snbt">
@@ -42,21 +52,14 @@ const GaleriKegiatan = () => {
           <hr className="garis-kegiatan-belajar" />
         </div>
         <div className="parent-kegiatan-belajar-snbt">
-          <img
-            className="child-kegiatan-belajar-snbt"
-            src={kegiatanBelajarSnbt4}
-            alt="Kegiatan Belajar Bimbel snbt Terbaik"
-          />
-          <img
-            className="child-kegiatan-belajar-snbt"
-            src={kegiatanBelajarSnbt5}
-            alt="Kegiatan Belajar Bimbel snbt Terbaik"
-          />
-          <img
-            className="child-kegiatan-belajar-snbt"
-            src={kegiatanBelajarSnbt6}
-            alt="Kegiatan Belajar Bimbel snbt Terbaik"
-          />
+          {galeriKegiatan.map((item, index) => (
+            <img
+              key={index}
+              className="child-kegiatan-belajar-snbt"
+              src={"https://api.edulink-indonesia.com/images/" + item.image}
+              alt="Galeri Kegiatan Bimbel TNI  Polri"
+            />
+          ))}
         </div>
       </div>
     </React.Fragment>

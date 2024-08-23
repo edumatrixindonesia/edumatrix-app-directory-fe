@@ -4,33 +4,30 @@ import axios from "axios";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
 import rumahAdat from "../../../assets/rumah_adat.png";
 import { Helmet } from "react-helmet-async";
-import Floatingcta from "../../FloatingCta/Floatingcta";
-import Bottombar from "../../BottomBar/Bottombar";
-import Footer from "../../Footer/Footer";
-import Bestprogram2 from "../../BestProgram/BestProgram2/Bestprogram2";
-import Voucer from "../../Voucer/Voucer";
-import Masterteacher from "../../MasterTeacher/Masterteacher";
-import Keunggulan from "../../Keunggulan/Keunggulan";
-import Testimoni from "../../Testimoni/Testimoni";
-import Faq from "../../Faq/Faq";
-import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
-import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Voucer from "../../Voucer/Voucer";
 import SuccessSnbt from "../../../Program/BimbelSnbt/SuccessSnbt/SuccessSnbt";
-import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
-import Liputan from "../../Liputan/Liputan";
-import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
-import Alumni from "../../Alumni/Alumni";
-import InfoCamp from "../../InfoCamp/InfoCamp";
-import Video from "../../Video/Video";
-import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
-import ListKecamatanSupercamp from "../../Tab/TabSupercamp/ListKecamatanSupercamp";
+import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import GaleriKegiatan from "../../../Program/BimbelSnbt/GaleriKegiatan/GaleriKegiatan";
+import Video from "../../Video/Video";
+import Testimoni from "../../Testimoni/Testimoni";
+import Keunggulan from "../../Keunggulan/Keunggulan";
+import InfoCamp from "../../InfoCamp/InfoCamp";
+import Masterteacher from "../../MasterTeacher/Masterteacher";
+import Alumni from "../../Alumni/Alumni";
+import Liputan from "../../Liputan/Liputan";
+import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Asalsekolah from "../../AsalSekolah/Asalsekolah";
+import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import Footer from "../../Footer/Footer";
+import Bottombar from "../../BottomBar/Bottombar";
+import Floatingcta from "../../FloatingCta/Floatingcta";
 
-const HalamankabupatenSupercamp = () => {
+const HalamanKecamatanSnbt = () => {
   const { id } = useParams();
-  const [kabupaten, setKabupaten] = useState([]);
+  const [kecamatan, setKecamatan] = useState([]);
 
   function useQuery() {
     const { search } = useLocation();
@@ -41,19 +38,19 @@ const HalamankabupatenSupercamp = () => {
   const axiosJWT = axios.create();
 
   useEffect(() => {
-    const getKabupaten = async () => {
+    const getKecamatan = async () => {
       const response = await axiosJWT.get(
-        `https://api.edulink-indonesia.com/ibukotakabupaten/${id}`,
+        `https://api.edulink-indonesia.com/kecamatankab/${id}`,
         {
           headers: {
             Authorization: `Bearer`,
           },
         }
       );
-      setKabupaten(response.data);
+      setKecamatan(response.data);
     };
-    id;
-    getKabupaten(id);
+    console.log(getKecamatan);
+    getKecamatan(id);
   }, [id, query]);
 
   return (
@@ -62,13 +59,12 @@ const HalamankabupatenSupercamp = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip, Unair,
-          Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia Indonesia"
+          content="Bimbel Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+        Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran & UTBK SNBT di {`${kabupaten.kota_kabupaten}`}{" "}
-          - UI, UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
-          Indonesia
+          Bimbel Masuk PTN UTBK SNBT di {`${kecamatan.kecamatan}`} - UI, UGM,
+          Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -77,12 +73,12 @@ const HalamankabupatenSupercamp = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Masuk Kedokteran & UTBK SNBT di {kabupaten.kota_kabupaten}{" "}
-              - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+              Bimbel Masuk PTN UTBK SNBT di {kecamatan.kecamatan} - UI, UGM,
+              Undip, Unair, Unpad, UB, Udayana
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                Bimbel Les Privat di Kabupaten {kecamatan.kecamatan} untuk
                 UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI dan UTUL UGM
               </p>
               <p className="child-paragraf-kabupaten">
@@ -96,7 +92,7 @@ const HalamankabupatenSupercamp = () => {
             <img
               className="rumah-adat"
               src={rumahAdat}
-              alt="Bimbel Karantina Supercamp - Edumatrix Indonesia"
+              alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia"
             />
           </a>
 
@@ -107,24 +103,23 @@ const HalamankabupatenSupercamp = () => {
             <img
               className="model-program-kota"
               src={modelTanyaProgram}
-              alt="Bimbel Karantina Supercamp - Edumatrix Indonesia"
+              alt="Bimbel Masuk PTN Terbaik - Edumatrix Indonesia"
             />
           </a>
         </div>
         <BestprogramSnbt2 />
+        <Voucer />
         <SuccessSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
         <GaleriKegiatan />
         <Video />
-        <Voucer />
         <Testimoni />
         <Keunggulan />
         <InfoCamp />
         <Masterteacher />
         <Alumni />
         <Liputan />
-        <ListKecamatanSupercamp />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />
@@ -136,4 +131,4 @@ const HalamankabupatenSupercamp = () => {
   );
 };
 
-export default HalamankabupatenSupercamp;
+export default HalamanKecamatanSnbt;
