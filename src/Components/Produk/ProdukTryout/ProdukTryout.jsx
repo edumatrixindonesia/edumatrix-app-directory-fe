@@ -27,7 +27,7 @@ const ProdukTryout = () => {
               </h2>
               <h3 className="harga-produk">Rp.50,000</h3>
               <div className="parent-ratting-produk">
-                <p className="text-produk-terjual">150 Terjual</p>
+                <p className="text-produk-terjual">5 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
@@ -45,7 +45,7 @@ const ProdukTryout = () => {
               </h2>
               <h3 className="harga-produk">Rp.50,000</h3>
               <div className="parent-ratting-produk">
-                <p className="text-produk-terjual">150 Terjual</p>
+                <p className="text-produk-terjual">9 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
@@ -63,7 +63,7 @@ const ProdukTryout = () => {
               </h2>
               <h3 className="harga-produk">Rp.50,000</h3>
               <div className="parent-ratting-produk">
-                <p className="text-produk-terjual">150 Terjual</p>
+                <p className="text-produk-terjual">1 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
@@ -81,7 +81,7 @@ const ProdukTryout = () => {
               </h2>
               <h3 className="harga-produk">Rp.50,000</h3>
               <div className="parent-ratting-produk">
-                <p className="text-produk-terjual">150 Terjual</p>
+                <p className="text-produk-terjual">0 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
@@ -99,7 +99,7 @@ const ProdukTryout = () => {
               </h2>
               <h3 className="harga-produk">Rp.50,000</h3>
               <div className="parent-ratting-produk">
-                <p className="text-produk-terjual">150 Terjual</p>
+                <p className="text-produk-terjual">13 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
