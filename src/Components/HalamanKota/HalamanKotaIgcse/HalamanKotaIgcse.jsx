@@ -27,10 +27,14 @@ import Liputan from "../../Liputan/Liputan";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import PaketBelajarIgcse from "../../PaketBelajar/PaketBelajarIgcse/PaketBelajarIgcse";
 import MateriIgcse from "../../../Program/BimbelIgcse/MateriIgcse/MateriIgcse";
-import GaleriKegiatan from "../../../Program/BimbelBumn/GaleriKegiatan/GaleriKegiatan";
+import GaleriKegiatan from "../../../Program/BimbelIgcse/GaleriKegiatan/GaleriKegiatan";
 import PromoIgcse from "../../../Program/BimbelIgcse/PromoIgcse/PromoIgcse";
 import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat2/BesProgramPrivat2";
 import BestProgramIgcse2 from "../../BestProgram/BestProgram2/BestProgramIgcse2/BestProgramIgcse2";
+import FloatingctaIgcse from "../../FloatingCta/FloatingctaIgcse/FloatingctaIgcse";
+import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
+import LiputanIgcse from "../../Liputan/LiputanIgcse/LiputanIgcse";
+import AsalSekolahIgcse from "../../AsalSekolah/AsalSekolahIgcse/AsalSekolahIgcse";
 
 const HalamankotaIgcse = () => {
   const { id } = useParams();
@@ -67,11 +71,11 @@ const HalamankotaIgcse = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Les Privat Kurikulum IGCSE dan IB TUTOR TK-SD-SMP-SMA terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="IGCSE, O Level, A Level & IB Tutor #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Kurikulum IGCSE dan IB TUTOR di {`${kotaigcse.kota}`} Terbaik{" "}
-          #1 - Edumatrix Indonesia
+          IGCSE, O Level, A Level & IB Tutor in {`${kotaigcse.kota}`} #1 -
+          Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -80,18 +84,19 @@ const HalamankotaIgcse = () => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Kurikulum IGCSE dan IB TUTOR di {kotaigcse.kota} Terbaik
+              IGCSE, O Level, A Level & IB Tutor in {kotaigcse.kota}
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Bimbel Les Privat Kurikulum IGCSE di Kota {kotaigcse.kota} untuk
-                anak usia 14 sampai 16 tahun
+                Edumatrix Indonesia offers one-on-one tutoring IGCSE, O Level, A
+                Level & IB in {kotaigcse.kota} to provide the best learning
+                experience for students
               </p>
               <p className="child-paragraf-kota">
-                Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
-                lebih dari 5.000 Master Teacher Edumatrix yang siap memberikan
-                pelayanan terbaik.
+                Get Private Tutoring services anytime and anywhere with more
+                than 5,000 Edumatrix Master Teachers who are ready to provide
+                the best service.
               </p>
             </div>
           </div>
@@ -119,17 +124,17 @@ const HalamankotaIgcse = () => {
         <MateriIgcse />
         <GaleriKegiatan />
         <Voucer />
-        <Keunggulan />
+        <KeunggulanIgcse />
         <Masterteacher />
-        <Liputan />
+        <LiputanIgcse />
         <ListKabupatenIgcse />
         <Faqtni />
-        <Asalsekolah />
+        <AsalSekolahIgcse />
         <PromoIgcse />
       </div>
       <Footer />
       <Bottombar />
-      <Floatingcta />
+      <FloatingctaIgcse />
     </React.Fragment>
   );
 };

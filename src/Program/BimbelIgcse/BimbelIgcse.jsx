@@ -23,10 +23,14 @@ import ListKotaIgcse from "../../Components/Tab/TabIgcse/ListKotaIgcse";
 import Liputan from "../../Components/Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import PaketBelajarIgcse from "../../Components/PaketBelajar/PaketBelajarIgcse/PaketBelajarIgcse";
-import GaleriKegiatan from "../BimbelPrivat/GaleriKegiatan/GaleriKegiatan"
+import GaleriKegiatan from "../BimbelIgcse/GaleriKegiatan/GaleriKegiatan";
 import PromoIgcse from "./PromoIgcse/PromoIgcse";
 import MateriIgcse from "./MateriIgcse/MateriIgcse";
 import BestProgramIgcse from "../../Components/BestProgram/BestProgramIgcse/BestProgramIgcse";
+import FloatingctaIgcse from "../../Components/FloatingCta/FloatingctaIgcse/FloatingctaIgcse";
+import KeunggulanIgcse from "../../Components/Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
+import LiputanIgcse from "../../Components/Liputan/LiputanIgcse/LiputanIgcse";
+import AsalSekolahIgcse from "../../Components/AsalSekolah/AsalSekolahIgcse/AsalSekolahIgcse";
 
 const BimbelIgcse = () => {
   return (
@@ -35,11 +39,11 @@ const BimbelIgcse = () => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Kurikulum IGCSE dan IB TUTOR Terbaik #1 - Edumatrix
+          content="IGCSE, O Level, A Level & IB Tutor #1 - Edumatrix
           Indonesia"
         />
         <title>
-          Bimbel Kurikulum IGCSE dan IB TUTOR Terbaik #1 - Edumatrix Indonesia
+          IGCSE, O Level, A Level & IB Tutor #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -51,17 +55,17 @@ const BimbelIgcse = () => {
         <MateriIgcse />
         <GaleriKegiatan />
         <Voucer />
-        <Keunggulan />
+        <KeunggulanIgcse />
         <Masterteacher />
-        <Liputan />
+        <LiputanIgcse />
         <ListKotaIgcse />
         <Faqtni />
-        <Asalsekolah />
+        <AsalSekolahIgcse />
         <PromoIgcse />
       </div>
       <Footer />
       <Bottombar />
-      <Floatingcta />
+      <FloatingctaIgcse />
     </React.Fragment>
   );
 };

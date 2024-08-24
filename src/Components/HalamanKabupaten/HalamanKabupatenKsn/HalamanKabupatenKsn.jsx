@@ -25,6 +25,7 @@ import BestProgramOsn2 from "../../BestProgram/BestProgram2/BestProgramOsn2/Best
 import PaketBelajarOsn from "../../PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
 import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
 import BestProgramKsn2 from "../../BestProgram/BestProgram2/BestProgramKsn2/BestProgramKsn2";
+import ListKecamatanKsn from "../../Tab/TabKsn/ListKecamatanKsn";
 
 const HalamanKabupatenKsn = () => {
   const { id } = useParams();
@@ -53,6 +54,7 @@ const HalamanKabupatenKsn = () => {
     id;
     getKabupaten(id);
   }, [id, query]);
+
   return (
     <React.Fragment>
       <Helmet>
@@ -116,6 +118,7 @@ const HalamanKabupatenKsn = () => {
         <Keunggulan />
         <Masterteacher />
         <Liputan />
+        <ListKecamatanKsn />
         <Faqtni />
         <Asalsekolah />
         <PromoOsn />

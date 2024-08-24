@@ -9,18 +9,20 @@ const MateriIgcse = () => {
       <div className="container-materi-tni">
         <div className="box-materi-akpol">
           <button className="title-materi-lpdp">
-            <img className="img-materi-lpdp" src={iconMateri} alt="" /> MATA
-            PELAJARAN BIMBEL IGCSE
+            <img className="img-materi-lpdp" src={iconMateri} alt="" /> IGCSE
+            TUTORING SUBJECT
           </button>
           <h4 className="title-list-materi-lpdp">
-            <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" /> Mathematics
+            <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}
+            Mathematics
           </h4>
           <h4 className="title-list-materi-lpdp">
             <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}
             Accounting
           </h4>
           <h4 className="title-list-materi-lpdp">
-            <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" /> Additional Mathematics
+            <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}
+            Additional Mathematics
           </h4>
           <h4 className="title-list-materi-lpdp">
             <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}

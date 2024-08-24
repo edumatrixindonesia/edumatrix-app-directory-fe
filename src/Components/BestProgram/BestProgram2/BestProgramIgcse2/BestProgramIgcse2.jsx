@@ -21,7 +21,7 @@ const BestProgramIgcse2 = () => {
       {/* <div className="main-box-2"> */}
       <div className="main-best-program-2">
         <h1 className="title-best-program-2">
-          BEST PROGRAM <br /> BIMBEL IGCSE
+          BEST PROGRAM <br /> IGCSE, O LEVEL, A LEVEL & IB TUTOR
         </h1>
         <h3 className="hot-program-2">
           <img

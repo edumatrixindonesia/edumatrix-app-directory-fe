@@ -22,7 +22,7 @@ const BestProgramIgcse = () => {
       <div className="main-box">
         <div className="main-best-program">
           <h1 className="title-best-program">
-            BEST PROGRAM <br /> BIMBEL IGCSE
+            BEST PROGRAM <br /> IGCSE, O LEVEL, A LEVEL & IB TUTOR
           </h1>
           <h3 className="hot-program">
             <img

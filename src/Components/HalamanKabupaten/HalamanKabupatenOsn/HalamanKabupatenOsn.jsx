@@ -24,6 +24,7 @@ import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import BestProgramOsn2 from "../../BestProgram/BestProgram2/BestProgramOsn2/BestProgramOsn2";
 import PaketBelajarOsn from "../../PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
 import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
+import ListKecamatanOsn from "../../Tab/TabOsn/ListKecamatanOsn";
 
 const HalamankabupatenOsn = () => {
   const { id } = useParams();
@@ -117,6 +118,7 @@ const HalamankabupatenOsn = () => {
         <Keunggulan />
         <Masterteacher />
         <Liputan />
+        <ListKecamatanOsn />
         <Faqtni />
         <Asalsekolah />
         <PromoOsn />

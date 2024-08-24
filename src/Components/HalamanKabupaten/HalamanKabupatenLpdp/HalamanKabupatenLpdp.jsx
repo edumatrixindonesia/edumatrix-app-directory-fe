@@ -18,10 +18,11 @@ import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import Faqtni from "../../Faq/FaqTni/FaqTni";
 import SuccessLpdp from "../../../Program/BimbelLpdp/SuccessLpdp/SuccessLpdp";
-import GaleriKegiatan from "../../../Program/BimbelOsn/GaleriKegiatan/GaleriKegiatan";
+import GaleriKegiatan from "../../../Program/BimbelLpdp/GaleriKegiatan/GaleriKegiatan";
 import PromoLpdp from "../../../Program/BimbelLpdp/PromoLpdp/PromoLpdp";
 import Liputan from "../../Liputan/Liputan";
 import Alumni from "../../Alumni/Alumni";
+import ListKecamatanLpdp from "../../Tab/TabLpdp/ListKecamatanLpdp";
 
 const HalamankabupatenLpdp = () => {
   const { id } = useParams();
@@ -113,6 +114,7 @@ const HalamankabupatenLpdp = () => {
         <Masterteacher />
         <Alumni />
         <Liputan />
+        <ListKecamatanLpdp />
         <Faqtni />
         <Asalsekolah />
         <PromoLpdp />

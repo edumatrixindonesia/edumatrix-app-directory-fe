@@ -70,7 +70,7 @@ const HalamankotaBumn = () => {
           content="Bimbel Les Privat Seleksi BUMN Persiapan Masuk Kerja dan Naik Jabatan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi BUMN Terbaik di {`${kotabumn.kota}`} #1 -
+          Bimbel Persiapan Seleksi BUMN di {`${kotabumn.kota}`} Terbaik #1 -
           Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />

@@ -24,6 +24,7 @@ import PaketBelajarToefl from "../../PaketBelajar/PaketBelajarToefl/PaketBelajar
 import TestimoniToefl from "../../Testimoni/TestimoniToefl/TestimoniToefl";
 import ListKabupatenToefl from "../../Tab/TabToefl/ListKabupatenToefl";
 import PromoToefl from "../../../Program/BimbelToefl/PromoToefl/PromoToefl";
+import ListKecamatanToefl from "../../Tab/TabToefl/ListKecamatanToefl";
 
 const HalamankabupatenToefl = () => {
   const { id } = useParams();
@@ -115,7 +116,7 @@ const HalamankabupatenToefl = () => {
         <Keunggulan />
         <Masterteacher />
         <Liputan />
-        <ListKabupatenToefl />
+        <ListKecamatanToefl />
         <Faqtni />
         <Asalsekolah />
         <PromoToefl />

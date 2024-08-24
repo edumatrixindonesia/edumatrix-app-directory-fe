@@ -26,6 +26,7 @@ import PromoCpns from "../../../Program/BimbelCpns/PromoCpns/PromoCpns";
 import MateriCpns from "../../../Program/BimbelCpns/MateriCpns/MateriCpns";
 import PaketBelajarCpns from "../../PaketBelajar/PaketBelajarCpns/PaketBelajarCpns";
 import TestimoniCpns from "../../Testimoni/TestimoniCpns/TestimoniCpns";
+import ListKecamatanCpns from "../../Tab/TabCpns/ListKecamatanCpns";
 
 const HalamankabupatenCpns = () => {
   const { id } = useParams();
@@ -118,6 +119,7 @@ const HalamankabupatenCpns = () => {
         <Keunggulan />
         <Masterteacher />
         <Liputan />
+        <ListKecamatanCpns />
         <Faqtni />
         <Asalsekolah />
         <PromoCpns />

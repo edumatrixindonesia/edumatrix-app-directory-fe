@@ -59,6 +59,15 @@ import HalamanKabupatenKsn from "./Components/HalamanKabupaten/HalamanKabupatenK
 import HalamanKecamatanKedokteran from "./Components/HalamanKecamatan/HalamanKecamatanKedokteran/HalamanKecamatanKedokteran";
 import HalamanKecamatanSupercamp from "./Components/HalamanKecamatan/HalamanKecamatanSupercamp/HalamanKecamatanSupercamp";
 import HalamanKecamatanSnbt from "./Components/HalamanKecamatan/HalamanKecamatanSnbt/HalamanKecamatanSnbt";
+import HalamanKecamatanPrivat from "./Components/HalamanKecamatan/HalamanKecamatanPrivat/HalamanKecamatanPrivat";
+import HalamanKecamatanLpdp from "./Components/HalamanKecamatan/HalamanKecamatanLpdp/HalamanKecamatanLpdp";
+import HalamanKecamatanCpns from "./Components/HalamanKecamatan/HalamanKecamatanCpns/HalamanKecamatanCpns";
+import HalamanKecamatanBumn from "./Components/HalamanKecamatan/HalamanKecamatanBumn/HalamanKecamatanBumn";
+import HalamanKecamatanIgcse from "./Components/HalamanKecamatan/HalamanKecamatanIgcse/HalamanKecamatanIgcse";
+import HalamanKecamatanIup from "./Components/HalamanKecamatan/HalamanKecamatanIup/HalamanKecamatanIup";
+import HalamanKecamatanOsn from "./Components/HalamanKecamatan/HalamanKecamatanOsn/HalamanKecamatanOsn";
+import HalamanKecamatanKsn from "./Components/HalamanKecamatan/HalamanKecamatanKsn/HalamanKecamatanKsn";
+import HalamanKecamatanToefl from "./Components/HalamanKecamatan/HalamanKecamatanToefl/HalamanKecamatanToefl";
 
 const TRACKING_ID = "G-NZRFMBB12N";
 ReactGA.initialize(TRACKING_ID)
@@ -129,6 +138,8 @@ function App() {
         <Route exact path="/bimbel-persiapan-seleksi-lpdp-di/:id" element={<HalamankotaLpdp />}></Route>
         {/* Go to Kabupaten LPDP By ID */}
         <Route exact path="/bimbel-persiapan-seleksi-lpdp/kabupaten/:id" element={<HalamankabupatenLpdp />}></Route>
+        {/* Go to Kecamatan LPDP By ID */}
+        <Route exact path="/bimbel-persiapan-seleksi-lpdp/kecamatan/:id" element={<HalamanKecamatanLpdp />}></Route>
 
         {/* PRIVAT */}
         <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa" element={<BimbelPrivat />}></Route>
@@ -136,6 +147,8 @@ function App() {
         <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa-di/:id" element={<HalamankotaPrivat />}></Route>
         {/* Go to Kabupaten PRIVAT By ID */}
         <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa/kabupaten/:id" element={<HalamankabupatenPrivat />}></Route>
+        {/* Go to Kecamatan PRIVAT By ID */}
+        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa/kecamatan/:id" element={<HalamanKecamatanPrivat />}></Route>
 
         {/* CPNS */}
         <Route exact path="/bimbel-cpns-dan-pppk" element={<BimbelCpns />}></Route>
@@ -143,6 +156,8 @@ function App() {
         <Route exact path="/bimbel-cpns-dan-pppk-di/:id" element={<HalamankotaCpns />}></Route>
         {/* Go to Kabupaten CPNS By ID */}
         <Route exact path="/bimbel-cpns-dan-pppk/kabupaten/:id" element={<HalamankabupatenCpns />}></Route>
+        {/* Go to Kecamatan CPNS By ID */}
+        <Route exact path="/bimbel-cpns-dan-pppk/kecamatan/:id" element={<HalamanKecamatanCpns />}></Route>
 
         {/* BUMN */}
         <Route exact path="/bimbel-seleksi-bumn" element={<BimbelBumn />}></Route>
@@ -150,6 +165,8 @@ function App() {
         <Route exact path="/bimbel-seleksi-bumn-di/:id" element={<HalamankotaBumn />}></Route>
         {/* Go to Kabupaten BUMN By ID */}
         <Route exact path="/bimbel-seleksi-bumn/kabupaten/:id" element={<HalamankabupatenBumn />}></Route>
+        {/* Go to Kecamatan BUMN By ID */}
+        <Route exact path="/bimbel-seleksi-bumn/kecamatan/:id" element={<HalamanKecamatanBumn />}></Route>
 
         {/* IGCSE */}
         <Route exact path="/bimbel-kurikulum-igcse" element={<BimbelIgcse />}></Route>
@@ -157,6 +174,8 @@ function App() {
         <Route exact path="/bimbel-igcse-dan-ibtutor-di/:id" element={<HalamankotaIgcse />}></Route>
         {/* Go to Kabupaten BUMN By ID */}
         <Route exact path="/bimbel-igcse-dan-ibtutor/kabupaten/:id" element={<HalamankabupatenIgcse />}></Route>
+        {/* Go to Kecamatan BUMN By ID */}
+        <Route exact path="/bimbel-igcse-dan-ibtutor/kecamatan/:id" element={<HalamanKecamatanIgcse />}></Route>
 
         {/* IUP-KKI */}
         <Route exact path="/bimbel-iup-kki" element={<BimbelIup />}></Route>
@@ -164,6 +183,8 @@ function App() {
         <Route exact path="/bimbel-iup-kki-di/:id" element={<HalamankotaIup />}></Route>
         {/* Go to Kabupaten IUPKKI By ID */}
         <Route exact path="/bimbel-iup-kki/kabupaten/:id" element={<HalamankabupatenIup />}></Route>
+        {/* Go to Kabupaten IUPKKI By ID */}
+        <Route exact path="/bimbel-iup-kki/kecamatan/:id" element={<HalamanKecamatanIup />}></Route>
 
         {/* OSN */}
         <Route exact path="/bimbel-osn" element={<BimbelOsn />}></Route>
@@ -171,6 +192,8 @@ function App() {
         <Route exact path="/bimbel-osn-di/:id" element={<HalamankotaOsn />}></Route>
         {/* Go to Kabupaten OSN By ID */}
         <Route exact path="/bimbel-osn/kabupaten/:id" element={<HalamankabupatenOsn />}></Route>
+        {/* Go to Kecamatan OSN By ID */}
+        <Route exact path="/bimbel-osn/kecamatan/:id" element={<HalamanKecamatanOsn />}></Route>
 
         {/* TOEFL */}
         <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation" element={<BimbelToefl />}></Route>
@@ -178,6 +201,8 @@ function App() {
         <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation-di/:id" element={<HalamankotaToefl />}></Route>
         {/* Go to Kabupaten TOEFL By ID */}
         <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation/kabupaten/:id" element={<HalamankabupatenToefl />}></Route>
+        {/* Go to Kecamatan TOEFL By ID */}
+        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation/kecamatan/:id" element={<HalamanKecamatanToefl />}></Route>
 
         {/* KEDOKTERAN */}
         <Route exact path="/bimbel-masuk-kedokteran" element={<BimbelKedokteran />}></Route>
@@ -194,6 +219,8 @@ function App() {
         <Route exact path="/pelatihan-osn-ksn/:id" element={<HalamanKotaKsn />}></Route>
         {/* Go to Kabupaten KSN By ID */}
         <Route exact path="/pelatihan-osn-ksn/kabupaten/:id" element={<HalamanKabupatenKsn />}></Route>
+        {/* Go to Kecamatan KSN By ID */}
+        <Route exact path="/pelatihan-osn-ksn/kecamatan/:id" element={<HalamanKecamatanKsn />}></Route>
 
       </Routes>
     </BrowserRouter>

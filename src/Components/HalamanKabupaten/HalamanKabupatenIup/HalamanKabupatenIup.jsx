@@ -24,6 +24,7 @@ import GaleriKegiatan from "../../../Program/BimbelSupercamp/GaleriKegiatan/Gale
 import Video from "../../Video/Video";
 import Alumni from "../../Alumni/Alumni";
 import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup";
+import ListKecamatanIup from "../../Tab/TabIup/ListKecamatanIup";
 
 const HalamankabupatenIup = () => {
   const { id } = useParams();
@@ -119,6 +120,7 @@ const HalamankabupatenIup = () => {
         <Masterteacher />
         <Alumni />
         <Liputan />
+        <ListKecamatanIup />
         <Faqtni />
         <Asalsekolah />
         <PromoIup />

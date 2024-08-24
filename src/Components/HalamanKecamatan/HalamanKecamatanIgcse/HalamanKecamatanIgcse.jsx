@@ -4,35 +4,29 @@ import axios from "axios";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
 import rumahAdat from "../../../assets/rumah_adat.png";
 import { Helmet } from "react-helmet-async";
-import Floatingcta from "../../FloatingCta/Floatingcta";
-import Bottombar from "../../BottomBar/Bottombar";
-import Footer from "../../Footer/Footer";
-import Bestprogram2 from "../../BestProgram/BestProgram2/Bestprogram2";
-import Voucer from "../../Voucer/Voucer";
-import Masterteacher from "../../MasterTeacher/Masterteacher";
-import Keunggulan from "../../Keunggulan/Keunggulan";
-import Testimoni from "../../Testimoni/Testimoni";
-import Faq from "../../Faq/Faq";
-import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Navbar from "../../Navbar/Navbar";
-import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
-import Faqtni from "../../Faq/FaqTni/FaqTni";
-import Liputan from "../../Liputan/Liputan";
-import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import BestProgramIgcse2 from "../../BestProgram/BestProgram2/BestProgramIgcse2/BestProgramIgcse2";
 import PaketBelajarIgcse from "../../PaketBelajar/PaketBelajarIgcse/PaketBelajarIgcse";
 import MateriIgcse from "../../../Program/BimbelIgcse/MateriIgcse/MateriIgcse";
 import GaleriKegiatan from "../../../Program/BimbelIgcse/GaleriKegiatan/GaleriKegiatan";
+import Voucer from "../../Voucer/Voucer";
+import Keunggulan from "../../Keunggulan/Keunggulan";
+import Masterteacher from "../../MasterTeacher/Masterteacher";
+import Liputan from "../../Liputan/Liputan";
+import Faqtni from "../../Faq/FaqTni/FaqTni";
+import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import PromoIgcse from "../../../Program/BimbelIgcse/PromoIgcse/PromoIgcse";
-import ListKecamatanIgcse from "../../Tab/TabIgcse/ListKecamatanIgcse";
+import Footer from "../../Footer/Footer";
+import Bottombar from "../../BottomBar/Bottombar";
+import Floatingcta from "../../FloatingCta/Floatingcta";
 import FloatingctaIgcse from "../../FloatingCta/FloatingctaIgcse/FloatingctaIgcse";
 import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
 import LiputanIgcse from "../../Liputan/LiputanIgcse/LiputanIgcse";
 import AsalSekolahIgcse from "../../AsalSekolah/AsalSekolahIgcse/AsalSekolahIgcse";
 
-const HalamankabupatenIgcse = () => {
+const HalamanKecamatanIgcse = () => {
   const { id } = useParams();
-  const [kabupaten, setKabupaten] = useState([]);
+  const [kecamatan, setKecamatan] = useState([]);
 
   function useQuery() {
     const { search } = useLocation();
@@ -43,21 +37,20 @@ const HalamankabupatenIgcse = () => {
   const axiosJWT = axios.create();
 
   useEffect(() => {
-    const getKabupaten = async () => {
+    const getKecamatan = async () => {
       const response = await axiosJWT.get(
-        `https://api.edulink-indonesia.com/ibukotakabupaten/${id}`,
+        `https://api.edulink-indonesia.com/kecamatankab/${id}`,
         {
           headers: {
             Authorization: `Bearer`,
           },
         }
       );
-      setKabupaten(response.data);
+      setKecamatan(response.data);
     };
-    id;
-    getKabupaten();
+    console.log(getKecamatan);
+    getKecamatan(id);
   }, [id, query]);
-
   return (
     <React.Fragment>
       <Helmet>
@@ -67,8 +60,8 @@ const HalamankabupatenIgcse = () => {
           content="IGCSE, O Level, A Level & IB Tutor #1 - Edumatrix Indonesia"
         />
         <title>
-          IGCSE, O Level, A Level & IB Tutor in {`${kabupaten.kota_kabupaten}`}{" "}
-          #1 - Edumatrix Indonesia
+          IGCSE, O Level, A Level & IB Tutor in {`${kecamatan.kecamatan}`} #1 -
+          Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -77,14 +70,14 @@ const HalamankabupatenIgcse = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              IGCSE, O Level, A Level & IB Tutor in {kabupaten.kota_kabupaten} -
+              IGCSE, O Level, A Level & IB Tutor in {kecamatan.kecamatan} -
               Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
                 Edumatrix Indonesia offers one-on-one tutoring IGCSE, O Level, A
-                Level & IB in {kabupaten.kota_kabupaten} to provide the best
-                learning experience for students
+                Level & IB in {kecamatan.kecamatan} to provide the best learning
+                experience for students
               </p>
               <p className="child-paragraf-kabupaten">
                 Get Private Tutoring services anytime and anywhere with more
@@ -120,7 +113,6 @@ const HalamankabupatenIgcse = () => {
         <KeunggulanIgcse />
         <Masterteacher />
         <LiputanIgcse />
-        <ListKecamatanIgcse />
         <Faqtni />
         <AsalSekolahIgcse />
         <PromoIgcse />
@@ -132,4 +124,4 @@ const HalamankabupatenIgcse = () => {
   );
 };
 
-export default HalamankabupatenIgcse;
+export default HalamanKecamatanIgcse;

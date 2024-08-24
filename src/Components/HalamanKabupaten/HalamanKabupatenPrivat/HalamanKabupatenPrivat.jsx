@@ -24,6 +24,7 @@ import SuccessOsn from "../../../Program/BimbelOsn/SuccessOsn/SuccessOsn";
 import Alumni from "../../Alumni/Alumni";
 import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat2/BesProgramPrivat2";
 import PaketBelajarPrivat from "../../PaketBelajar/PaketBelajarPrivat/PaketBelajarPrivat";
+import ListKecamatanPrivat from "../../Tab/TabPrivat/ListKecamatanPrivat";
 
 const HalamankabupatenPrivat = () => {
   const { id } = useParams();
@@ -116,6 +117,7 @@ const HalamankabupatenPrivat = () => {
         <Masterteacher />
         <Alumni />
         <Liputan />
+        <ListKecamatanPrivat />
         <Faqtni />
         <Asalsekolah />
         <PromoHomepage />
