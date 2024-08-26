@@ -56,7 +56,7 @@ const PaketBelajarCpns = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Progress Report Statistik nilai & skor Peserta
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Deluxe%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Deluxe%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>
@@ -121,7 +121,7 @@ const PaketBelajarCpns = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Mengukur kemampuan diri
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Pasti%20CPNS%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Pasti%20CPNS%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>
@@ -174,7 +174,7 @@ const PaketBelajarCpns = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Progress Report Statistik nilai & skor Peserta
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Priority%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Priority%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>

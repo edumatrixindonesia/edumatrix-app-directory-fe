@@ -49,7 +49,7 @@ const PaketBelajarOsn = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Recording pembelajaran yang bisa diakses unlimited
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20Ingin%20Daftar%20Bimbel%20OSN%20Paket%20Priority.">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20Ingin%20Daftar%20Bimbel%20OSN%20Paket%20Priority.">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>
@@ -95,7 +95,7 @@ const PaketBelajarOsn = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Recording pembelajaran yang bisa diakses unlimited
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20Ingin%20Daftar%20Bimbel%20OSN%20Paket%20Deluxe.">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20Ingin%20Daftar%20Bimbel%20OSN%20Paket%20Deluxe.">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>

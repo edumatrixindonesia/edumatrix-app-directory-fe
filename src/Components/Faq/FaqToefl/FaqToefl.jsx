@@ -6,13 +6,13 @@ import {
   faQuestionCircle,
 } from "@fortawesome/free-solid-svg-icons";
 
-const FaqIgcse = () => {
+const FaqToefl = () => {
   const [faqData, setFaqData] = useState([]);
   const [selectedQuestion, setSelectedQuestion] = useState(null);
 
   useEffect(() => {
     const fetchFaq = () => {
-      fetch("https://api.edulink-indonesia.com/faqigcse")
+      fetch("https://api.edulink-indonesia.com/faqtoefl")
         .then((res) => res.json())
         .then((data) => {
           setFaqData(data);
@@ -70,4 +70,4 @@ const FaqIgcse = () => {
   );
 };
 
-export default FaqIgcse;
+export default FaqToefl;

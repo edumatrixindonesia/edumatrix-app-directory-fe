@@ -54,7 +54,7 @@ const PaketBelajarIgcse = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Session recording
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Priority%20Package%20International%20Curriculum%20tutoring.">
+            <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Priority%20Package%20International%20Curriculum%20tutoring.">
               <button className="btn-paket-snbt">SELECT PACKAGE</button>
             </a>
           </div>
@@ -105,7 +105,7 @@ const PaketBelajarIgcse = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Session recording
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Deluxe%20Package%20International%20Curriculum%20tutoring.">
+            <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Deluxe%20Package%20International%20Curriculum%20tutoring.">
               <button className="btn-paket-snbt">SELECT PACKAGE</button>
             </a>
           </div>

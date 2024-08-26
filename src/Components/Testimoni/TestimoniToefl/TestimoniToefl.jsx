@@ -4,7 +4,7 @@ const TestimoniToefl = () => {
   return (
     <React.Fragment>
       <div className="super-parent-testimoni-cpns">
-        <h1 className="title-testimoni">TESTIMONI SISWA</h1>
+        <h1 className="title-testimoni">STUDENT TESTIMONIALS</h1>
         <div className="parent-testimoni-cpns">
           <img
             className="img-testimoni-cpns"

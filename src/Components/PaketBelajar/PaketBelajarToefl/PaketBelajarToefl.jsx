@@ -7,106 +7,116 @@ const PaketBelajarToefl = () => {
     <React.Fragment>
       <div className="parent-container-paket-snbt">
         <h1 className="main-title-paket-snbt">
-          PAKET BELAJAR TOEFL - TOEIC - IELTS
+          TOEFL - TOEIC - IELTS STUDY PACKAGE
         </h1>
         <div className="container-paket-snbt">
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
-              <h1 className="nama-paket-lpdp">PAKET PRIORITY</h1>
+              <h1 className="nama-paket-lpdp">PRIORITY</h1>
             </div>
             <hr className="garis-pembatas-paket-snbt" />
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Jadwal belajar fleksibel
+              Flexible schedule
+            </p>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />
+              120 minutes lessons
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> 10x
-              pertemuan (Listening, Structure & Written Expression, Reading)
+              learning sessions (Listening, Structure & Written Expression,
+              Reading)
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Durasi belajar 120 menit
+              Includes e-books with materials, questions, and explanations
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Mendapat E-Book materi, soal dan pembahasan
+              Access to practice question drills
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Mendapat drilling soal latihan untuk mengukur kemampuan diri
+              Monthly progress report
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Progress report bulanan
+              Free registration fee
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Free biaya pendaftaran
+              TOEFL Score Prediction
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Tryout Premium
+              IELTS Mock Up Test
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Score TOEFL Prediction
+              Free academic consultation
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Konsultasi gratis
+              Session recording
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20Ingin%20Daftar%20Bimbel%20TOEFL%20Paket%20Priority.">
-              <button className="btn-paket-snbt">PILIH PAKET</button>
+            <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20register%20for%20the%20Priority%20Package%20TOEFL%20exam.">
+              <button className="btn-paket-snbt">SELECT PACKAGE</button>
             </a>
           </div>
 
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
-              <h1 className="nama-paket-lpdp">PAKET DELUXE</h1>
+              <h1 className="nama-paket-lpdp">DELUXE</h1>
             </div>
             <hr className="garis-pembatas-paket-snbt" />
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Jadwal belajar fleksibel
+              Flexible schedule
+            </p>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />
+              90 minutes lessons
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> 10x
-              pertemuan (Listening, Structure & Written Expression, Reading)
+              learning sessions (Listening, Structure & Written Expression,
+              Reading)
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Durasi belajar 90 menit
+              Includes e-books with materials, questions, and explanations
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Mendapat E-Book materi, soal dan pembahasan
+              Access to practice question drills
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Mendapat drilling soal latihan untuk mengukur kemampuan diri
+              Monthly progress report
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Progress report bulanan
+              Free registration fee
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Free biaya pendaftaran
+              TOEFL Score Prediction
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Tryout Premium
+              IELTS Mock Up Test
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Score TOEFL Prediction
+              Free academic consultation
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Konsultasi gratis
+              Session recording
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20Ingin%20Daftar%20Bimbel%20TOEFL%20Paket%20Deluxe.">
-              <button className="btn-paket-snbt">PILIH PAKET</button>
+            <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20register%20for%20the%20Deluxe%20Package%20TOEFL%20exam.">
+              <button className="btn-paket-snbt">SELECT PACKAGE</button>
             </a>
           </div>
         </div>

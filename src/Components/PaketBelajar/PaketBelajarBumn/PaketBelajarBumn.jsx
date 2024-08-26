@@ -61,7 +61,7 @@ const PaketBelajarBumn = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Progress Report Statistik nilai & skor Peserta
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Persiapan%20Tes%20BUMN.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Persiapan%20Tes%20BUMN.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>
@@ -112,7 +112,7 @@ const PaketBelajarBumn = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Recording pembelajaran yang bisa diakses unlimited
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Psikotes%20Kerja.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Psikotes%20Kerja.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>
@@ -163,7 +163,7 @@ const PaketBelajarBumn = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Recording pembelajaran yang bisa diakses unlimited
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Tes%20Potensi%20Akademik.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Tes%20Potensi%20Akademik.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>
@@ -214,7 +214,7 @@ const PaketBelajarBumn = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Recording pembelajaran yang bisa diakses unlimited
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Tes%20Potensi%20Manajerial%20Kerja.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Tes%20Potensi%20Manajerial%20Kerja.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>

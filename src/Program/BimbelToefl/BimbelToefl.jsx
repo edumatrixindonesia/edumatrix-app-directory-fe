@@ -18,13 +18,19 @@ import ListKotaSupercamp from "../../Components/Tab/TabSupercamp/ListKotaSuperca
 import Asalsekolah from "../../Components/AsalSekolah/Asalsekolah";
 import SliderToefl from "../../Components/SlideTop/SliderToefl/SliderToefl";
 import ListKotaToefl from "../../Components/Tab/TabToefl/ListKotaToefl";
-import GaleriKegiatan from "../BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
+import GaleriKegiatan from "../BimbelToefl/GaleriKegiatan/GaleriKegiatan";
 import Liputan from "../../Components/Liputan/Liputan";
 import SuccessStory from "../../Components/SuccessStory/SuccessStory";
 import SuccessSnbt from "../BimbelSnbt/SuccessSnbt/SuccessSnbt";
 import PaketBelajarToefl from "../../Components/PaketBelajar/PaketBelajarToefl/PaketBelajarToefl";
 import PromoToefl from "./PromoToefl/PromoToefl";
 import TestimoniToefl from "../../Components/Testimoni/TestimoniToefl/TestimoniToefl";
+import KeunggulanIgcse from "../../Components/Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
+import LiputanIgcse from "../../Components/Liputan/LiputanIgcse/LiputanIgcse";
+import AsalSekolahIgcse from "../../Components/AsalSekolah/AsalSekolahIgcse/AsalSekolahIgcse";
+import PenjelasanToefl from "./PenjelasanToefl/PenjelasanToefl";
+import FaqToefl from "../../Components/Faq/FaqToefl/FaqToefl";
+import FloatingCtaToefl from "../../Components/FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 
 const BimbelToefl = () => {
   return (
@@ -33,12 +39,12 @@ const BimbelToefl = () => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation Terbaik #1 - Edumatrix
+          content="Bimbel Les Privat TOEFL, TOEIC, IELTS, and English Conversation Lessons Terbaik #1 - Edumatrix
           Indonesia"
         />
         <title>
-          Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation Terbaik #1
-          - Edumatrix Indonesia
+          Bimbel Les Privat TOEFL, TOEIC, IELTS, and English Conversation
+          Lessons Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -46,22 +52,23 @@ const BimbelToefl = () => {
       <div className="container-all">
         <SliderToefl />
         <BestprogramSnbt />
+        <PenjelasanToefl />
         <SuccessStory />
         <PaketBelajarToefl />
         <GaleriKegiatan />
         <TestimoniToefl />
         <Voucer />
-        <Keunggulan />
+        <KeunggulanIgcse />
         <Masterteacher />
-        <Liputan />
+        <LiputanIgcse />
         <ListKotaToefl />
-        <Faqtni />
-        <Asalsekolah />
+        <FaqToefl />
+        <AsalSekolahIgcse />
         <PromoToefl />
       </div>
       <Footer />
       <Bottombar />
-      <Floatingcta />
+      <FloatingCtaToefl />
     </React.Fragment>
   );
 };

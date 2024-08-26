@@ -65,7 +65,7 @@ const PaketBelajarLpdp = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Recording sesi belajar
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Priority%20Bimbel%20LPDP.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Priority%20Bimbel%20LPDP.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PROGRAM</button>
             </a>
           </div>
@@ -126,7 +126,7 @@ const PaketBelajarLpdp = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Recording sesi belajar
             </p>
-            <a href="https://web.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Deluxe%20Bimbel%20LPDP.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Deluxe%20Bimbel%20LPDP.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PROGRAM</button>
             </a>
           </div>

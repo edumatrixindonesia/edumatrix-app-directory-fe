@@ -79,12 +79,12 @@ const Navbar = () => {
   };
 
   const goToProduk = () => {
-    navigate("/produk")
-  }
+    navigate("/produk");
+  };
 
   const goToBimbelKsn = () => {
-    navigate("/pelatihan-osn-ksn")
-  }
+    navigate("/pelatihan-osn-ksn");
+  };
 
   return (
     <React.Fragment>
@@ -198,7 +198,7 @@ const Navbar = () => {
                         className="icon-dropdown"
                         icon={faAnglesRight}
                       />
-                      Bimbel Kurikulum IGCSE & IB
+                      IGCSE, O Level, A Level & IB Tutor
                     </a>
                   </li>
                   <li onClick={() => goToBimbelIup()}>

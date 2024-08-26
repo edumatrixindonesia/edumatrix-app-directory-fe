@@ -23,6 +23,11 @@ import FloatingctaIgcse from "../../FloatingCta/FloatingctaIgcse/FloatingctaIgcs
 import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
 import LiputanIgcse from "../../Liputan/LiputanIgcse/LiputanIgcse";
 import AsalSekolahIgcse from "../../AsalSekolah/AsalSekolahIgcse/AsalSekolahIgcse";
+import PenjelasanIgcse from "../../../Program/BimbelIgcse/PenjelasanIgcse/PenjelasanIgcse";
+import WhyChooseIgcse from "../../../Program/BimbelIgcse/WhyChooseIgcse/WhyChooseIgcse";
+import OnlyIgcseEdm from "../../../Program/BimbelIgcse/OnlyIgcseEdm/OnlyIgcseEdm";
+import BenefitIgcse from "../../../Program/BimbelIgcse/BenefitIgcse/BenefitIgcse";
+import FaqIgcse from "../../Faq/FaqIgcse/FaqIgcse";
 
 const HalamanKecamatanIgcse = () => {
   const { id } = useParams();
@@ -96,7 +101,7 @@ const HalamanKecamatanIgcse = () => {
 
           <a
             className="parent-img-modeltanya-program"
-            href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
+            href="https://wa.me/+6285600422188?text=Hello%20Miss%20Sari,%20I%20would%20like%20to%20ask%20for%20Private%20IGCSE%20tutoring%20for%20%0aGrade%20:%0aSubject%20:%0aCurriculum%20:%0aRegion:"
           >
             <img
               className="model-program-kota"
@@ -106,14 +111,18 @@ const HalamanKecamatanIgcse = () => {
           </a>
         </div>
         <BestProgramIgcse2 />
+        <PenjelasanIgcse />
         <PaketBelajarIgcse />
         <MateriIgcse />
         <GaleriKegiatan />
         <Voucer />
         <KeunggulanIgcse />
+        <WhyChooseIgcse />
         <Masterteacher />
+        <BenefitIgcse />
+        <OnlyIgcseEdm />
         <LiputanIgcse />
-        <Faqtni />
+        <FaqIgcse />
         <AsalSekolahIgcse />
         <PromoIgcse />
       </div>

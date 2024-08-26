@@ -9,8 +9,8 @@ const MateriIgcse = () => {
       <div className="container-materi-tni">
         <div className="box-materi-akpol">
           <button className="title-materi-lpdp">
-            <img className="img-materi-lpdp" src={iconMateri} alt="" /> IGCSE
-            TUTORING SUBJECT
+            <img className="img-materi-lpdp" src={iconMateri} alt="" /> IGCSE, O
+            LEVEL, A LEVEL & IB STUDY PLAN
           </button>
           <h4 className="title-list-materi-lpdp">
             <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}

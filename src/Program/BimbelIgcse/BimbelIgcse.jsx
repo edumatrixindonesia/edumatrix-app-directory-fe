@@ -31,6 +31,11 @@ import FloatingctaIgcse from "../../Components/FloatingCta/FloatingctaIgcse/Floa
 import KeunggulanIgcse from "../../Components/Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
 import LiputanIgcse from "../../Components/Liputan/LiputanIgcse/LiputanIgcse";
 import AsalSekolahIgcse from "../../Components/AsalSekolah/AsalSekolahIgcse/AsalSekolahIgcse";
+import PenjelasanIgcse from "./PenjelasanIgcse/PenjelasanIgcse";
+import OnlyIgcseEdm from "./OnlyIgcseEdm/OnlyIgcseEdm";
+import BenefitIgcse from "./BenefitIgcse/BenefitIgcse";
+import FaqIgcse from "../../Components/Faq/FaqIgcse/FaqIgcse";
+import WhyChooseIgcse from "./WhyChooseIgcse/WhyChooseIgcse";
 
 const BimbelIgcse = () => {
   return (
@@ -51,15 +56,19 @@ const BimbelIgcse = () => {
       <div className="container-all">
         <SliderIgcse />
         <BestProgramIgcse />
+        <PenjelasanIgcse />
         <PaketBelajarIgcse />
         <MateriIgcse />
         <GaleriKegiatan />
         <Voucer />
         <KeunggulanIgcse />
+        <WhyChooseIgcse />
         <Masterteacher />
+        <BenefitIgcse />
+        <OnlyIgcseEdm />
         <LiputanIgcse />
         <ListKotaIgcse />
-        <Faqtni />
+        <FaqIgcse />
         <AsalSekolahIgcse />
         <PromoIgcse />
       </div>

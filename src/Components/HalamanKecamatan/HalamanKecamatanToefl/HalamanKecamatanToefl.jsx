@@ -8,7 +8,7 @@ import Navbar from "../../Navbar/Navbar";
 import BestprogramSnbt2 from "../../BestProgram/BestProgram2/BestProgramSnbt2/BestProgramSnbt2";
 import SuccessStory from "../../SuccessStory/SuccessStory";
 import PaketBelajarToefl from "../../PaketBelajar/PaketBelajarToefl/PaketBelajarToefl";
-import GaleriKegiatan from "../../../Program/BimbelPrivat/GaleriKegiatan/GaleriKegiatan";
+import GaleriKegiatan from "../../../Program/BimbelToefl/GaleriKegiatan/GaleriKegiatan";
 import TestimoniToefl from "../../Testimoni/TestimoniToefl/TestimoniToefl";
 import Voucer from "../../Voucer/Voucer";
 import Keunggulan from "../../Keunggulan/Keunggulan";
@@ -20,6 +20,12 @@ import PromoToefl from "../../../Program/BimbelToefl/PromoToefl/PromoToefl";
 import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
+import PenjelasanToefl from "../../../Program/BimbelToefl/PenjelasanToefl/PenjelasanToefl";
+import AsalSekolahIgcse from "../../AsalSekolah/AsalSekolahIgcse/AsalSekolahIgcse";
+import FaqToefl from "../../Faq/FaqToefl/FaqToefl";
+import LiputanIgcse from "../../Liputan/LiputanIgcse/LiputanIgcse";
+import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
+import FloatingCtaToefl from "../../FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 
 const HalamanKecamatanToefl = () => {
   const { id } = useParams();
@@ -55,11 +61,11 @@ const HalamanKecamatanToefl = () => {
         <meta
           charSet="utf-8"
           name="robots"
-          content="Bimbel Les Privat TOEFL, TOEICE, IELTS SMP - SMA - Mahasiswa terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Bimbel Les Privat TOEFL, TOEIC, IELTS, and English Conversation Lessons, SMP - SMA - Mahasiswa terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation di{" "}
-          {`${kecamatan.kecamatan}`} #1 - Edumatrix Indonesia
+          Bimbel Les Privat TOEFL, TOEIC, IELTS, and English Conversation
+          Lessons in {`${kecamatan.kecamatan}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -68,18 +74,18 @@ const HalamanKecamatanToefl = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Privat TOEFL, TOEIC, IELTS dan English Conversation di{" "}
+              TOEFL, TOEIC, IELTS, and English Conversation Lessons in{" "}
               {kecamatan.kecamatan} - Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di {kecamatan.kecamatan} untuk TOEFL, TOEIC,
-                IELTS dan English Conversation
+                Private tutoring in {kecamatan.kecamatan} for TOEFL, TOEIC,
+                IELTS and English Conversation
               </p>
               <p className="child-paragraf-kabupaten">
-                Dapatkan layanan Les Privat kapan pun dan dimana pun dengan
-                lebih dari 5.000 Master Teacher Edumatrix yang siap memberikan
-                pelayanan terbaik.
+                Get Private Tutoring services anytime and anywhere with more
+                than 5,000 Edumatrix Master Teachers who are ready to give the
+                the best service.
               </p>
             </div>
           </div>
@@ -103,21 +109,22 @@ const HalamanKecamatanToefl = () => {
           </a>
         </div>
         <BestprogramSnbt2 />
+        <PenjelasanToefl />
         <SuccessStory />
         <PaketBelajarToefl />
         <GaleriKegiatan />
         <TestimoniToefl />
         <Voucer />
-        <Keunggulan />
+        <KeunggulanIgcse />
         <Masterteacher />
-        <Liputan />
-        <Faqtni />
-        <Asalsekolah />
+        <LiputanIgcse />
+        <FaqToefl />
+        <AsalSekolahIgcse />
         <PromoToefl />
       </div>
       <Footer />
       <Bottombar />
-      <Floatingcta />
+      <FloatingCtaToefl />
     </React.Fragment>
   );
 };
