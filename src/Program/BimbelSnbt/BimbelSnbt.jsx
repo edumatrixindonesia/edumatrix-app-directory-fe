@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import SliderSnbt from "../../Components/SlideTop/SliderSnbt/SliderSnbt";
@@ -24,7 +24,15 @@ import Video from "../../Components/Video/Video";
 import PaketBelajarSnbt from "../../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import SectionSupercamp from "../BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 
-const BimbelSnbt = () => {
+const BimbelSnbt = ({ setProgress }) => {
+  
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
+
   return (
     <React.Fragment>
       <Helmet>

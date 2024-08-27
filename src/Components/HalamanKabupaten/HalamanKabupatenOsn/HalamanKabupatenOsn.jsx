@@ -26,7 +26,7 @@ import PaketBelajarOsn from "../../PaketBelajar/PaketBelajarOsn/PaketBelajarOsn"
 import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
 import ListKecamatanOsn from "../../Tab/TabOsn/ListKecamatanOsn";
 
-const HalamankabupatenOsn = () => {
+const HalamankabupatenOsn = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -52,6 +52,11 @@ const HalamankabupatenOsn = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

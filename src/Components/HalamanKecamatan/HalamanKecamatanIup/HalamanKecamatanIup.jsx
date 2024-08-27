@@ -21,9 +21,9 @@ import Asalsekolah from "../../AsalSekolah/Asalsekolah";
 import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
-import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup"
+import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup";
 
-const HalamanKecamatanIup = () => {
+const HalamanKecamatanIup = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -47,8 +47,12 @@ const HalamanKecamatanIup = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

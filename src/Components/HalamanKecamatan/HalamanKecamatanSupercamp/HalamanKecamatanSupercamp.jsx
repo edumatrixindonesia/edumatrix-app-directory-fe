@@ -25,7 +25,7 @@ import Floatingcta from "../../FloatingCta/Floatingcta";
 import rumahAdat from "../../../assets/rumah_adat.png";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
 
-const HalamanKecamatanSupercamp = () => {
+const HalamanKecamatanSupercamp = ({setProgress}) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -49,10 +49,14 @@ const HalamanKecamatanSupercamp = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
-  
+
   return (
     <React.Fragment>
       <Helmet>
@@ -63,8 +67,8 @@ const HalamanKecamatanSupercamp = () => {
           Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran & UTBK SNBT di {`${kecamatan.kecamatan}`}{" "}
-          - UI, UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
+          Bimbel Masuk Kedokteran & UTBK SNBT di {`${kecamatan.kecamatan}`} -
+          UI, UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
           Indonesia
         </title>
         <link rel="canonical" href="" />
@@ -74,8 +78,8 @@ const HalamanKecamatanSupercamp = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Masuk Kedokteran & UTBK SNBT di {kecamatan.kecamatan}{" "}
-              - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+              Bimbel Masuk Kedokteran & UTBK SNBT di {kecamatan.kecamatan} - UI,
+              UGM, Undip, Unair, Unpad, UB, Udayana
             </h2>
             <div className="paragraf-kabupaten">
               <p>

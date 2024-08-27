@@ -32,7 +32,7 @@ import LiputanIgcse from "../../Liputan/LiputanIgcse/LiputanIgcse";
 import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
 import FloatingCtaToefl from "../../FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 
-const HalamankabupatenToefl = () => {
+const HalamankabupatenToefl = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -58,6 +58,11 @@ const HalamankabupatenToefl = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

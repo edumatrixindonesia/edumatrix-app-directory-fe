@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,8 +14,11 @@ import { useNavigate } from "react-router-dom";
 import iconSupercamp from "../../assets/supercamp.png";
 import iconLiveClass from "../../assets/live_class.png";
 import iconTrainingCamp from "../../assets/training_camp.png";
+import LoadingBar from 'react-top-loading-bar'
+
 
 const Navbar = () => {
+
   const navigate = useNavigate();
 
   const goToKelas = () => {

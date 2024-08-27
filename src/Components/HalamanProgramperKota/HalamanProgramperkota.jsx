@@ -25,7 +25,7 @@ import Video from "../Video/Video";
 import InfoCamp from "../InfoCamp/InfoCamp";
 import Alumni from "../Alumni/Alumni";
 
-const HalamanProgramperkota = () => {
+const HalamanProgramperkota = ({setProgress}) => {
   const [kota, setKota] = useState([]);
   const [program, setProgram] = useState([]);
   const { id, programid } = useParams();
@@ -65,6 +65,11 @@ const HalamanProgramperkota = () => {
     };
     getKota(id);
     getProgram(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
   return (
     <React.Fragment>

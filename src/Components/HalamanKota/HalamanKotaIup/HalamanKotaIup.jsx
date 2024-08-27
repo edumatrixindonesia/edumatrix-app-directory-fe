@@ -31,7 +31,7 @@ import Video from "../../Video/Video";
 import Alumni from "../../Alumni/Alumni";
 import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup";
 
-const HalamankotaIup = () => {
+const HalamankotaIup = ({ setProgress }) => {
   const { id } = useParams();
   const [kotaiup, setKotaiup] = useState([]);
 
@@ -57,6 +57,11 @@ const HalamankotaIup = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

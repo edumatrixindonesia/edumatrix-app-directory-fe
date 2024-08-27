@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import Testimoni from "../../Components/Testimoni/Testimoni";
@@ -21,7 +21,13 @@ import BestProgramOsn from "../../Components/BestProgram/BestProgramOsn/BestProg
 import PaketBelajarOsn from "../../Components/PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
 import PromoOsn from "./PromoOsn/PromoOsn";
 
-const BimbelOsn = () => {
+const BimbelOsn = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
   return (
     <React.Fragment>
       <Helmet>

@@ -10,7 +10,6 @@ const ListKabupaten = () => {
   const [mapel, setMapel] = useState([]);
   const { id } = useParams();
 
-  console.log("datas2", id);
 
   function useQuery() {
     const { search } = useLocation();

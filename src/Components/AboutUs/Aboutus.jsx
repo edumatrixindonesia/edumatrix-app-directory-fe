@@ -13,7 +13,7 @@ import ourPhilosophy from "../../assets/aboutus/our_philosophy.png";
 import ourPromise from "../../assets/aboutus/Our_promise.png";
 import ourValue from "../../assets/aboutus/our_values.png";
 
-const Aboutus = () => {
+const Aboutus = ({setProgress}) => {
   // const [aboutus, setAboutUs] = useState([]);
 
   // useEffect(() => {
@@ -28,6 +28,14 @@ const Aboutus = () => {
   //       (data);
   //     });
   // };
+
+  useEffect(() => {
+    setProgress(60)
+    setTimeout(() => {
+      setProgress(100)
+    }, 50)
+  }, [])
+
   return (
     <React.Fragment>
       <Helmet>

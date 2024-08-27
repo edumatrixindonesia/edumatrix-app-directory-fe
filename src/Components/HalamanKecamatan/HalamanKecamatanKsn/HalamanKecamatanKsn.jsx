@@ -21,7 +21,7 @@ import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 
-const HalamanKecamatanKsn = () => {
+const HalamanKecamatanKsn = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -45,8 +45,12 @@ const HalamanKecamatanKsn = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

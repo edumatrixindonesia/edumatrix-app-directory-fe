@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import Testimoni from "../../Components/Testimoni/Testimoni";
@@ -23,7 +23,13 @@ import PromoOsn from "../BimbelOsn/PromoOsn/PromoOsn";
 import BestProgramKsn from "../../Components/BestProgram/BestProgramKsn/BestProgramKsn";
 import ListKotaKsn from "../../Components/Tab/TabKsn/ListKotaKsn";
 
-const BimbelKsn = () => {
+const BimbelKsn = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
   return (
     <React.Fragment>
       <Helmet>
@@ -34,8 +40,8 @@ const BimbelKsn = () => {
           Edumatrix Indonesia"
         />
         <title>
-          Bimbel dan Pelatihan Kompetisi Sains Nasional (KSN) - SD, SMP, SMA Terbaik #1 -
-          Edumatrix Indonesia
+          Bimbel dan Pelatihan Kompetisi Sains Nasional (KSN) - SD, SMP, SMA
+          Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>

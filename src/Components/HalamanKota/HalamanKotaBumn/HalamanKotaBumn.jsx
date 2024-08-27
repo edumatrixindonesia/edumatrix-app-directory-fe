@@ -32,7 +32,7 @@ import MateriBumn from "../../../Program/BimbelBumn/MateriBumn/MateriBumn";
 import PaketBelajarBumn from "../../PaketBelajar/PaketBelajarBumn/PaketBelajarBumn";
 import SuccessTni from "../../../Program/BimbelTni/SuccessTni/SuccessTni";
 
-const HalamankotaBumn = () => {
+const HalamankotaBumn = ({ setProgress }) => {
   const { id } = useParams();
   const [kotabumn, setKotabumn] = useState([]);
 
@@ -58,6 +58,11 @@ const HalamankotaBumn = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

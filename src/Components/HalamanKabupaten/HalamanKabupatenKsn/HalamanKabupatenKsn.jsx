@@ -27,7 +27,7 @@ import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
 import BestProgramKsn2 from "../../BestProgram/BestProgram2/BestProgramKsn2/BestProgramKsn2";
 import ListKecamatanKsn from "../../Tab/TabKsn/ListKecamatanKsn";
 
-const HalamanKabupatenKsn = () => {
+const HalamanKabupatenKsn = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -53,6 +53,11 @@ const HalamanKabupatenKsn = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

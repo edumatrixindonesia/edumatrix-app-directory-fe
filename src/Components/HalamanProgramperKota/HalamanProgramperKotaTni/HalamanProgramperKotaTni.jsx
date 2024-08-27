@@ -19,7 +19,7 @@ import Faqtni from "../../Faq/FaqTni/FaqTni";
 import Liputan from "../../Liputan/Liputan";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 
-const HalamanProgramperkotaTni = () => {
+const HalamanProgramperkotaTni = ({ setProgress }) => {
   const [kota, setKota] = useState([]);
   const [program, setProgram] = useState([]);
   const { id } = useParams();
@@ -61,6 +61,11 @@ const HalamanProgramperkotaTni = () => {
     id;
     getKota(id);
     getProgram(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
   return (
     <React.Fragment>
@@ -85,9 +90,9 @@ const HalamanProgramperkotaTni = () => {
             </h2>
             <div className="paragraf-program">
               <p>
-                Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
-                PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
-                Karyawan.{" "}
+                Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS,
+                LPDP, PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa
+                dan Karyawan.{" "}
               </p>
               <p className="child-paragraf-program">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

@@ -29,7 +29,7 @@ import OnlyIgcseEdm from "../../../Program/BimbelIgcse/OnlyIgcseEdm/OnlyIgcseEdm
 import BenefitIgcse from "../../../Program/BimbelIgcse/BenefitIgcse/BenefitIgcse";
 import FaqIgcse from "../../Faq/FaqIgcse/FaqIgcse";
 
-const HalamanKecamatanIgcse = () => {
+const HalamanKecamatanIgcse = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -53,8 +53,12 @@ const HalamanKecamatanIgcse = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
   return (
     <React.Fragment>

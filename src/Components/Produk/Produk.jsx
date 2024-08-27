@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import "./Produk.css";
 
@@ -11,7 +11,15 @@ import Floatingcta from "../FloatingCta/Floatingcta";
 import Footer from "../Footer/Footer";
 import { Helmet } from "react-helmet-async";
 
-const Produk = () => {
+const Produk = ({setProgress}) => {
+
+  useEffect(() => {
+    setProgress(60)
+    setTimeout(() => {
+      setProgress(100)
+    }, 50)
+  }, [])
+  
   return (
     <React.Fragment>
       <Helmet>

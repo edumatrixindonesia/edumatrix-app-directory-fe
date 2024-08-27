@@ -30,7 +30,7 @@ import Konsultan from "../../../Program/BimbelTni/Konsultan/Konsultan";
 import MateriTni from "../../../Program/BimbelTni/MateriTni/MateriTni";
 import Testimonitni from "../../Testimoni/TestimoniTni/TestimoniTni";
 
-const Halamankotatni = () => {
+const Halamankotatni = ({ setProgress }) => {
   const { id } = useParams();
   const [kotatni, setKotatni] = useState([]);
 
@@ -56,6 +56,11 @@ const Halamankotatni = () => {
     };
     id;
     getKotatni(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

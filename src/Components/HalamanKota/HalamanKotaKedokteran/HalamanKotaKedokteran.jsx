@@ -32,7 +32,7 @@ import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import PaketBelajarKedokteran from "../../PaketBelajar/PaketBelajarKedokteran/PaketBelajarKedokteran";
 import ListKabupatenKedokteran from "../../Tab/TabKedokteran/ListKabupatenKedokteran";
 
-const HalamanKotaKedokteran = () => {
+const HalamanKotaKedokteran = ({ setProgress }) => {
   const { id } = useParams();
   const [kotaKedokteran, setKotakedokteran] = useState([]);
 
@@ -58,6 +58,11 @@ const HalamanKotaKedokteran = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
   return (
     <React.Fragment>

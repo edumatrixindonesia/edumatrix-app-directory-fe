@@ -27,7 +27,7 @@ import TestimoniBumn from "../../Testimoni/TestimoniBumn/TestimoniBumn";
 import PromoBumn from "../../../Program/BimbelBumn/PromoBumn/PromoBumn";
 import ListKecamatanBumn from "../../Tab/TabBumn/ListKecamatanBumn";
 
-const HalamankabupatenBumn = () => {
+const HalamankabupatenBumn = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -53,6 +53,11 @@ const HalamankabupatenBumn = () => {
     };
     id;
     getKabupaten();
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

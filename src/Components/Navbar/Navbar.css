@@ -167,6 +167,9 @@ body {
   gap: 10px;
   padding: 10px;
 }
+.top-loader {
+  color: yellow;
+}
 
 @media (max-width: 768px) {
   .navbar {

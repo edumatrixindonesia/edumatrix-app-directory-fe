@@ -28,7 +28,7 @@ import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/
 import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import ListKecamatanSupercamp from "../../Tab/TabSupercamp/ListKecamatanSupercamp";
 
-const HalamankabupatenSupercamp = () => {
+const HalamankabupatenSupercamp = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -54,6 +54,11 @@ const HalamankabupatenSupercamp = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

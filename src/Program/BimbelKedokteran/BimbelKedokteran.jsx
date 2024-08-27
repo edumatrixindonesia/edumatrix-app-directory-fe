@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import SliderSnbt from "../../Components/SlideTop/SliderSnbt/SliderSnbt";
@@ -28,7 +28,13 @@ import PaketBelajarKedokteran from "../../Components/PaketBelajar/PaketBelajarKe
 import ListKedokteran from "../../Components/Tab/TabKedokteran/ListKedokteran";
 import SliderKedokteran from "../../Components/SlideTop/SliderKedokteran/SliderKedokteran";
 
-const BimbelKedokteran = () => {
+const BimbelKedokteran = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
   return (
     <React.Fragment>
       <Helmet>

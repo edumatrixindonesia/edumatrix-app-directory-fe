@@ -30,7 +30,7 @@ import BestProgramOsn2 from "../../BestProgram/BestProgram2/BestProgramOsn2/Best
 import PaketBelajarOsn from "../../PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
 import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
 
-const HalamankotaOsn = () => {
+const HalamankotaOsn = ({ setProgress }) => {
   const { id } = useParams();
   const [kotaosn, setKotaosn] = useState([]);
 
@@ -56,6 +56,11 @@ const HalamankotaOsn = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

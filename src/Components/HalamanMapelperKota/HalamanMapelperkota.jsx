@@ -26,7 +26,7 @@ import Alumni from "../Alumni/Alumni";
 import Faqtni from "../Faq/FaqTni/FaqTni";
 import Asalsekolah from "../AsalSekolah/Asalsekolah";
 
-const HalamanMapelperkota = () => {
+const HalamanMapelperkota = ({setProgress}) => {
   const [kota, setKota] = useState([]);
   const [mapel, setMapel] = useState([]);
   const { id, mapelId } = useParams();
@@ -66,6 +66,11 @@ const HalamanMapelperkota = () => {
     };
     getKota(id);
     getMapel(mapelId);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

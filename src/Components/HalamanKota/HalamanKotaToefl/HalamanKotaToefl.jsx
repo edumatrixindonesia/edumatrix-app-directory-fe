@@ -35,7 +35,7 @@ import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
 import PenjelasanToefl from "../../../Program/BimbelToefl/PenjelasanToefl/PenjelasanToefl";
 import FloatingCtaToefl from "../../FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 
-const HalamankotaToefl = () => {
+const HalamankotaToefl = ({ setProgress }) => {
   const { id } = useParams();
   const [kotatoefl, setKotatoefl] = useState([]);
 
@@ -61,6 +61,11 @@ const HalamankotaToefl = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

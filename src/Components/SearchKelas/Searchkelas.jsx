@@ -16,7 +16,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import tanyaProgram from "../../assets/tanya_program.png";
 
-const Searchkelas = () => {
+const Searchkelas = ({setProgress}) => {
   const [loading, setLoading] = useState([]);
   const [cardKelas, setCardKelas] = useState([]);
   const [cardKelasTniPolri, setCardKelasTniPolri] = useState([]);
@@ -78,6 +78,11 @@ const Searchkelas = () => {
     loadPostsCpns();
     loadPostsOsn();
     loadPostsPrivat();
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, []);
 
   return (

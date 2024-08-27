@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import SliderSnbt from "../../Components/SlideTop/SliderSnbt/SliderSnbt";
@@ -27,7 +27,14 @@ import Video from "../../Components/Video/Video";
 import PaketBelajarSnbt from "../../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import SectionSupercamp from "./SectionSupercamp/SectionSupercamp";
 
-const BimbelSupercamp = () => {
+const BimbelSupercamp = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
+
   return (
     <React.Fragment>
       <Helmet>
@@ -38,8 +45,8 @@ const BimbelSupercamp = () => {
           Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip, Unair,
-          Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
+          Bimbel Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip,
+          Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>

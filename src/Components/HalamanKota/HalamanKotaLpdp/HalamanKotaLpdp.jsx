@@ -27,7 +27,7 @@ import PromoLpdp from "../../../Program/BimbelLpdp/PromoLpdp/PromoLpdp";
 import Liputan from "../../Liputan/Liputan";
 import Alumni from "../../Alumni/Alumni";
 
-const HalamankotaLpdp = () => {
+const HalamankotaLpdp = ({setProgress}) => {
   const { id } = useParams();
   const [kotalpdp, setKotaslpdp] = useState([]);
 
@@ -51,8 +51,12 @@ const HalamankotaLpdp = () => {
       );
       setKotaslpdp(response.data);
     };
-    console.log(id);
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

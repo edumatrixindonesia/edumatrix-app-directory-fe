@@ -35,7 +35,7 @@ import BenefitIgcse from "../../../Program/BimbelIgcse/BenefitIgcse/BenefitIgcse
 import WhyChooseIgcse from "../../../Program/BimbelIgcse/WhyChooseIgcse/WhyChooseIgcse";
 import PenjelasanIgcse from "../../../Program/BimbelIgcse/PenjelasanIgcse/PenjelasanIgcse";
 
-const HalamankabupatenIgcse = () => {
+const HalamankabupatenIgcse = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -61,6 +61,11 @@ const HalamankabupatenIgcse = () => {
     };
     id;
     getKabupaten();
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

@@ -41,7 +41,7 @@ import WhyChooseIgcse from "../../../Program/BimbelIgcse/WhyChooseIgcse/WhyChoos
 import PenjelasanIgcse from "../../../Program/BimbelIgcse/PenjelasanIgcse/PenjelasanIgcse";
 import FaqIgcse from "../../Faq/FaqIgcse/FaqIgcse";
 
-const HalamankotaIgcse = () => {
+const HalamankotaIgcse = ({ setProgress }) => {
   const { id } = useParams();
   const [kotaigcse, setKotaigcse] = useState([]);
 
@@ -67,6 +67,11 @@ const HalamankotaIgcse = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

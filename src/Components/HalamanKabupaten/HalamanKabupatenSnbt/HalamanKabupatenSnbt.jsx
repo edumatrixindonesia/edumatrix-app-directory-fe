@@ -29,7 +29,7 @@ import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import ListKecamatanSnbt from "../../Tab/TabUtbkSnbt/ListKecamatanSnbt";
 
-const HalamankabupatenSnbt = () => {
+const HalamankabupatenSnbt = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -55,6 +55,11 @@ const HalamankabupatenSnbt = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import SliderSnbt from "../../Components/SlideTop/SliderSnbt/SliderSnbt";
@@ -29,7 +29,14 @@ import PaketBelajarBumn from "../../Components/PaketBelajar/PaketBelajarBumn/Pak
 import PromoBumn from "./PromoBumn/PromoBumn";
 import MateriBumn from "./MateriBumn/MateriBumn";
 
-const BimbelBumn = () => {
+const BimbelBumn = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
+
   return (
     <React.Fragment>
       <Helmet>

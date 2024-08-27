@@ -28,7 +28,7 @@ import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriK
 import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
-const Halamanprogram = () => {
+const Halamanprogram = ({setProgress}) => {
   const { id } = useParams();
   const [program, setProgram] = useState([]);
   const [kelasperkota, setKelasPerKota] = useState([]);
@@ -66,10 +66,14 @@ const Halamanprogram = () => {
       setPromo(response.data);
     };
     id;
-    console.log("id", id);
     getProgram(id);
     getPromo(id);
     fetchKelasperKota();
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   const fetchKelasperKota = () => {

@@ -4,13 +4,25 @@ import "./Slidertop.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// Skeleton
+import Skeleton from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
+
 const Slidertop = () => {
   const [sliderHeader, setSliderHeader] = useState([]);
   const [sliderHeader_2, setSliderHeader_2] = useState([]);
 
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     fetchsliderHeader();
     fetchsliderHeader_2();
+
+    setTimeout(() => {
+      setData('Ini adalah data yang sudah dimuat');
+      setLoading(false);
+    }, 3000); // 3 detik
   }, []);
 
   const fetchsliderHeader = () => {
@@ -43,26 +55,27 @@ const Slidertop = () => {
 
   return (
     <React.Fragment>
-      <div className="slider-top" style={{ background: "" }}>
-        <Slider {...settings}>
-          {sliderHeader.map((item, index) => {
-            return (
-              <div className="top-slider">
-                <div className="slider" key={index}>
-                  <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
-                    <img
-                      src={
-                        "https://api.edulink-indonesia.com/images/" + item.image
-                      }
-                      alt="Program Bimbel - Edumatrix Indonesia"
-                    />
-                  </a>
+        <div className="slider-top" style={{ background: "" }}>
+          <Slider {...settings}>
+            {sliderHeader.map((item, index) => {
+              return (
+                <div className="top-slider">
+                  <div className="slider" key={index}>
+                    <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
+                      <img
+                        src={
+                          "https://api.edulink-indonesia.com/images/" +
+                          item.image
+                        }
+                        alt="Program Bimbel - Edumatrix Indonesia"
+                      />
+                    </a>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
-        </Slider>
-      </div>
+              );
+            })}
+          </Slider>
+        </div>
 
       <div className="slider-top-2" style={{ background: "" }}>
         <Slider {...settings}>

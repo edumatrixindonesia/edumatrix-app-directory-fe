@@ -27,7 +27,7 @@ import LiputanIgcse from "../../Liputan/LiputanIgcse/LiputanIgcse";
 import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
 import FloatingCtaToefl from "../../FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 
-const HalamanKecamatanToefl = () => {
+const HalamanKecamatanToefl = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -51,8 +51,12 @@ const HalamanKecamatanToefl = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

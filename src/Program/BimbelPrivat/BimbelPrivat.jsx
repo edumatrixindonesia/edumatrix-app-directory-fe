@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import SliderSnbt from "../../Components/SlideTop/SliderSnbt/SliderSnbt";
@@ -26,7 +26,14 @@ import BestprogramPrivat from "../../Components/BestProgram/BestProgramPrivat/Be
 import Alumni from "../../Components/Alumni/Alumni";
 import PaketBelajarPrivat from "../../Components/PaketBelajar/PaketBelajarPrivat/PaketBelajarPrivat";
 
-const BimbelPrivat = () => {
+const BimbelPrivat = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
+
   return (
     <React.Fragment>
       <Helmet>

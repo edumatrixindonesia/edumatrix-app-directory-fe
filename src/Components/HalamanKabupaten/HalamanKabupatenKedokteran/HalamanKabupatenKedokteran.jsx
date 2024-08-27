@@ -30,7 +30,7 @@ import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import PaketBelajarKedokteran from "../../PaketBelajar/PaketBelajarKedokteran/PaketBelajarKedokteran";
 import ListKecamatanKedokteran from "../../Tab/TabKedokteran/ListKecamatanKedokteran";
 
-const HalamanKabupatenKedokteran = () => {
+const HalamanKabupatenKedokteran = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -56,6 +56,11 @@ const HalamanKabupatenKedokteran = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
   return (
     <React.Fragment>
@@ -69,8 +74,7 @@ const HalamanKabupatenKedokteran = () => {
         />
         <title>
           Bimbel Masuk Kedokteran di {`${kabupaten.kota_kabupaten}`} - FK UI,
-          UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
-          Indonesia
+          UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -79,8 +83,8 @@ const HalamanKabupatenKedokteran = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Masuk Kedokteran di {kabupaten.kota_kabupaten} - FK UI, UGM,
-              Undip, Unair, Unpad, UB, Udayana Terbaik
+              Bimbel Masuk Kedokteran di {kabupaten.kota_kabupaten} - FK UI,
+              UGM, Undip, Unair, Unpad, UB, Udayana Terbaik
             </h2>
             <div className="paragraf-kabupaten">
               <p>

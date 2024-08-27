@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import SliderSnbt from "../../Components/SlideTop/SliderSnbt/SliderSnbt";
@@ -37,7 +37,13 @@ import BenefitIgcse from "./BenefitIgcse/BenefitIgcse";
 import FaqIgcse from "../../Components/Faq/FaqIgcse/FaqIgcse";
 import WhyChooseIgcse from "./WhyChooseIgcse/WhyChooseIgcse";
 
-const BimbelIgcse = () => {
+const BimbelIgcse = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
   return (
     <React.Fragment>
       <Helmet>

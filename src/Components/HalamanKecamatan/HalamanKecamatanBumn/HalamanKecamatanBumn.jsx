@@ -22,7 +22,7 @@ import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 
-const HalamanKecamatanBumn = () => {
+const HalamanKecamatanBumn = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -46,8 +46,12 @@ const HalamanKecamatanBumn = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
   return (
     <React.Fragment>
@@ -58,8 +62,8 @@ const HalamanKecamatanBumn = () => {
           content="Bimbel Les Privat Seleksi BUMN Persiapan Masuk Kerja dan Naik Jabatan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi BUMN di{" "}
-          {`${kecamatan.kecamatan}`} #1 - Edumatrix Indonesia
+          Bimbel Persiapan Seleksi BUMN di {`${kecamatan.kecamatan}`} #1 -
+          Edumatrix Indonesia
         </title>
         <link rel="canonical" href="" />
       </Helmet>
@@ -68,13 +72,12 @@ const HalamanKecamatanBumn = () => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Seleksi BUMN di{" "}
-              {kecamatan.kecamatan} - Edumatrix Indonesia
+              Bimbel Persiapan Seleksi BUMN di {kecamatan.kecamatan} - Edumatrix
+              Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di {kecamatan.kecamatan} untuk
-                Seleksi BUMN
+                Bimbel Les Privat di {kecamatan.kecamatan} untuk Seleksi BUMN
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

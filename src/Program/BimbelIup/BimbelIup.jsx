@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import SliderSnbt from "../../Components/SlideTop/SliderSnbt/SliderSnbt";
@@ -33,7 +33,13 @@ import Video from "../../Components/Video/Video";
 import PromoIup from "./PromoIup/PromoIup";
 import PaketBelajarIup from "../../Components/PaketBelajar/PaketBelajarIup/PaketBelajarIup";
 
-const BimbelIup = () => {
+const BimbelIup = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
   return (
     <React.Fragment>
       <Helmet>

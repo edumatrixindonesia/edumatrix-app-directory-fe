@@ -32,7 +32,7 @@ import MateriCpns from "../../../Program/BimbelCpns/MateriCpns/MateriCpns";
 import PaketBelajarCpns from "../../PaketBelajar/PaketBelajarCpns/PaketBelajarCpns";
 import TestimoniCpns from "../../Testimoni/TestimoniCpns/TestimoniCpns";
 
-const HalamankotaCpns = () => {
+const HalamankotaCpns = ({ setProgress }) => {
   const { id } = useParams();
   const [kotacpns, setKotacpns] = useState([]);
 
@@ -58,6 +58,11 @@ const HalamankotaCpns = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

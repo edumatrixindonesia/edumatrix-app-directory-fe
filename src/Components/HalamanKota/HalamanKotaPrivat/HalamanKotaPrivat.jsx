@@ -23,7 +23,7 @@ import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat
 import Alumni from "../../Alumni/Alumni";
 import PaketBelajarPrivat from "../../PaketBelajar/PaketBelajarPrivat/PaketBelajarPrivat";
 
-const HalamankotaPrivat = () => {
+const HalamankotaPrivat = ({ setProgress }) => {
   const { id } = useParams();
   const [kotaprivat, setKotaprivat] = useState([]);
 
@@ -49,6 +49,11 @@ const HalamankotaPrivat = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

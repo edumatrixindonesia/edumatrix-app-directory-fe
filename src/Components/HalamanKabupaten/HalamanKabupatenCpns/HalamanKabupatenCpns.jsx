@@ -28,7 +28,7 @@ import PaketBelajarCpns from "../../PaketBelajar/PaketBelajarCpns/PaketBelajarCp
 import TestimoniCpns from "../../Testimoni/TestimoniCpns/TestimoniCpns";
 import ListKecamatanCpns from "../../Tab/TabCpns/ListKecamatanCpns";
 
-const HalamankabupatenCpns = () => {
+const HalamankabupatenCpns = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -54,6 +54,11 @@ const HalamankabupatenCpns = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

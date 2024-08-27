@@ -26,7 +26,7 @@ import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriK
 import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
-const Halamankecamatan = () => {
+const Halamankecamatan = ({setProgress}) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -50,8 +50,12 @@ const Halamankecamatan = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60)
+    setTimeout(() => {
+      setProgress(100)
+    }, 50)
   }, [id, query]);
 
   return (

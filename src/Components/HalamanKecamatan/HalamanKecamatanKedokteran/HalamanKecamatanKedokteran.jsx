@@ -25,7 +25,7 @@ import { Helmet } from "react-helmet-async";
 import rumahAdat from "../../../assets/rumah_adat.png";
 import tanyaProgram from "../../../assets/tanya_program.png";
 
-const HalamanKecamatanKedokteran = () => {
+const HalamanKecamatanKedokteran = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -49,8 +49,12 @@ const HalamanKecamatanKedokteran = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

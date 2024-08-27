@@ -26,7 +26,7 @@ import Alumni from "../../Alumni/Alumni";
 import PromoIup from "../../../Program/BimbelIup/PromoIup/PromoIup";
 import ListKecamatanIup from "../../Tab/TabIup/ListKecamatanIup";
 
-const HalamankabupatenIup = () => {
+const HalamankabupatenIup = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -52,6 +52,11 @@ const HalamankabupatenIup = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

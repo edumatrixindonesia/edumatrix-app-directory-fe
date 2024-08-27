@@ -68,159 +68,167 @@ import HalamanKecamatanIup from "./Components/HalamanKecamatan/HalamanKecamatanI
 import HalamanKecamatanOsn from "./Components/HalamanKecamatan/HalamanKecamatanOsn/HalamanKecamatanOsn";
 import HalamanKecamatanKsn from "./Components/HalamanKecamatan/HalamanKecamatanKsn/HalamanKecamatanKsn";
 import HalamanKecamatanToefl from "./Components/HalamanKecamatan/HalamanKecamatanToefl/HalamanKecamatanToefl";
+import LoadingBar from "react-top-loading-bar";
+import { useState } from "react";
 
 const TRACKING_ID = "G-NZRFMBB12N";
 ReactGA.initialize(TRACKING_ID)
 
 function App() {
+  const [progress, setProgress] = useState(0)
   return (
     <BrowserRouter>
+    <LoadingBar
+        color="white"
+        progress={progress}
+        onLoaderFinished={() => setProgress(0)}
+      />
       <Routes>
-        <Route exact path="/" element={<Homepage />}></Route>
+        <Route exact path="/" element={<Homepage setProgress = {setProgress} />}></Route>
         {/* Go to City By ID */}
-        <Route exact path="/les-privat-di-kota/:id" element={<Halamankota />}></Route>
+        <Route exact path="/les-privat-di-kota/:id" element={<Halamankota setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten By ID */}
-        <Route exact path="/les-privat-di/:id" element={<Halamankabupaten />}></Route>
+        <Route exact path="/les-privat-di/:id" element={<Halamankabupaten setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan By ID */}
-        <Route exact path="/les-privat-di/kecamatan/:id" element={<Halamankecamatan />}></Route>
+        <Route exact path="/les-privat-di/kecamatan/:id" element={<Halamankecamatan setProgress = {setProgress} />}></Route>
         {/* Go to Kelurahan By ID */}
-        <Route exact path="/les-privat-di/kelurahan/:id" element={<Halamankelurahan />}></Route>
+        <Route exact path="/les-privat-di/kelurahan/:id" element={<Halamankelurahan setProgress = {setProgress} />}></Route>
         {/* Go to program By ID */}
-        <Route exact path="/les-privat/program/:id" element={<Halamanprogram />}></Route>
+        <Route exact path="/les-privat/program/:id" element={<Halamanprogram setProgress = {setProgress} />}></Route>
         {/* Go to program per Kota By ID */}
-        <Route exact path="/les-privat/program/:programid/kota/:id" element={<HalamanProgramperkota />}></Route>
+        <Route exact path="/les-privat/program/:programid/kota/:id" element={<HalamanProgramperkota setProgress = {setProgress} />}></Route>
         {/* Go to Mapel By ID */}
-        <Route exact path="/les-privat/mata-pelajaran/:id" element={<Halamanmapel />}></Route>
+        <Route exact path="/les-privat/mata-pelajaran/:id" element={<Halamanmapel setProgress = {setProgress} />}></Route>
         {/* Go to Mapel per kota By ID */}
-        <Route exact path="/les-privat/mata-pelajaran/:mapelId/kota/:id" element={<HalamanMapelperkota />}></Route>
+        <Route exact path="/les-privat/mata-pelajaran/:mapelId/kota/:id" element={<HalamanMapelperkota setProgress = {setProgress} />}></Route>
         {/* Go to Errorpage */}
         <Route exact path="*" element={<Homepage />}></Route>
         {/* Go to Search Kelas */}
-        <Route exact path="/pilihan-kelas" element={<Searchkelas />}></Route>
+        <Route exact path="/pilihan-kelas" element={<Searchkelas setProgress = {setProgress} />}></Route>
         {/* Go to About Us */}
-        <Route exact path="/tentang-kami" element={<Aboutus />}></Route>
+        <Route exact path="/tentang-kami" element={<Aboutus setProgress = {setProgress} />}></Route>
         {/* Go to Produk */}
-        <Route exact path="/produk" element={<Produk />}></Route>
+        <Route exact path="/produk" element={<Produk setProgress = {setProgress} />}></Route>
 
         {/* PROGRAM BIMBEL */}
         {/* TNI-POLRI */}
-        <Route exact path="/bimbel-tni-polri-dan-sekolah-kedinasan" element={<BimbelTni />}></Route>
+        <Route exact path="/bimbel-tni-polri-dan-sekolah-kedinasan" element={<BimbelTni setProgress = {setProgress} />}></Route>
         {/* Go to City TNI By ID */}
-        <Route exact path="/bimbel-tni-polri-dan-sekolah-kedinasan-di/:id" element={<Halamankotatni />}></Route>
+        <Route exact path="/bimbel-tni-polri-dan-sekolah-kedinasan-di/:id" element={<Halamankotatni setProgress = {setProgress} />}></Route>
         {/* Go to program TNI By ID */}
-        <Route exact path="/bimbel/:id-terbaik" element={<Halamanprogramtni />}></Route>
+        <Route exact path="/bimbel/:id-terbaik" element={<Halamanprogramtni setProgress = {setProgress} />}></Route>
         {/* Go to program per Kota TNI By ID */}
-        <Route exact path="/bimbel-di-kota/:id" element={<HalamanProgramperkotaTni />}></Route>
+        <Route exact path="/bimbel-di-kota/:id" element={<HalamanProgramperkotaTni setProgress = {setProgress} />}></Route>
 
         {/* SNBT */}
-        <Route exact path="/bimbel-snbt-terbaik" element={<BimbelSnbt />}></Route>
+        <Route exact path="/bimbel-snbt-terbaik" element={<BimbelSnbt setProgress = {setProgress} />}></Route>
         {/* Go to City SNBT By ID */}
-        <Route exact path="/bimbel-snbt-terbaik-di/:id" element={<HalamankotaSnbt />}></Route>
+        <Route exact path="/bimbel-snbt-terbaik-di/:id" element={<HalamankotaSnbt setProgress = {setProgress} />}></Route>
         {/* Go to Program SNBT By ID */}
         <Route exact path="/bimbel-privat/:id" element={<Halamanprogramsnbt />}></Route>
         {/* Go to Kabupaten SNBT By ID */}
-        <Route exact path="/bimbel-snbt/kabupaten/:id" element={<HalamankabupatenSnbt />}></Route>
+        <Route exact path="/bimbel-snbt/kabupaten/:id" element={<HalamankabupatenSnbt setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan SNBT By ID */}
-        <Route exact path="/bimbel-snbt/kecamatan/:id" element={<HalamanKecamatanSnbt />}></Route>
+        <Route exact path="/bimbel-snbt/kecamatan/:id" element={<HalamanKecamatanSnbt setProgress = {setProgress} />}></Route>
 
         {/* SUPERCAMP */}
-        <Route exact path="/bimbel-supercamp-edumatrix" element={<BimbelSupercamp />}></Route>
+        <Route exact path="/bimbel-supercamp-edumatrix" element={<BimbelSupercamp setProgress = {setProgress} />}></Route>
         {/* Go to City SUPERCAMP By ID */}
-        <Route exact path="/bimbel-supercamp-edumatrix-di/:id" element={<HalamankotaSupercamp />}></Route>
+        <Route exact path="/bimbel-supercamp-edumatrix-di/:id" element={<HalamankotaSupercamp setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten SUPERCAMP By ID */}
-        <Route exact path="/bimbel-supercamp-edumatrix/kabupaten/:id" element={<HalamankabupatenSupercamp />}></Route>
+        <Route exact path="/bimbel-supercamp-edumatrix/kabupaten/:id" element={<HalamankabupatenSupercamp setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan SUPERCAMP By ID */}
-        <Route exact path="/bimbel-supercamp-edumatrix/kecamatan/:id" element={<HalamanKecamatanSupercamp />}></Route>
+        <Route exact path="/bimbel-supercamp-edumatrix/kecamatan/:id" element={<HalamanKecamatanSupercamp setProgress = {setProgress} />}></Route>
 
         {/* LPDP */}
-        <Route exact path="/bimbel-persiapan-seleksi-lpdp" element={<BimbelLpdp />}></Route>
+        <Route exact path="/bimbel-persiapan-seleksi-lpdp" element={<BimbelLpdp setProgress = {setProgress} />}></Route>
         {/* Go to City LPDP By ID */}
-        <Route exact path="/bimbel-persiapan-seleksi-lpdp-di/:id" element={<HalamankotaLpdp />}></Route>
+        <Route exact path="/bimbel-persiapan-seleksi-lpdp-di/:id" element={<HalamankotaLpdp setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten LPDP By ID */}
-        <Route exact path="/bimbel-persiapan-seleksi-lpdp/kabupaten/:id" element={<HalamankabupatenLpdp />}></Route>
+        <Route exact path="/bimbel-persiapan-seleksi-lpdp/kabupaten/:id" element={<HalamankabupatenLpdp setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan LPDP By ID */}
-        <Route exact path="/bimbel-persiapan-seleksi-lpdp/kecamatan/:id" element={<HalamanKecamatanLpdp />}></Route>
+        <Route exact path="/bimbel-persiapan-seleksi-lpdp/kecamatan/:id" element={<HalamanKecamatanLpdp setProgress = {setProgress} />}></Route>
 
         {/* PRIVAT */}
-        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa" element={<BimbelPrivat />}></Route>
+        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa" element={<BimbelPrivat setProgress = {setProgress} />}></Route>
         {/* Go to City PRIVAT By ID */}
-        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa-di/:id" element={<HalamankotaPrivat />}></Route>
+        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa-di/:id" element={<HalamankotaPrivat setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten PRIVAT By ID */}
-        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa/kabupaten/:id" element={<HalamankabupatenPrivat />}></Route>
+        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa/kabupaten/:id" element={<HalamankabupatenPrivat setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan PRIVAT By ID */}
-        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa/kecamatan/:id" element={<HalamanKecamatanPrivat />}></Route>
+        <Route exact path="/bimbel-privat-tk-sd-smp-sma-mahasiswa/kecamatan/:id" element={<HalamanKecamatanPrivat setProgress = {setProgress} />}></Route>
 
         {/* CPNS */}
-        <Route exact path="/bimbel-cpns-dan-pppk" element={<BimbelCpns />}></Route>
+        <Route exact path="/bimbel-cpns-dan-pppk" element={<BimbelCpns setProgress = {setProgress} />}></Route>
         {/* Go to City CPNS By ID */}
-        <Route exact path="/bimbel-cpns-dan-pppk-di/:id" element={<HalamankotaCpns />}></Route>
+        <Route exact path="/bimbel-cpns-dan-pppk-di/:id" element={<HalamankotaCpns setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten CPNS By ID */}
-        <Route exact path="/bimbel-cpns-dan-pppk/kabupaten/:id" element={<HalamankabupatenCpns />}></Route>
+        <Route exact path="/bimbel-cpns-dan-pppk/kabupaten/:id" element={<HalamankabupatenCpns setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan CPNS By ID */}
-        <Route exact path="/bimbel-cpns-dan-pppk/kecamatan/:id" element={<HalamanKecamatanCpns />}></Route>
+        <Route exact path="/bimbel-cpns-dan-pppk/kecamatan/:id" element={<HalamanKecamatanCpns setProgress = {setProgress} />}></Route>
 
         {/* BUMN */}
-        <Route exact path="/bimbel-seleksi-bumn" element={<BimbelBumn />}></Route>
+        <Route exact path="/bimbel-seleksi-bumn" element={<BimbelBumn setProgress = {setProgress} />}></Route>
         {/* Go to City BUMN By ID */}
-        <Route exact path="/bimbel-seleksi-bumn-di/:id" element={<HalamankotaBumn />}></Route>
+        <Route exact path="/bimbel-seleksi-bumn-di/:id" element={<HalamankotaBumn setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten BUMN By ID */}
-        <Route exact path="/bimbel-seleksi-bumn/kabupaten/:id" element={<HalamankabupatenBumn />}></Route>
+        <Route exact path="/bimbel-seleksi-bumn/kabupaten/:id" element={<HalamankabupatenBumn setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan BUMN By ID */}
-        <Route exact path="/bimbel-seleksi-bumn/kecamatan/:id" element={<HalamanKecamatanBumn />}></Route>
+        <Route exact path="/bimbel-seleksi-bumn/kecamatan/:id" element={<HalamanKecamatanBumn setProgress = {setProgress} />}></Route>
 
         {/* IGCSE */}
-        <Route exact path="/bimbel-kurikulum-igcse" element={<BimbelIgcse />}></Route>
+        <Route exact path="/bimbel-kurikulum-igcse" element={<BimbelIgcse setProgress = {setProgress} />}></Route>
         {/* Go to City IGCSE By ID */}
-        <Route exact path="/bimbel-igcse-dan-ibtutor-di/:id" element={<HalamankotaIgcse />}></Route>
+        <Route exact path="/bimbel-igcse-dan-ibtutor-di/:id" element={<HalamankotaIgcse setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten BUMN By ID */}
-        <Route exact path="/bimbel-igcse-dan-ibtutor/kabupaten/:id" element={<HalamankabupatenIgcse />}></Route>
+        <Route exact path="/bimbel-igcse-dan-ibtutor/kabupaten/:id" element={<HalamankabupatenIgcse setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan BUMN By ID */}
-        <Route exact path="/bimbel-igcse-dan-ibtutor/kecamatan/:id" element={<HalamanKecamatanIgcse />}></Route>
+        <Route exact path="/bimbel-igcse-dan-ibtutor/kecamatan/:id" element={<HalamanKecamatanIgcse setProgress = {setProgress} />}></Route>
 
         {/* IUP-KKI */}
-        <Route exact path="/bimbel-iup-kki" element={<BimbelIup />}></Route>
+        <Route exact path="/bimbel-iup-kki" element={<BimbelIup setProgress = {setProgress} />}></Route>
         {/* Go to City IUPKKI By ID */}
-        <Route exact path="/bimbel-iup-kki-di/:id" element={<HalamankotaIup />}></Route>
+        <Route exact path="/bimbel-iup-kki-di/:id" element={<HalamankotaIup setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten IUPKKI By ID */}
-        <Route exact path="/bimbel-iup-kki/kabupaten/:id" element={<HalamankabupatenIup />}></Route>
+        <Route exact path="/bimbel-iup-kki/kabupaten/:id" element={<HalamankabupatenIup setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten IUPKKI By ID */}
-        <Route exact path="/bimbel-iup-kki/kecamatan/:id" element={<HalamanKecamatanIup />}></Route>
+        <Route exact path="/bimbel-iup-kki/kecamatan/:id" element={<HalamanKecamatanIup setProgress = {setProgress} />}></Route>
 
         {/* OSN */}
-        <Route exact path="/bimbel-osn" element={<BimbelOsn />}></Route>
+        <Route exact path="/bimbel-osn" element={<BimbelOsn setProgress = {setProgress} />}></Route>
         {/* Go to City OSN By ID */}
-        <Route exact path="/bimbel-osn-di/:id" element={<HalamankotaOsn />}></Route>
+        <Route exact path="/bimbel-osn-di/:id" element={<HalamankotaOsn setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten OSN By ID */}
-        <Route exact path="/bimbel-osn/kabupaten/:id" element={<HalamankabupatenOsn />}></Route>
+        <Route exact path="/bimbel-osn/kabupaten/:id" element={<HalamankabupatenOsn setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan OSN By ID */}
-        <Route exact path="/bimbel-osn/kecamatan/:id" element={<HalamanKecamatanOsn />}></Route>
+        <Route exact path="/bimbel-osn/kecamatan/:id" element={<HalamanKecamatanOsn setProgress = {setProgress} />}></Route>
 
         {/* TOEFL */}
-        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation" element={<BimbelToefl />}></Route>
+        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation" element={<BimbelToefl setProgress = {setProgress} />}></Route>
         {/* Go to City TOEFL By ID */}
-        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation-di/:id" element={<HalamankotaToefl />}></Route>
+        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation-di/:id" element={<HalamankotaToefl setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten TOEFL By ID */}
-        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation/kabupaten/:id" element={<HalamankabupatenToefl />}></Route>
+        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation/kabupaten/:id" element={<HalamankabupatenToefl setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan TOEFL By ID */}
-        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation/kecamatan/:id" element={<HalamanKecamatanToefl />}></Route>
+        <Route exact path="/bimbel-toefl-toeic-ielts-dan-english-conversation/kecamatan/:id" element={<HalamanKecamatanToefl setProgress = {setProgress} />}></Route>
 
         {/* KEDOKTERAN */}
-        <Route exact path="/bimbel-masuk-kedokteran" element={<BimbelKedokteran />}></Route>
+        <Route exact path="/bimbel-masuk-kedokteran" element={<BimbelKedokteran setProgress = {setProgress} />}></Route>
         {/* Go to City Kedokteran By ID */}
-        <Route exact path="/bimbel-masuk-kedokteran/:id" element={<HalamanKotaKedokteran />}></Route>
+        <Route exact path="/bimbel-masuk-kedokteran/:id" element={<HalamanKotaKedokteran setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten Kedokteran By ID */}
-        <Route exact path="/bimbel-masuk-kedokteran/kabupaten/:id" element={<HalamanKabupatenKedokteran />}></Route>
+        <Route exact path="/bimbel-masuk-kedokteran/kabupaten/:id" element={<HalamanKabupatenKedokteran setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan Kedokteran By ID */}
-        <Route exact path="/bimbel-masuk-kedokteran/kecamatan/:id" element={<HalamanKecamatanKedokteran />}></Route>
+        <Route exact path="/bimbel-masuk-kedokteran/kecamatan/:id" element={<HalamanKecamatanKedokteran setProgress = {setProgress} />}></Route>
 
         {/* KSN */}
-        <Route exact path="/pelatihan-osn-ksn" element={<BimbelKsn />}></Route>
+        <Route exact path="/pelatihan-osn-ksn" element={<BimbelKsn setProgress = {setProgress} />}></Route>
         {/* Go to City KSN By ID */}
-        <Route exact path="/pelatihan-osn-ksn/:id" element={<HalamanKotaKsn />}></Route>
+        <Route exact path="/pelatihan-osn-ksn/:id" element={<HalamanKotaKsn setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten KSN By ID */}
-        <Route exact path="/pelatihan-osn-ksn/kabupaten/:id" element={<HalamanKabupatenKsn />}></Route>
+        <Route exact path="/pelatihan-osn-ksn/kabupaten/:id" element={<HalamanKabupatenKsn setProgress = {setProgress} />}></Route>
         {/* Go to Kecamatan KSN By ID */}
-        <Route exact path="/pelatihan-osn-ksn/kecamatan/:id" element={<HalamanKecamatanKsn />}></Route>
+        <Route exact path="/pelatihan-osn-ksn/kecamatan/:id" element={<HalamanKecamatanKsn setProgress = {setProgress} />}></Route>
 
       </Routes>
     </BrowserRouter>

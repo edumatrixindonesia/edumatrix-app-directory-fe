@@ -24,7 +24,7 @@ import Liputan from "../../Liputan/Liputan";
 import Alumni from "../../Alumni/Alumni";
 import ListKecamatanLpdp from "../../Tab/TabLpdp/ListKecamatanLpdp";
 
-const HalamankabupatenLpdp = () => {
+const HalamankabupatenLpdp = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -50,6 +50,11 @@ const HalamankabupatenLpdp = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

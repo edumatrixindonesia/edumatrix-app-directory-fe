@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slidertni from "../../Components/SlideTop/SliderTni/Slidertni";
 import Navbar from "../../Components/Navbar/Navbar";
 import BestprogramTni from "../../Components/BestProgram/BestProgramTni/BestProgramTni";
@@ -24,7 +24,15 @@ import Konsultan from "./Konsultan/Konsultan";
 import MateriTni from "./MateriTni/MateriTni";
 import PromoTni from "./PromoTni/PromoTni";
 
-const BimbelTni = () => {
+const BimbelTni = ({ setProgress }) => {
+
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
+  
   return (
     <React.Fragment>
       <Helmet>
@@ -48,7 +56,11 @@ const BimbelTni = () => {
         <MateriTni />
         <div className="parent-roadmap">
           {/* <img className="image-roadmap" src={roadmapTni} alt="roadmap tni" /> */}
-          <img className="image-roadmap" src="https://lesprivatkerumah.com/wp-content/uploads/2023/12/new-program-1200x532.jpeg" alt="" />
+          <img
+            className="image-roadmap"
+            src="https://lesprivatkerumah.com/wp-content/uploads/2023/12/new-program-1200x532.jpeg"
+            alt=""
+          />
         </div>
         <ProgramUnggulanTni />
         <GaleriKegiatan />

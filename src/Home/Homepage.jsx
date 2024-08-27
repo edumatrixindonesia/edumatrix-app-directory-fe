@@ -26,9 +26,14 @@ import SectionSupercamp from "../Program/BimbelSupercamp/SectionSupercamp/Sectio
 import PaketBelajarSnbt from "../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import ReactGA from "react-ga";
 
-const Homepage = () => {
+const Homepage = ({setProgress}) => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname);
+
+    setProgress(60)
+    setTimeout(() => {
+      setProgress(100)
+    }, 50)
   }, []);
 
   return (

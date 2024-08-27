@@ -12,7 +12,7 @@ const PaketBelajarCpns = () => {
             <div className="title-paket-snbt">
               <h1 className="nama-paket-lpdp">PAKET DELUXE</h1>
               <h4 className="harga-paket-lpdp">Rp3,850,000</h4>
-              <h4 className="harga-paket-lpdp-2">Rp3,272,500</h4>
+              <h4 className="harga-paket-lpdp-2">Rp3,657,500</h4>
               <img
                 className="img-garansi-lpdp"
                 src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/garansi-cpns-400x59.png"
@@ -129,8 +129,8 @@ const PaketBelajarCpns = () => {
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
               <h1 className="nama-paket-lpdp">PAKET PRIORITY</h1>
-              <h4 className="harga-paket-lpdp">Rp5,500,000</h4>
-              <h4 className="harga-paket-lpdp-2">Rp4,675,000</h4>
+              <h4 className="harga-paket-lpdp">Rp4,750,000</h4>
+              <h4 className="harga-paket-lpdp-2">Rp4,512,500</h4>
               <img
                 className="img-garansi-lpdp"
                 src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/garansi-cpns-400x59.png"

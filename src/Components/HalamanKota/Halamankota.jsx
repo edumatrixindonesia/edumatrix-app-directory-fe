@@ -26,7 +26,7 @@ import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriK
 import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
-const Halamankota = () => {
+const Halamankota = ({setProgress}) => {
   const { id } = useParams();
   const [kota, setKota] = useState([]);
 
@@ -52,6 +52,13 @@ const Halamankota = () => {
     };
     getKota(id);
   }, [id, query]);
+
+  useEffect(() => {
+    setProgress(60)
+    setTimeout(() => {
+      setProgress(100)
+    }, 50)
+  }, [])
 
   return (
     <React.Fragment>

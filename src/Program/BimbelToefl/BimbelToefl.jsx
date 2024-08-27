@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Components/Navbar/Navbar";
 import SliderSnbt from "../../Components/SlideTop/SliderSnbt/SliderSnbt";
@@ -32,7 +32,13 @@ import PenjelasanToefl from "./PenjelasanToefl/PenjelasanToefl";
 import FaqToefl from "../../Components/Faq/FaqToefl/FaqToefl";
 import FloatingCtaToefl from "../../Components/FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 
-const BimbelToefl = () => {
+const BimbelToefl = ({ setProgress }) => {
+  useEffect(() => {
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
+  }, []);
   return (
     <React.Fragment>
       <Helmet>

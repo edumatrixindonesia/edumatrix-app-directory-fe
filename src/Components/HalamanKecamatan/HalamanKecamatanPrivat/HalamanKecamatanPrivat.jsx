@@ -22,7 +22,7 @@ import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 
-const HalamanKecamatanPrivat = () => {
+const HalamanKecamatanPrivat = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -46,8 +46,12 @@ const HalamanKecamatanPrivat = () => {
       );
       setKecamatan(response.data);
     };
-    console.log(getKecamatan);
     getKecamatan(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
   return (
     <React.Fragment>
@@ -73,8 +77,8 @@ const HalamanKecamatanPrivat = () => {
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di {kecamatan.kecamatan} untuk
-                TK, SD, SMP, SMA & Mahasiswa
+                Bimbel Les Privat di {kecamatan.kecamatan} untuk TK, SD, SMP,
+                SMA & Mahasiswa
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

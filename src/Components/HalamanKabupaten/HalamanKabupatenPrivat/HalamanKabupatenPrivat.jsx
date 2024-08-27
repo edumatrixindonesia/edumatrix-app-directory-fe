@@ -26,7 +26,7 @@ import BestprogramPrivat2 from "../../BestProgram/BestProgram2/BestProgramPrivat
 import PaketBelajarPrivat from "../../PaketBelajar/PaketBelajarPrivat/PaketBelajarPrivat";
 import ListKecamatanPrivat from "../../Tab/TabPrivat/ListKecamatanPrivat";
 
-const HalamankabupatenPrivat = () => {
+const HalamankabupatenPrivat = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -52,6 +52,11 @@ const HalamankabupatenPrivat = () => {
     };
     id;
     getKabupaten(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (

@@ -31,7 +31,7 @@ import Video from "../../Video/Video";
 import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
-const HalamankotaSupercamp = () => {
+const HalamankotaSupercamp = ({ setProgress }) => {
   const { id } = useParams();
   const [kotasnbt, setKotasnbt] = useState([]);
 
@@ -57,6 +57,11 @@ const HalamankotaSupercamp = () => {
     };
     id;
     getKota(id);
+
+    setProgress(60);
+    setTimeout(() => {
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (
