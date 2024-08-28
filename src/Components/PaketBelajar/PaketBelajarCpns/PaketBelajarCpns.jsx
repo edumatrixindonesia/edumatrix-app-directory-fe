@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import "./PaketBelajarCpns.css";
 
 const PaketBelajarCpns = () => {
   return (
@@ -10,9 +11,12 @@ const PaketBelajarCpns = () => {
         <div className="container-paket-snbt">
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
-              <h1 className="nama-paket-lpdp">PAKET DELUXE</h1>
+              <h1 className="nama-paket-lpdp">PAKET INTENSIF CPNS</h1>
               <h4 className="harga-paket-lpdp">Rp3,850,000</h4>
-              <h4 className="harga-paket-lpdp-2">Rp3,657,500</h4>
+              <h4 className="harga-paket-lpdp-2">Rp2,520,000</h4>
+              <p className="note-paket-live-class-cpns">
+                Special Price
+              </p>
               <img
                 className="img-garansi-lpdp"
                 src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/garansi-cpns-400x59.png"
@@ -20,6 +24,14 @@ const PaketBelajarCpns = () => {
               />
             </div>
             <hr className="garis-pembatas-paket-snbt" />
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
+              Gratis 3 Paket Tryout
+            </p>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> 12
+              Sesi Pembelajaran
+            </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Program pendampingan belajar 1 guru 1 Siswa
@@ -30,7 +42,7 @@ const PaketBelajarCpns = () => {
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Kecocokan belajar antara guru & siswa
+              Driling Soal terbaru
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
@@ -42,7 +54,7 @@ const PaketBelajarCpns = () => {
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Tryout akurat
+              Tutor Kompeten
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
@@ -56,7 +68,7 @@ const PaketBelajarCpns = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Progress Report Statistik nilai & skor Peserta
             </p>
-            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Deluxe%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Intensif%20CPNS%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>
@@ -64,7 +76,7 @@ const PaketBelajarCpns = () => {
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
               <h1 className="nama-paket-lpdp">PAKET PASTI CPNS</h1>
-              <h4 className="harga-paket-lpdp-2">Rp199,000</h4>
+              <h4 className="harga-paket-cpns-2">Rp149,000</h4>
               <img
                 className="img-garansi-lpdp"
                 src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/garansi-cpns-400x59.png"
@@ -73,7 +85,7 @@ const PaketBelajarCpns = () => {
             </div>
             <hr className="garis-pembatas-paket-snbt" />
             <p className="isi-paket-snbt">
-              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> 10+
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> 5
               Paket Tryout CAT Premium
             </p>
             <p className="isi-paket-snbt">
@@ -128,9 +140,12 @@ const PaketBelajarCpns = () => {
 
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
-              <h1 className="nama-paket-lpdp">PAKET PRIORITY</h1>
-              <h4 className="harga-paket-lpdp">Rp4,750,000</h4>
-              <h4 className="harga-paket-lpdp-2">Rp4,512,500</h4>
+              <h1 className="nama-paket-lpdp">PAKET LIVE CLASS</h1>
+              <h4 className="harga-paket-lpdp">Rp2,350,000</h4>
+              <h4 className="harga-paket-lpdp-2">Rp1,800,000</h4>
+              <p className="note-paket-live-class-cpns">
+                Periode 28 Agustus s/d 15 September 2024
+              </p>
               <img
                 className="img-garansi-lpdp"
                 src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/garansi-cpns-400x59.png"
@@ -140,11 +155,19 @@ const PaketBelajarCpns = () => {
             <hr className="garis-pembatas-paket-snbt" />
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Program pendampingan belajar 1 guru 1 Siswa
+              Sistem Belajar Small Class
+            </p>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> 12
+              Sesi Pembelajaran
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Jadwal fleksibel durasi belajar 120 menit
+              Driling Soal terbaru
+            </p>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
+              Jadwal fleksibel durasi belajar 60 menit
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
@@ -174,7 +197,7 @@ const PaketBelajarCpns = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Progress Report Statistik nilai & skor Peserta
             </p>
-            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Priority%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
+            <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20Daftar%20Paket%20Live%20Class%20Bimbel%20CPNS.%20Bagaimana%20penjelasan%20detail%20programnya%3F">
               <button className="btn-paket-snbt">PILIH PAKET</button>
             </a>
           </div>

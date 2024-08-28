@@ -25,6 +25,7 @@ import BestProgramOsn2 from "../../BestProgram/BestProgram2/BestProgramOsn2/Best
 import PaketBelajarOsn from "../../PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
 import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
 import ListKecamatanOsn from "../../Tab/TabOsn/ListKecamatanOsn";
+import headOsn from "../../../assets/head_content/osn.png"
 
 const HalamankabupatenOsn = ({ setProgress }) => {
   const { id } = useParams();
@@ -98,7 +99,7 @@ const HalamankabupatenOsn = ({ setProgress }) => {
           <a className="parent-img-modeltanya-program" href="">
             <img
               className="rumah-adat"
-              src={rumahAdat}
+              src={headOsn}
               alt="Bimbel Persiapan OSN SD-SMP-SMA"
             />
           </a>

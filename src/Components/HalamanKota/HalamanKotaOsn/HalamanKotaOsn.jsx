@@ -29,6 +29,7 @@ import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import BestProgramOsn2 from "../../BestProgram/BestProgram2/BestProgramOsn2/BestProgramOsn2";
 import PaketBelajarOsn from "../../PaketBelajar/PaketBelajarOsn/PaketBelajarOsn";
 import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
+import headOsn from "../../../assets/head_content/osn.png"
 
 const HalamankotaOsn = ({ setProgress }) => {
   const { id } = useParams();
@@ -102,7 +103,7 @@ const HalamankotaOsn = ({ setProgress }) => {
           <a className="parent-img-modeltanya-program" href="">
             <img
               className="rumah-adat"
-              src={rumahAdat}
+              src={headOsn}
               alt="Bimbel OSN SD SMP SMA Terbaik - Edumatrix Indonesia"
             />
           </a>

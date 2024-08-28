@@ -1,0 +1,15 @@
+.harga-paket-cpns-2 {
+    text-align: left;
+    font-size: 28px;
+    color: #054599;
+    margin-top: 25px;
+}
+.note-paket-live-class-cpns {
+    text-align: left;
+    background-color: #054599;
+    color: white;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px 50px 50px 10px;
+}

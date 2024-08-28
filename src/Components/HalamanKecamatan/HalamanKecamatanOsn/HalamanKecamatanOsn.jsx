@@ -20,6 +20,7 @@ import PromoOsn from "../../../Program/BimbelOsn/PromoOsn/PromoOsn";
 import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
+import headOsn from "../../../assets/head_content/osn.png"
 
 const HalamanKecamatanOsn = ({ setProgress }) => {
   const { id } = useParams();
@@ -91,7 +92,7 @@ const HalamanKecamatanOsn = ({ setProgress }) => {
           <a className="parent-img-modeltanya-program" href="">
             <img
               className="rumah-adat"
-              src={rumahAdat}
+              src={headOsn}
               alt="Bimbel Persiapan OSN SD-SMP-SMA"
             />
           </a>

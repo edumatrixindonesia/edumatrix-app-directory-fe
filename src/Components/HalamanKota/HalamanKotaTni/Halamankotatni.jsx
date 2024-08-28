@@ -136,7 +136,7 @@ const Halamankotatni = ({ setProgress }) => {
         <Keunggulan />
         <Voucer />
         <MasterteacherTni />
-        <Listkotatni />
+        {/* <Listkotatni /> */}
         <VideoTesti />
         <Faqtni />
         <PromoTni />

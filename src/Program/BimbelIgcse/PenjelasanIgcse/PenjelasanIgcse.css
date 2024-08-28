@@ -1,7 +1,6 @@
 .container-penjelasan-igcse {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 15px;
     margin-top: 40px;
 }
@@ -10,6 +9,8 @@
     padding: 15px;
     border-radius: 10px;
     width: 100%;
+    border-right: 5px solid #054599;
+    border-bottom: 5px solid #054599;
 }
 .desk-penjelasan-igcse {
     font-size: 17px;
@@ -24,6 +25,8 @@
     border-radius: 10px;
     width: 100%;
     margin-top: 15px;
+    border-right: 5px solid #054599;
+    border-bottom: 5px solid #054599;
 }
 .desk-penjelasan-ib {
     font-size: 17px;

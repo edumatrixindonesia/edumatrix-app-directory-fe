@@ -65,6 +65,9 @@
 }
 .parent-card-ptn {
   display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 10px;
   gap: 10px;
   margin-top: 20px;
 }

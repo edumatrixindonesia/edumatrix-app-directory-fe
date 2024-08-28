@@ -25,7 +25,7 @@ const ProdukTryout = () => {
               <h2 className="title-produk">
                 Paket - Tryout UTBK <br /> SNBT
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">5 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
@@ -43,7 +43,7 @@ const ProdukTryout = () => {
               <h2 className="title-produk">
                 Paket - Tryout TBS <br /> LPDP
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">9 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
@@ -61,7 +61,7 @@ const ProdukTryout = () => {
               <h2 className="title-produk">
                 Paket - Tryout SIMAK <br /> UI
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">1 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
@@ -79,7 +79,7 @@ const ProdukTryout = () => {
               <h2 className="title-produk">
                 Paket - Tryout SIMAK <br /> KKI - IUP
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">0 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
@@ -97,7 +97,7 @@ const ProdukTryout = () => {
               <h2 className="title-produk">
                 Paket - Tryout CPNS & <br /> PPPK
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">13 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
@@ -115,7 +115,7 @@ const ProdukTryout = () => {
               <h2 className="title-produk">
                 Paket - Tryout Psikotes <br /> TNI - POLRI
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">150 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
@@ -133,7 +133,7 @@ const ProdukTryout = () => {
               <h2 className="title-produk">
                 Paket - Tryout Akademik <br /> TNI - POLRI
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">150 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
@@ -151,7 +151,7 @@ const ProdukTryout = () => {
               <h2 className="title-produk">
                 Paket - Tryout Sekolah <br /> Kedinasan
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">150 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />

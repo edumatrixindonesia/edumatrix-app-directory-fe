@@ -3,9 +3,20 @@ import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFire } from "@fortawesome/free-solid-svg-icons";
 import logo_edm from "../../assets/logo_edm.png";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  const navigate = useNavigate();
+
+  const goToBimbelSnbt = () => {
+    navigate("/bimbel-snbt-terbaik");
+  };
+
+  const goToBimbelTni = () => {
+    navigate("/bimbel-tni-polri-dan-sekolah-kedinasan");
+  };
 
   return (
     <div className="pg-bawah">
@@ -111,11 +122,11 @@ const Footer = () => {
               <h2 className="bawah-menu-name">Hot Program</h2>
               <ul id="menu-legal" className="bawah-menu-list">
                 <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                  <a className="link-footer-hot-program">Bimbel UTBK SNBT🔥</a>
+                  <a onClick={() => goToBimbelSnbt()} className="link-footer-hot-program">Bimbel UTBK SNBT🔥</a>
                 </li>
                 <br />
                 <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page">
-                  <a className="link-footer-hot-program">Bimbel TNI - POLRI🔥</a>
+                  <a onClick={() => goToBimbelTni()} className="link-footer-hot-program">Bimbel TNI - POLRI🔥</a>
                 </li>
               </ul>
             </div>

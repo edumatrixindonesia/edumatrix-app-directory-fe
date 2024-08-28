@@ -143,6 +143,7 @@ a {
   background-color: #00357a;
   padding: 7px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .hot-program-footer {
