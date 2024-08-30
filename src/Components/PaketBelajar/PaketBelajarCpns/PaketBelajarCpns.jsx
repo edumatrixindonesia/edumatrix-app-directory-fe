@@ -2,21 +2,23 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import "./PaketBelajarCpns.css";
+import DesainPaket from "./DesainPaket/DesainPaket";
 
 const PaketBelajarCpns = () => {
   return (
     <React.Fragment>
       <div className="parent-container-paket-snbt">
         <h1 className="main-title-paket-snbt">PROGRAM BELAJAR CPNS & PPPK</h1>
+        <DesainPaket/>
         <div className="container-paket-snbt">
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
               <h1 className="nama-paket-lpdp">PAKET INTENSIF CPNS</h1>
-              <h4 className="harga-paket-lpdp">Rp3,850,000</h4>
+              {/* <h4 className="harga-paket-lpdp">Rp3,850,000</h4>
               <h4 className="harga-paket-lpdp-2">Rp2,520,000</h4>
               <p className="note-paket-live-class-cpns">
                 Special Price
-              </p>
+              </p> */}
               <img
                 className="img-garansi-lpdp"
                 src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/garansi-cpns-400x59.png"
@@ -76,7 +78,7 @@ const PaketBelajarCpns = () => {
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
               <h1 className="nama-paket-lpdp">PAKET PASTI CPNS</h1>
-              <h4 className="harga-paket-cpns-2">Rp149,000</h4>
+              {/* <h4 className="harga-paket-cpns-2">Rp149,000</h4> */}
               <img
                 className="img-garansi-lpdp"
                 src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/garansi-cpns-400x59.png"
@@ -141,11 +143,11 @@ const PaketBelajarCpns = () => {
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
               <h1 className="nama-paket-lpdp">PAKET LIVE CLASS</h1>
-              <h4 className="harga-paket-lpdp">Rp2,350,000</h4>
+              {/* <h4 className="harga-paket-lpdp">Rp2,350,000</h4>
               <h4 className="harga-paket-lpdp-2">Rp1,800,000</h4>
               <p className="note-paket-live-class-cpns">
                 Periode 28 Agustus s/d 15 September 2024
-              </p>
+              </p> */}
               <img
                 className="img-garansi-lpdp"
                 src="https://edumatrix-indonesia.com/wp-content/uploads/2023/12/garansi-cpns-400x59.png"

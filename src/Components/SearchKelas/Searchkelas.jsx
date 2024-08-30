@@ -16,7 +16,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import tanyaProgram from "../../assets/tanya_program.png";
 
-const Searchkelas = ({setProgress}) => {
+const Searchkelas = ({ setProgress }) => {
   const [loading, setLoading] = useState([]);
   const [cardKelas, setCardKelas] = useState([]);
   const [cardKelasTniPolri, setCardKelasTniPolri] = useState([]);
@@ -28,7 +28,9 @@ const Searchkelas = ({setProgress}) => {
   useEffect(() => {
     const loadPosts = async () => {
       setLoading(true);
-      const response = await axios.get("https://api.edulink-indonesia.com/pilihankelas");
+      const response = await axios.get(
+        "https://api.edulink-indonesia.com/pilihankelas"
+      );
       const tniPolri = await axios.get(
         "https://api.edulink-indonesia.com/pilihankelas-polri"
       );
@@ -92,9 +94,13 @@ const Searchkelas = ({setProgress}) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Pilih Program Les Privat Terbaik - Edumatrix Indonesia"
+          content="Pilih Program Les Privat TK,SD,SMP,SMA, OSN/KSN, UTBK SNBT, SIMAK UI, CBT UGM, UM PTN, TNI/POLRI & Sekolah Kedinasan Terbaik - Edumatrix Indonesia"
         />
-        <title>Pilih Kelas Bimbel Terbaik - Edumatrix Indonesia</title>
+        <title>
+          Pilih Program Les Privat TK,SD,SMP,SMA, OSN/KSN, UTBK SNBT, SIMAK UI,
+          CBT UGM, UM PTN, TNI/POLRI & Sekolah Kedinasan Terbaik - Edumatrix
+          Indonesia
+        </title>
         <link rel="canonical" href="/pilihan-program" />
       </Helmet>
       <div className="container-search-kelas">
@@ -111,11 +117,13 @@ const Searchkelas = ({setProgress}) => {
         </div>
         <div className="parent-container-utama">
           <h1 className="title-search-kelas">
-            <img src={iconKampus} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM LOLOS KAMPUS FAVORIT
+            <img src={iconKampus} alt="Pilihan Kelas Edumatrix Indonesia" />{" "}
+            PROGRAM LOLOS KAMPUS FAVORIT
           </h1>
           <div className="container-card">
             {loading ? (
-              <h4 className="loading">Loading ...</h4>
+              // <h4 className="loading">Loading ...</h4>
+              <div className="loader"></div>
             ) : (
               cardKelas
                 .filter((value) => {
@@ -133,7 +141,10 @@ const Searchkelas = ({setProgress}) => {
                       <img
                         key={index}
                         className="img-pilihkelas"
-                        src={"https://api.edulink-indonesia.com/images/" + item.image}
+                        src={
+                          "https://api.edulink-indonesia.com/images/" +
+                          item.image
+                        }
                         alt="Avatar"
                       />
                     </a>
@@ -146,12 +157,12 @@ const Searchkelas = ({setProgress}) => {
         <div className="super-parent-container">
           <div className="parent-container-polri">
             <h1 className="title-search-kelas-polri">
-              <img src={iconTniPolri} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM LOLOS TNI POLRI &
-              KEDINASAN
+              <img src={iconTniPolri} alt="Pilihan Kelas Edumatrix Indonesia" />{" "}
+              PROGRAM LOLOS TNI POLRI & KEDINASAN
             </h1>
             <div className="container-card-polri">
               {loading ? (
-                <h4>Loading ...</h4>
+                <div className="loader"></div>
               ) : (
                 cardKelasTniPolri
                   .filter((value) => {
@@ -170,7 +181,10 @@ const Searchkelas = ({setProgress}) => {
                       <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                         <img
                           className="img-pilihkelas-polri"
-                          src={"https://api.edulink-indonesia.com/images/" + item.image}
+                          src={
+                            "https://api.edulink-indonesia.com/images/" +
+                            item.image
+                          }
                           alt="Avatar"
                         />
                       </a>
@@ -182,11 +196,12 @@ const Searchkelas = ({setProgress}) => {
           {/* CPNS */}
           <div className="parent-container-cpns">
             <h1 className="title-search-kelas-polri">
-              <img src={iconCpns} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM LOLOS CPNS, PPPK & BUMN
+              <img src={iconCpns} alt="Pilihan Kelas Edumatrix Indonesia" />{" "}
+              PROGRAM LOLOS CPNS, PPPK & BUMN
             </h1>
             <div className="container-card-polri">
               {loading ? (
-                <h4>Loading ...</h4>
+                <div className="loader"></div>
               ) : (
                 cardKelasCpns
                   .filter((value) => {
@@ -205,7 +220,10 @@ const Searchkelas = ({setProgress}) => {
                       <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                         <img
                           className="img-pilihkelas-cpns"
-                          src={"https://api.edulink-indonesia.com/images/" + item.image}
+                          src={
+                            "https://api.edulink-indonesia.com/images/" +
+                            item.image
+                          }
                           alt="Avatar"
                         />
                       </a>
@@ -217,11 +235,12 @@ const Searchkelas = ({setProgress}) => {
           {/* OSN */}
           <div className="parent-container-polri">
             <h1 className="title-search-kelas-polri">
-              <img src={iconOsn} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM BELAJAR OSN SD, SMP & SMA
+              <img src={iconOsn} alt="Pilihan Kelas Edumatrix Indonesia" />{" "}
+              PROGRAM BELAJAR OSN SD, SMP & SMA
             </h1>
             <div className="container-card-polri">
               {loading ? (
-                <h4>Loading ...</h4>
+                <div className="loader"></div>
               ) : (
                 cardKelasOsn
                   .filter((value) => {
@@ -240,7 +259,10 @@ const Searchkelas = ({setProgress}) => {
                       <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                         <img
                           className="img-pilihkelas-polri"
-                          src={"https://api.edulink-indonesia.com/images/" + item.image}
+                          src={
+                            "https://api.edulink-indonesia.com/images/" +
+                            item.image
+                          }
                           alt="Avatar"
                         />
                       </a>
@@ -252,11 +274,12 @@ const Searchkelas = ({setProgress}) => {
           {/* PRIVAT */}
           <div className="parent-container-privat">
             <h1 className="title-search-kelas-polri">
-              <img src={iconPrivat} alt="Pilihan Kelas Edumatrix Indonesia" /> PROGRAM PRIVAT SD, SMP & SMA
+              <img src={iconPrivat} alt="Pilihan Kelas Edumatrix Indonesia" />{" "}
+              PROGRAM PRIVAT SD, SMP & SMA
             </h1>
             <div className="container-card-polri">
               {loading ? (
-                <h4>Loading ...</h4>
+                <div className="loader"></div>
               ) : (
                 cardKelasPrivat
                   .filter((value) => {
@@ -275,7 +298,10 @@ const Searchkelas = ({setProgress}) => {
                       <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                         <img
                           className="img-pilihkelas-polri"
-                          src={"https://api.edulink-indonesia.com/images/" + item.image}
+                          src={
+                            "https://api.edulink-indonesia.com/images/" +
+                            item.image
+                          }
                           alt="Avatar"
                         />
                       </a>
@@ -290,7 +316,11 @@ const Searchkelas = ({setProgress}) => {
         className="parent-img-modeltanya-program"
         href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
       >
-        <img className="model-program-kota" src={tanyaProgram} alt="Pilihan Kelas Edumatrix Indonesia" />
+        <img
+          className="model-program-kota"
+          src={tanyaProgram}
+          alt="Pilihan Kelas Edumatrix Indonesia"
+        />
       </a>
       <Bottombar />
       <Floatingcta />

@@ -1,0 +1,10 @@
+.desain-paket-cpns {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.parent-desain-cpns {
+    padding-left: 2%;
+    padding-right: 2%;
+}

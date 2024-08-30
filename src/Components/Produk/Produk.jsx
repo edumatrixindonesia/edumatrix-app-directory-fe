@@ -26,11 +26,11 @@ const Produk = ({setProgress}) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Jual Modul dan Paket Tryout UTBK SNBT, SIMAK UI, CBT UGM, TNI-POLRI, Sekolah Kedinasan & OSD SD-SMP-SMA"
+          content="Jual Modul dan Paket Tryout UTBK SNBT, SIMAK UI, CBT UGM, TNI-POLRI, Sekolah Kedinasan & OSN/KSN SD-SMP-SMA"
         />
         <title>
           Jual Modul dan Paket Tryout UTBK SNBT, SIMAK UI, CBT UGM, TNI-POLRI,
-          Sekolah Kedinasan & OSD SD-SMP-SMA
+          Sekolah Kedinasan & OSN SD-SMP-SMA
         </title>
         <link rel="canonical" href="" />
       </Helmet>

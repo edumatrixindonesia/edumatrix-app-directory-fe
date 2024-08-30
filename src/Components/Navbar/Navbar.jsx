@@ -113,7 +113,7 @@ const Navbar = () => {
                 <FontAwesomeIcon className="icon-navbar" icon={faSignIn} /> Home
               </a>
             </li>
-            <li class="services">
+            <li className="services">
               <a className="menu-nav">
                 Program
                 <FontAwesomeIcon

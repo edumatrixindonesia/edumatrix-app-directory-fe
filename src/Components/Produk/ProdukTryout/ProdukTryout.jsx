@@ -23,7 +23,7 @@ const ProdukTryout = () => {
             <img src={toSnbt} alt="" className="header-produk" />
             <div className="fill-produk">
               <h2 className="title-produk">
-                Paket - Tryout UTBK <br /> SNBT
+                Paket - Tryout <br /> UTBK SNBT
               </h2>
               <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
@@ -31,7 +31,7 @@ const ProdukTryout = () => {
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -41,7 +41,7 @@ const ProdukTryout = () => {
             <img src={toLpdp} alt="" className="header-produk" />
             <div className="fill-produk">
               <h2 className="title-produk">
-                Paket - Tryout TBS <br /> LPDP
+                Paket - Tryout <br /> TBS LPDP
               </h2>
               <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
@@ -49,7 +49,7 @@ const ProdukTryout = () => {
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -59,7 +59,7 @@ const ProdukTryout = () => {
             <img src={toSimakUi} alt="" className="header-produk" />
             <div className="fill-produk">
               <h2 className="title-produk">
-                Paket - Tryout SIMAK <br /> UI
+                Paket - Tryout <br /> SIMAK UI
               </h2>
               <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
@@ -67,7 +67,7 @@ const ProdukTryout = () => {
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -77,7 +77,7 @@ const ProdukTryout = () => {
             <img src={toSimakkki} alt="" className="header-produk" />
             <div className="fill-produk">
               <h2 className="title-produk">
-                Paket - Tryout SIMAK <br /> KKI - IUP
+                Paket - Tryout <br /> SIMAK KKI - IUP
               </h2>
               <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
@@ -85,7 +85,7 @@ const ProdukTryout = () => {
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -95,7 +95,7 @@ const ProdukTryout = () => {
             <img src={toCpns} alt="" className="header-produk" />
             <div className="fill-produk">
               <h2 className="title-produk">
-                Paket - Tryout CPNS & <br /> PPPK
+                Paket - Tryout <br /> CPNS & PPPK
               </h2>
               <h3 className="harga-produk">Rp.50,000,-</h3>
               <div className="parent-ratting-produk">
@@ -103,7 +103,7 @@ const ProdukTryout = () => {
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -121,7 +121,7 @@ const ProdukTryout = () => {
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -139,7 +139,7 @@ const ProdukTryout = () => {
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -157,7 +157,7 @@ const ProdukTryout = () => {
                 <img src={ratting} alt="" className="star-ratting-produk" />
               </div>
               <a className="btn-pesan-produk-sekarang" href="">
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>

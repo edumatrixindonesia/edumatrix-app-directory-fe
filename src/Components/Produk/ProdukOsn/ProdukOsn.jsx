@@ -26,7 +26,7 @@ const ProdukOsn = () => {
                 className="btn-pesan-produk-sekarang"
                 href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20pesan%20Modul%20OSN%20SD%0a*Seperti%20Berikut%20:*%0ahttps://app.edumatrix-indonesia.com/static/media/modul_osn_sd.90d73dddd82109ebb357.png%0aApakah%20masih%20tersedia?"
               >
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -48,7 +48,7 @@ const ProdukOsn = () => {
                 className="btn-pesan-produk-sekarang"
                 href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20pesan%20Modul%20OSN%20SMP%0a*Seperti%20Berikut%20:*%0ahttps://app.edumatrix-indonesia.com/static/media/modul_osn_smp.7856e662e8d78c22392e.png%0aApakah%20masih%20tersedia?"
               >
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -70,7 +70,7 @@ const ProdukOsn = () => {
                 className="btn-pesan-produk-sekarang"
                 href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20pesan%20Modul%20OSN%20SMA%0a*Seperti%20Berikut%20:*%0ahttps://app.edumatrix-indonesia.com/static/media/modul_osn_sma.1f920af2944c514d8dcb.png%0aApakah%20masih%20tersedia?"
               >
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>

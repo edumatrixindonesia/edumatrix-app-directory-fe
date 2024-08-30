@@ -23,8 +23,11 @@
 .star-ratting-produk {
   width: 35%;
 }
+.icon-keranjang-produk {
+  margin-right: 8px;
+}
 .btn-pesan-produk-sekarang {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -34,8 +37,49 @@
   margin-top: 10px;
   gap: 10px;
   font-weight: 500;
+  border-radius: 5px; */
+
+  position: relative;
+  display: inline-block;
+  padding: 12px;
+  color: #fff;
+  background-color: #f57c0b;
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
 }
+.btn-pesan-produk-sekarang::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 50%);
+  transform: skewX(-20deg);
+  transition: transform 0.5s ease;
+  animation: shine 1.5s infinite;
+}
+@keyframes shine {
+  0% {
+      transform: translateX(-100%) skewX(-50deg);
+  }
+  50% {
+      transform: translateX(100%) skewX(-50deg);
+  }
+  100% {
+      transform: translateX(100%) skewX(-50deg);
+  }
+}
+
 .fill-produk {
   padding: 15px;
 }
@@ -105,17 +149,46 @@
 
 /* RESPONSIVE */
 @media only screen and (min-width: 320px) and (max-width: 896px) {
-    .container-produk {
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-    .parent-card-ptn {
-        display: grid;
-    }
-    .card-produk {
-        width: 100%;
-    }
-    .super-title-produk {
-        font-size: 23px;
-    }
+  .container-produk {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .super-parent-produk,
+  .super-parent-produk-tni {
+    padding: 2px;
+    padding-bottom: 5px;
+  }
+  .parent-card-ptn,
+  .parent-card-to {
+    justify-content: center;
+  }
+  .card-produk {
+    width: 48%;
+  }
+  .super-title-produk {
+    font-size: 23px;
+    margin-top: 10px;
+  }
+  .title-produk {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .harga-produk {
+    font-size: 15px;
+  }
+  .text-produk-terjual {
+    font-size: 12px;
+  }
+  .star-ratting-produk {
+    width: 50%;
+  }
+  .btn-pesan-produk-sekarang {
+    font-size: 12px;
+    gap: 5px;
+    padding: 8px;
+    border-radius: 2px;
+  }
+  .fill-produk {
+    padding: 7px;
+  }
 }

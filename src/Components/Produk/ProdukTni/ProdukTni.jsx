@@ -27,7 +27,7 @@ const ProdukTni = () => {
                 className="btn-pesan-produk-sekarang"
                 href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20pesan%20Modul%20Lolos%20POLRI%0a*Seperti%20Berikut%20:*%0ahttps://app.edumatrix-indonesia.com/static/media/modul_polri.ded6a1d545a3d3c5e82d.png%0aApakah%20masih%20tersedia?"
               >
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
@@ -49,7 +49,7 @@ const ProdukTni = () => {
                 className="btn-pesan-produk-sekarang"
                 href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20pesan%20Modul%20Lolos%20TNI%0a*Seperti%20Berikut%20:*%0ahttps://app.edumatrix-indonesia.com/static/media/modul_tni.0bc5736da92d23003744.png%0aApakah%20masih%20tersedia?"
               >
-                <FontAwesomeIcon icon={faCartShopping} />
+                <FontAwesomeIcon className="icon-keranjang-produk" icon={faCartShopping} />
                 Pesan Sekarang
               </a>
             </div>
