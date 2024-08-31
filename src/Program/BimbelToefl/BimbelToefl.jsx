@@ -31,6 +31,8 @@ import AsalSekolahIgcse from "../../Components/AsalSekolah/AsalSekolahIgcse/Asal
 import PenjelasanToefl from "./PenjelasanToefl/PenjelasanToefl";
 import FaqToefl from "../../Components/Faq/FaqToefl/FaqToefl";
 import FloatingCtaToefl from "../../Components/FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
+import SistemBelajarToefl from "../../Components/SistemBelajar/SistemBelajarToefl/SistemBelajarToefl";
+import BestProgramToefl from "../../Components/BestProgram/BestProgramToefl/BestProgramToefl";
 
 const BimbelToefl = ({ setProgress }) => {
   useEffect(() => {
@@ -57,11 +59,12 @@ const BimbelToefl = ({ setProgress }) => {
       <Navbar />
       <div className="container-all">
         <SliderToefl />
-        <BestprogramSnbt />
+        <BestProgramToefl />
         <PenjelasanToefl />
         <SuccessStory />
         <PaketBelajarToefl />
         <GaleriKegiatan />
+        <SistemBelajarToefl />
         <TestimoniToefl />
         <Voucer />
         <KeunggulanIgcse />

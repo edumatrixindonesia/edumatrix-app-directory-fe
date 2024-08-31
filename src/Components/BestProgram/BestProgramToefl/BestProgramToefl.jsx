@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
 import hotProgram from "../../../assets/8 maret 2024.png";
 
-const BestProgramIgcse = () => {
+const BestProgramToefl = () => {
   const [program, setProgram] = useState([]);
 
   useEffect(() => {
@@ -10,7 +10,7 @@ const BestProgramIgcse = () => {
   }, []);
 
   const fetchProgram = () => {
-    fetch("https://api.edulink-indonesia.com/bestprogramprivat")
+    fetch("https://api.edulink-indonesia.com/bestprogramsnbt")
       .then((res) => res.json())
       .then((data) => {
         setProgram(data);
@@ -21,14 +21,12 @@ const BestProgramIgcse = () => {
     <React.Fragment>
       <div className="main-box">
         <div className="main-best-program">
-          <h1 className="title-best-program">
-          INTERNATIONAL PROGRAMS WE OFFER
-          </h1>
+          <h1 className="title-best-program">OUR PROGRAMS <br /> TOEFL-TOEIC-IELTS</h1>
           <h3 className="hot-program">
             <img
               className="icon-hot-program"
               src={hotProgram}
-              alt="Bimbel Masuk TNI - Polri"
+              alt="Bimbel UTBK SNBT Terbaik - Edumatrix Indonesia"
             />{" "}
             HOTS PROGRAM
           </h3>
@@ -42,7 +40,7 @@ const BestProgramIgcse = () => {
                       src={
                         "https://api.edulink-indonesia.com/images/" + item.image
                       }
-                      alt="Bimbel Masuk TNI - Polri"
+                      alt="Bimbel UTBK SNBT Terbaik - Edumatrix Indonesia"
                     />
                   </a>
                 </div>
@@ -57,7 +55,7 @@ const BestProgramIgcse = () => {
           <img
             className="model-tanya-program"
             src={modelTanyaProgram}
-            alt="Bimbel Sekolah Kedinasa Terbaik"
+            alt="Bimbel Masuk PTN Terbaik"
           />
         </a>
       </div>
@@ -65,4 +63,4 @@ const BestProgramIgcse = () => {
   );
 };
 
-export default BestProgramIgcse;
+export default BestProgramToefl;

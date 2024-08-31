@@ -34,6 +34,8 @@ import LiputanIgcse from "../../Liputan/LiputanIgcse/LiputanIgcse";
 import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
 import PenjelasanToefl from "../../../Program/BimbelToefl/PenjelasanToefl/PenjelasanToefl";
 import FloatingCtaToefl from "../../FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
+import SistemBelajarToefl from "../../SistemBelajar/SistemBelajarToefl/SistemBelajarToefl";
+import BestProgramToefl2 from "../../BestProgram/BestProgram2/BestProgramToefl2/BestProgramToefl2";
 
 const HalamankotaToefl = ({ setProgress }) => {
   const { id } = useParams();
@@ -123,11 +125,12 @@ const HalamankotaToefl = ({ setProgress }) => {
             />
           </a>
         </div>
-        <BestprogramSnbt2 />
+        <BestProgramToefl2 />
         <PenjelasanToefl />
         <SuccessStory />
         <PaketBelajarToefl />
         <GaleriKegiatan />
+        <SistemBelajarToefl />
         <TestimoniToefl />
         <Voucer />
         <KeunggulanIgcse />

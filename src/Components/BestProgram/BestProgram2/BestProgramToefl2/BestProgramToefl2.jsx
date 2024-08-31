@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import hotProgram from "../../../../assets/8 maret 2024.png";
 
-const BestProgramIgcse2 = () => {
+const BestProgramToefl2 = () => {
   const [program_2, setProgram_2] = useState([]);
 
   useEffect(() => {
@@ -9,7 +9,7 @@ const BestProgramIgcse2 = () => {
   }, []);
 
   const fetchProgram_2 = () => {
-    fetch("https://api.edulink-indonesia.com/bestprogramprivat2")
+    fetch("https://api.edulink-indonesia.com/bestprogramsnbt2")
       .then((res) => res.json())
       .then((data) => {
         setProgram_2(data);
@@ -20,9 +20,7 @@ const BestProgramIgcse2 = () => {
     <React.Fragment>
       {/* <div className="main-box-2"> */}
       <div className="main-best-program-2">
-        <h1 className="title-best-program-2">
-          INTERNATIONAL <br /> PROGRAMS WE OFFER
-        </h1>
+        <h1 className="title-best-program-2">OUR PROGRAMS <br /> TOEFL-TOEIC-IELTS</h1>
         <h3 className="hot-program-2">
           <img
             className="icon-hot-program-2"
@@ -56,4 +54,4 @@ const BestProgramIgcse2 = () => {
   );
 };
 
-export default BestProgramIgcse2;
+export default BestProgramToefl2;
