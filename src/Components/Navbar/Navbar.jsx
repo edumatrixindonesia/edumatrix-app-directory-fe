@@ -267,7 +267,7 @@ const Navbar = () => {
                 Kelas
               </a>
             </li>
-            <li>
+            <li className="parent-btn-daftar">
               <a
                 className="menu-nav-daftar"
                 href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?"

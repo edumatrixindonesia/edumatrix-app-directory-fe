@@ -54,6 +54,8 @@ body {
   font-weight: 600 !important;
   cursor: pointer;
   /* transform: scale(1.1); */
+  padding-bottom: 13px;
+  padding-top: 13px;
 }
 
 .menu-nav:hover {
@@ -64,6 +66,12 @@ body {
   padding-right: 10px; */
   /* font-size: 14px; */
   /* transform: scale(1.1); */
+  
+}
+.parent-btn-daftar {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
 .menu-nav-daftar {
   background-color: #00909b;

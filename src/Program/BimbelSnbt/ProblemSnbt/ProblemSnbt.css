@@ -1,0 +1,111 @@
+/* Accordion Container */
+.super-title-problem-snbt {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.block-problem-snbt {
+  color: white;
+  background-color: #f52f63;
+  padding: 2px;
+  border-radius: 5px;
+}
+.super-parent-accordion-snbt {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.parent-accordion-snbt {
+  width: 100%;
+  margin: auto;
+}
+
+/* Accordion Item */
+.accordion-item-snbt {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Hide Checkbox */
+.accordion-item-snbt input[type="checkbox"] {
+  display: none;
+}
+
+/* Accordion Header */
+.accordion-header-snbt {
+  display: block;
+  padding: 15px;
+  background-color: #054599;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-weight: 500;
+}
+.desk-problem-snbt {
+  font-weight: 500;
+}
+
+/* Accordion Content */
+.accordion-content-snbt {
+  display: none;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
+
+/* Show Accordion Content When Checkbox is Checked */
+.accordion-item-snbt input:checked ~ .accordion-content-snbt {
+  display: block;
+}
+
+/* Transition for Smooth Expand/Collapse */
+.accordion-content-snbt {
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-item-snbt input:checked ~ .accordion-content-snbt {
+  max-height: 500px; /* Adjust as needed */
+}
+.parent-img-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.img-mengapa-gagal {
+    width: 28%;
+}
+.line-problem-snbt {
+    width: 30%;
+    border: 1px solid #054599;
+    border-radius: 100px;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 320px) and (max-width: 896px) {
+  .super-title-problem-snbt {
+    font-size: 23px;
+  }
+  .accordion-header-snbt {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .desk-problem-snbt {
+    font-size: 13px;
+    text-align: justify;
+  }
+  .img-mengapa-gagal {
+    width: 50%;
+  }
+  .parent-img-title {
+    margin-bottom: 5px;
+  }
+}

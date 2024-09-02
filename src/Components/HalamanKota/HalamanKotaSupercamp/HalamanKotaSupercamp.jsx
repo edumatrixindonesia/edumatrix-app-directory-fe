@@ -30,6 +30,7 @@ import InfoCamp from "../../InfoCamp/InfoCamp";
 import Video from "../../Video/Video";
 import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import SubtesSnbt from "../../../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
 
 const HalamankotaSupercamp = ({ setProgress }) => {
   const { id } = useParams();
@@ -122,6 +123,7 @@ const HalamankotaSupercamp = ({ setProgress }) => {
         </div>
         <BestprogramSnbt2 />
         <SuccessSnbt />
+        <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
         <GaleriKegiatan />

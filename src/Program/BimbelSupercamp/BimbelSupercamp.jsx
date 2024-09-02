@@ -26,6 +26,7 @@ import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Video from "../../Components/Video/Video";
 import PaketBelajarSnbt from "../../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import SectionSupercamp from "./SectionSupercamp/SectionSupercamp";
+import SubtesSnbt from "../BimbelSnbt/SubtesSnbt/SubtesSnbt";
 
 const BimbelSupercamp = ({ setProgress }) => {
   useEffect(() => {
@@ -55,6 +56,7 @@ const BimbelSupercamp = ({ setProgress }) => {
         <SliderSupercamp />
         <BestprogramSnbt />
         <SuccessSnbt />
+        <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
         <GaleriKegiatan />

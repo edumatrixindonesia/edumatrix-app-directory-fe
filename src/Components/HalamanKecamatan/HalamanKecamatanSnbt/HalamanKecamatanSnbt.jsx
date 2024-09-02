@@ -24,6 +24,8 @@ import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
+import ProblemSnbt from "../../../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
+import SubtesSnbt from "../../../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
 
 const HalamanKecamatanSnbt = ({ setProgress }) => {
   const { id } = useParams();
@@ -112,8 +114,10 @@ const HalamanKecamatanSnbt = ({ setProgress }) => {
           </a>
         </div>
         <BestprogramSnbt2 />
+        <ProblemSnbt />
         <Voucer />
         <SuccessSnbt />
+        <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
         <GaleriKegiatan />

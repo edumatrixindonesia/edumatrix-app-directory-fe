@@ -28,6 +28,8 @@ import Video from "../../Video/Video";
 import ListKabupatenSnbt from "../../Tab/TabUtbkSnbt/ListKabupatenSnbt";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import ListKecamatanSnbt from "../../Tab/TabUtbkSnbt/ListKecamatanSnbt";
+import ProblemSnbt from "../../../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
+import SubtesSnbt from "../../../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
 
 const HalamankabupatenSnbt = ({ setProgress }) => {
   const { id } = useParams();
@@ -117,8 +119,10 @@ const HalamankabupatenSnbt = ({ setProgress }) => {
           </a>
         </div>
         <BestprogramSnbt2 />
+        <ProblemSnbt />
         <Voucer />
         <SuccessSnbt />
+        <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
         <GaleriKegiatan />

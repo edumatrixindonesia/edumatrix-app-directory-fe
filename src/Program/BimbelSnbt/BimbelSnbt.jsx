@@ -23,6 +23,8 @@ import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Video from "../../Components/Video/Video";
 import PaketBelajarSnbt from "../../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import SectionSupercamp from "../BimbelSupercamp/SectionSupercamp/SectionSupercamp";
+import ProblemSnbt from "./ProblemSnbt/ProblemSnbt";
+import SubtesSnbt from "./SubtesSnbt/SubtesSnbt";
 
 const BimbelSnbt = ({ setProgress }) => {
   
@@ -52,7 +54,9 @@ const BimbelSnbt = ({ setProgress }) => {
       <div className="container-all">
         <SliderSnbt />
         <BestprogramSnbt />
+        <ProblemSnbt />
         <SuccessSnbt />
+        <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
         <GaleriKegiatan />

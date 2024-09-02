@@ -29,6 +29,8 @@ import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSn
 import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import Video from "../../Video/Video";
 import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
+import ProblemSnbt from "../../../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
+import SubtesSnbt from "../../../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
 
 const HalamankotaSnbt = ({setProgress}) => {
   const { id } = useParams();
@@ -121,8 +123,10 @@ const HalamankotaSnbt = ({setProgress}) => {
           </a>
         </div>
         <BestprogramSnbt2 />
+        <ProblemSnbt />
         <Voucer />
         <SuccessSnbt />
+        <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
         <GaleriKegiatan />
