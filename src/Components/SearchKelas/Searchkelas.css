@@ -1,7 +1,7 @@
 .container-search-kelas {
   padding-left: 15%;
   padding-right: 15%;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-bottom: 5%;
 }
 .container-card {
@@ -172,7 +172,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 /* POLRI */
 .parent-container-polri {
@@ -181,7 +181,7 @@
   padding-right: 20px;
   padding-top: 1px;
   border-radius: 5px;
-  width: 50%;
+  width: 49%;
 }
 .title-search-kelas-polri {
   display: flex;
@@ -269,6 +269,42 @@
 }
 @keyframes l24 {
   100% {transform: rotate(1turn)}
+}
+
+
+/* ANIMATION */
+.animation-card {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+  margin-top: 10px;
+
+}
+.animation-card::before {
+  content: '';
+  position: absolute;
+  top: -2%;
+  left: -50%;
+  width: 200%;
+  height: 145%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.116) 0%, rgba(255, 255, 255, 0) 50%);
+  transform: skewX(-20deg);
+  transition: transform 0.5s ease;
+  animation: shine 1.9s infinite;
+}
+@keyframes shine {
+  0% {
+      transform: translateX(-100%) skewX(-50deg);
+  }
+  50% {
+      transform: translateX(10%) skewX(-50deg);
+  }
+  100% {
+      transform: translateX(100%) skewX(-50deg);
+  }
 }
 
 /* RESPONSIVE */

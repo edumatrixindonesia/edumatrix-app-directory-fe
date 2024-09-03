@@ -285,6 +285,11 @@ body {
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
+
+  .logo-edumatrix {
+    width: 33%;
+    margin-left: 80%;
+  }
 }
 
 @media (max-width: 500px) {

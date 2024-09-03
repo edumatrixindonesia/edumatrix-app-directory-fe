@@ -12,7 +12,7 @@ const FloatingCtaToefl = () => {
         </label>
         <a
           className="parent-btn-wa"
-          href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20TOEFL,%20TOEIC%20IELTS,%20English%20Conversation%20program%20at%20Edumatrix. %20What%20are%20the%20course%20types%20and%20session%20package%20options?"
+          href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20TOEFL,%20TOEIC%20IELTS,%20English%20Conversation%20program%20at%20Edumatrix.%20What%20are%20the%20course%20types%20and%20session%20package%20options?"
         >
           <button className="btn-float-wa">
             <span className="parent-icon-wa">

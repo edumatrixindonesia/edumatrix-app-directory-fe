@@ -25,6 +25,7 @@ import PaketBelajarSnbt from "../../Components/PaketBelajar/PaketBelajarSnbt/Pak
 import SectionSupercamp from "../BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import ProblemSnbt from "./ProblemSnbt/ProblemSnbt";
 import SubtesSnbt from "./SubtesSnbt/SubtesSnbt";
+import PromoSnbt from "./PromoSnbt/PromoSnbt";
 
 const BimbelSnbt = ({ setProgress }) => {
   
@@ -71,7 +72,8 @@ const BimbelSnbt = ({ setProgress }) => {
         <ListUtbkSnbt />
         <Faqtni />
         <Asalsekolah />
-        <PromoHomepage />
+        {/* <PromoHomepage /> */}
+        <PromoSnbt />
       </div>
       <Footer />
       <Bottombar />

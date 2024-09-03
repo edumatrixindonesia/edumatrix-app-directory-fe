@@ -1,0 +1,10 @@
+.parent-promo-snbt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.child-promo-snbt {
+  width: 100%;
+}

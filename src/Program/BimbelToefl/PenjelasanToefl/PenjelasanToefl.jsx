@@ -31,7 +31,7 @@ const PenjelasanToefl = () => {
           <p className="desk-penjelasan-toefl">
             Achieve a high score on the IELTS exam with targeted practice and
             expert guidance. Our program addresses all four components of the
-            test—listening, reading, writing, and speaking.
+            test - listening, reading, writing, and speaking.
           </p>
         </div>
 

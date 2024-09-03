@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import modelTanyaProgram from "../../../assets/tanya_program.png";
+import modelTanyaProgram from "../../../assets/ask_program.png";
 import hotProgram from "../../../assets/8 maret 2024.png";
 
 const BestProgramToefl = () => {
@@ -34,7 +34,7 @@ const BestProgramToefl = () => {
             <div className="box-best-program">
               {program.map((item, index) => (
                 <div className="card-best-program" key={index}>
-                  <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
+                  <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20TOEFL,%20TOEIC%20IELTS,%20English%20Conversation%20program%20at%20Edumatrix.%20What%20are%20the%20course%20types%20and%20session%20package%20options?">
                     <img
                       className="best-program-img"
                       src={
@@ -50,7 +50,7 @@ const BestProgramToefl = () => {
         </div>
         <a
           className="parent-img-modeltanya-program"
-          href="https://wa.me/+6281216365729?text=Halo%20Kak%20Nia%20Saya%20ingin%20tanya%20les%20privat%20untuk%20Kelas%20:%0aMapel%20:%20%0aKurikulum%20:%20%0aWilayah%20:"
+          href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20TOEFL,%20TOEIC%20IELTS,%20English%20Conversation%20program%20at%20Edumatrix.%20What%20are%20the%20course%20types%20and%20session%20package%20options?"
         >
           <img
             className="model-tanya-program"
