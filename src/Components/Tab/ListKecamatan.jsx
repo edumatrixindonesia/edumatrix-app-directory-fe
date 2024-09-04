@@ -4,6 +4,8 @@ import axios from "axios";
 
 const ListKecamatan = () => {
   const [kecamatan, setKecamatan] = useState([]);
+  console.log(kecamatan);
+  
   const { id } = useParams();
 
   function useQuery() {
@@ -26,6 +28,8 @@ const ListKecamatan = () => {
         setKecamatan(data);
       });
   };
+  console.log(fetchKecamatan);
+  
 
   return (
     <div className="container-all-tab">
