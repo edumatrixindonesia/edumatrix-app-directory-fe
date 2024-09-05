@@ -28,6 +28,8 @@ import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/
 import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import ListKecamatanSupercamp from "../../Tab/TabSupercamp/ListKecamatanSupercamp";
 import SubtesSnbt from "../../../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
+import ProblemSnbt from "../../../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
+import LolosPtn from "../../../Program/BimbelSnbt/LolosPtn/LolosPtn";
 
 const HalamankabupatenSupercamp = ({ setProgress }) => {
   const { id } = useParams();
@@ -118,7 +120,8 @@ const HalamankabupatenSupercamp = ({ setProgress }) => {
           </a>
         </div>
         <BestprogramSnbt2 />
-        <SuccessSnbt />
+        <ProblemSnbt />
+        <LolosPtn />
         <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
@@ -129,6 +132,7 @@ const HalamankabupatenSupercamp = ({ setProgress }) => {
         <Keunggulan />
         <InfoCamp />
         <Masterteacher />
+        <SuccessSnbt />
         <Alumni />
         <Liputan />
         <ListKecamatanSupercamp />

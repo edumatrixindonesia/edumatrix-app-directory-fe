@@ -13,10 +13,12 @@
   border-radius: 5px;
 }
 .super-parent-accordion-snbt {
-  background-color: white;
+  background-image: url("/src/assets/mt_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 10px;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .parent-accordion-snbt {
@@ -26,7 +28,7 @@
 
 /* Accordion Item */
 .accordion-item-snbt {
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   border-radius: 5px;
   margin-bottom: 10px;
   width: 100%;
@@ -41,23 +43,26 @@
 .accordion-header-snbt {
   display: block;
   padding: 15px;
-  background-color: #054599;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px solid #ddd;
-  font-weight: 500;
+  /* border: 1px solid #ddd; */
+  font-weight: 600;
 }
 .desk-problem-snbt {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Accordion Content */
 .accordion-content-snbt {
   display: none;
   padding: 15px;
-  border-top: 1px solid #ddd;
+  /* border-top: 1px solid #ddd; */
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 5px;
 }
 
 /* Show Accordion Content When Checkbox is Checked */

@@ -33,7 +33,7 @@ const SuccessSnbt = () => {
   return (
     <React.Fragment>
       <div className="box-success-story-snbt">
-        <h1 className="title-success-story-snbt">SUCCESS STORY</h1>
+        <h1 className="title-success-story-snbt">SUCCESS STORY 2024</h1>
         <div className="parent-success-story-snbt">
           {successSnbt.map((item, index) => (
             <img

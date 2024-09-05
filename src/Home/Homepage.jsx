@@ -25,6 +25,10 @@ import Video from "../Components/Video/Video";
 import SectionSupercamp from "../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import ReactGA from "react-ga";
+import ProblemSnbt from "../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
+import LolosPtn from "../Program/BimbelSnbt/LolosPtn/LolosPtn";
+import SubtesSnbt from "../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
+import PaketBelajarSnbtNew from "../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbtNew";
 
 const Homepage = ({setProgress}) => {
   useEffect(() => {
@@ -55,8 +59,9 @@ const Homepage = ({setProgress}) => {
       <div className="container-all">
         <Slidertop />
         <BestProgram />
-        <SuccessStory />
+        <LolosPtn />
         <PaketBelajarSnbt />
+        <PaketBelajarSnbtNew />
         <SectionSupercamp />
         <GaleriKegiatan />
         <Video />
@@ -65,6 +70,7 @@ const Homepage = ({setProgress}) => {
         <Keunggulan />
         <InfoCamp />
         <Masterteacher />
+        <SuccessStory />
         <Alumni />
         <Liputan />
         <Listkota />

@@ -24,8 +24,10 @@ import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 import rumahAdat from "../../../assets/rumah_adat.png";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
+import ProblemSnbt from "../../../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
+import LolosPtn from "../../../Program/BimbelSnbt/LolosPtn/LolosPtn";
 
-const HalamanKecamatanSupercamp = ({setProgress}) => {
+const HalamanKecamatanSupercamp = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
 
@@ -113,7 +115,8 @@ const HalamanKecamatanSupercamp = ({setProgress}) => {
           </a>
         </div>
         <BestprogramSnbt2 />
-        <SuccessSnbt />
+        <ProblemSnbt />
+        <LolosPtn />
         <PaketBelajarSnbt />
         <SectionSupercamp />
         <GaleriKegiatan />
@@ -123,6 +126,7 @@ const HalamanKecamatanSupercamp = ({setProgress}) => {
         <Keunggulan />
         <InfoCamp />
         <Masterteacher />
+        <SuccessSnbt />
         <Alumni />
         <Liputan />
         <Faqtni />

@@ -27,6 +27,8 @@ import Video from "../../Components/Video/Video";
 import PaketBelajarSnbt from "../../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import SectionSupercamp from "./SectionSupercamp/SectionSupercamp";
 import SubtesSnbt from "../BimbelSnbt/SubtesSnbt/SubtesSnbt";
+import ProblemSnbt from "../BimbelSnbt/ProblemSnbt/ProblemSnbt";
+import LolosPtn from "../BimbelSnbt/LolosPtn/LolosPtn";
 
 const BimbelSupercamp = ({ setProgress }) => {
   useEffect(() => {
@@ -55,7 +57,8 @@ const BimbelSupercamp = ({ setProgress }) => {
       <div className="container-all">
         <SliderSupercamp />
         <BestprogramSnbt />
-        <SuccessSnbt />
+        <ProblemSnbt />
+        <LolosPtn />
         <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
@@ -66,6 +69,7 @@ const BimbelSupercamp = ({ setProgress }) => {
         <Keunggulan />
         <InfoCamp />
         <Masterteacher />
+        <SuccessSnbt />
         <Alumni />
         <Liputan />
         <ListKotaSupercamp />

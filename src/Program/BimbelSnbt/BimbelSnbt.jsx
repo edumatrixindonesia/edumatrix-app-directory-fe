@@ -26,6 +26,8 @@ import SectionSupercamp from "../BimbelSupercamp/SectionSupercamp/SectionSuperca
 import ProblemSnbt from "./ProblemSnbt/ProblemSnbt";
 import SubtesSnbt from "./SubtesSnbt/SubtesSnbt";
 import PromoSnbt from "./PromoSnbt/PromoSnbt";
+import LolosPtn from "./LolosPtn/LolosPtn";
+import PaketBelajarSnbtNew from "../../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbtNew";
 
 const BimbelSnbt = ({ setProgress }) => {
   
@@ -56,9 +58,10 @@ const BimbelSnbt = ({ setProgress }) => {
         <SliderSnbt />
         <BestprogramSnbt />
         <ProblemSnbt />
-        <SuccessSnbt />
+        <LolosPtn />
         <SubtesSnbt />
         <PaketBelajarSnbt />
+        <PaketBelajarSnbtNew />
         <SectionSupercamp />
         <GaleriKegiatan />
         <Video />
@@ -67,6 +70,7 @@ const BimbelSnbt = ({ setProgress }) => {
         <Keunggulan />
         <InfoCamp />
         <Masterteacher />
+        <SuccessSnbt />
         <Alumni />
         <Liputan />
         <ListUtbkSnbt />

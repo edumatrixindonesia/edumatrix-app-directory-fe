@@ -25,8 +25,10 @@ import Video from "../Video/Video";
 import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriKegiatan";
 import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
+import LolosPtn from "../../Program/BimbelSnbt/LolosPtn/LolosPtn";
+import PaketBelajarSnbtNew from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbtNew";
 
-const Halamankabupaten = ({setProgress}) => {
+const Halamankabupaten = ({ setProgress }) => {
   const { id } = useParams();
   const [kabupaten, setKabupaten] = useState([]);
 
@@ -52,10 +54,10 @@ const Halamankabupaten = ({setProgress}) => {
     };
     getKabupaten(id);
 
-    setProgress(60)
+    setProgress(60);
     setTimeout(() => {
-      setProgress(100)
-    }, 50)
+      setProgress(100);
+    }, 50);
   }, [id, query]);
 
   return (
@@ -115,8 +117,9 @@ const Halamankabupaten = ({setProgress}) => {
           </a>
         </div>
         <Bestprogram2 />
-        <SuccessStory />
+        <LolosPtn />
         <PaketBelajarSnbt />
+        <PaketBelajarSnbtNew />
         <SectionSupercamp />
         <GaleriKegiatan />
         <Video />
@@ -124,6 +127,7 @@ const Halamankabupaten = ({setProgress}) => {
         <Testimoni />
         <Keunggulan />
         <Masterteacher />
+        <SuccessStory />
         <Alumni />
         <Liputan />
         <ListKecamatan />

@@ -31,6 +31,8 @@ import Video from "../../Video/Video";
 import SectionSupercamp from "../../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 import SubtesSnbt from "../../../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
+import ProblemSnbt from "../../../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
+import LolosPtn from "../../../Program/BimbelSnbt/LolosPtn/LolosPtn";
 
 const HalamankotaSupercamp = ({ setProgress }) => {
   const { id } = useParams();
@@ -122,7 +124,8 @@ const HalamankotaSupercamp = ({ setProgress }) => {
           </a>
         </div>
         <BestprogramSnbt2 />
-        <SuccessSnbt />
+        <ProblemSnbt />
+        <LolosPtn />
         <SubtesSnbt />
         <PaketBelajarSnbt />
         <SectionSupercamp />
@@ -133,6 +136,7 @@ const HalamankotaSupercamp = ({ setProgress }) => {
         <Keunggulan />
         <InfoCamp />
         <Masterteacher />
+        <SuccessSnbt />
         <Alumni />
         <Liputan />
         <ListKabupatenSupercamp />

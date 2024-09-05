@@ -26,6 +26,8 @@ import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 import ProblemSnbt from "../../../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
 import SubtesSnbt from "../../../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
+import LolosPtn from "../../../Program/BimbelSnbt/LolosPtn/LolosPtn";
+import PaketBelajarSnbtNew from "../../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbtNew";
 
 const HalamanKecamatanSnbt = ({ setProgress }) => {
   const { id } = useParams();
@@ -115,10 +117,11 @@ const HalamanKecamatanSnbt = ({ setProgress }) => {
         </div>
         <BestprogramSnbt2 />
         <ProblemSnbt />
+        <LolosPtn />
         <Voucer />
-        <SuccessSnbt />
         <SubtesSnbt />
         <PaketBelajarSnbt />
+        <PaketBelajarSnbtNew />
         <SectionSupercamp />
         <GaleriKegiatan />
         <Video />
@@ -126,6 +129,7 @@ const HalamanKecamatanSnbt = ({ setProgress }) => {
         <Keunggulan />
         <InfoCamp />
         <Masterteacher />
+        <SuccessSnbt />
         <Alumni />
         <Liputan />
         <Faqtni />

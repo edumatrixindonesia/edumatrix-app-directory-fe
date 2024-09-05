@@ -1,0 +1,34 @@
+.parent-lolos-ptn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-lolos-ptn {
+    width: 30%;
+    filter: drop-shadow(0 0 0.20rem rgba(100, 100, 100, 0.705));
+}
+.title-lolos-ptn {
+    text-align: center;
+    font-weight: 800;
+}
+.super-parent-lolos-ptn {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* RESPONSIVE */
+@media only screen and (min-width: 320px) and (max-width: 896px) {
+    .img-lolos-ptn {
+        width: 100%;
+    }
+    .super-parent-lolos-ptn {
+        padding: 10px;
+    }
+    .title-lolos-ptn {
+        font-size: 30px;
+    }
+}

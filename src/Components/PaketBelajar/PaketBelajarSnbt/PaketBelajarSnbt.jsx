@@ -7,7 +7,7 @@ const PaketBelajarSnbt = () => {
   return (
     <React.Fragment>
       <div className="parent-container-paket-snbt">
-        <h1 className="main-title-paket-snbt">PROGRAM BELAJAR UTBK SNBT</h1>
+        <h1 className="main-title-paket-snbt">PROGRAM UNGGULAN UTBK SNBT</h1>
         <div className="container-paket-snbt">
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
@@ -115,6 +115,14 @@ const PaketBelajarSnbt = () => {
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Belajar 1 Sesi per Hari
+            </p>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
+              Tutor Berpengalaman
+            </p>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
+              Modul SNBT
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
