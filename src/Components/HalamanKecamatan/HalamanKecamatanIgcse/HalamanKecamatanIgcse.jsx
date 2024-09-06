@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
-import rumahAdat from "../../../assets/rumah_adat.png";
+import rumahAdat from "../../../assets/head_content/IGCSE.png";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../Navbar/Navbar";
 import BestProgramIgcse2 from "../../BestProgram/BestProgram2/BestProgramIgcse2/BestProgramIgcse2";

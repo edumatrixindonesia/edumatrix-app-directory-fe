@@ -22,7 +22,7 @@ import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 import Navbar from "../../Navbar/Navbar";
 import { Helmet } from "react-helmet-async";
-import rumahAdat from "../../../assets/rumah_adat.png";
+import rumahAdat from "../../../assets/head_content/kedokteran.png";
 import tanyaProgram from "../../../assets/tanya_program.png";
 
 const HalamanKecamatanKedokteran = ({ setProgress }) => {

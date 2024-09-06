@@ -22,7 +22,7 @@ import PromoHomepage from "../../../Home/PromoHomepage/PromoHomepage";
 import Footer from "../../Footer/Footer";
 import Bottombar from "../../BottomBar/Bottombar";
 import Floatingcta from "../../FloatingCta/Floatingcta";
-import rumahAdat from "../../../assets/rumah_adat.png";
+import rumahAdat from "../../../assets/head_content/supercamp.png";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
 import ProblemSnbt from "../../../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
 import LolosPtn from "../../../Program/BimbelSnbt/LolosPtn/LolosPtn";

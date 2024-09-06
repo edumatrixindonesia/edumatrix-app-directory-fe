@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
 import modelTanyaProgram from "../../../assets/tanya_program.png";
-import rumahAdat from "../../../assets/rumah_adat.png";
+import rumahAdat from "../../../assets/head_content/LPDP.png";
 import { Helmet } from "react-helmet-async";
 import Floatingcta from "../../FloatingCta/Floatingcta";
 import Bottombar from "../../BottomBar/Bottombar";

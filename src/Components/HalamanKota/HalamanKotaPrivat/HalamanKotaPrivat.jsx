@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
-import rumahAdat from "../../../assets/rumah_adat.png";
+import rumahAdat from "../../../assets/head_content/SD SMP SMA.png";
 import tanyaProgram from "../../../assets/tanya_program.png";
 import { Helmet } from "react-helmet-async";
 import Voucer from "../../Voucer/Voucer";
