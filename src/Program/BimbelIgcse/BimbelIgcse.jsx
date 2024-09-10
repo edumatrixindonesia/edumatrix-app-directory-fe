@@ -36,6 +36,7 @@ import OnlyIgcseEdm from "./OnlyIgcseEdm/OnlyIgcseEdm";
 import BenefitIgcse from "./BenefitIgcse/BenefitIgcse";
 import FaqIgcse from "../../Components/Faq/FaqIgcse/FaqIgcse";
 import WhyChooseIgcse from "./WhyChooseIgcse/WhyChooseIgcse";
+import Translator from "../../Components/Translator/Translator";
 
 const BimbelIgcse = ({ setProgress }) => {
   useEffect(() => {
