@@ -1,10 +1,15 @@
 import React from "react";
+import "../../../Components/Translator/i18n";
+import { useTranslation } from "react-i18next";
 
 const GaleriKegiatan = () => {
+  const { t } = useTranslation();
   return (
     <React.Fragment>
       <div className="box-kegiatan-belajar-bumn">
-        <h1 className="title-kegiatan-belajar-bumn">LEARNING ACTIVITY</h1>
+        <h1 className="title-kegiatan-belajar-bumn">
+          {t("galleryKegiatan.title")}
+        </h1>
         <div className="parent-kegiatan-belajar-bumn">
           <img
             className="child-kegiatan-belajar-bumn"

@@ -3,52 +3,41 @@ import "./PenjelasanIgcse.css";
 import { faCheck, faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import iconMateri from "../../../assets/PRIVAT.png";
-import iconProgramIgcse from "../../../assets/OSN.png"
+import iconProgramIgcse from "../../../assets/OSN.png";
+import "../../../Components/Translator/i18n";
+import { useTranslation } from "react-i18next";
 
 const PenjelasanIgcse = () => {
+  const { t } = useTranslation();
+
   return (
     <React.Fragment>
       <div className="container-penjelasan-igcse">
         <div className="penjelasan-igcse">
-          <h3 className="title-penjelasan-igcse">What is IGCSE?</h3>
-          <p className="desk-penjelasan-igcse">
-            The IGCSE is an international qualification for students aged 14-16.
-            It uses the Cambridge Curriculum, which features more challenging
-            questions.
-          </p>
+          <h3 className="title-penjelasan-igcse">{t("text.whatIgcse")}</h3>
+          <p className="desk-penjelasan-igcse">{t("text.deskWhatIgcse")}</p>
         </div>
 
         <div className="penjelasan-igcse">
-          <h3 className="title-penjelasan-igcse">What is A Level?</h3>
-          <p className="desk-penjelasan-igcse">
-            A Level is a subject-based qualification used for university
-            admissions, higher education, training, and employment.
-          </p>
+          <h3 className="title-penjelasan-igcse">{t("text.whatAlevel")}</h3>
+          <p className="desk-penjelasan-igcse">{t("text.deskAlevel")}</p>
         </div>
       </div>
 
       <div className="penjelasan-ib">
-        <h3 className="title-penjelasan-ib">
-          What is International Baccalaureate (IB)?
-        </h3>
-        <p className="desk-penjelasan-ib">
-          The International Baccalaureate (IB) is a global educational program
-          for students aged 16-19 that emphasizes a broad, holistic approach to
-          learning. It is designed to develop inquiring, knowledgeable, and
-          caring young people who are motivated to succeed and make a
-          difference.
-        </p>
+        <h3 className="title-penjelasan-ib">{t("text.whatIB")}</h3>
+        <p className="desk-penjelasan-ib">{t("text.deksIB")}</p>
       </div>
 
       <div className="container-materi-tni">
         <div className="box-materi-akpol">
           <button className="title-materi-lpdp">
-            <img className="img-materi-lpdp" src={iconProgramIgcse} alt="" /> What
-            does the IB program include?
+            <img className="img-materi-lpdp" src={iconProgramIgcse} alt="" />{" "}
+            {t("whatDoesIGCSE.title")}
           </button>
           <h4 className="title-list-materi-lpdp">
-            <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" /> Six
-            Subject Groups
+            <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}
+            {t("whatDoesIGCSE.subTitle_1")}
           </h4>
           <div className="parent-list-materi-lpdp">
             <FontAwesomeIcon
@@ -56,14 +45,13 @@ const PenjelasanIgcse = () => {
               icon={faCircle}
             />
             <span className="list-materi-lpdp">
-              Students choose one subject from each group, including languages,
-              social studies, experimental sciences, mathematics, and the arts.
+              {t("whatDoesIGCSE.desk_1")}
             </span>
           </div>
 
           <h4 className="title-list-materi-lpdp">
             <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}
-            Theory of Knowledge (TOK)
+            {t("whatDoesIGCSE.subTitle_2")}
           </h4>
           <div className="parent-list-materi-lpdp">
             <FontAwesomeIcon
@@ -71,13 +59,12 @@ const PenjelasanIgcse = () => {
               icon={faCircle}
             />
             <span className="list-materi-lpdp">
-              A course that explores the nature of knowledge and how we know
-              what we claim to know.
+              {t("whatDoesIGCSE.desk_2")}
             </span>
           </div>
           <h4 className="title-list-materi-lpdp">
             <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}
-            Extended Essay (EE)
+            {t("whatDoesIGCSE.subTitle_3")}
           </h4>
           <div className="parent-list-materi-lpdp">
             <FontAwesomeIcon
@@ -85,13 +72,12 @@ const PenjelasanIgcse = () => {
               icon={faCircle}
             />
             <span className="list-materi-lpdp">
-              A 4,000-word independent research paper on a topic of the
-              student's choice.
+              {t("whatDoesIGCSE.desk_3")}
             </span>
           </div>
           <h4 className="title-list-materi-lpdp">
             <FontAwesomeIcon icon={faCheck} className="icon-materi-lpdp" />{" "}
-            Creativity, Activity, Service (CAS)
+            {t("whatDoesIGCSE.subTitle_4")}
           </h4>
           <div className="parent-list-materi-lpdp">
             <FontAwesomeIcon
@@ -99,8 +85,7 @@ const PenjelasanIgcse = () => {
               icon={faCircle}
             />
             <span className="list-materi-lpdp">
-              A component that encourages students to engage in artistic,
-              athletic, and community service activities.
+              {t("whatDoesIGCSE.desk_4")}
             </span>
           </div>
         </div>

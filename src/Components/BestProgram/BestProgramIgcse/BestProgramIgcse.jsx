@@ -6,6 +6,9 @@ import cardOlevel from "../../../assets/best_program/igcse/O_LEVEL (1).png"
 import cardAlevel from "../../../assets/best_program/igcse/A_LEVEL (1).png"
 import cardIB from "../../../assets/best_program/igcse/IB (1).png"
 
+import { useTranslation } from "react-i18next";
+import "../../Translator/i18n";
+
 const BestProgramIgcse = () => {
   // const [program, setProgram] = useState([]);
 
@@ -21,12 +24,16 @@ const BestProgramIgcse = () => {
   //       data;
   //     });
   // };
+
+  const { t, i18n } = useTranslation();
+  
   return (
     <React.Fragment>
       <div className="main-box">
         <div className="main-best-program">
           <h1 className="title-best-program">
-            INTERNATIONAL <br /> PROGRAMS WE OFFER
+            {/* INTERNATIONAL <br /> PROGRAMS WE OFFER */}
+            {t("text.titleProgram")}
           </h1>
           <h3 className="hot-program">
             <img

@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import keunggulanIcon from "../../../assets/keunggulan.png";
+import { useTranslation } from "react-i18next";
+import "../../../Components/Translator/i18n";
 
 const KeunggulanIgcse = () => {
   const [keunggulan, setKeunggulan] = useState([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     fetchKeunggulan();
@@ -25,7 +28,7 @@ const KeunggulanIgcse = () => {
             src={keunggulanIcon}
             alt="Bimbel Privat Masuk PTN - Edumatrix Indonesia"
           />
-          ADVANTAGES
+          {t("keunggulan.title")}
         </h1>
         <div className="parent-card-keunggulan">
           {keunggulan.map((item, index) => (

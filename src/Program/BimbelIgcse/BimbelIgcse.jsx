@@ -61,6 +61,7 @@ const BimbelIgcse = ({ setProgress }) => {
       </Helmet>
       <Navbar />
       <div className="container-all">
+        <Translator />
         <SliderIgcse />
         <BestProgramIgcse />
         <PenjelasanIgcse />
