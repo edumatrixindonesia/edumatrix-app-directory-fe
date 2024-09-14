@@ -5,10 +5,13 @@ import {
   faQuestion,
   faQuestionCircle,
 } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
+import "../../../Components/Translator/i18n";
 
 const FaqIgcse = () => {
   const [faqData, setFaqData] = useState([]);
   const [selectedQuestion, setSelectedQuestion] = useState(null);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const fetchFaq = () => {
@@ -33,7 +36,7 @@ const FaqIgcse = () => {
   return (
     <React.Fragment>
       <div className="faq-accordion">
-        <h1 className="text-faq">FREQUENTLY ASKED QUESTIONS</h1>
+        <h1 className="text-faq">{t("faq.title")}</h1>
         <div className="garis-faq">
           <hr className="child-garis-faq" />
           <span className="icon-faq">

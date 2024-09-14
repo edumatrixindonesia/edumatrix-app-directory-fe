@@ -1,13 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
+import "../../Translator/i18n";
 
 const PaketBelajarToefl = () => {
+  const { t, i18n } = useTranslation();
   return (
     <React.Fragment>
       <div className="parent-container-paket-snbt">
         <h1 className="main-title-paket-snbt">
-          TOEFL - TOEIC - IELTS STUDY PACKAGE
+          {t("paketToeflPriority.title")}
         </h1>
         <div className="container-paket-snbt">
           <div className="card-paket-snbt">
@@ -17,51 +20,50 @@ const PaketBelajarToefl = () => {
             <hr className="garis-pembatas-paket-snbt" />
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Flexible schedule
+              {t("paketToeflPriority.point_1")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />
-              120 minutes lessons
-            </p>
-            <p className="isi-paket-snbt">
-              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> 10x
-              learning sessions (Listening, Structure & Written Expression,
-              Reading)
+              {t("paketToeflPriority.point_2")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Includes e-books with materials, questions, and explanations
+              {t("paketToeflPriority.point_3")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Access to practice question drills
+              {t("paketToeflPriority.point_4")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Monthly progress report
+              {t("paketToeflPriority.point_5")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Free registration fee
+              {t("paketToeflPriority.point_6")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              TOEFL Score Prediction
+              {t("paketToeflPriority.point_7")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              IELTS Mock Up Test
+              {t("paketToeflPriority.point_8")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Free academic consultation
+              {t("paketToeflPriority.point_9")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Session recording
+              {t("paketToeflPriority.point_10")}
             </p>
-            <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20register%20for%20the%20Priority%20Package%20TOEFL%20exam.">
-              <button className="btn-paket-snbt">SELECT PACKAGE</button>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
+              {t("paketToeflPriority.point_11")}
+            </p>
+            <a href={t("paketToeflPriority.cta")}>
+              <button className="btn-paket-snbt">{t("paketToeflPriority.button")}</button>
             </a>
           </div>
 
@@ -72,51 +74,50 @@ const PaketBelajarToefl = () => {
             <hr className="garis-pembatas-paket-snbt" />
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Flexible schedule
+              {t("paketToeflDeluxe.point_1")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />
-              90 minutes lessons
-            </p>
-            <p className="isi-paket-snbt">
-              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> 10x
-              learning sessions (Listening, Structure & Written Expression,
-              Reading)
+              {t("paketToeflDeluxe.point_2")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Includes e-books with materials, questions, and explanations
+              {t("paketToeflDeluxe.point_3")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Access to practice question drills
+              {t("paketToeflDeluxe.point_4")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Monthly progress report
+              {t("paketToeflDeluxe.point_5")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Free registration fee
+              {t("paketToeflDeluxe.point_6")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              TOEFL Score Prediction
+              {t("paketToeflDeluxe.point_7")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              IELTS Mock Up Test
+              {t("paketToeflDeluxe.point_8")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Free academic consultation
+              {t("paketToeflDeluxe.point_9")}
             </p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
-              Session recording
+              {t("paketToeflDeluxe.point_10")}
             </p>
-            <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20register%20for%20the%20Deluxe%20Package%20TOEFL%20exam.">
-              <button className="btn-paket-snbt">SELECT PACKAGE</button>
+            <p className="isi-paket-snbt">
+              <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
+              {t("paketToeflDeluxe.point_11")}
+            </p>
+            <a href={t("paketToeflDeluxe.cta")}>
+              <button className="btn-paket-snbt">{t("paketToeflDeluxe.button")}</button>
             </a>
           </div>
         </div>

@@ -40,10 +40,14 @@ import BenefitIgcse from "../../../Program/BimbelIgcse/BenefitIgcse/BenefitIgcse
 import WhyChooseIgcse from "../../../Program/BimbelIgcse/WhyChooseIgcse/WhyChooseIgcse";
 import PenjelasanIgcse from "../../../Program/BimbelIgcse/PenjelasanIgcse/PenjelasanIgcse";
 import FaqIgcse from "../../Faq/FaqIgcse/FaqIgcse";
+import { useTranslation } from "react-i18next";
+import "../../../Components/Translator/i18n";
+import NavbarIgcse from "../../Navbar/NavbarIgcse";
 
 const HalamankotaIgcse = ({ setProgress }) => {
   const { id } = useParams();
   const [kotaigcse, setKotaigcse] = useState([]);
+  const { t } = useTranslation();
 
   function useQuery() {
     const { search } = useLocation();
@@ -89,24 +93,20 @@ const HalamankotaIgcse = ({ setProgress }) => {
         </title>
         <link rel="canonical" href="" />
       </Helmet>
-      <Navbar />
+      <NavbarIgcse />
       <div className="container-halaman-kota">
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              IGCSE, O Level, A Level & IB Tutor in {kotaigcse.kota}
+            {t("halamanKota.title")} {kotaigcse.kota}
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Edumatrix Indonesia offers one-on-one tutoring IGCSE, O Level, A
-                Level & IB in {kotaigcse.kota} to provide the best learning
-                experience for students
+              {t("halamanKota.desk_1")} {kotaigcse.kota} {t("halamanKota.desk_2")}
               </p>
               <p className="child-paragraf-kota">
-                Get Private Tutoring services anytime and anywhere with more
-                than 5,000 Edumatrix Master Teachers who are ready to provide
-                the best service.
+              {t("halamanKota.desk_3")}
               </p>
             </div>
           </div>

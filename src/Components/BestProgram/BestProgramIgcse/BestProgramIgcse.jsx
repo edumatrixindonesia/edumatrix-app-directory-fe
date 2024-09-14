@@ -47,7 +47,7 @@ const BestProgramIgcse = () => {
             <div className="box-best-program">
               {/* {program.map((item, index) => ( */}
               <div className="card-best-program">
-                <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20program%20at%20Edumatrix. %20What%20are%20the%20course%20types%20and%20session%20package%20options?">
+                <a href={t("text.ctaUmum")}>
                   <img
                     className="best-program-img"
                     src={cardIgcse}
@@ -56,7 +56,7 @@ const BestProgramIgcse = () => {
                 </a>
               </div>
               <div className="card-best-program">
-                <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20program%20at%20Edumatrix. %20What%20are%20the%20course%20types%20and%20session%20package%20options?">
+                <a href={t("text.ctaUmum")}>
                   <img
                     className="best-program-img"
                     src={cardOlevel}
@@ -65,7 +65,7 @@ const BestProgramIgcse = () => {
                 </a>
               </div>
               <div className="card-best-program">
-                <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20program%20at%20Edumatrix. %20What%20are%20the%20course%20types%20and%20session%20package%20options?">
+                <a href={t("text.ctaUmum")}>
                   <img
                     className="best-program-img"
                     src={cardAlevel}
@@ -74,7 +74,7 @@ const BestProgramIgcse = () => {
                 </a>
               </div>
               <div className="card-best-program">
-                <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20program%20at%20Edumatrix. %20What%20are%20the%20course%20types%20and%20session%20package%20options?">
+                <a href={t("text.ctaUmum")}>
                   <img
                     className="best-program-img"
                     src={cardIB}
@@ -88,7 +88,7 @@ const BestProgramIgcse = () => {
         </div>
         <a
           className="parent-img-modeltanya-program"
-          href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20program%20at%20Edumatrix. %20What%20are%20the%20course%20types%20and%20session%20package%20options?"
+          href={t("text.ctaUmum")}
         >
           <img
             className="model-tanya-program"

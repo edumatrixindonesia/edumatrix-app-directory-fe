@@ -6,12 +6,15 @@ import liputan4 from "../../../assets/liputan/krjogja.jpg"
 import liputan5 from "../../../assets/liputan/kumparan_2.jpeg"
 import liputan6 from "../../../assets/liputan/liputan_6.jpg"
 import liputan7 from "../../../assets/liputan/tribun_jogja.jpg"
+import { useTranslation } from "react-i18next";
+import "../../../Components/Translator/i18n";
 
 const LiputanIgcse = () => {
+  const { t } = useTranslation();
   return (
     <React.Fragment>
     <div className="parent-liputan">
-        <h1 className='title-telah-diliput'>HAS BEEN COVERED BY :</h1>
+        <h1 className='title-telah-diliput'>{t("liputan.title")}</h1>
         <div className="box-liputan">
             <img className='img-liputan' src={liputan1} alt="Bimbel - Les Privat dan Program Masuk PTN Terbaik - Edumatrix Indonesia" />
             <img className='img-liputan' src={liputan2} alt="Bimbel - Les Privat dan Program Masuk PTN Terbaik - Edumatrix Indonesia" />

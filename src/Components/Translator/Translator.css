@@ -1,4 +1,44 @@
 .parent-btn-translator {
-    position: fixed;
-    z-index: 9991;
+  /* position: fixed;
+  z-index: 9991;
+  top: 10%;
+  left: 2%; */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* margin-left: 10px; */
+}
+.child-btn-translator {
+    gap: 10px;
+    background-color: white;
+}
+.img-toogle {
+  width: 20%;
+}
+.text-terjemahkan {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn-toogle {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  gap: 5px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid transparent;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 100px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-toogle:focus {
+  background-color: #003479;
+  color: white;
+}
+.super-parent-translator {
+  display: grid;
+  place-items: center;
+  margin-left: 10px;
 }

@@ -37,6 +37,7 @@ import BenefitIgcse from "./BenefitIgcse/BenefitIgcse";
 import FaqIgcse from "../../Components/Faq/FaqIgcse/FaqIgcse";
 import WhyChooseIgcse from "./WhyChooseIgcse/WhyChooseIgcse";
 import Translator from "../../Components/Translator/Translator";
+import NavbarIgcse from "../../Components/Navbar/NavbarIgcse";
 
 const BimbelIgcse = ({ setProgress }) => {
   useEffect(() => {
@@ -59,9 +60,9 @@ const BimbelIgcse = ({ setProgress }) => {
         </title>
         <link rel="canonical" href="" />
       </Helmet>
-      <Navbar />
+      <NavbarIgcse />
+      {/* <Translator /> */}
       <div className="container-all">
-        <Translator />
         <SliderIgcse />
         <BestProgramIgcse />
         <PenjelasanIgcse />

@@ -6,13 +6,15 @@ import cardIelts from "../../../../assets/best_program/toefl/IELTS.png";
 import cardEC from "../../../../assets/best_program/toefl/ENGLISH_CONVERSATION.png";
 import cardIgcse from "../../../../assets/best_program/igcse/IGCSE (2).png";
 import cardIB from "../../../../assets/best_program/igcse/IB (1).png"
+import { useTranslation } from "react-i18next";
+import "../../../../Components/Translator/i18n";
 
 const BestProgramToefl2 = () => {
-
+  const { t, i18n } = useTranslation();
   return (
     <React.Fragment>
       <div className="main-best-program-2">
-        <h1 className="title-best-program-2">OUR PROGRAMS <br /> TOEFL-TOEIC-IELTS</h1>
+        <h1 className="title-best-program-2">{t("program.title")}</h1>
         <h3 className="hot-program-2">
           <img
             className="icon-hot-program-2"
@@ -24,7 +26,7 @@ const BestProgramToefl2 = () => {
         <div className="box-flex-best-program">
           <a
             className="box-flex-best-program"
-            href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?"
+            href={t("program.ctaUmumToefl")}
           >
               <img
                 className="best-program-img-2"

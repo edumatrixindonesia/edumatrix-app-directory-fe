@@ -36,10 +36,14 @@ import PenjelasanToefl from "../../../Program/BimbelToefl/PenjelasanToefl/Penjel
 import FloatingCtaToefl from "../../FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 import SistemBelajarToefl from "../../SistemBelajar/SistemBelajarToefl/SistemBelajarToefl";
 import BestProgramToefl2 from "../../BestProgram/BestProgram2/BestProgramToefl2/BestProgramToefl2";
+import { useTranslation } from "react-i18next";
+import "../../../Components/Translator/i18n";
+import NavbarIgcse from "../../Navbar/NavbarIgcse";
 
 const HalamankotaToefl = ({ setProgress }) => {
   const { id } = useParams();
   const [kotatoefl, setKotatoefl] = useState([]);
+  const { t, i18n } = useTranslation();
 
   function useQuery() {
     const { search } = useLocation();
@@ -85,24 +89,20 @@ const HalamankotaToefl = ({ setProgress }) => {
         </title>
         <link rel="canonical" href="" />
       </Helmet>
-      <Navbar />
+      <NavbarIgcse />
       <div className="container-halaman-kota">
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              TOEFL, TOEIC, IELTS, and English Conversation Lessons in{" "}
-              {kotatoefl.kota}
+              {t("halamanKotaToefl.title")} {kotatoefl.kota}
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Private tutoring in {kotatoefl.kota} for TOEFL, TOEIC, IELTS and
-                English Conversation
+                {t("halamanKotaToefl.desk_1")} {kotatoefl.kota}
               </p>
               <p className="child-paragraf-kota">
-                Get Private Tutoring services anytime and anywhere with more
-                than 5,000 Edumatrix Master Teachers who are ready to give the
-                the best service.
+                {t("halamanKotaToefl.desk_3")}
               </p>
             </div>
           </div>

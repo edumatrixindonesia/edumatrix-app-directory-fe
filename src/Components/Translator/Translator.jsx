@@ -9,24 +9,37 @@ const Translator = () => {
 
   return (
     <React.Fragment>
-      <div className="parent-btn-translator">
-        <button
-          className="btn-translator"
-          onClick={() => {
-            i18n.changeLanguage("bn");
-          }}
-        >
-          Indoesia
-        </button>
+      <div className="super-parent-translator">
+        <p className="text-terjemahkan">Pilih bahasa</p>
+        <div className="parent-btn-translator">
+          <button
+            className="btn-toogle"
+            onClick={() => {
+              i18n.changeLanguage("bn");
+            }}
+          >
+            <img
+              className="img-toogle"
+              src="https://api.edulink-indonesia.com/images/83f28d0f0e07d67867af2845e98a050a.png"
+              alt=""
+            />
+            Indonesia
+          </button>
 
-        <button
-          className="btn-translator"
-          onClick={() => {
-            i18n.changeLanguage("en");
-          }}
-        >
-          Inggris
-        </button>
+          <button
+            className="btn-toogle"
+            onClick={() => {
+              i18n.changeLanguage("en");
+            }}
+          >
+            <img
+              className="img-toogle"
+              src="https://api.edulink-indonesia.com/images/8d9b74e67e37144f3f32ff48a85ae4c0.png"
+              alt=""
+            />
+            Inggris
+          </button>
+        </div>
       </div>
     </React.Fragment>
   );

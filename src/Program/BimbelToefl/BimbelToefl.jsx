@@ -33,6 +33,7 @@ import FaqToefl from "../../Components/Faq/FaqToefl/FaqToefl";
 import FloatingCtaToefl from "../../Components/FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 import SistemBelajarToefl from "../../Components/SistemBelajar/SistemBelajarToefl/SistemBelajarToefl";
 import BestProgramToefl from "../../Components/BestProgram/BestProgramToefl/BestProgramToefl";
+import NavbarIgcse from "../../Components/Navbar/NavbarIgcse";
 
 const BimbelToefl = ({ setProgress }) => {
   useEffect(() => {
@@ -56,7 +57,7 @@ const BimbelToefl = ({ setProgress }) => {
         </title>
         <link rel="canonical" href="" />
       </Helmet>
-      <Navbar />
+      <NavbarIgcse />
       <div className="container-all">
         <SliderToefl />
         <BestProgramToefl />

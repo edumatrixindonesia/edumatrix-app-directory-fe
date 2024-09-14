@@ -28,10 +28,14 @@ import KeunggulanIgcse from "../../Keunggulan/KeunggulanIgcse/KeunggulanIgcse";
 import FloatingCtaToefl from "../../FloatingCta/FloatingCtaToefl/FloatingCtaToefl";
 import SistemBelajarToefl from "../../SistemBelajar/SistemBelajarToefl/SistemBelajarToefl";
 import BestProgramToefl2 from "../../BestProgram/BestProgram2/BestProgramToefl2/BestProgramToefl2";
+import { useTranslation } from "react-i18next";
+import "../../../Components/Translator/i18n";
+import NavbarIgcse from "../../Navbar/NavbarIgcse";
 
 const HalamanKecamatanToefl = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
+  const { t, i18n } = useTranslation();
 
   function useQuery() {
     const { search } = useLocation();
@@ -75,23 +79,20 @@ const HalamanKecamatanToefl = ({ setProgress }) => {
         </title>
         <link rel="canonical" href="" />
       </Helmet>
-      <Navbar />
+      <NavbarIgcse />
       <div className="container-halaman-kabupaten">
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              TOEFL, TOEIC, IELTS, and English Conversation Lessons in{" "}
+            {t("halamanKotaToefl.title")}{" "}
               {kecamatan.kecamatan} - Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Private tutoring in {kecamatan.kecamatan} for TOEFL, TOEIC,
-                IELTS and English Conversation
+              {t("halamanKotaToefl.desk_1")} {kecamatan.kecamatan}
               </p>
               <p className="child-paragraf-kabupaten">
-                Get Private Tutoring services anytime and anywhere with more
-                than 5,000 Edumatrix Master Teachers who are ready to give the
-                the best service.
+              {t("halamanKotaToefl.desk_3")}
               </p>
             </div>
           </div>

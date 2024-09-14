@@ -58,7 +58,7 @@ const PaketBelajarIgcse = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               {t("paketIGCSEPriority.point_10")}
             </p>
-            <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Priority%20Package%20International%20Curriculum%20tutoring.">
+            <a href={t("paketIGCSEPriority.cta")}>
               <button className="btn-paket-snbt">
                 {t("paketIGCSEPriority.button")}
               </button>
@@ -110,7 +110,7 @@ const PaketBelajarIgcse = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               {t("paketIGCSEDeluxe.point_10")}
             </p>
-            <a href="https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Deluxe%20Package%20International%20Curriculum%20tutoring.">
+            <a href={t("paketIGCSEDeluxe.cta")}>
               <button className="btn-paket-snbt">
                 {t("paketIGCSEPriority.button")}
               </button>

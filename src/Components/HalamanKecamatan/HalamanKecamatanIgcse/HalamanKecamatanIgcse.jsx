@@ -28,10 +28,14 @@ import WhyChooseIgcse from "../../../Program/BimbelIgcse/WhyChooseIgcse/WhyChoos
 import OnlyIgcseEdm from "../../../Program/BimbelIgcse/OnlyIgcseEdm/OnlyIgcseEdm";
 import BenefitIgcse from "../../../Program/BimbelIgcse/BenefitIgcse/BenefitIgcse";
 import FaqIgcse from "../../Faq/FaqIgcse/FaqIgcse";
+import { useTranslation } from "react-i18next";
+import "../../../Components/Translator/i18n";
+import NavbarIgcse from "../../Navbar/NavbarIgcse";
 
 const HalamanKecamatanIgcse = ({ setProgress }) => {
   const { id } = useParams();
   const [kecamatan, setKecamatan] = useState([]);
+  const { t } = useTranslation();
 
   function useQuery() {
     const { search } = useLocation();
@@ -74,24 +78,21 @@ const HalamanKecamatanIgcse = ({ setProgress }) => {
         </title>
         <link rel="canonical" href="" />
       </Helmet>
-      <Navbar />
+      <NavbarIgcse />
       <div className="container-halaman-kabupaten">
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              IGCSE, O Level, A Level & IB Tutor in {kecamatan.kecamatan} -
-              Edumatrix Indonesia
+              {t("halamanKota.title")} {kecamatan.kecamatan} - Edumatrix
+              Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Edumatrix Indonesia offers one-on-one tutoring IGCSE, O Level, A
-                Level & IB in {kecamatan.kecamatan} to provide the best learning
-                experience for students
+                {t("halamanKota.desk_1")} {kecamatan.kecamatan}{" "}
+                {t("halamanKota.desk_2")}
               </p>
               <p className="child-paragraf-kabupaten">
-                Get Private Tutoring services anytime and anywhere with more
-                than 5,000 Edumatrix Master Teachers who are ready to provide
-                the best service.
+                {t("halamanKota.desk_3")}
               </p>
             </div>
           </div>

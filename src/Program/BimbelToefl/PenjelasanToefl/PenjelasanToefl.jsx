@@ -1,46 +1,41 @@
 import React from "react";
 import "./PenjelasanToefl.css";
+import { useTranslation } from "react-i18next";
+import "../../../Components/Translator/i18n";
+
 
 const PenjelasanToefl = () => {
+  const { t, i18n } = useTranslation();
   return (
     <React.Fragment>
       <div className="container-penjelasan-toefl">
         <div className="penjelasan-toefl-1">
-          <h3 className="title-penjelasan-toefl">TOEFL Preparation</h3>
+          <h3 className="title-penjelasan-toefl">{t("penjelasanToefl.title_1")}</h3>
           <p className="desk-penjelasan-toefl">
-            Master the skills needed for the TOEFL test with our comprehensive
-            course. Focus on reading, writing, listening, and speaking sections
-            to improve your score and meet your university or immigration
-            requirements.
+          {t("penjelasanToefl.desk_1")}
           </p>
         </div>
 
         <div className="penjelasan-toefl-1">
-          <h3 className="title-penjelasan-toefl">TOEIC Preparation</h3>
+          <h3 className="title-penjelasan-toefl">{t("penjelasanToefl.title_2")}</h3>
           <p className="desk-penjelasan-toefl">
-            Enhance your business English skills with our TOEIC preparation
-            program. Perfect for career advancement, this course covers
-            listening and reading comprehension in a professional context.
+          {t("penjelasanToefl.desk_2")}
           </p>
         </div>
       </div>
 
       <div className="container-penjelasan-toefl-1">
         <div className="penjelasan-toefl">
-          <h3 className="title-penjelasan-toefl">IELTS Preparation</h3>
+          <h3 className="title-penjelasan-toefl">{t("penjelasanToefl.title_3")}</h3>
           <p className="desk-penjelasan-toefl">
-            Achieve a high score on the IELTS exam with targeted practice and
-            expert guidance. Our program addresses all four components of the
-            test - listening, reading, writing, and speaking.
+          {t("penjelasanToefl.desk_3")}
           </p>
         </div>
 
         <div className="penjelasan-toefl">
-          <h3 className="title-penjelasan-toefl">English Conversation</h3>
+          <h3 className="title-penjelasan-toefl">{t("penjelasanToefl.title_4")}</h3>
           <p className="desk-penjelasan-toefl">
-            Develop your speaking skills and gain confidence with our English
-            Conversation program. Practice real-life scenarios and enhance your
-            ability to communicate effectively.
+          {t("penjelasanToefl.desk_4")}
           </p>
         </div>
       </div>

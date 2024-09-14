@@ -6,14 +6,17 @@ import cardAlevel from "../../../../assets/best_program/igcse/A_LEVEL (1).png";
 import cardIB from "../../../../assets/best_program/igcse/IB (1).png";
 import cardOverseas from "../../../../assets/best_program/igcse/OVERSEAS_STUDENT_PREPARATION (1).png"
 import cardAP from "../../../../assets/best_program/igcse/AP 1.png";
+import { useTranslation } from "react-i18next";
+import "../../../Translator/i18n";
 
 const BestProgramIgcse2 = () => {
+  const { t } = useTranslation();
   return (
     <React.Fragment>
       {/* <div className="main-box-2"> */}
       <div className="main-best-program-2">
         <h1 className="title-best-program-2">
-          INTERNATIONAL <br /> PROGRAMS WE OFFER
+        {t("text.titleProgram")}
         </h1>
         <h3 className="hot-program-2">
           <img
@@ -28,7 +31,7 @@ const BestProgramIgcse2 = () => {
         <div className="box-flex-best-program">
           <a
             className="box-flex-best-program"
-            href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?"
+            href={t("text.ctaUmum")}
           >
             <img
               className="best-program-img-2"
