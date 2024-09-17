@@ -18,7 +18,7 @@ const ProdukTni = () => {
               <h2 className="title-produk">
                 Modul Lolos POLRI <br />
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.150,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">131 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />
@@ -40,7 +40,7 @@ const ProdukTni = () => {
                 Modul Lolos TNI
                 <br />
               </h2>
-              <h3 className="harga-produk">Rp.50,000</h3>
+              <h3 className="harga-produk">Rp.150,000,-</h3>
               <div className="parent-ratting-produk">
                 <p className="text-produk-terjual">97 Terjual</p>
                 <img src={ratting} alt="" className="star-ratting-produk" />

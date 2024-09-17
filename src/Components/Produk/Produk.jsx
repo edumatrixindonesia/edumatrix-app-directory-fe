@@ -38,8 +38,8 @@ const Produk = ({setProgress}) => {
       <div className="container-produk">
         <SlidetTop />
         <ProdukPtn />
-        {/* <ProdukTni />
-        <ProdukOsn /> */}
+        <ProdukTni />
+        {/* <ProdukOsn /> */}
         <ProdukTryout />
         <br />
       </div>
