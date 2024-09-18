@@ -14,19 +14,19 @@ const PaketBelajarSnbtNew = () => {
           <div className="parent-paket-snbt-new">
             <a
               className="parent-paket-snbt-new"
-              href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20daftar%20Paket%20Utama%20bimbel%20UTBK%20SNBT."
+              href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20daftar%20Paket%20OPTIMA%20bimbel%20UTBK%20SNBT."
             >
               <img src={paketSnbtUtama} alt="" className="img-paket-snbt-new" />
             </a>
             <a
               className="parent-paket-snbt-new"
-              href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20daftar%20Paket%20Prima%20bimbel%20UTBK%20SNBT."
+              href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20daftar%20Paket%20MAXIMA%20bimbel%20UTBK%20SNBT."
             >
               <img src={paketSnbtPrima} alt="" className="img-paket-snbt-new" />
             </a>
             <a
               className="parent-paket-snbt-new"
-              href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20daftar%20Paket%20Master%20bimbel%20UTBK%20SNBT."
+              href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20daftar%20Paket%20ULTIMA%20bimbel%20UTBK%20SNBT."
             >
               <img
                 src={paketSnbtMaster}
