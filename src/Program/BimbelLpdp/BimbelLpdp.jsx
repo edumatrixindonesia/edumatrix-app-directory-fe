@@ -47,7 +47,7 @@ const BimbelLpdp = ({ setProgress }) => {
           Bimbel Persiapan Seleksi Beasiswa LPDP Terbaik #1 - Edumatrix
           Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-persiapan-seleksi-lpdp" />
       </Helmet>
       <Navbar />
       <div className="container-all">

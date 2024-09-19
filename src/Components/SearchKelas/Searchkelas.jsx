@@ -102,7 +102,7 @@ const Searchkelas = ({ setProgress }) => {
           CBT UGM, UM PTN, TNI/POLRI & Sekolah Kedinasan Terbaik - Edumatrix
           Indonesia
         </title>
-        <link rel="canonical" href="/pilihan-program" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/pilihan-kelas" />
       </Helmet>
       <div className="container-search-kelas">
         <div className="parent-search">

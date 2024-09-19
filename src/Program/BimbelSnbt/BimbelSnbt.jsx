@@ -51,7 +51,7 @@ const BimbelSnbt = ({ setProgress }) => {
           Bimbel Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
           Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-snbt-terbaik" />
       </Helmet>
       <Navbar />
       <div className="container-all">

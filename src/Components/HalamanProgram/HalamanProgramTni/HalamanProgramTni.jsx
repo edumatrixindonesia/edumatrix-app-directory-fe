@@ -76,7 +76,7 @@ const Halamanprogramtni = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>

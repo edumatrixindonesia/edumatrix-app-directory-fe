@@ -69,14 +69,14 @@ const Halamankotatni = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan di{" "}
           {`${kotatni.kotatni}`} #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-tni-polri-dan-sekolah-kedinasan-di/${kotatni.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">

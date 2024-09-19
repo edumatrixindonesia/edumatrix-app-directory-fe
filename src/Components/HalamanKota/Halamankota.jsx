@@ -67,7 +67,7 @@ const Halamankota = ({setProgress}) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat TK, SD, SMP, SMA, OSN, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
@@ -75,7 +75,7 @@ const Halamankota = ({setProgress}) => {
           UI, UM PTN & CBT UGM - Bimbel di {`${kota.kota}`} Terbaik #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/les-privat-di-kota/${kota.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">

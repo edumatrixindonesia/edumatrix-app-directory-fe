@@ -70,14 +70,14 @@ const HalamanKecamatanToefl = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat TOEFL, TOEIC, IELTS, and English Conversation Lessons, SMP - SMA - Mahasiswa terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel Les Privat TOEFL, TOEIC, IELTS, and English Conversation
           Lessons in {`${kecamatan.kecamatan}`} #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-toefl-toeic-ielts-dan-english-conversation/kecamatan/${kecamatan.slug}`} />
       </Helmet>
       <NavbarIgcse />
       <div className="container-halaman-kabupaten">

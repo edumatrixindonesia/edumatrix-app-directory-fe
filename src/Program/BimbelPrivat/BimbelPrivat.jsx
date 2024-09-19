@@ -47,7 +47,7 @@ const BimbelPrivat = ({ setProgress }) => {
           Bimbel Privat TK - SD - SMP - SMA & Mahasiswa Terbaik #1 - Edumatrix
           Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-privat-tk-sd-smp-sma-mahasiswa" />
       </Helmet>
       <Navbar />
       <div className="container-all">

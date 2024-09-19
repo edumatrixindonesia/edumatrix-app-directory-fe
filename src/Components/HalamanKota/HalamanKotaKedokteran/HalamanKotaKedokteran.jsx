@@ -70,7 +70,7 @@ const HalamanKotaKedokteran = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Masuk Kedokteran - FK UI, UGM, Undip, Unair,
           Unpad, UB, Udayana Terbaik
           #1 - Edumatrix Indonesia"
@@ -79,7 +79,7 @@ const HalamanKotaKedokteran = ({ setProgress }) => {
           Bimbel Masuk Kedokteran di {`${kotaKedokteran.kota}`} - FK UI, UGM,
           Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-masuk-kedokteran/${kotaKedokteran.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">

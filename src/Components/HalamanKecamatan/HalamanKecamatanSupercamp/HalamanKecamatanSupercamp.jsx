@@ -64,7 +64,7 @@ const HalamanKecamatanSupercamp = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip, Unair,
           Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia Indonesia"
         />
@@ -73,7 +73,7 @@ const HalamanKecamatanSupercamp = ({ setProgress }) => {
           UI, UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
           Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-supercamp-edumatrix/kecamatan/${kecamatan.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">

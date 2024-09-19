@@ -32,7 +32,7 @@ const Produk = ({setProgress}) => {
           Jual Modul dan Paket Tryout UTBK SNBT, SIMAK UI, CBT UGM, TNI-POLRI,
           Sekolah Kedinasan & OSN SD-SMP-SMA
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/produk" />
       </Helmet>
       <Navbar />
       <div className="container-produk">

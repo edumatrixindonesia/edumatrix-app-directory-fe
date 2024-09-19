@@ -55,7 +55,7 @@ const BimbelToefl = ({ setProgress }) => {
           Bimbel Les Privat TOEFL, TOEIC, IELTS, and English Conversation
           Lessons Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-toefl-toeic-ielts-dan-english-conversation" />
       </Helmet>
       <NavbarIgcse />
       <div className="container-all">

@@ -41,7 +41,7 @@ const Aboutus = ({setProgress}) => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Tentang Kami - #1 Edumatrix Indonesia</title>
-        <link rel="canonical" href="/tentang-kami" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/tentang-kami" />
       </Helmet>
       <Navbar />
       <div className="container-aboutus">

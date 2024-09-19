@@ -28,7 +28,7 @@ import GaleriKegiatan from "../../Program/BimbelSupercamp/GaleriKegiatan/GaleriK
 import SectionSupercamp from "../../Program/BimbelSupercamp/SectionSupercamp/SectionSupercamp";
 import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt";
 
-const Halamanprogram = ({setProgress}) => {
+const Halamanprogram = ({ setProgress }) => {
   const { id } = useParams();
   const [program, setProgram] = useState([]);
   const [kelasperkota, setKelasPerKota] = useState([]);
@@ -89,7 +89,7 @@ const Halamanprogram = ({setProgress}) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
                 PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
                 Karyawan Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
@@ -98,7 +98,7 @@ const Halamanprogram = ({setProgress}) => {
           Les Privat {`${program.name}`} - Bimbel {`${program.name}`} Terbaik #1
           - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/les-privat/program/${program.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">

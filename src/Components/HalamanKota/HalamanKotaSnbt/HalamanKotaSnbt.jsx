@@ -73,7 +73,7 @@ const HalamankotaSnbt = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
           Terbaik #1 - Edumatrix Indonesia"
         />
@@ -81,7 +81,7 @@ const HalamankotaSnbt = ({ setProgress }) => {
           Bimbel Masuk PTN UTBK SNBT di {`${kotasnbt.kota}`} - UI, UGM, Undip,
           Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-snbt-terbaik-di/${kotasnbt.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">

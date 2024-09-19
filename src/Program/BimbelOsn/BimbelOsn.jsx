@@ -41,7 +41,7 @@ const BimbelOsn = ({ setProgress }) => {
           Bimbel dan Les Privat OSN, ISO, IMO - SD, SMP, SMA Terbaik #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-osn" />
       </Helmet>
       <Navbar />
       <div className="container-all">

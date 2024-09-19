@@ -43,7 +43,7 @@ const BimbelKsn = ({ setProgress }) => {
           Bimbel dan Pelatihan Kompetisi Sains Nasional (KSN) - SD, SMP, SMA
           Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/pelatihan-osn-ksn" />
       </Helmet>
       <Navbar />
       <div className="container-all">

@@ -45,7 +45,7 @@ const BimbelTni = ({ setProgress }) => {
           Bimbel Akpol Akademi TNI Bintara TNI - Polri & Sekolah Kedinasan #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-tni-polri-dan-sekolah-kedinasan" />
       </Helmet>
       <Navbar />
       <div className="container-all">

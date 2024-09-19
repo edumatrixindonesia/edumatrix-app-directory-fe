@@ -76,7 +76,7 @@ const HalamanProgramperkota = ({setProgress}) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
                 PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
                 Karyawan Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
@@ -85,7 +85,7 @@ const HalamanProgramperkota = ({setProgress}) => {
           Les Privat {`${program.name}`} - Bimbel {`${program.name}`} di{" "}
           {`${kota.kota}`} Terbaik - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/les-privat/program/${program.slug}/kota/${kota.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">

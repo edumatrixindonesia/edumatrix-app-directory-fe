@@ -59,14 +59,14 @@ const HalamanKecamatanCpns = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel CPNS & PPPK - SKD, SKB, TWK, TIU, TKP Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel CPNS & PPPK di {`${kecamatan.kecamatan}`} - SKD, SKB, TWK, TIU,
           TKP Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-cpns-dan-pppk/kecamatan/${kecamatan.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">

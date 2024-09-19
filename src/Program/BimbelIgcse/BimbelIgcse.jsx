@@ -58,7 +58,7 @@ const BimbelIgcse = ({ setProgress }) => {
         <title>
           IGCSE, O Level, A Level & IB Tutor #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-kurikulum-igcse" />
       </Helmet>
       <NavbarIgcse />
       {/* <Translator /> */}

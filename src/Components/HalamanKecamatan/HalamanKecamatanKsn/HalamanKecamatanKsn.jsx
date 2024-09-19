@@ -58,14 +58,14 @@ const HalamanKecamatanKsn = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Kompetisi Sains Nasional (OSN/KSN), SD-SMP-SMA terbaik terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel Kompetisi Sains Nasional (KSN) di {`${kecamatan.kecamatan}`} -
           SD, SMP, SMA Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/pelatihan-osn-ksn/kecamatan/${kecamatan.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">

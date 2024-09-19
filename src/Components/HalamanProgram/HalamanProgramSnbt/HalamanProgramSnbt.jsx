@@ -77,7 +77,7 @@ const Halamanprogramsnbt = () => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat Supercamp Masuk PTN UTBK SNBT, SIMAK UI, CBT UGM, UM PTN Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>

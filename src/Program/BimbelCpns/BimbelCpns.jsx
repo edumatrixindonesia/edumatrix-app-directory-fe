@@ -48,7 +48,7 @@ const BimbelCpns = ({ setProgress }) => {
           Bimbel CPNS & PPPK - SKD, SKB, TWK, TIU, TKP Terbaik #1 - Edumatrix
           Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-cpns-dan-pppk" />
       </Helmet>
       <Navbar />
       <div className="container-all">

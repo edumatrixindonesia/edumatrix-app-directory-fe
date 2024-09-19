@@ -52,7 +52,7 @@ const Homepage = ({setProgress}) => {
           Les Privat & Bimbel UTBK SNBT Terbaik di Indonesia - Edumatrix
           Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/" />
       </Helmet>
       {/* <PreLoader /> */}
       <Navbar />

@@ -58,14 +58,14 @@ const HalamanKecamatanBumn = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat Seleksi BUMN Persiapan Masuk Kerja dan Naik Jabatan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Bimbel Persiapan Seleksi BUMN di {`${kecamatan.kecamatan}`} #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-seleksi-bumn/kecamatan/${kecamatan.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">

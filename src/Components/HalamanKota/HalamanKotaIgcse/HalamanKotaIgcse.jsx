@@ -84,14 +84,14 @@ const HalamankotaIgcse = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="IGCSE, O Level, A Level & IB Tutor #1 - Edumatrix Indonesia"
         />
         <title>
           IGCSE, O Level, A Level & IB Tutor in {`${kotaigcse.kota}`} #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-igcse-dan-ibtutor-di/${kotaigcse.slug}`} />
       </Helmet>
       <NavbarIgcse />
       <div className="container-halaman-kota">

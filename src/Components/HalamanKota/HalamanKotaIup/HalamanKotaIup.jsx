@@ -70,7 +70,7 @@ const HalamankotaIup = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Persiapan IUP UGM, IUP ITB, IUP Unair SIMAK KKI UI, UTBK SNBT Terbaik
           #1 - Edumatrix Indonesia"
         />
@@ -78,7 +78,7 @@ const HalamankotaIup = ({ setProgress }) => {
           Bimbel Persiapan IUP - KKI di {`${kotaiup.kota}`} - IUP UGM, IUP ITB,
           IUP UNAIR, SIMAK KKI UI, UTBK SNBT Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-iup-kki-di/${kotaiup.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">

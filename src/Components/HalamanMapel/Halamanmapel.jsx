@@ -65,14 +65,14 @@ const Halamanmapel = ({setProgress}) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Les Privat TK, SD, SMP, SMA, Mahasiswa Semua Mata Pelajaran dan Mata Kuliah Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
           Les Privat {`${mapel.name}`} - Bimbel {`${mapel.name}`} Terbaik #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/les-privat/mata-pelajaran/${mapel.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">

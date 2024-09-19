@@ -65,7 +65,7 @@ const HalamankabupatenOsn = ({ setProgress }) => {
       <Helmet>
         <meta
           charSet="utf-8"
-          name="robots"
+          name="description"
           content="Bimbel Les Privat OSN, ISO, IMO, SD-SMP-SMA terbaik terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
@@ -73,7 +73,7 @@ const HalamankabupatenOsn = ({ setProgress }) => {
           {`${kabupaten.kota_kabupaten}`} - SD, SMP, SMA Terbaik #1 - Edumatrix
           Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-osn/kabupaten/${kabupaten.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">
