@@ -35,7 +35,7 @@ const BimbelBumn = () => {
           Bimbel Persiapan Seleksi BUMN | Masuk Kerja dan Naik Jabatan Terbaik
           #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-seleksi-bumn" />
       </Helmet>
       <Navbar />
       <div className="container-all">

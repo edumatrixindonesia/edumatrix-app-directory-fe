@@ -73,7 +73,7 @@ const HalamankabupatenIup = ({ setProgress }) => {
           UGM, IUP ITB, IUP UNAIR, SIMAK KKI UI, UTBK SNBT Terbaik #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-iup-kki/kabupaten/${kabupaten.slug}`} />
+        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-iup-kki-kabupaten/${kabupaten.slug}`} />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">

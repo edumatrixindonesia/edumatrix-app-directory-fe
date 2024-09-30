@@ -102,7 +102,7 @@ function App() {
         {/* Go to Mapel per kota By ID */}
         <Route exact path="/les-privat/mata-pelajaran/:mapelId/kota/:id" element={<HalamanMapelperkota setProgress = {setProgress} />}></Route>
         {/* Go to Errorpage */}
-        <Route exact path="*" element={<Homepage />}></Route>
+        <Route exact path="*" element={<Homepage setProgress = {setProgress} />}></Route>
         {/* Go to Search Kelas */}
         <Route exact path="/pilihan-kelas" element={<Searchkelas setProgress = {setProgress} />}></Route>
         {/* Go to About Us */}
@@ -190,7 +190,7 @@ function App() {
         {/* Go to City IUPKKI By ID */}
         <Route exact path="/bimbel-iup-kki-di/:id" element={<HalamankotaIup setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten IUPKKI By ID */}
-        <Route exact path="/bimbel-iup-kki/kabupaten/:id" element={<HalamankabupatenIup setProgress = {setProgress} />}></Route>
+        <Route exact path="/bimbel-iup-kki-kabupaten/:id" element={<HalamankabupatenIup setProgress = {setProgress} />}></Route>
         {/* Go to Kabupaten IUPKKI By ID */}
         <Route exact path="/bimbel-iup-kki/kecamatan/:id" element={<HalamanKecamatanIup setProgress = {setProgress} />}></Route>
 

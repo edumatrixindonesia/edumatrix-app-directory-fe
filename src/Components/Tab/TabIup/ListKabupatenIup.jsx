@@ -39,7 +39,7 @@ const ListKabupatenIup = () => {
             className="btn-kota"
             key={index}
             onClick={() => {
-              window.location.href = `/bimbel-iup-kki/kabupaten/${item.slug}`;
+              window.location.href = `/bimbel-iup-kki-kabupaten/${item.slug}`;
             }}
           >
             {item.kota_kabupaten}

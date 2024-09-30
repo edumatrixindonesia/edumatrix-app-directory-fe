@@ -83,7 +83,7 @@ const Halamanprogramsnbt = () => {
         <title>
           Bimbel {`${program.kelassnbt}`} #1 Terbaik - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-snbt-terbaik" />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">

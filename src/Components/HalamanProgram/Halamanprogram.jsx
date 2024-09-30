@@ -16,7 +16,7 @@ import Asalsekolah from "../AsalSekolah/Asalsekolah";
 import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
-import rumahAdat from "../../assets/rumah_adat.png";
+import programEdm from "../../assets/Program_les_edumatrix.png";
 import Faqtni from "../Faq/FaqTni/FaqTni";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
@@ -91,8 +91,7 @@ const Halamanprogram = ({ setProgress }) => {
           charSet="utf-8"
           name="description"
           content="Bimbel Les Privat untuk TK, SD, SMP, SMA, UN/AKM, OSN, CPNS, LPDP,
-                PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa dan
-                Karyawan Terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+                PPDS, SIMAK UI, SNBT, AKPOL, AKMIL, Kedinasan, Mahasiswa - Edumatrix Indonesia"
         />
         <title>
           Les Privat {`${program.name}`} - Bimbel {`${program.name}`} Terbaik #1
@@ -102,7 +101,7 @@ const Halamanprogram = ({ setProgress }) => {
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">
-        <div className="content-program">
+        <div className="content-halaman-program-edm">
           <div className="teks-content">
             <h2 className="title-halaman-program">
               Les Privat {program.name} Terbaik
@@ -120,10 +119,10 @@ const Halamanprogram = ({ setProgress }) => {
               </p>
             </div>
           </div>
-          <a className="parent-img-modeltanya-program" href="">
+          <a className="parent-program-edm" href="">
             <img
-              className="rumah-adat"
-              src={rumahAdat}
+              className="model-program-edm"
+              src={programEdm}
               alt="Bimbel ABK (Anak Berkebutuhan Khusus) Terbaik - Edumatrix Indonesia"
             />
           </a>

@@ -12,7 +12,7 @@ import Faq from "../Faq/Faq";
 import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
-import rumahAdat from "../../assets/rumah_adat.png";
+import modelMapel from "../../assets/model_mapel.png";
 import Liputan from "../Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Testimoni from "../Testimoni/Testimoni";
@@ -89,7 +89,7 @@ const HalamanMapelperkota = ({setProgress}) => {
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">
-        <div className="content-program">
+        <div className="content-halaman-program-edm">
           <div className="teks-content">
             <h2 className="title-halaman-program">
               Les Privat {mapel.name} di {kota.kota} Terbaik
@@ -107,10 +107,10 @@ const HalamanMapelperkota = ({setProgress}) => {
               </p>
             </div>
           </div>
-          <a className="parent-img-modeltanya-program" href="">
+          <a className="parent-program-edm" href="">
             <img
-              className="rumah-adat"
-              src={rumahAdat}
+              className="model-program-edm"
+              src={modelMapel}
               alt="Bimbel SNBT Terbaik"
             />
           </a>

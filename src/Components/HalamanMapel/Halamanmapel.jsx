@@ -14,7 +14,7 @@ import Testimoni from "../Testimoni/Testimoni";
 import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
-import rumahAdat from "../../assets/rumah_adat.png";
+import modelMapel from "../../assets/model_mapel.png";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Liputan from "../Liputan/Liputan";
 import SuccessStory from "../SuccessStory/SuccessStory";
@@ -76,7 +76,7 @@ const Halamanmapel = ({setProgress}) => {
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">
-        <div className="content-program">
+        <div className="content-halaman-program-edm">
           <div className="teks-content">
             <h2 className="title-halaman-program">
               Les Privat {mapel.name} Terbaik
@@ -94,10 +94,10 @@ const Halamanmapel = ({setProgress}) => {
               </p>
             </div>
           </div>
-          <a className="parent-img-modeltanya-program" href="">
+          <a className="parent-program-edm" href="">
             <img
-              className="rumah-adat"
-              src={rumahAdat}
+              className="model-program-edm"
+              src={modelMapel}
               alt="Les Privat dan Bimbel Terbaik - Edumatrix Indonesia"
             />
           </a>

@@ -18,6 +18,10 @@ const Footer = () => {
     navigate("/bimbel-tni-polri-dan-sekolah-kedinasan");
   };
 
+  const goToBimbelOsn = () => {
+    navigate("/bimbel-osn")
+  }
+
   return (
     <div className="pg-bawah">
       <footer className="bawah">
@@ -127,6 +131,10 @@ const Footer = () => {
                 <br />
                 <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page">
                   <a onClick={() => goToBimbelTni()} className="link-footer-hot-program">Bimbel TNI - POLRI🔥</a>
+                </li>
+                <br />
+                <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page">
+                  <a onClick={() => goToBimbelOsn()} className="link-footer-hot-program">Bimbel OSN🔥</a>
                 </li>
               </ul>
             </div>

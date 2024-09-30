@@ -79,7 +79,7 @@ const HalamanProgramperkotaTni = ({ setProgress }) => {
           Bimbel {`${program.kelastni}`} #1 Terbaik di {id} - Edumatrix
           Indonesia
         </title>
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://app.edumatrix-indonesia.com/bimbel-tni-polri-dan-sekolah-kedinasan" />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">

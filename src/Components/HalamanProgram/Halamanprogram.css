@@ -12,6 +12,32 @@
   padding: 20px;
   border-radius: 10px;
 }
+
+/* NEW */
+.content-halaman-program-edm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #054599;
+  padding: 20px;
+  border-radius: 10px;
+}
+.parent-program-edm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.model-program-edm {
+  width: 80%;
+}
+.content-halaman-program-edm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .isi-content-program {
   display: flex;
   justify-content: center;
@@ -32,16 +58,16 @@
   gap: 20px;
 }
 .parent-promo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
 .discount-promo {
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-    border-radius: 6px;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 6px;
 }
 
 /* RESPONSIVE */
@@ -50,7 +76,7 @@
     padding-left: 5%;
     padding-right: 5%;
   }
-  .content-program {
+  .content-halaman-program-edm {
     display: grid;
   }
   .teks-content {
@@ -68,6 +94,9 @@
     text-align: left;
     width: 100%;
   }
+  .model-program-edm {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .container-halaman-program {
@@ -80,6 +109,12 @@
   }
   .content-program {
     gap: 25px;
+  }
+  .model-program-edm {
+    width: 100%;
+  }
+  .content-halaman-program-edm {
+    gap: 10px;
   }
 }
 @media only screen and (max-width: 820px) {
