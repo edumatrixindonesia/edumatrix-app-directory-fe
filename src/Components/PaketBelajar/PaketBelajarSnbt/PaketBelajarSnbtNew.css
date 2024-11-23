@@ -1,5 +1,9 @@
 .parent-paket-snbt-new {
-  display: contents;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .img-paket-snbt-new {
   width: 33%;
@@ -23,7 +27,7 @@
   text-align: center;
 }
 .top-parent-paket-snbt-new {
-  background-color: white;
+  background-color: #054599;
   margin-top: 30px;
   border-radius: 10px;
   padding: 20px;
@@ -31,6 +35,93 @@
 .title-paket-snbt-new {
   text-align: center;
   font-weight: 800;
+  color: white;
+}
+
+/* NEW */
+.garis-paket-snbt-new {
+  margin-top: 20px;
+  height: 1px;
+  background-color: #05459975;
+  border: none; 
+}
+.rincian-paket {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.color-check {
+  color: rgb(0, 128, 0);
+}
+.child-paket-snbt-new {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.child-paket-snbt-new-maxima {
+  background-color: white;
+  padding: 20px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.parent-rincian-paket {
+  margin-top: 20px;
+  line-height: 33px;
+}
+.rincian-paket {
+  font-weight: 500;
+}
+.child-title-paket-snbt-new {
+  font-weight: 900;
+  text-align: center;
+  color: #054599;
+  font-size: 40px;
+}
+.child-subtitle-paket-snbt-new {
+  text-align: center;
+  color: #054599;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn-parent-paket-snbt-new {
+  background-color: #054599;
+  padding: 12px;
+  width: 100%;
+  margin-top: 25px;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn-parent-paket-snbt-new-2 {
+  background-color: white;
+  padding: 12px;
+  width: 100%;
+  margin-top: 25px;
+  color: #054599;
+  border: 1px solid #054599;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.btn-parent-paket-snbt-new-2:hover {
+  background-color: #0545993b;
+}
+.special-label-paket-snbt-maxima {
+  text-align: center;
+  background-color: #054599;
+  color: white;
+  padding: 10px 0;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid white;
 }
 
 /* RESPONSIVE */

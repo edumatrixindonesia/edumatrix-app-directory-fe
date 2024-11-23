@@ -16,6 +16,7 @@ import iconLiveClass from "../../assets/live_class.png";
 import iconTrainingCamp from "../../assets/training_camp.png";
 import LoadingBar from 'react-top-loading-bar'
 import Translator from "../Translator/Translator";
+import TopPromo from "../TopPromo/TopPromo";
 
 
 const NavbarIgcse = () => {
@@ -92,6 +93,7 @@ const NavbarIgcse = () => {
 
   return (
     <React.Fragment>
+      <TopPromo />
       <nav className="navbar">
         <div className="navbar-container container">
           <input type="checkbox" name="" id="" />

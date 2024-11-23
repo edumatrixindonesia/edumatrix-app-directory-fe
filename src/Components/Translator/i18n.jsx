@@ -34,7 +34,7 @@ const resources = {
         whatIB: "What is International Baccalaureate (IB)?",
         deksIB:
           "The International Baccalaureate (IB) is a global educational program for students aged 16-19 that emphasizes a broad, holistic approach to learning. It is designed to develop inquiring, knowledgeable, and caring young people who are motivated to succeed and make a difference.",
-        ctaUmum: "https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20program%20at%20Edumatrix.%20%20What%20are%20the%20course%20types%20and%20session%20package%20options?"
+        ctaUmum: "https://api.whatsapp.com/send?phone=6285712217876&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20program%20at%20Edumatrix.%20%20What%20are%20the%20course%20types%20and%20session%20package%20options?"
         },
       whatDoesIGCSE: {
         title: "What does the IB program include?",
@@ -60,7 +60,7 @@ const resources = {
         point_9: "Language of instruction available In Indonesia, English, Bilingual (English-Indonesian)",
         point_10: "Session recording",
         button: "SELECT PACKAGE",
-        cta: "https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Priority%20Package%20International%20Curriculum%20tutoring."
+        cta: "https://api.whatsapp.com/send?phone=6285712217876&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Priority%20Package%20International%20Curriculum%20tutoring."
       },
       paketIGCSEDeluxe: {
         title: "IGCSE STUDY PLAN",
@@ -75,7 +75,7 @@ const resources = {
         point_9: "Language of instruction available In Indonesia, English, Bilingual (English-Indonesian)",
         point_10: "Session recording",
         button: "SELECT PACKAGE",
-        cta: "https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Deluxe%20Package%20International%20Curriculum%20tutoring."
+        cta: "https://api.whatsapp.com/send?phone=6285712217876&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20the%20Deluxe%20Package%20International%20Curriculum%20tutoring."
       },
       materiIgcse: {
         title: "IGCSE, O LEVEL, A LEVEL & IB STUDY PLAN",
@@ -151,7 +151,7 @@ const resources = {
       // TOEFL
       program: {
         title: "OUR PROGRAMS TOEFL-TOEIC-IELTS",
-        ctaUmumToefl: "https://api.whatsapp.com/send?phone=6285600422188&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20TOEFL,%20TOEIC%20IELTS,%20English%20Conversation%20program%20at%20Edumatrix.%20What%20are%20the%20course%20types%20and%20session%20package%20options?"
+        ctaUmumToefl: "https://api.whatsapp.com/send?phone=6285712217876&text=Hello%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20ask%20about%20the%20TOEFL,%20TOEIC%20IELTS,%20English%20Conversation%20program%20at%20Edumatrix.%20What%20are%20the%20course%20types%20and%20session%20package%20options?"
       },
       penjelasanToefl: {
         title_1: "TOEFL Preparation",
@@ -177,7 +177,7 @@ const resources = {
         point_10: "Free academic consultation",
         point_11: "Session recording",
         button: "SELECT PACKAGE",
-        cta: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20register%20for%20the%20Priority%20Package%20TOEFL%20exam."
+        cta: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20register%20for%20the%20Priority%20Package%20TOEFL%20exam."
       },
       paketToeflDeluxe: {
         title: "TOEFL - TOEIC - IELTS STUDY PACKAGE",
@@ -193,7 +193,7 @@ const resources = {
         point_10: "Free academic consultation",
         point_11: "Session recording",
         button: "SELECT PACKAGE",
-        cta: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20register%20for%20the%20Deluxe%20Package%20TOEFL%20exam."
+        cta: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20would%20like%20to%20register%20for%20the%20Deluxe%20Package%20TOEFL%20exam."
       },
       kegiatanBelajar: {
         title: "LEARNING ACTIVITIES"
@@ -203,8 +203,8 @@ const resources = {
         desk_1: "Learn through Zoom meetings, making it easy for students to record study sessions.",
         desk_2: "Tutors come to the student's home/ Study comfortably in the Office Edumatrix.",
         link: "Read more",
-        ctaOn: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20TOEFL,%20TOEIC,%20&%20IELTS%20Online%20tutoring%20center.",
-        ctaOff: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20TOEFL,%20TOEIC,%20&%20IELTS%20Offline%20tutoring%20center."
+        ctaOn: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20TOEFL,%20TOEIC,%20&%20IELTS%20Online%20tutoring%20center.",
+        ctaOff: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Miss%20Sari%20https://app.edumatrix-indonesia.com,%20I%20want%20to%20register%20for%20TOEFL,%20TOEIC,%20&%20IELTS%20Offline%20tutoring%20center."
       },
       testimoni: {
         title: "STUDENT TESTIMONIALS"
@@ -239,7 +239,7 @@ const resources = {
         whatIB: "Apa yang dimaksud dengan International Baccalaureate (IB)?",
         deksIB:
           "International Baccalaureate (IB) adalah program pendidikan global untuk siswa berusia 16-19 tahun yang menekankan pendekatan pembelajaran yang luas dan menyeluruh. Program ini dirancang untuk mengembangkan generasi muda yang selalu ingin tahu, berpengetahuan luas, dan peduli, serta termotivasi untuk sukses dan membuat perbedaan.",
-        ctaUmum: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20bertanya%20mengenai%20program%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20di%20Edumatrix.%20Apa%20saja%20jenis%20kursus%20dan%20pilihan%20paket%20sesinya?"
+        ctaUmum: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20bertanya%20mengenai%20program%20IGCSE,%20O%20Level,%20A%20Level%20&%20IB%20Tutor%20di%20Edumatrix.%20Apa%20saja%20jenis%20kursus%20dan%20pilihan%20paket%20sesinya?"
         },
       whatDoesIGCSE: {
         title: "Apa saja yang termasuk dalam program IB?",
@@ -265,7 +265,7 @@ const resources = {
         point_9: "Bahasa pengantar tersedia di Indonesia, Inggris, Bilingual (Inggris-Indonesia)",
         point_10: "Rekaman sesi",
         button: "PILIH PAKET",
-        cta: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20untuk%20bimbingan%20belajar%20Kurikulum%20Internasional%20Paket%20Priority.",
+        cta: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20untuk%20bimbingan%20belajar%20Kurikulum%20Internasional%20Paket%20Priority.",
       },
       paketIGCSEDeluxe: {
         title: "PAKET BELAJAR IGCSE",
@@ -280,7 +280,7 @@ const resources = {
         point_9: "Bahasa pengantar tersedia di Indonesia, Inggris, Bilingual (Inggris-Indonesia)",
         point_10: "Rekaman sesi",
         button: "PILIH PAKET",
-        cta: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20untuk%20bimbingan%20belajar%20Kurikulum%20Internasional%20Paket%20Deluxe."
+        cta: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20untuk%20bimbingan%20belajar%20Kurikulum%20Internasional%20Paket%20Deluxe."
       },
       materiIgcse: {
         title: "IGCSE, O LEVEL, A LEVEL & RENCANA STUDI IB",
@@ -355,7 +355,7 @@ const resources = {
       // TOEFL
       program: {
         title: "PROGRAM KAMI TOEFL-TOEIC-IELTS",
-        ctaUmumToefl: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20bertanya%20mengenai%20program%20TOEFL,%20TOEIC%20IELTS,%20English%20Conversation%20di%20Edumatrix.%20Apa%20saja%20jenis%20kursus%20dan%20pilihan%20paket%20sesinya?"
+        ctaUmumToefl: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20bertanya%20mengenai%20program%20TOEFL,%20TOEIC%20IELTS,%20English%20Conversation%20di%20Edumatrix.%20Apa%20saja%20jenis%20kursus%20dan%20pilihan%20paket%20sesinya?"
       },
       penjelasanToefl: {
         title_1: "Persiapan TOEFL",
@@ -381,7 +381,7 @@ const resources = {
         point_10: "Konsultasi akademis gratis",
         point_11: "Rekaman sesi",
         button: "PILIH PAKET",
-        cta: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20untuk%20ujian%20TOEFL%20Paket%20Priority."
+        cta: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20untuk%20ujian%20TOEFL%20Paket%20Priority."
       },
       paketToeflDeluxe: {
         point_1: "Jadwal fleksibel",
@@ -396,7 +396,7 @@ const resources = {
         point_10: "Konsultasi akademis gratis",
         point_11: "Rekaman sesi",
         button: "PILIH PAKET",
-        cta: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20untuk%20ujian%20TOEFL%20Paket%20Deluxe."
+        cta: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20untuk%20ujian%20TOEFL%20Paket%20Deluxe."
       },
       kegiatanBelajar: {
         title: "KEGIATAN BELAJAR"
@@ -406,8 +406,8 @@ const resources = {
         desk_1: "Belajar melalui Zoom, memudahkan siswa untuk merekam sesi belajar",
         desk_2: "Tutor datang ke rumah siswa/ Belajar dengan nyaman di kantor Edumatrix",
         link: "Baca Selengkapnya",
-        ctaOn: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20di%20bimbingan%20belajar%20TOEFL,%20TOEIC,%20&%20IELTS%20Online.",
-        ctaOff: "https://api.whatsapp.com/send?phone=6285600422188&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20di%20bimbingan%20belajar%20TOEFL,%20TOEIC,%20&%20IELTS%20Offline."
+        ctaOn: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20di%20bimbingan%20belajar%20TOEFL,%20TOEIC,%20&%20IELTS%20Online.",
+        ctaOff: "https://api.whatsapp.com/send?phone=6285712217876&text=Halo%20Kak%20Sari%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20mendaftar%20di%20bimbingan%20belajar%20TOEFL,%20TOEIC,%20&%20IELTS%20Offline."
       },
       testimoni: {
         title: "TESTIMONI SISWA"

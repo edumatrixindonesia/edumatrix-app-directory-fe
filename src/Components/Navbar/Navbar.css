@@ -32,8 +32,8 @@ body {
   background: #054599;
   color: #ffffff;
   z-index: 9999;
-  padding: 5px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+  margin-top: 31px;
 }
 .icon-navbar {
   display: none;
@@ -51,7 +51,8 @@ body {
   align-items: center;
   gap: 5px;
   color: white;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
+  font-size: 15px;
   cursor: pointer;
   /* transform: scale(1.1); */
   padding-bottom: 13px;
@@ -66,7 +67,6 @@ body {
   padding-right: 10px; */
   /* font-size: 14px; */
   /* transform: scale(1.1); */
-  
 }
 .parent-btn-daftar {
   display: flex;
@@ -113,7 +113,6 @@ body {
   cursor: pointer;
 }
 
-
 /* DROPDOWN MENU */
 .icon-navbar-1 {
   font-size: 12px;
@@ -153,12 +152,13 @@ body {
 .child-dropdown {
   display: flex;
   align-items: center;
-  color: black;
+  color: rgb(61, 61, 61);
   /* margin-top: 23px; */
   font-size: 15px;
   gap: 10px;
   /* margin-bottom: 23px; */
-  padding: 12px;
+  padding: 7px;
+  font-weight: 500;
 }
 .child-dropdown:hover {
   background-color: #f52f63;
@@ -331,7 +331,6 @@ body {
   .logo {
     width: 25%;
   }
-
 }
 
 /* RESPONSIVE */

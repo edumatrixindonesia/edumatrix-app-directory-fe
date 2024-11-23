@@ -69,9 +69,9 @@ const Halamankabupaten = ({ setProgress }) => {
           content="Bimbel Les Privat TK, SD, SMP, SMA, OSN, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Les Privat di {`${kabupaten.kota_kabupaten}`} - TK, SD, SMP, SMA, UTBK
+          Bimbel Privat di {`${kabupaten.kota_kabupaten}`} - TK, SD, SMP, SMA, UTBK
           SNBT, SIMAK UI, UM PTN & CBT UGM - Bimbel di{" "}
-          {`${kabupaten.kota_kabupaten}`} Terbaik #1 - Edumatrix Indonesia
+          {`${kabupaten.kota_kabupaten}`} Berkualitas #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/les-privat-di/${kabupaten.slug}`} />
       </Helmet>
@@ -80,8 +80,8 @@ const Halamankabupaten = ({ setProgress }) => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Les Privat di {kabupaten.kota_kabupaten} - TK, SD, SMP, SMA, UTBK
-              SNBT, SIMAK UI, UM PTN & CBT UGM Terbaik
+              Bimbel Privat di {kabupaten.kota_kabupaten} - TK, SD, SMP, SMA, UTBK
+              SNBT, SIMAK UI, UM PTN & CBT UGM Berkualitas
             </h2>
             <div className="paragraf-kabupaten">
               <p>

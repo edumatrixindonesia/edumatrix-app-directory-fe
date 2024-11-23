@@ -1,8 +1,10 @@
 .parent-lolos-ptn {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    text-align: center;
+    margin-left: -90px;
 }
 .img-lolos-ptn {
     width: 30%;
@@ -11,13 +13,33 @@
 .title-lolos-ptn {
     text-align: center;
     font-weight: 800;
+    color: white;
 }
 .super-parent-lolos-ptn {
-    background-color: white;
+    background-image: url("/src/assets/mt_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     padding: 20px;
     margin-top: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.name-lolos-ptn {
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+}
+.desk-lolos-ptn {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.parent-name-lolos-ptn {
+    margin-top: -30px;
+}
+.image-lolos-ptn {
+    width: 70%;
+    cursor: pointer;
 }
 
 /* RESPONSIVE */
@@ -30,5 +52,20 @@
     }
     .title-lolos-ptn {
         font-size: 30px;
+    }
+    .image-lolos-ptn {
+        width: 50%;
+    }
+    .parent-name-lolos-ptn {
+        margin-top: -25px;
+    }
+    .parent-lolos-ptn {
+        margin-left: -200px;
+    }
+    .name-lolos-ptn {
+        font-size: 20px;
+    }
+    .desk-lolos-ptn {
+        font-size: 14px;
     }
 }

@@ -24,6 +24,13 @@
     border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.img-liputan-nobg {
+    width: 20%;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 0 10px;
+}
 .title-telah-diliput {
     text-align: center;
     color: white;
@@ -37,7 +44,7 @@
     .parent-liputan {
         padding: 10px;
     }
-    .img-liputan {
+    .img-liputan, .img-liputan-nobg {
         width: 48%;
     }
   }

@@ -15,6 +15,7 @@ import iconSupercamp from "../../assets/supercamp.png";
 import iconLiveClass from "../../assets/live_class.png";
 import iconTrainingCamp from "../../assets/training_camp.png";
 import LoadingBar from 'react-top-loading-bar'
+import TopPromo from "../TopPromo/TopPromo";
 
 
 const Navbar = () => {
@@ -91,6 +92,7 @@ const Navbar = () => {
 
   return (
     <React.Fragment>
+      <TopPromo />
       <nav className="navbar">
         <div className="navbar-container container">
           <input type="checkbox" name="" id="" />
@@ -270,7 +272,7 @@ const Navbar = () => {
             <li className="parent-btn-daftar">
               <a
                 className="menu-nav-daftar"
-                href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?"
+                href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20Daftar%20program%20belajar%20yang%20ada%20di%20Edumatrix."
               >
                 <FontAwesomeIcon className="icon-navbar" icon={faSignIn} />{" "}
                 DAFTAR

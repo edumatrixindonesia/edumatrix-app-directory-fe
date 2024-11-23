@@ -29,6 +29,7 @@ import ProblemSnbt from "../Program/BimbelSnbt/ProblemSnbt/ProblemSnbt";
 import LolosPtn from "../Program/BimbelSnbt/LolosPtn/LolosPtn";
 import SubtesSnbt from "../Program/BimbelSnbt/SubtesSnbt/SubtesSnbt";
 import PaketBelajarSnbtNew from "../Components/PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbtNew";
+import TopPromo from "../Components/TopPromo/TopPromo";
 
 const Homepage = ({setProgress}) => {
   useEffect(() => {
@@ -55,6 +56,7 @@ const Homepage = ({setProgress}) => {
         <link rel="canonical" href="https://app.edumatrix-indonesia.com/" />
       </Helmet>
       {/* <PreLoader /> */}
+      <TopPromo />
       <Navbar />
       <div className="container-all">
         <Slidertop />

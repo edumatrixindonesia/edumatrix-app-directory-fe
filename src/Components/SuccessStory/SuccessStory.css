@@ -1,12 +1,13 @@
+/* BOX AND TITLE */
 .box-success-story-all {
-  background-image: url("/src/assets/mt_bg.png");
+  /* background-image: url("/src/assets/mt_bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #054599;
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 50px; */
   margin-top: 30px;
   padding: 10px;
   border-radius: 10px;
@@ -15,52 +16,183 @@
 .title-success-story-all {
   color: white;
   text-align: center;
+  font-size: 28px; /* Default size for larger screens */
+  font-weight: 800;
 }
 .subtitle-all-success-story {
   color: white;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   text-align: center;
+  font-size: 22px; /* Default size for larger screens */
 }
-.parent-child-success-story-all {
+
+/* Marquee Items */
+.package-marquee {
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: flex-start; /* Ensure items align in a row */
+  gap: 20px;
+}
+
+.parent-child-marquee-success-snbt {
+  position: relative;
+  overflow: hidden;
+}
+
+/* GRADIENT */
+.parent-child-marquee-success-snbt::before,
+.parent-child-marquee-success-snbt::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px; /* Lebar gradient */
+  z-index: 99;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #054599);
+}
+
+.parent-child-marquee-success-snbt::before {
+  left: 0;
+}
+
+.parent-child-marquee-success-snbt::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #054599);
+}
+
+.parent-lolos-ptn-success-story-new {
+  background-image: url("/src/assets/wave_program_tni.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  width: 70%; /* Reduced width for better mobile layout */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  /* margin-right: 20px; */
+  height: 30vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image-lolos-ptn-success-story-new {
+  width: 100%; /* Ensure images fill container */
+  height: auto;
+  max-width: 130px; /* Limit image size */
+  margin-bottom: 10px;
+  margin-top: -80px;
+}
+
+.parent-name-lolos-ptn-success-story-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-lolos-ptn-success-story-new {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.desk-lolos-ptn-success-story-new {
+  font-weight: 600;
+}
+
+.nama-univ-success-story-new {
+  background-color: #054599;
+  color: white;
+  padding: 10px;
+  border-radius: 22px 0;
+  margin-top: 20px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.image-logo-ptn-success-story-new {
+  width: 30%;
+  margin-top: 10px;
+}
+
+.rfm-child {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.parent-child-success-story-all-osn {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.parent-success-story-all {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.child-success-story-all {
-  width: 24%;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 5px;
+  margin-left: -140px;
 }
 
 /* RESPONSIVE */
-@media only screen and (min-width: 320px) and (max-width: 896px) {
-  .child-success-story-all {
-    width: 48%;
-  }
-  .parent-success-story-all {
-    justify-content: center;
-    gap: 5px;
-  }
+@media only screen and (max-width: 896px) {
+  /* Title and Subtitle */
   .title-success-story-all {
-    font-size: 24px;
+    font-size: 24px; /* Make title smaller for mobile */
   }
   .subtitle-all-success-story {
-    font-size: 20px;
+    font-size: 18px; /* Make subtitle smaller for mobile */
   }
+
+  /* Marquee */
+  .package-marquee {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-wrap: nowrap; /* Prevent wrapping of marquee content */
+  }
+
+  .parent-lolos-ptn-success-story-new {
+    width: 70%; /* Increase width for better spacing on mobile */
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Adjust image size */
+  .image-lolos-ptn-success-story-new {
+    width: 50%;
+    margin-top: -40px;
+  }
+
+  .image-logo-ptn-success-story-new {
+    width: 25%;
+    margin-bottom: -20px;
+  }
+
+  .child-success-story-all {
+    width: 48%; /* Make children cards larger on mobile */
+  }
+
+  .parent-child-success-story-all {
+    justify-content: center;
+    gap: 10px; /* Adjust the gap for smaller screens */
+  }
+
+  /* Make the entire box-container padding smaller */
+  .box-success-story-all {
+    padding: 5px;
+  }
+  .rfm-child {
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+  }
+}
+
+/* For small devices like phones */
+@media only screen and (max-width: 576px) {
+  .package-marquee {
+    padding-top: 43px;
+    padding-bottom: 30px;
+    gap: 15px; /* Adjust space between cards */
+  }
+
+  .parent-lolos-ptn-success-story-new {
+    width: 60%; /* Take up more width on smaller screens */
+  }
+
+  .image-lolos-ptn-success-story-new {
+    max-width: 100px; /* Further limit the size of images */
+  }
+  .rfm-child {
+    display: flex;
+    justify-content: center;
+    margin-left: -175px;
+}
 }

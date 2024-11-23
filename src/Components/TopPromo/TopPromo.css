@@ -1,0 +1,114 @@
+/* TopPromo.css */
+.floating-banner {
+  background-image: url("/src/assets/promosi/top_promo/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Pastikan banner berada di atas navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.promo-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #0056b3;
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  border-radius: 100px;
+  font-weight: 500;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.design-promo-top {
+  width: 15%;
+}
+.parent-text-promo {
+  display: grid;
+  place-items: center;
+}
+.promo-text {
+  background-color: white;
+  color: #0056b3;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.promo-text-2 {
+  background-color: white;
+  color: #0056b3;
+  padding: 5px;
+  border-radius: 5px;
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .promo-text {
+    font-size: 13px;
+    display: none;
+  }
+
+  .cta-button {
+    font-size: 12px;
+    padding: 6px 15px;
+    border: 2px solid white;
+  }
+  .design-promo-top {
+    /* display: none; */
+  }
+  .promo-text-2 {
+    font-weight: 500;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 4px;
+    display: none;
+  }
+  .cta-button {
+    padding: 12px 15px;
+  }
+  .banner-content {
+    padding: 0px 10px;
+  }
+  .floating-banner {
+    padding: 11px 0;
+  }
+  .design-promo-top {
+    width: 46%;
+  }
+}
+
+/* Navbar CSS Update */
+
+/* Pastikan body tidak menutupi banner */
+body {
+  margin-top: 50px; /* Atur margin jika perlu agar banner tidak tertutup */
+}

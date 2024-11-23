@@ -19,8 +19,8 @@ const Footer = () => {
   };
 
   const goToBimbelOsn = () => {
-    navigate("/bimbel-osn")
-  }
+    navigate("/bimbel-osn");
+  };
 
   return (
     <div className="pg-bawah">
@@ -44,7 +44,11 @@ const Footer = () => {
             <div className="bawah-logo">
               <a className="bawah-logo-link" href="#">
                 <span className="hidden-link-text"></span>
-                <img className="logo-bawah" src={logo_edm} alt="Edumatrix Indonesia - Bimbel Terbaik Yogyakarta" />
+                <img
+                  className="logo-bawah"
+                  src={logo_edm}
+                  alt="Edumatrix Indonesia - Bimbel Terbaik Yogyakarta"
+                />
               </a>
             </div>
             <div className="bawah-menu">
@@ -126,15 +130,30 @@ const Footer = () => {
               <h2 className="bawah-menu-name">Hot Program</h2>
               <ul id="menu-legal" className="bawah-menu-list">
                 <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                  <a onClick={() => goToBimbelSnbt()} className="link-footer-hot-program">Bimbel UTBK SNBT🔥</a>
+                  <a
+                    onClick={() => goToBimbelSnbt()}
+                    className="link-footer-hot-program"
+                  >
+                    Bimbel UTBK SNBT🔥
+                  </a>
                 </li>
                 <br />
                 <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page">
-                  <a onClick={() => goToBimbelTni()} className="link-footer-hot-program">Bimbel TNI - POLRI🔥</a>
+                  <a
+                    onClick={() => goToBimbelTni()}
+                    className="link-footer-hot-program"
+                  >
+                    Bimbel TNI - POLRI🔥
+                  </a>
                 </li>
                 <br />
                 <li className="menu-item-hot-program menu-item-type-post_type menu-item-object-page">
-                  <a onClick={() => goToBimbelOsn()} className="link-footer-hot-program">Bimbel OSN🔥</a>
+                  <a
+                    onClick={() => goToBimbelOsn()}
+                    className="link-footer-hot-program"
+                  >
+                    Bimbel OSN🔥
+                  </a>
                 </li>
               </ul>
             </div>
@@ -148,7 +167,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link-footer"
-                    href="https://app.edumatrix-indonesia.com"
+                    href="https://edumatrix-indonesia.com"
                   >
                     EDUMATRIX-INDONESIA.COM
                   </a>
@@ -188,7 +207,7 @@ const Footer = () => {
               </p>
               <a
                 className="bawah-call-to-action-button button"
-                href="https://edulink-indonesia.com/lead/edm/call"
+                href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?"
                 target="_self"
               >
                 {" "}
