@@ -141,7 +141,7 @@ const resources = {
 
       // HALAMAN KOTA IGCSE
       halamanKota: {
-        title: "IGCSE, O Level, A Level & IB Tutor in",
+        title: "Place IGCSE, O Level, A Level & IB Tutor in",
         desk_1: "Edumatrix Indonesia offers one-on-one tutoring IGCSE, O Level, A Level & IB in",
         desk_2: "to provide the best learning experience for students",
         desk_3: "Get Private Tutoring services anytime and anywhere with more than 5,000 Edumatrix Master Teachers who are ready to provide the best service."
@@ -346,7 +346,7 @@ const resources = {
 
       // HALAMAN KOTA IGCSE
       halamanKota: {
-        title: "IGCSE, O Level, A Level & IB Tutor di",
+        title: "Tempat IGCSE, O Level, A Level & IB Tutor di",
         desk_1: "Edumatrix Indonesia menawarkan bimbingan belajar satu lawan satu IGCSE, O Level, A Level & IB di",
         desk_2: "untuk memberikan pengalaman belajar terbaik bagi siswa",
         desk_3: "Dapatkan layanan Les Privat kapan saja dan dimana saja dengan lebih dari 5.000 Guru Master Edumatrix yang siap memberikan layanan terbaik."

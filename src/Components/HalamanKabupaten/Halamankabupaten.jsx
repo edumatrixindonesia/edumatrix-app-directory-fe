@@ -130,7 +130,7 @@ const Halamankabupaten = ({ setProgress }) => {
         <SuccessStory />
         <Alumni />
         <Liputan />
-        <ListKecamatan />
+        {/* <ListKecamatan /> */}
         <Faq />
         <Asalsekolah />
         <PromoHomepage />

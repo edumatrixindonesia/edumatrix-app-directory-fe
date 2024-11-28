@@ -76,8 +76,8 @@ const HalamanKotaKedokteran = ({ setProgress }) => {
           #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran di {`${kotaKedokteran.kota}`} - FK UI, UGM,
-          Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
+          Tempat Bimbel Masuk Kedokteran di {`${kotaKedokteran.kota}`} - FK UI, UGM,
+          Undip, Unair, Unpad, UB, Udayana Berkualitas #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-masuk-kedokteran/${kotaKedokteran.slug}`} />
       </Helmet>
@@ -86,8 +86,8 @@ const HalamanKotaKedokteran = ({ setProgress }) => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Masuk Kedokteran di {kotaKedokteran.kota} - FK UI, UGM,
-              Undip, Unair, Unpad, UB, Udayana Terbaik
+              Temapt Bimbel Masuk Kedokteran di {kotaKedokteran.kota} - FK UI, UGM,
+              Undip, Unair, Unpad, UB, Udayana Berkualitas
             </h2>
 
             <div className="paragraf-kota">

@@ -69,7 +69,7 @@ const HalamankabupatenBumn = ({ setProgress }) => {
           content="Bimbel Les Privat Seleksi BUMN Persiapan Masuk Kerja dan Naik Jabatan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi BUMN di Kabupaten{" "}
+          Bimbel Les Privat Persiapan Seleksi BUMN di Kabupaten{" "}
           {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-seleksi-bumn/kabupaten/${kabupaten.slug}`} />
@@ -79,13 +79,12 @@ const HalamankabupatenBumn = ({ setProgress }) => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Seleksi BUMN di Kabupaten{" "}
+              Bimbel Les Privat Persiapan Seleksi BUMN di Kabupaten{" "}
               {kabupaten.kota_kabupaten} - Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
-                Seleksi BUMN
+                Bimbel Les Privat Seleksi BUMN di Kabupaten {kabupaten.kota_kabupaten}
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

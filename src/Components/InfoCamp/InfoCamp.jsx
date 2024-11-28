@@ -68,13 +68,13 @@ const InfoCamp = () => {
           <img className="img-garansi-camp-mob" src={garansiCampMob} alt="" />
         </div>
 
-        <div className="box-infocamp">
+        {/* <div className="box-infocamp">
           <h1 className="title-jadwal-kegiatan-camp">Jadwal Kegiatan</h1>
           <div className="child-infocamp">
             <img className="img-jadwal-camp" src={jadwal1} alt="" />
             <img className="img-jadwal-camp" src={jadwal2} alt="" />
           </div>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
   );

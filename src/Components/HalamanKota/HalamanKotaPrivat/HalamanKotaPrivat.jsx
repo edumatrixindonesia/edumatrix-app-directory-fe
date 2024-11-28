@@ -66,7 +66,7 @@ const HalamankotaPrivat = ({ setProgress }) => {
           content="Bimbel Les Privat TK, SD, SMP, SMA terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di{" "}
+          Les Privat TK - SD - SMP - SMA & Mahasiswa di{" "}
           {`${kotaprivat.kota}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-privat-tk-sd-smp-sma-mahasiswa-di/${kotaprivat.slug}`} />
@@ -76,7 +76,7 @@ const HalamankotaPrivat = ({ setProgress }) => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Privat TK - SD - SMP - SMA & Mahasiswa di {kotaprivat.kota}
+              Les Privat TK - SD - SMP - SMA & Mahasiswa di {kotaprivat.kota}
             </h2>
 
             <div className="paragraf-kota">
@@ -95,7 +95,7 @@ const HalamankotaPrivat = ({ setProgress }) => {
             <img
               className="rumah-adat"
               src={rumahAdat}
-              alt="Bimbel Privat TK SD SMP SMA Terbaik dan Berkualitas - Edumatrix Indonesia"
+              alt="Les Privat TK SD SMP SMA Terbaik dan Berkualitas - Edumatrix Indonesia"
             />
           </a>
 
@@ -106,7 +106,7 @@ const HalamankotaPrivat = ({ setProgress }) => {
             <img
               className="model-program-kota"
               src={tanyaProgram}
-              alt="Bimbel Privat TK SD SMP SMA Terbaik dan Berkualitas - Edumatrix Indonesia"
+              alt="Les Privat TK SD SMP SMA Terbaik dan Berkualitas - Edumatrix Indonesia"
             />
           </a>
         </div>

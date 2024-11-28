@@ -75,7 +75,7 @@ const HalamankotaBumn = ({ setProgress }) => {
           content="Bimbel Les Privat Seleksi BUMN Persiapan Masuk Kerja dan Naik Jabatan terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi BUMN di {`${kotabumn.kota}`} Terbaik #1 -
+          Bimbel Privat BUMN di {`${kotabumn.kota}`} Terbaik #1 -
           Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-seleksi-bumn-di/${kotabumn.slug}`} />
@@ -85,7 +85,7 @@ const HalamankotaBumn = ({ setProgress }) => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan Seleksi BUMN di {kotabumn.kota} Terbaik
+              Bimbel Privat BUMN di {kotabumn.kota} Terbaik
             </h2>
 
             <div className="paragraf-kota">

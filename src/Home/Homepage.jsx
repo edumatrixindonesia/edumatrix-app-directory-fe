@@ -75,7 +75,7 @@ const Homepage = ({setProgress}) => {
         <SuccessStory />
         <Alumni />
         <Liputan />
-        <Listkota />
+        {/* <Listkota /> */}
         <Faq />
         <Asalsekolah />
         <PromoHomepage />

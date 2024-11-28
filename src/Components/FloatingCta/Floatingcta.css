@@ -41,7 +41,7 @@
   background-color: #00b33c;
   border: 1px solid transparent;
   color: white;
-  padding: 15px;
+  padding: 8px;
   /* padding-left: 6px; */
   border-radius: 100px;
   cursor: pointer;
@@ -65,7 +65,7 @@
 }
 
 .icon-wa {
-  font-size: 25px;
+  font-size: 35px;
 }
 .label-cta {
   background: rgba(221, 221, 221, 0.87);

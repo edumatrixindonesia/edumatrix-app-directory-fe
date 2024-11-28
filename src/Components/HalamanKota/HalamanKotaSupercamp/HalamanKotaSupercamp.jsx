@@ -74,11 +74,11 @@ const HalamankotaSupercamp = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip, Unair,
+          content="Les Privat Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip, Unair,
           Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran & UTBK SNBT di {`${kotasnbt.kota}`} - UI, UGM,
+          Les Privat Kedokteran & UTBK SNBT di {`${kotasnbt.kota}`} - UI, UGM,
           Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-supercamp-edumatrix-di/${kotasnbt.slug}`} />
@@ -88,12 +88,12 @@ const HalamankotaSupercamp = ({ setProgress }) => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Masuk Kedokteran & UTBK SNBT di {kotasnbt.kota} - UI, UGM,
+              Les Privat Kedokteran & UTBK SNBT di {kotasnbt.kota} - UI, UGM,
               Undip, Unair, Unpad, UB, Udayana
             </h2>
             <div className="paragraf-kota">
               <p>
-                Bimbel Les Privat di Kota {kotasnbt.kota} untuk UTBK-SNBT,
+                Les Privat di Kota {kotasnbt.kota} untuk UTBK-SNBT,
                 Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM, UM PTN dan UTUL
                 UGM
               </p>

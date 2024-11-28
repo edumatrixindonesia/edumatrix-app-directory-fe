@@ -67,27 +67,32 @@ const HalamanKecamatanSnbt = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+          content="Tempat Les Privat Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
         Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk PTN UTBK SNBT di {`${kecamatan.kecamatan}`} - UI, UGM,
-          Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
+          Tempat Les Privat Masuk PTN UTBK SNBT di {`${kecamatan.kecamatan}`} -
+          UI, UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
+          Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-snbt/kecamatan/${kecamatan.slug}`} />
+        <link
+          rel="canonical"
+          href={`https://app.edumatrix-indonesia.com/bimbel-snbt/kecamatan/${kecamatan.slug}`}
+        />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Masuk PTN UTBK SNBT di {kecamatan.kecamatan} - UI, UGM,
-              Undip, Unair, Unpad, UB, Udayana
+              Tempat Les Privat Masuk PTN UTBK SNBT di {kecamatan.kecamatan} -
+              UI, UGM, Undip, Unair, Unpad, UB, Udayana
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di Kabupaten {kecamatan.kecamatan} untuk
-                UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI dan UTUL UGM
+                Tempat Les Privat Les Privat di Kabupaten {kecamatan.kecamatan}{" "}
+                untuk UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI dan UTUL
+                UGM
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

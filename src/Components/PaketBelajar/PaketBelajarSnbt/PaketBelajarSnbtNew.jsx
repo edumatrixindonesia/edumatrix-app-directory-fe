@@ -69,7 +69,7 @@ const PaketBelajarSnbtNew = () => {
               </a>
             </div>
             <div className="parent-special-label-paket-snbt-maxima">
-            <h3 className="special-label-paket-snbt-maxima">PALING LARIS</h3>
+            <h3 className="special-label-paket-snbt-maxima">PALING LARIS!</h3>
             <div className="child-paket-snbt-new-maxima">
               <h1 className="child-title-paket-snbt-new">MAXIMA</h1>
               <p className="child-subtitle-paket-snbt-new">

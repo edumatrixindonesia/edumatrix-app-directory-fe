@@ -63,10 +63,10 @@ const HalamankabupatenLpdp = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Persiapan Seleksi Beasiswa LPDP terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Tempat Bimbel Persiapan Seleksi Beasiswa LPDP terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan Seleksi Beasiswa LPDP di Kabupaten{" "}
+          Tempat Bimbel Persiapan Seleksi Beasiswa LPDP di Kabupaten{" "}
           {`${kabupaten.kota_kabupaten}`} #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-persiapan-seleksi-lpdp/kabupaten/${kabupaten.slug}`} />
@@ -76,12 +76,12 @@ const HalamankabupatenLpdp = ({ setProgress }) => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan Seleksi Beasiswa LPDP di Kabupaten{" "}
+              Tempat Bimbel Persiapan Seleksi Beasiswa LPDP di Kabupaten{" "}
               {kabupaten.kota_kabupaten} - Edumatrix Indonesia
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
+                Tempat Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
                 Seleksi Beasiswa LPDP luar dan dalam Negeri
               </p>
               <p className="child-paragraf-kabupaten">

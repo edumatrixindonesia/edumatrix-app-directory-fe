@@ -72,10 +72,10 @@ const HalamankotaCpns = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel CPNS & PPPK - SKD, SKB, TWK, TIU, TKP Terbaik #1 - Edumatrix Indonesia"
+          content="Les Privat CPNS & PPPK - SKD, SKB, TWK, TIU, TKP Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel CPNS & PPPK di {`${kotacpns.kota}`} - SKD, SKB, TWK, TIU, TKP
+          Les Privat CPNS & PPPK di {`${kotacpns.kota}`} - SKD, SKB, TWK, TIU, TKP
           Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-cpns-dan-pppk-di/${kotacpns.slug}`} />
@@ -85,13 +85,13 @@ const HalamankotaCpns = ({ setProgress }) => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel CPNS & PPPK di {kotacpns.kota} - SKD, SKB, TWK, TIU, TKP
+              Les Privat CPNS & PPPK di {kotacpns.kota} - SKD, SKB, TWK, TIU, TKP
               Terbaik
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Bimbel Les Privat di Kota {kotacpns.kota} untuk Seleksi CPNS &
+                Les Privat di Kota {kotacpns.kota} untuk Seleksi CPNS &
                 PPPK. Program Belajar SKD, SKB, TWK, TIU, TKP
               </p>
               <p className="child-paragraf-kota">

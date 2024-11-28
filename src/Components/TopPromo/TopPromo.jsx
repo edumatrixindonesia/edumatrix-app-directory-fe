@@ -18,7 +18,7 @@ const TopPromo = () => {
           className="cta-button"
         >
           Daftar Sekarang
-          <FontAwesomeIcon icon={faAnglesRight} />
+          <span class="material-symbols-outlined icon-open">open_in_new</span>
         </a>
       </div>
     </div>

@@ -61,11 +61,11 @@ const HalamanKecamatanIup = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Persiapan IUP UGM, IUP ITB, IUP Unair SIMAK KKI UI, UTBK SNBT Terbaik
+          content="Bimbel & Les Privat Persiapan IUP UGM, IUP ITB, IUP Unair SIMAK KKI UI, UTBK SNBT Terbaik
           #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan IUP - KKI di {`${kecamatan.kecamatan}`} - IUP UGM,
+          Bimbel & Les Privat Persiapan IUP - KKI di {`${kecamatan.kecamatan}`} - IUP UGM,
           IUP ITB, IUP UNAIR, SIMAK KKI UI, UTBK SNBT Terbaik #1 - Edumatrix
           Indonesia
         </title>
@@ -76,7 +76,7 @@ const HalamanKecamatanIup = ({ setProgress }) => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan IUP - KKI di {kecamatan.kecamatan} - IUP UGM, IUP
+              Bimbel & Les Privat Persiapan IUP - KKI di {kecamatan.kecamatan} - IUP UGM, IUP
               ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
             </h2>
             <div className="paragraf-kabupaten">

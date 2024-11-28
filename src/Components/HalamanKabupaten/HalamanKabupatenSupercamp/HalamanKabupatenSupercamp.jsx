@@ -70,23 +70,27 @@ const HalamankabupatenSupercamp = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip, Unair,
+          content="Bimbel Les Privat Supercamp Masuk Kedokteran dan UTBK SNBT, UI, UGM, Undip, Unair,
           Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran & UTBK SNBT di {`${kabupaten.kota_kabupaten}`}{" "}
-          - UI, UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
-          Indonesia
+          Bimbel Les Privat Masuk Kedokteran & UTBK SNBT di{" "}
+          {`${kabupaten.kota_kabupaten}`} - UI, UGM, Undip, Unair, Unpad, UB,
+          Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-supercamp-edumatrix/kabupaten/${kabupaten.slug}`} />
+        <link
+          rel="canonical"
+          href={`https://app.edumatrix-indonesia.com/bimbel-supercamp-edumatrix/kabupaten/${kabupaten.slug}`}
+        />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Masuk Kedokteran & UTBK SNBT di {kabupaten.kota_kabupaten}{" "}
-              - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+              Bimbel Les Privat Masuk Kedokteran & UTBK SNBT di{" "}
+              {kabupaten.kota_kabupaten} - UI, UGM, Undip, Unair, Unpad, UB,
+              Udayana
             </h2>
             <div className="paragraf-kabupaten">
               <p>

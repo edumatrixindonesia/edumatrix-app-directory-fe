@@ -132,7 +132,7 @@ const Halamankota = ({setProgress}) => {
         <SuccessStory />
         <Alumni />
         <Liputan />
-        <ListKabupaten />
+        {/* <ListKabupaten /> */}
         <Faq />
         <Asalsekolah />
         <PromoHomepage />

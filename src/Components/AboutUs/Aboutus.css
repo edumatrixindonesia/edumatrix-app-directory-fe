@@ -15,6 +15,7 @@
 .parent-box-about {
   display: flex;
   justify-content: center;
+  align-items: center;
   /* background-image: url("/src/assets/aboutus/bg_jumbotron_about_us.png");
   background-repeat: no-repeat;
   background-size: 50%; */
@@ -30,13 +31,13 @@
   font-size: 80px;
   font-weight: 900;
   color: white;
-  width: 40%;
+  /* width: 40%; */
   line-height: 90%;
 }
 .desk-about {
-  width: 50%;
-  margin-top: -7%;
-  margin-left: 14%;
+  width: 80%;
+  margin-top: 15px;
+  /* margin-left: 14%; */
   font-size: 19px;
   text-align: justify;
 }
@@ -51,6 +52,7 @@
   border-radius: 100px;
   width: 40%;
   cursor: pointer;
+  margin-top: 40px;
 }
 .bg-isi-about {
   display: flex;
@@ -92,6 +94,9 @@
   cursor: pointer;
   transition: 0.2s;
 }
+.perkenalan {
+  width: 100%;
+}
 
 /* RESPONSIVE */
 @media only screen and (min-width: 320px) and (max-width: 896px) {
@@ -100,7 +105,7 @@
     place-items: center;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 12%;
+    padding-top: 20%;
   }
   .title-about {
     width: 100%;
@@ -119,6 +124,7 @@
   }
   .btn-about {
     width: 100%;
+    padding: 8px;
   }
   .bg-isi-about {
     display: grid;

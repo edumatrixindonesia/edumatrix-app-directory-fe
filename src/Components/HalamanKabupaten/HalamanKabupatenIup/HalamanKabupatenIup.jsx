@@ -65,28 +65,32 @@ const HalamankabupatenIup = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Persiapan IUP UGM, IUP ITB, IUP Unair SIMAK KKI UI, UTBK SNBT Terbaik
+          content="Tempat Bimbel Persiapan IUP UGM, IUP ITB, IUP Unair SIMAK KKI UI, UTBK SNBT Terbaik
           #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan IUP - KKI di {`${kabupaten.kota_kabupaten}`} - IUP
-          UGM, IUP ITB, IUP UNAIR, SIMAK KKI UI, UTBK SNBT Terbaik #1 -
+          Tempat Bimbel Persiapan IUP - KKI di {`${kabupaten.kota_kabupaten}`} -
+          IUP UGM, IUP ITB, IUP UNAIR, SIMAK KKI UI, UTBK SNBT Terbaik #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-iup-kki-kabupaten/${kabupaten.slug}`} />
+        <link
+          rel="canonical"
+          href={`https://app.edumatrix-indonesia.com/bimbel-iup-kki-kabupaten/${kabupaten.slug}`}
+        />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kabupaten">
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Persiapan IUP - KKI di {kabupaten.kota_kabupaten} - IUP
-              UGM, IUP ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
+              Tempat Bimbel Persiapan IUP - KKI di {kabupaten.kota_kabupaten} -
+              IUP UGM, IUP ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
             </h2>
             <div className="paragraf-kabupaten">
               <p>
-                Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten} untuk
-                Seleksi IUP UGM, IUP ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
+                Tempat Bimbel Les Privat di Kabupaten {kabupaten.kota_kabupaten}{" "}
+                untuk Seleksi IUP UGM, IUP ITB, IUP Unair, SIMAK KKI UI, UTBK
+                SNBT
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

@@ -59,10 +59,10 @@ const HalamanKecamatanKsn = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Kompetisi Sains Nasional (OSN/KSN), SD-SMP-SMA terbaik terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+          content="Bimbel OSN/KSN, SD-SMP-SMA terbaik terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Kompetisi Sains Nasional (KSN) di {`${kecamatan.kecamatan}`} -
+          Bimbel OSN dan KSN di {`${kecamatan.kecamatan}`} -
           SD, SMP, SMA Terbaik #1 - Edumatrix Indonesia
         </title>
         <link rel="canonical" href={`https://app.edumatrix-indonesia.com/pelatihan-osn-ksn/kecamatan/${kecamatan.slug}`} />
@@ -72,13 +72,13 @@ const HalamanKecamatanKsn = ({ setProgress }) => {
         <div className="content-kabupaten">
           <div className="teks-content">
             <h2 className="title-halaman-kabupaten">
-              Bimbel Kompetisi Sains Nasional (KSN) di {kecamatan.kecamatan} -
+              Bimbel OSN dan KSN di {kecamatan.kecamatan} -
               SD, SMP, SMA
             </h2>
             <div className="paragraf-kabupaten">
               <p>
                 Bimbel Les Privat di {kecamatan.kecamatan} untuk Persiapan
-                Kompetisi Sains Nasional (OSN) jenjang SD - SMP - SMA
+                Kompetisi Sains Nasional (KSN/OSN) jenjang SD - SMP - SMA
               </p>
               <p className="child-paragraf-kabupaten">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

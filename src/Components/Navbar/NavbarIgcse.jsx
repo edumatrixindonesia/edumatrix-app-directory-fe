@@ -128,118 +128,89 @@ const NavbarIgcse = () => {
                 <div className="fill-dropdown">
                   <li onClick={() => goToBimbelKedokteran()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
+                      {/* <FontAwesomeIcon
                         className="icon-dropdown"
                         icon={faAnglesRight}
-                      />
+                      /> */}
+                      <span class="material-symbols-outlined">stethoscope</span>
                       Bimbel Kedokteran
                     </a>
                   </li>
                   <li onClick={() => goToBimbelSupercamp()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">menu_book</span>
                       Supercamp UTBK SNBT
                     </a>
                   </li>
                   <li onClick={() => goToBimbelSnbt()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">menu_book</span>
                       Bimbel UTBK SNBT
                     </a>
                   </li>
                   <li onClick={() => goToBimbelTni()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">
+                        local_police
+                      </span>
                       Bimbel TNI - POLRI
                     </a>
                   </li>
                   <li onClick={() => goToBimbelPrivat()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">groups</span>
                       Les Privat TK - SD - SMP - SMA
                     </a>
                   </li>
                   <li onClick={() => goToBimbelLpdp()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">school</span>
                       Bimbel LPDP
                     </a>
                   </li>
                   <li onClick={() => goToBimbelCpns()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">work</span>
                       Bimbel CPNS & PPPK
                     </a>
                   </li>
                   <li onClick={() => goToBimbelBumn()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">
+                        business_center
+                      </span>
                       Bimbel BUMN
                     </a>
                   </li>
                   <li onClick={() => goToBimbelIgcse()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">translate</span>
                       IGCSE, O Level, A Level & IB Tutor
                     </a>
                   </li>
                   <li onClick={() => goToBimbelIup()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">edit_note</span>
                       Bimbel IUP - KKI
                     </a>
                   </li>
                   <li onClick={() => goToBimbelOsn()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">
+                        local_library
+                      </span>
                       Bimbel OSN
                     </a>
                   </li>
                   <li onClick={() => goToBimbelKsn()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">book_2</span>
                       Pelatihan OSN/KSN
                     </a>
                   </li>
                   <li onClick={() => goToBimbelToefl()}>
                     <a className="child-dropdown" href="">
-                      <FontAwesomeIcon
-                        className="icon-dropdown"
-                        icon={faAnglesRight}
-                      />
+                      <span class="material-symbols-outlined">language_us</span>
                       Bimbel TOEFL - TOEIC - IELTS
                     </a>
                   </li>

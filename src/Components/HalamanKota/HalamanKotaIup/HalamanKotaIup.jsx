@@ -71,28 +71,31 @@ const HalamankotaIup = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Persiapan IUP UGM, IUP ITB, IUP Unair SIMAK KKI UI, UTBK SNBT Terbaik
+          content="Les Persiapan IUP UGM, IUP ITB, IUP Unair SIMAK KKI UI, UTBK SNBT Terbaik
           #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Persiapan IUP - KKI di {`${kotaiup.kota}`} - IUP UGM, IUP ITB,
-          IUP UNAIR, SIMAK KKI UI, UTBK SNBT Terbaik #1 - Edumatrix Indonesia
+          Les Persiapan IUP - KKI di {`${kotaiup.kota}`} - IUP UGM, IUP ITB, IUP
+          UNAIR, SIMAK KKI UI, UTBK SNBT Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-iup-kki-di/${kotaiup.slug}`} />
+        <link
+          rel="canonical"
+          href={`https://app.edumatrix-indonesia.com/bimbel-iup-kki-di/${kotaiup.slug}`}
+        />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Persiapan IUP - KKI di {kotaiup.kota} - IUP UGM, IUP ITB,
-              IUP Unair, SIMAK KKI UI, UTBK SNBT
+              Les Persiapan IUP - KKI di {kotaiup.kota} - IUP UGM, IUP ITB, IUP
+              Unair, SIMAK KKI UI, UTBK SNBT
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Bimbel Les Privat di Kota {kotaiup.kota} untuk Seleksi IUP UGM,
-                IUP ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
+                Les Privat di Kota {kotaiup.kota} untuk Seleksi IUP UGM, IUP
+                ITB, IUP Unair, SIMAK KKI UI, UTBK SNBT
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

@@ -64,30 +64,34 @@ const HalamanKecamatanKedokteran = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Masuk Kedokteran - FK UI, UGM, Undip, Unair,
+          content="Bimbel & Les Privat Masuk Kedokteran - FK UI, UGM, Undip, Unair,
           Unpad, UB, Udayana Terbaik
           #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk Kedokteran di {`${kecamatan.kecamatan}`} - FK UI, UGM,
-          Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
+          Bimbel & Les Privat Masuk Kedokteran di {`${kecamatan.kecamatan}`} -
+          FK UI, UGM, Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix
+          Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-masuk-kedokteran/kecamatan/${kecamatan.slug}`} />
+        <link
+          rel="canonical"
+          href={`https://app.edumatrix-indonesia.com/bimbel-masuk-kedokteran/kecamatan/${kecamatan.slug}`}
+        />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Masuk Kedokteran di {kecamatan.kecamatan} - FK UI, UGM,
-              Undip, Unair, Unpad, UB, Udayana Terbaik
+              Bimbel & Les Privat Masuk Kedokteran di {kecamatan.kecamatan} - FK
+              UI, UGM, Undip, Unair, Unpad, UB, Udayana Terbaik
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Bimbel Persiapan Masuk Kedokteran di {kecamatan.kecamatan} untuk
-                UTBK-SNBT, Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM, UM PTN
-                dan UTUL UGM
+                Bimbel & Les Privat Persiapan Masuk Kedokteran di{" "}
+                {kecamatan.kecamatan} untuk UTBK-SNBT, Kedokteran, UMPTN,
+                UMPTKIN, SIMAK UI, CBT UGM, UM PTN dan UTUL UGM
               </p>
               <p className="child-paragraf-kota">
                 Dapatkan layanan Les Privat kapan pun dan dimana pun dengan

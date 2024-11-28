@@ -74,27 +74,30 @@ const HalamankotaSnbt = ({ setProgress }) => {
         <meta
           charSet="utf-8"
           name="description"
-          content="Bimbel Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
+          content="Les Privat Masuk PTN UTBK SNBT - UI, UGM, Undip, Unair, Unpad, UB, Udayana
           Terbaik #1 - Edumatrix Indonesia"
         />
         <title>
-          Bimbel Masuk PTN UTBK SNBT di {`${kotasnbt.kota}`} - UI, UGM, Undip,
-          Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
+          Les Privat Masuk PTN UTBK SNBT di {`${kotasnbt.kota}`} - UI, UGM,
+          Undip, Unair, Unpad, UB, Udayana Terbaik #1 - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/bimbel-snbt-terbaik-di/${kotasnbt.slug}`} />
+        <link
+          rel="canonical"
+          href={`https://app.edumatrix-indonesia.com/bimbel-snbt-terbaik-di/${kotasnbt.slug}`}
+        />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Bimbel Masuk PTN UTBK SNBT di {kotasnbt.kota} - UI, UGM, Undip,
-              Unair, Unpad, UB, Udayana
+              Les Privat Masuk PTN UTBK SNBT di {kotasnbt.kota} - UI, UGM,
+              Undip, Unair, Unpad, UB, Udayana
             </h2>
 
             <div className="paragraf-kota">
               <p>
-                Bimbel Les Privat di {kotasnbt.kota} untuk UTBK-SNBT,
+                Les Privat di {kotasnbt.kota} untuk UTBK-SNBT,
                 Kedokteran, UMPTN, UMPTKIN, SIMAK UI, CBT UGM, UM PTN dan UTUL
                 UGM
               </p>
