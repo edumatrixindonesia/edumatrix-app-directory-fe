@@ -74,6 +74,12 @@
     margin-left: 0;
   }
   .paragraf-section-supercamp {
-    text-align: justify;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .list-section-supercamp {
+    font-weight: 400;
+    font-size: 14px;
   }
 }

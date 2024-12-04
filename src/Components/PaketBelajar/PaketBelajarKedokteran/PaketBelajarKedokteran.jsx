@@ -13,7 +13,7 @@ const PaketBelajarKedokteran = () => {
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
               <h3>BIMBEL INTENSIF</h3>
-              <h4>Layanan yang didapatkan</h4>
+              <h4 className="text-subtitle-prog-unggulan">Layanan yang didapatkan</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Program%20Intensif,%20Bimbel%20Masuk%20Kedokteran%202025.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PROGRAM</button>
               </a>
@@ -40,7 +40,7 @@ const PaketBelajarKedokteran = () => {
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
               <h3>SUPERCAMP KARANTINA</h3>
-              <h4>Layanan yang didapatkan</h4>
+              <h4 className="text-subtitle-prog-unggulan">Layanan yang didapatkan</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Program%20Supercamp%20Kedokteran,%20Bimbel%20Masuk%20Kedokteran%202025.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PROGRAM</button>
               </a>
@@ -79,7 +79,7 @@ const PaketBelajarKedokteran = () => {
           <div className="card-paket-snbt">
             <div className="title-paket-snbt">
               <h3>PRIVAT MASUK KEDOKTERAN</h3>
-              <h4>Layanan yang didapatkan</h4>
+              <h4 className="text-subtitle-prog-unggulan">Layanan yang didapatkan</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Program%20Privat%20Kedokteran,%20Bimbel%20Masuk%20Kedokteran%202025.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PROGRAM</button>
               </a>

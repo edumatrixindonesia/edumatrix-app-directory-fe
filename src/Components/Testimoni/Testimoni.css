@@ -78,6 +78,21 @@
     margin-top: 15px;
     width: 50% !important;
   }
+  .title-testimoni {
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .nama-siswa {
+    font-size: 15px;
+  }
+  .judul-testimoni {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .desk-testi {
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
 
 /* NEW */

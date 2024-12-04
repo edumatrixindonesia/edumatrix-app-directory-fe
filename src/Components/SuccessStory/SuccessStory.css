@@ -124,7 +124,8 @@
 @media only screen and (max-width: 896px) {
   /* Title and Subtitle */
   .title-success-story-all {
-    font-size: 24px; /* Make title smaller for mobile */
+    font-size: 20px; /* Make title smaller for mobile */
+    margin-top: 10px;
   }
   .subtitle-all-success-story {
     font-size: 18px; /* Make subtitle smaller for mobile */
@@ -172,6 +173,12 @@
     display: flex;
     justify-content: center;
     margin-left: -50px;
+  }
+  .name-lolos-ptn-success-story-new {
+    font-size: 16px;
+  }
+  .desk-lolos-ptn-success-story-new {
+    font-size: 14px;
   }
 }
 

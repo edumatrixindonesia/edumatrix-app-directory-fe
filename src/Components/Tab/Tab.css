@@ -135,9 +135,13 @@
 @media only screen and (max-width: 500px) {
   .btn-kota {
     width: 45% !important;
+    font-size: 12px;
+    font-weight: 400;
   }
   .btn-kelas {
     width: 100%;
+    font-size: 12px;
+    font-weight: 400;
   }
   .btn-mapel {
     width: 40%;
@@ -160,9 +164,17 @@
   .combine-icon-text {
     display: flex;
     align-items: center;
+    font-size: 12px;
+    font-weight: 400;
   }
   .parent-list-mapel {
     justify-content: space-between;
+  }
+  .icon-mapel {
+    width: 20%;
+  }
+  .tab-selected {
+    font-size: 10px;
   }
 }
 @media only screen and (max-width: 768px) {

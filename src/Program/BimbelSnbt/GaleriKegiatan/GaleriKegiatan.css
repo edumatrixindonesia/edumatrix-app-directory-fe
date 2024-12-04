@@ -55,4 +55,14 @@
     .title-kegiatan-belajar-snbt {
         font-size: 25px;
     }
+    .text-belajar-online {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .garis-kegiatan-belajar {
+        border: 0.9px solid white;
+    }
+    .box-kegiatan-belajar-snbt {
+        gap: 10px;
+    }
 }

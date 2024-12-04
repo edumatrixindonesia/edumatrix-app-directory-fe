@@ -28,7 +28,7 @@ import PaketBelajarSnbt from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbt"
 import LolosPtn from "../../Program/BimbelSnbt/LolosPtn/LolosPtn";
 import PaketBelajarSnbtNew from "../PaketBelajar/PaketBelajarSnbt/PaketBelajarSnbtNew";
 
-const Halamankota = ({setProgress}) => {
+const Halamankota = ({ setProgress }) => {
   const { id } = useParams();
   const [kota, setKota] = useState([]);
 
@@ -56,11 +56,11 @@ const Halamankota = ({setProgress}) => {
   }, [id, query]);
 
   useEffect(() => {
-    setProgress(60)
+    setProgress(60);
     setTimeout(() => {
-      setProgress(100)
-    }, 50)
-  }, [])
+      setProgress(100);
+    }, 50);
+  }, []);
 
   return (
     <React.Fragment>
@@ -70,12 +70,49 @@ const Halamankota = ({setProgress}) => {
           name="description"
           content="Bimbel Les Privat TK, SD, SMP, SMA, OSN, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
         />
+
+        {/* <!-- Thumbnail Site --> */}
+        <meta
+          name="msapplication-TileImage"
+          content="https://app.edumatrix-indonesia.com/static/media/rumah_adat.1551a94703cb9fe7e1ec.png"
+        />
+
+        <meta property="og:site_name" content="Edumatrix Indonesia" />
+        <meta
+          property="og:title"
+          content="Bimbel Les Privat TK, SD, SMP, SMA, OSN, UTBK SNBT, SIMAK UI, UM PTN & CBT UGM terbaik dengan sistem belajar mengajar yang berkualitas #1 - Edumatrix Indonesia"
+        />
+        <meta
+          property="og:description"
+          content="Les Privat TK SD SMP SMA Mahasiswa OSN SNBT CBT UGM SIMAK UI UM PTN Terbaik"
+        />
+
+        <meta
+          property="og:image"
+          itemprop="image"
+          content="https://app.edumatrix-indonesia.com/static/media/rumah_adat.1551a94703cb9fe7e1ec.png"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:image:type" content="image/jpg" />
+
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+
+        <meta
+          property="og:url"
+          content="https://app.edumatrix-indonesia.com/"
+        />
+
         <title>
           Les Privat di {`${kota.kota}`} - TK, SD, SMP, SMA, UTBK SNBT, SIMAK
           UI, UM PTN & CBT UGM - Bimbel di {`${kota.kota}`} Terbaik #1 -
           Edumatrix Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/les-privat-di-kota/${kota.slug}`} />
+        <link
+          rel="canonical"
+          href={`https://app.edumatrix-indonesia.com/les-privat-di-kota/${kota.slug}`}
+        />
       </Helmet>
       <Navbar />
       <div className="container-halaman-kota">
@@ -132,7 +169,7 @@ const Halamankota = ({setProgress}) => {
         <SuccessStory />
         <Alumni />
         <Liputan />
-        {/* <ListKabupaten /> */}
+        <ListKabupaten />
         <Faq />
         <Asalsekolah />
         <PromoHomepage />

@@ -75,6 +75,11 @@
       place-items: center;
   }
   .main-text-bimbel-tni-polri {
-    font-size: 23px;
+    font-size: 20px;
+  }
+  .isi-fitur-program {
+    align-items: baseline;
+    font-size: 14px;
+    font-weight: 400;
   }
 }

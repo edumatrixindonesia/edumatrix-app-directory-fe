@@ -12,7 +12,7 @@ const ProgramUnggulanTni = () => {
           <div className="card-program-unggulan">
             <div className="title-program">
               <h3>PAKET AKURASI</h3>
-              <h4>Sukses Lolos TNI - Polri & Sekolah Kedinasan</h4>
+              <h4 className="text-subtitle-prog-unggulan">Sukses Lolos TNI - Polri & Sekolah Kedinasan</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                 <button className="btn-program-unggulan-tni">
                   PILIH PAKET
@@ -101,7 +101,7 @@ const ProgramUnggulanTni = () => {
           <div className="card-program-unggulan">
             <div className="title-program">
               <h3>PAKET KOMANDO TRAINING CAMP</h3>
-              <h4>Sukses Lolos TNI - Polri & Sekolah Kedinasan</h4>
+              <h4 className="text-subtitle-prog-unggulan">Sukses Lolos TNI - Polri & Sekolah Kedinasan</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20Saya%20ingin%20tanya%20program%20belajar%20yang%20ada%20di%20Edumatrix.%20Apa%20saja%20jenis%20program%20belajar%20dan%20pilihan%20paket%20sesinya?">
                 <button className="btn-program-unggulan-tni">
                   PILIH PAKET

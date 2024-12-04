@@ -135,4 +135,19 @@
   .top-parent-paket-snbt-new {
     padding: 10px;
   }
+  .rincian-paket {
+    font-size: 400;
+    font-size: 14px;
+  }
+  .title-paket-snbt-new {
+    font-size: 22px;
+    margin: 10px 0 20px 0;
+  }
+  .child-title-paket-snbt-new {
+    font-size: 28px;
+  }
+  .child-subtitle-paket-snbt-new {
+    font-size: 15px;
+    font-weight: 400;
+  }
 }

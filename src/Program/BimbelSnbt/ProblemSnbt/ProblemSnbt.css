@@ -100,8 +100,9 @@
     font-size: 23px;
   }
   .accordion-header-snbt {
-    font-size: 14px;
+    font-size: 13px;
     padding: 8px;
+    font-weight: 400;
   }
   .desk-problem-snbt {
     font-size: 13px;

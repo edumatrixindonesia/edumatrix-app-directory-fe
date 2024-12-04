@@ -66,4 +66,16 @@
     .parent-list-materi-tni-polri {
         margin-left: 10px;
     }
+    .title-materi-tni-polri {
+        text-align: left;
+        font-size: 18px;
+    }
+    .title-list-materi-tni-polri {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .list-materi-tni-polri {
+        font-weight: 400;
+        font-size: 12px;
+    }
 }

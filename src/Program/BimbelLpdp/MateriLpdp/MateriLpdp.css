@@ -77,4 +77,15 @@
   .parent-list-materi-lpdp {
     margin-left: 10px;
   }
+  .title-materi-lpdp {
+    font-size: 18px;
+    text-align: left;
+  }
+  .title-list-materi-lpdp {
+    font-size: 14px;
+  }
+  .list-materi-lpdp {
+    font-size: 14px;
+    font-weight: 400;
+  }
 }

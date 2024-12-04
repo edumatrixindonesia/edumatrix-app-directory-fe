@@ -20,7 +20,7 @@ const InfoCamp = () => {
             <img className="img-lokasi" src={lokasiCamp} alt="" />
             <div className="parent-text-lokasi-camp">
               <button className="title-lokasi-camp">
-                <h4>Lokasi Program</h4>
+                <h4 className="subtitle-info-camp">Lokasi Program</h4>
               </button>
               <li className="list-lokasi-camp">
                 <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />
@@ -42,7 +42,7 @@ const InfoCamp = () => {
             <img className="img-waktu" src={waktuProgram} alt="" />
             <div className="parent-text-waktu-camp">
               <button className="title-waktu-camp">
-                <h4>Waktu Program</h4>
+                <h4 className="subtitle-info-camp">Waktu Program</h4>
               </button>
               <li className="list-waktu-camp">
                 <FontAwesomeIcon className="icon-info-camp" icon={faCheck} />

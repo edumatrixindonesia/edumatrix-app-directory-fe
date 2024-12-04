@@ -177,4 +177,14 @@
   .parent-garansi-camp-web {
     display: none;
   }
+  .main-title-info-camp {
+    font-size: 20px;
+  }
+  .subtitle-info-camp {
+    font-size: 15px;
+  }
+  .list-lokasi-camp, .list-waktu-camp {
+    font-size: 14px;
+    font-weight: 400;
+  }
 }

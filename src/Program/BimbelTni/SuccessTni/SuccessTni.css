@@ -39,6 +39,7 @@
         gap: 5px;
     }
     .title-success-story {
-        font-size: 24px;
+        font-size: 20px;
+        margin-top: 10px;
     }
 }
