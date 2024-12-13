@@ -45,14 +45,11 @@
         width: 100%;
     }
     .desk-penjelasan-toefl {
-        text-align: justify;
-        font-size: 15px;
-    }
-    .desk-penjelasan-toefl {
-        text-align: justify;
         font-size: 14px;
+        font-weight: 400;
+        margin-top: 5px;
     }
     .title-penjelasan-toefl, .title-penjelasan-toefl {
-        font-size: 16px;
+        font-size: 14px;
     }
 }

@@ -78,9 +78,10 @@
   }
   .content-halaman-program-edm {
     display: grid;
+    margin-top: 100px;
   }
   .teks-content {
-    margin-top: 40px;
+    margin-top: 0;
   }
   .model-halaman-program {
     position: fixed;
@@ -93,9 +94,14 @@
   .title-halaman-program {
     text-align: left;
     width: 100%;
+    font-size: 25px;
   }
   .model-program-edm {
     width: 100%;
+  }
+  .paragraf-program {
+    font-size: 14px;
+    font-weight: 3=400;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -104,7 +110,7 @@
     padding-right: 3%;
   }
   .teks-content {
-    margin-top: 40px;
+    margin-top: 0;
     text-align: justify;
   }
   .content-program {
@@ -123,7 +129,7 @@
     padding-right: 3%;
   }
   .teks-content {
-    margin-top: 50px;
+    margin-top: 0;
     text-align: justify;
   }
   .content-program {
@@ -136,7 +142,7 @@
     padding-right: 3%;
   }
   .teks-content {
-    margin-top: 50px;
+    margin-top: 0;
     text-align: left;
   }
   .content-program {

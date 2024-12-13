@@ -92,13 +92,14 @@
   .text-faq {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .faq-pertanyaan {
     font-size: 13px;
   }
   .faq-jawaban {
     font-size: 14px;
+    font-weight: 400;
   }
 }
 

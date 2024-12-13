@@ -33,6 +33,15 @@
 /* RESPONSIVE */
 @media only screen and (max-width: 500px) {
     .nama-paket-lpdp {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .note-paket-belajar-lpdp {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .img-garansi-lpdp {
+        margin-top: 10px;
     }
 }

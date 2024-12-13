@@ -42,14 +42,16 @@
         margin-top: 20px;
     }
     .desk-penjelasan-igcse {
-        text-align: justify;
-        font-size: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 5px;
     }
     .desk-penjelasan-ib {
-        text-align: justify;
-        font-size: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 5px;
     }
     .title-penjelasan-igcse, .title-penjelasan-ib {
-        font-size: 18px;
+        font-size: 14px;
     }
 }

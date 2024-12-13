@@ -12,7 +12,7 @@ const PaketBelajarIup = () => {
           <div className="card-paket-iup">
             <div className="title-paket-snbt">
               <h3>PAKET BELAJAR IUP UGM</h3>
-              <h4>Materi yang dipelajari</h4>
+              <h4 className="subtext-paket-iupkki">Materi yang dipelajari</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Bimbel%20IUP%20UGM.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PAKET</button>
               </a>
@@ -69,7 +69,7 @@ const PaketBelajarIup = () => {
           <div className="card-paket-iup">
             <div className="title-paket-snbt">
               <h3>PAKET BELAJAR SIMAK KKI UI</h3>
-              <h4>Materi yang dipelajari</h4>
+              <h4 className="subtext-paket-iupkki">Materi yang dipelajari</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Bimbel%20SIMAK%20KKI%20UI.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PAKET</button>
               </a>
@@ -85,7 +85,7 @@ const PaketBelajarIup = () => {
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Jurusan IPA: Tes Mathematics Physics, Biology & Chemistry
             </p>
-            <i>
+            <i className="note-text-iupkki">
               *Tersedia juga bimbingan tes khusus kedokteran yaitu MMPI dan/ SJT
             </i>
           </div>
@@ -94,7 +94,7 @@ const PaketBelajarIup = () => {
           <div className="card-paket-iup">
             <div className="title-paket-snbt">
               <h3>PAKET BELAJAR IUP UNAIR</h3>
-              <h4>Materi yang dipelajari</h4>
+              <h4 className="subtext-paket-iupkki">Materi yang dipelajari</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Bimbel%20IUP%20UNAIR.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PAKET</button>
               </a>
@@ -123,7 +123,7 @@ const PaketBelajarIup = () => {
           <div className="card-paket-iup">
             <div className="title-paket-snbt">
               <h3>PAKET BELAJAR IUP UNDIP</h3>
-              <h4>Materi yang dipelajari</h4>
+              <h4 className="subtext-paket-iupkki">Materi yang dipelajari</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Bimbel%20IUP%20UNDIP.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PAKET</button>
               </a>
@@ -148,13 +148,13 @@ const PaketBelajarIup = () => {
           <div className="card-paket-iup">
             <div className="title-paket-snbt">
               <h3>PAKET BELAJAR IUP UNPAD</h3>
-              <h4>Materi yang dipelajari</h4>
+              <h4 className="subtext-paket-iupkki">Materi yang dipelajari</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Bimbel%20IUP%20UNPAD.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PAKET</button>
               </a>
             </div>
             <hr className="garis-pembatas-paket-snbt" />
-            <p>Seleksi IUP UNPAD menerima tes akademis dari :</p>
+            <p className="bold-text-paket">Seleksi IUP UNPAD menerima tes akademis dari :</p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Bappenas
@@ -172,7 +172,7 @@ const PaketBelajarIup = () => {
           <div className="card-paket-iup">
             <div className="title-paket-snbt">
               <h3>PAKET BELAJAR IUP IPB</h3>
-              <h4>Materi yang dipelajari</h4>
+              <h4 className="subtext-paket-iupkki">Materi yang dipelajari</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Bimbel%20IUP%20IPB.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PAKET</button>
               </a>
@@ -193,13 +193,13 @@ const PaketBelajarIup = () => {
           <div className="card-paket-iup">
             <div className="title-paket-snbt">
               <h3>PAKET BELAJAR IUP ITS</h3>
-              <h4>Materi yang dipelajari</h4>
+              <h4 className="subtext-paket-iupkki">Materi yang dipelajari</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Bimbel%20IUP%20ITS.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PAKET</button>
               </a>
             </div>
             <hr className="garis-pembatas-paket-snbt" />
-            <p>IUP ITS menerima seleksi dari jenis tes :</p>
+            <p className="bold-text-paket">IUP ITS menerima seleksi dari jenis tes :</p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} />{" "}
               Cambridge IGCSE (untuk Mathematics, Physics dan Chemistry)
@@ -218,13 +218,13 @@ const PaketBelajarIup = () => {
           <div className="card-paket-iup">
             <div className="title-paket-snbt">
               <h3>Persiapan Tes SAT College Board</h3>
-              <h4>Materi yang dipelajari</h4>
+              <h4 className="subtext-paket-iupkki">Materi yang dipelajari</h4>
               <a href="https://api.whatsapp.com/send?phone=6281216365729&text=Halo%20Kak%20Nia%20https://app.edumatrix-indonesia.com,%20saya%20ingin%20daftar%20Bimbel%20Program%20Persiapan%20Tes%20SAT%20College%20Board.%20Mohon%20info%20selengkapnya%20...">
                 <button className="btn-paket-snbt">PILIH PAKET</button>
               </a>
             </div>
             <hr className="garis-pembatas-paket-snbt" />
-            <p>IUP ITS menerima seleksi dari jenis tes :</p>
+            <p className="bold-text-paket">IUP ITS menerima seleksi dari jenis tes :</p>
             <p className="isi-paket-snbt">
               <FontAwesomeIcon className="icon-paket-snbt" icon={faCheck} /> SAT
               Mathematics (Heart of Algebra, Problem Solving and Data Analysis,

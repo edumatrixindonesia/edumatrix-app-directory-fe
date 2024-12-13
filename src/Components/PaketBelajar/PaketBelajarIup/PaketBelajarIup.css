@@ -28,4 +28,15 @@
   .card-paket-iup {
     width: 100%;
   }
+  .subtext-paket-iupkki {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .note-text-iupkki {
+    font-size: 12px;
+  }
+  .bold-text-paket {
+    font-weight: 500;
+    font-size: 15px;
+  }
 }

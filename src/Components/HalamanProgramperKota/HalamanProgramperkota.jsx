@@ -13,7 +13,7 @@ import Testimoni from "../Testimoni/Testimoni";
 import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
-import programEdm from "../../assets/Program_les_edumatrix.png";
+import programEdm from "../../assets/les privat edumatrix.png";
 import Faqtni from "../Faq/FaqTni/FaqTni";
 import Liputan from "../Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";

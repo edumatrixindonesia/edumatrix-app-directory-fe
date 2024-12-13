@@ -97,7 +97,10 @@ const Halamanprogram = ({ setProgress }) => {
           Les Privat {`${program.name}`} - Bimbel {`${program.name}`} Terbaik #1
           - Edumatrix Indonesia
         </title>
-        <link rel="canonical" href={`https://app.edumatrix-indonesia.com/les-privat/program/${program.slug}`} />
+        <link
+          rel="canonical"
+          href={`https://app.edumatrix-indonesia.com/les-privat/program/${program.slug}`}
+        />
       </Helmet>
       <Navbar />
       <div className="container-halaman-program">

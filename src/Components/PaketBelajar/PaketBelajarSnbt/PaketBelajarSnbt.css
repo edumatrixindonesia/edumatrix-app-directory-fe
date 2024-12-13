@@ -84,10 +84,11 @@
   }
   .isi-paket-snbt {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
   }
   .text-subtitle-prog-unggulan {
     font-weight: 500;
+    font-size: 14px;
   }
   .main-title-paket-snbt {
     font-size: 20px;
@@ -96,5 +97,12 @@
   }
   .container-paket-snbt {
     margin-top: 0;
+  }
+  .btn-paket-snbt {
+    padding: 10px;
+  }
+  .garis-pembatas-paket-snbt {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }

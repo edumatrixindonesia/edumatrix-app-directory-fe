@@ -48,6 +48,7 @@
   .content-kota {
     display: grid;
     padding-bottom: 0;
+    margin-top: 100px;
   }
   .rumah-adat {
     /* margin-bottom: -50px; */
@@ -72,6 +73,12 @@
     width: 30% !important;
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.212));
     display: none;
+  }
+  .title-halaman-kota {
+    font-size: 25px;
+  }
+  .paragraf-kota {
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 768px) {

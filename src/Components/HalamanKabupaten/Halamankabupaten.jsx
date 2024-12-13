@@ -6,7 +6,7 @@ import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
 import Navbar from "../Navbar/Navbar";
 import modelTanyaProgram from "../../assets/tanya_program.png";
-import rumahAdat from "../../assets/rumah_adat.png";
+import rumahAdat from "../../assets/bimbel_seluruh_indonesia.png";
 import Masterteacher from "../MasterTeacher/Masterteacher";
 import Footer from "../Footer/Footer";
 import Keunggulan from "../Keunggulan/Keunggulan";

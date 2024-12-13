@@ -86,7 +86,7 @@ const HalamanKotaKedokteran = ({ setProgress }) => {
         <div className="content-kota">
           <div className="teks-content">
             <h2 className="title-halaman-kota">
-              Temapt Bimbel Masuk Kedokteran di {kotaKedokteran.kota} - FK UI, UGM,
+              Tempat Bimbel Masuk Kedokteran di {kotaKedokteran.kota} - FK UI, UGM,
               Undip, Unair, Unpad, UB, Udayana Berkualitas
             </h2>
 

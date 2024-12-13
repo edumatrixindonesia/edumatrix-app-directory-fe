@@ -70,7 +70,7 @@ const BimbelToefl = ({ setProgress }) => {
         <Voucer />
         <KeunggulanIgcse />
         <Masterteacher />
-        <LiputanIgcse />
+        <Liputan />
         <ListKotaToefl />
         <FaqToefl />
         <AsalSekolahIgcse />

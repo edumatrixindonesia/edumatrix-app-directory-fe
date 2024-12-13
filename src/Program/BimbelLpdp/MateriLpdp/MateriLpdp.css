@@ -78,14 +78,19 @@
     margin-left: 10px;
   }
   .title-materi-lpdp {
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
+    font-weight: 700;
   }
   .title-list-materi-lpdp {
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
   }
   .list-materi-lpdp {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
+  }
+  .img-materi-lpdp {
+    width: 18%;
   }
 }

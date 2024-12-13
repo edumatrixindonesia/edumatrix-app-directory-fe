@@ -324,6 +324,7 @@
     padding-right: 5%;
     margin-right: 0;
     margin-left: 0;
+    margin-top: 10px;
   }
   .parent-container-utama {
     /* display: flex; */
@@ -374,6 +375,7 @@
   .container-card-polri {
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 10px;
   }
   .img-pilihkelas-cpns {
     width: 100%;
@@ -480,14 +482,14 @@
     .container-search-kelas {
       padding-left: 2%;
       padding-right: 2%;
-      padding-top: 13%;
+      padding-top: 25%;
     }
     .parent-search {
       margin-top: 40px;
     }
     .title-search-kelas {
       width: 90%;
-      font-size: 25px;
+      font-size: 20px;
     }
     .icon-kampus {
       width: 17%;
@@ -496,14 +498,14 @@
       width: 100%;
     }
     .title-search-kelas-polri {
-      font-size: 25px;
+      font-size: 20px;
       width: 60%;
     }
     .parent-container-cpns {
       width: 100%;
     }
     .title-search-kelas-cpns {
-      font-size: 25px;
+      font-size: 20px;
       width: 60%;
     }
     .parent-container-privat {

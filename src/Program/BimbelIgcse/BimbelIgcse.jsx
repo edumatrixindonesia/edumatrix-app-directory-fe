@@ -75,7 +75,7 @@ const BimbelIgcse = ({ setProgress }) => {
         <Masterteacher />
         <BenefitIgcse />
         <OnlyIgcseEdm />
-        <LiputanIgcse />
+        <Liputan />
         <ListKotaIgcse />
         <FaqIgcse />
         <AsalSekolahIgcse />

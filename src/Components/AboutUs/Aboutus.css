@@ -125,6 +125,7 @@
   .btn-about {
     width: 100%;
     padding: 8px;
+    margin-top: 15px;
   }
   .bg-isi-about {
     display: grid;
@@ -136,13 +137,19 @@
     font-size: 20px;
   }
   .paragraf-about {
-    font-size: 15px;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
   }
   .colase-about {
     width: 100%;
   }
   .image-moto {
     width: 40%;
+  }
+  .perkenalan {
+    font-weight: 400;
+    font-size: 13px;
   }
 }
 

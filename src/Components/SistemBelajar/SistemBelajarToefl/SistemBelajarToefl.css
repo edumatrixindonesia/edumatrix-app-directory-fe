@@ -95,13 +95,14 @@
         font-size: 15px;
     }
     .desk-sistem-belajar-selengkapnya {
-        font-size: 15px;
+        font-size: 13px;
+        font-weight: 400;
     }
     .title-sistem-belajar {
-        font-size: 19px;
+        font-size: 17px;
     }
     .super-title-sistem-belajar {
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 

@@ -12,7 +12,7 @@ import Faq from "../Faq/Faq";
 import { Helmet } from "react-helmet-async";
 import Floatingcta from "../FloatingCta/Floatingcta";
 import Bottombar from "../BottomBar/Bottombar";
-import modelMapel from "../../assets/model_mapel.png";
+import modelMapel from "../../assets/bimbel_edumatrix_halaman_mapel_kota.png";
 import Liputan from "../Liputan/Liputan";
 import PromoHomepage from "../../Home/PromoHomepage/PromoHomepage";
 import Testimoni from "../Testimoni/Testimoni";
